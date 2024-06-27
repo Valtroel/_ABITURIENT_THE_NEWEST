@@ -1,0 +1,50 @@
+@startuml Dop_ResultUnit.cpp
+
+title Исходный файл: "Dop_ResultUnit.cpp"
+
+scale 750 width
+
+"<b>TDop_ResultForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TDop_ResultForm</b>"
+{
+    + BitBtn1 \t\t\t: <i>TBitBtn *</i>
+    + Button1 \t\t\t: <i>TButton *</i>
+    + LookFIO \t\t\t: <i>TDBLookupComboBox *</i>
+    + LookPred \t\t: <i>TDBLookupComboBox *</i>
+    + Edit1 \t\t\t: <i>TEdit *</i>
+    + Label1 \t\t\t: <i>TLabel *</i>
+    + Label2 \t\t\t: <i>TLabel *</i>
+    + Label3 \t\t\t: <i>TLabel *</i>
+    + Label4 \t\t\t: <i>TLabel *</i>
+    + Label5 \t\t\t: <i>TLabel *</i>
+    + Panel1 \t\t\t: <i>TLabel *</i>
+    + RadioGroup1 \t: <i>TRadioGroup *</i>
+    --
+    
+    + <b>TDop_ResultForm (Owner \t: <i>TComponent *</i>)</b>
+
+    + BitBtn1Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + FormCreate \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+note right of "<b>TDop_ResultForm</b>"::FormCreate
+создание формы
+end note
+
+package TDop_ResultForm <<Folder>>
+{
+    class TDop_ResultForm
+    hide  TDop_ResultForm members
+}
+
+
+@enduml

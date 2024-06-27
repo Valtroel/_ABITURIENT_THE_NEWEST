@@ -1,0 +1,54 @@
+
+@startuml Undo_Ab_Unit.cpp
+
+title Исходный файл: "Undo_Ab_Unit.cpp"
+
+scale 750 width
+
+"<b>TUndo_Ab_Form</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TUndo_Ab_Form</b>"
+{
+    + BitBtn2 \t\t: <i>TBitBtn *</i>
+    + BitBtn3 \t\t: <i>TBitBtn *</i>
+    ..
+    + DBGrid1 \t: <i>TDBGrid *</i>
+    ..
+    + Edit1 \t\t: <i>TEdit *</i>
+    ..
+    + Label1 \t\t: <i>TLabel *</i>
+    + Label35 \t\t: <i>TLabel *</i>
+    ..
+    + Panel1 \t\t: <i>TPanel *</i>
+    + Panel2 \t\t: <i>TPanel *</i>
+    + Panel3 \t\t: <i>TPanel *</i>
+    --
+    
+    + <b>TUndo_Ab_Form \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + BitBtn2Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn3Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + Edit1Change \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TUndo_Ab_Form <<Folder>>
+{
+    class TUndo_Ab_Form
+    hide  TUndo_Ab_Form members
+}
+
+
+' note right of "<b>TUndo_Ab_Form</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

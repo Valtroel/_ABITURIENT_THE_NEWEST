@@ -1,0 +1,33 @@
+@startuml Exam_List_obUnit.cpp
+
+title Исходный файл: "Exam_List_obUnit.cpp"
+
+scale 750 width
+
+"<b>TExam_List_obForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TExam_List_obForm</b>"
+{
+    + frxRepExamOb \t: <i>TfrxReport *</i>
+    --
+    
+    + <b>TExam_List_obForm (Owner \t: <i>TComponent *</i>)</b>
+
+    ..
+    + FormClose \t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TExam_List_obForm <<Folder>>
+{
+    class TExam_List_obForm
+    hide  TExam_List_obForm members
+}
+
+
+@enduml

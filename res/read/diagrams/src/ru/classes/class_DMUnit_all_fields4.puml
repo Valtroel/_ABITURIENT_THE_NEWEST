@@ -1,0 +1,167 @@
+@startuml DMUnit.cpp
+
+title Исходный файл: "DMUnit.cpp"
+
+scale 750 width
+
+class "<b>TDM</b>"
+{
+    <b>SHOWS ONLY FIELDS</b>\n(For methods, see: class_DMUnit)
+    --
+    <b>START PART 4</b> (For others, see: class_DMUnit_all_fields 1, 2 and 3)
+    --
+    + QSelect_abWHERE_EDU_MIDDLE \t\t: <i>TStringField *</i>
+    + QSelect_abWHERE_EDU_SPEC \t\t\t: <i>TStringField *</i>
+    + QSelect_abWITHOUT \t\t\t\t\t: <i>TStringField *</i>
+    + QSelect_abWORK_BEFORE \t\t\t: <i>TStringField *</i>
+    + QSelect_abWORK_MAMA \t\t\t\t: <i>TStringField *</i>
+    + QSelect_abWORK_PAPA \t\t\t\t: <i>TStringField *</i>
+    + QSertificatDESCRIBE \t\t\t\t\t: <i>TStringField *</i>
+    + QSertificatNOMER_S \t\t\t\t\t: <i>TStringField *</i>
+    + QSertificatPREDMET1 \t\t\t\t: <i>TStringField *</i>
+    + QSertificatRUS_BEL1 \t\t\t\t\t: <i>TStringField *</i>
+    + QSertificatSERIA_S \t\t\t\t\t: <i>TStringField *</i>
+    + QSertificat_ResDESCRIBE \t\t\t\t: <i>TStringField *</i>
+    + QSertificat_ResFAM \t\t\t\t\t: <i>TStringField *</i>
+    + QSertificat_ResFIO \t\t\t\t\t: <i>TStringField *</i>
+    + QSertificat_ResNAME \t\t\t\t\t: <i>TStringField *</i>
+    + QSertificat_ResNOMER_S \t\t\t\t: <i>TStringField *</i>
+    + QSertificat_ResNOM_GROUP \t\t\t: <i>TStringField *</i>
+    + QSertificat_ResOTCH \t\t\t\t\t: <i>TStringField *</i>
+    + QSertificat_ResSERIA_S \t\t\t\t: <i>TStringField *</i>
+    + QSertificat_ex_listTEXT_PREDMET \t\t: <i>TStringField *</i>
+    + QShow_Result_ExamBALL1 \t\t\t: <i>TStringField *</i>
+    + QShow_Result_ExamFAM \t\t\t\t: <i>TStringField *</i>
+    + QShow_Result_ExamNAME \t\t\t: <i>TStringField *</i>
+    + QShow_Result_ExamOTCH \t\t\t\t: <i>TStringField *</i>
+    + QSpecializCODE_SPECIALIZ \t\t\t: <i>TStringField *</i>
+    + QSpecializPlan_PriemSPECIAL \t\t\t: <i>TStringField *</i>
+    + QSpecializSPECIAL \t\t\t\t\t: <i>TStringField *</i>
+    + QSpecializSPECIAL_DIRECTION \t\t\t: <i>TStringField *</i>
+    + QSpisoc_GroupFAM \t\t\t\t\t: <i>TStringField *</i>
+    + QSpisoc_GroupGRAGDAN \t\t\t\t: <i>TStringField *</i>
+    + QSpisoc_GroupNAME \t\t\t\t\t: <i>TStringField *</i>
+    + QSpisoc_GroupNOM_GROUP \t\t\t: <i>TStringField *</i>
+    + QSpisoc_GroupOTCH \t\t\t\t\t: <i>TStringField *</i>
+    + QSpisoc_GroupPRIV \t\t\t\t\t: <i>TStringField *</i>
+    + QSpisoc_GroupSPECIALIZ1 \t\t\t: <i>TStringField *</i>
+    + QSpisoc_GroupSPECIALIZ2 \t\t\t: <i>TStringField *</i>
+    + QSpisoc_GroupVID_EDU1 \t\t\t\t: <i>TStringField *</i>
+    + QSpisoc_GroupV_K \t\t\t\t\t: <i>TStringField *</i>
+    + QSpisoc_GroupWITHOUT \t\t\t\t: <i>TStringField *</i>
+    + QSpisoc_Group_PolFAM \t\t\t\t: <i>TStringField *</i>
+    + QSpisoc_Group_PolGRAGDAN \t\t\t: <i>TStringField *</i>
+    + QSpisoc_Group_PolNAME \t\t\t\t: <i>TStringField *</i>
+    + QSpisoc_Group_PolNOM_GROUP \t\t: <i>TStringField *</i>
+    + QSpisoc_Group_PolOTCH \t\t\t\t: <i>TStringField *</i>
+    + QSpisoc_Group_PolPRIV \t\t\t\t: <i>TStringField *</i>
+    + QSpisoc_Group_PolSPECIALIZ1 \t\t: <i>TStringField *</i>
+    + QSpisoc_Group_PolSPECIALIZ2 \t\t\t: <i>TStringField *</i>
+    + QSpisoc_Group_PolVID_EDU1 \t\t\t: <i>TStringField *</i>
+    + QSpisoc_Group_PolV_K \t\t\t\t: <i>TStringField *</i>
+    + QSpisoc_Group_PolWITHOUT \t\t\t: <i>TStringField *</i>
+    + QSpisok_SpecFAM \t\t\t\t\t: <i>TStringField *</i>
+    + QSpisok_SpecFIO \t\t\t\t\t: <i>TStringField *</i>
+    + QSpisok_SpecGRAGDAN \t\t\t\t: <i>TStringField *</i>
+    + QSpisok_SpecNAME \t\t\t\t\t: <i>TStringField *</i>
+    + QSpisok_SpecNOM_GROUP \t\t\t: <i>TStringField *</i>
+    + QSpisok_SpecOTCH \t\t\t\t\t: <i>TStringField *</i>
+    + QSpisok_SpecPRIV \t\t\t\t\t: <i>TStringField *</i>
+    + QSpisok_SpecSPECIALIZ1 \t\t\t\t: <i>TStringField *</i>
+    + QSpisok_SpecVID_EDU1 \t\t\t\t: <i>TStringField *</i>
+    + QSpisok_SpecV_K \t\t\t\t\t: <i>TStringField *</i>
+    + QSpisok_SpecWITHOUT \t\t\t\t: <i>TStringField *</i>
+    + QStatisticEveryDaySPECIALIZ2 \t\t: <i>TStringField *</i>
+    + QStreetNAME_IN_RUS \t\t\t\t\t: <i>TStringField *</i>
+    + QToDekanatADDRESS \t\t\t\t: <i>TStringField *</i>
+    + QToDekanatADDRESS_BEFORE \t\t: <i>TStringField *</i>
+    + QToDekanatADDRESS_MAMA \t\t\t: <i>TStringField *</i>
+    + QToDekanatADDRESS_PAPA \t\t\t: <i>TStringField *</i>
+    + QToDekanatADDRESS_POSLE \t\t\t: <i>TStringField *</i>
+    + QToDekanatFAM \t\t\t\t\t\t: <i>TStringField *</i>
+    + QToDekanatGRAGDAN \t\t\t\t: <i>TStringField *</i>
+    + QToDekanatHOUSE \t\t\t\t\t: <i>TStringField *</i>
+    + QToDekanatMAMA \t\t\t\t\t: <i>TStringField *</i>
+    + QToDekanatNAME \t\t\t\t\t: <i>TStringField *</i>
+    + QToDekanatNAME_EDUC \t\t\t\t: <i>TStringField *</i>
+    + QToDekanatN_GROUP \t\t\t\t: <i>TStringField *</i>
+    + QToDekanatOTCH \t\t\t\t\t: <i>TStringField *</i>
+    + QToDekanatPAPA \t\t\t\t\t: <i>TStringField *</i>
+    + QToDekanatPASPORT \t\t\t\t: <i>TStringField *</i>
+    + QToDekanatPERSONAL_NOMER \t\t: <i>TStringField *</i>
+    + QToDekanatPHONE \t\t\t\t\t: <i>TStringField *</i>
+    + QToDekanatPHONE_POSLE \t\t\t: <i>TStringField *</i>
+    + QToDekanatPLACE_R \t\t\t\t\t: <i>TStringField *</i>
+    + QToDekanatPOL \t\t\t\t\t\t: <i>TStringField *</i>
+    + QToDekanatWHERE_EDUC \t\t\t: <i>TStringField *</i>
+    + QToDekanatWORK_BEFORE \t\t\t: <i>TStringField *</i>
+    + QToDekanatWORK_MAMA \t\t\t\t: <i>TStringField *</i>
+    + QToDekanatWORK_PAPA \t\t\t\t: <i>TStringField *</i>
+    + QType_localityNAME_TYPE \t\t\t: <i>TStringField *</i>
+    + QType_localitySHORT_TYPE_NAME \t\t: <i>TStringField *</i>
+    + QType_streetSHORT_TYPE \t\t\t: <i>TStringField *</i>
+    + QType_streetTYPE \t\t\t\t\t: <i>TStringField *</i>
+    + QUndo_AbitFAM \t\t\t\t\t\t: <i>TStringField *</i>
+    + QUndo_AbitNAME \t\t\t\t\t: <i>TStringField *</i>
+    + QUndo_AbitOTCH \t\t\t\t\t: <i>TStringField *</i>
+    + RegCentrTblCENTRE \t\t\t\t\t: <i>TStringField *</i>
+    + RegionNameQrCENTRE \t\t\t\t: <i>TStringField *</i>
+    + RegionQrCENTRE \t\t\t\t\t: <i>TStringField *</i>
+    + SPFDQDEAN \t\t\t\t\t\t\t: <i>TStringField *</i>
+    + SPFDQFAC1 \t\t\t\t\t\t\t: <i>TStringField *</i>
+    + SPFDQFAC \t\t\t\t\t\t\t: <i>TStringField *</i>
+    + SPFDQFAC_RP \t\t\t\t\t\t: <i>TStringField *</i>
+    + SelectLogAbiturQrADDRESS_BEFORE \t: <i>TStringField *</i>
+    + SelectLogAbiturQrFAM \t\t\t\t: <i>TStringField *</i>
+    + SelectLogAbiturQrNAME \t\t\t\t: <i>TStringField *</i>
+    + SelectLogAbiturQrOTCH \t\t\t\t: <i>TStringField *</i>
+    + Selection_CommitteeFDTableFIO \t\t: <i>TStringField *</i>
+    + Selection_CommitteeFDTableIOF \t\t: <i>TStringField *</i>
+    + Selection_CommitteeFDTablePOST \t: <i>TStringField *</i>
+    + SertSelLogQrNOMER_S \t\t\t\t: <i>TStringField *</i>
+    + SertSelLogQrSERIA_S \t\t\t\t\t: <i>TStringField *</i>
+    + SertSelLogQrTEXT_PREDMET \t\t\t: <i>TStringField *</i>
+    + SerteficatSelQrDESCRIBE \t\t\t\t: <i>TStringField *</i>
+    + SerteficatSelQrNOMER_S \t\t\t\t: <i>TStringField *</i>
+    + SerteficatSelQrSERIA_S \t\t\t\t: <i>TStringField *</i>
+    + SpecFacQrSPECIAL \t\t\t\t\t: <i>TStringField *</i>
+    + SpecQrSPECIAL \t\t\t\t\t\t: <i>TStringField *</i>
+    + SpecializNameQrSPECIAL \t\t\t\t: <i>TStringField *</i>
+    + SpecializNameQrSPECIAL_DIRECTION \t: <i>TStringField *</i>
+    + SpecializQrSPECIAL \t\t\t\t\t: <i>TStringField *</i>
+    + SportQueryWHO_GIVE \t\t\t\t: <i>TStringField *</i>
+    + SportQueryWHO_GIVE_SUD \t\t\t: <i>TStringField *</i>
+    + TBallBALL \t\t\t\t\t\t\t: <i>TStringField *</i>
+    + TCategorySPORT_CATEGORY \t\t\t: <i>TStringField *</i>
+    + TCkCUSTOMER_PLACE \t\t\t\t: <i>TStringField *</i>
+    + TCkREGION2 \t\t\t\t\t\t\t: <i>TStringField *</i>
+    + TCkSPECIALIZ3 \t\t\t\t\t\t: <i>TStringField *</i>
+    + TCkTEXT_DEP \t\t\t\t\t\t: <i>TStringField *</i>
+    + TDocumTEXT_DOC \t\t\t\t\t: <i>TStringField *</i>
+    + TFacultyDEAN \t\t\t\t\t\t: <i>TStringField *</i>
+    + TFacultyFAC1 \t\t\t\t\t\t: <i>TStringField *</i>
+    + TFacultyFAC \t\t\t\t\t\t\t: <i>TStringField *</i>
+    + TFacultyFAC_RP \t\t\t\t\t\t: <i>TStringField *</i>
+    + TFoundationVID_FOUND \t\t\t\t: <i>TStringField *</i>
+    + TKol_PlacePRICE1 \t\t\t\t\t: <i>TStringField *</i>
+    + TKol_PlaceSPECIALIZ2 \t\t\t\t: <i>TStringField *</i>
+    + TKol_PlaceTEXT1 \t\t\t\t\t\t: <i>TStringField *</i>
+    + TKol_PlaceVID_EDU1 \t\t\t\t\t: <i>TStringField *</i>
+    + TPass_UserUSER_NAME \t\t\t\t: <i>TStringField *</i>
+    + TPass_UserUSER_PASSWORD \t\t\t: <i>TStringField *</i>
+    + TPredmetTEXT_PREDMET \t\t\t\t: <i>TStringField *</i>
+    + TRegionTEXT_REGION \t\t\t\t: <i>TStringField *</i>
+    + TVid_SportVID_SPORT \t\t\t\t: <i>TStringField *</i>
+    + WithOutTestLogQrSHORT_NAME \t\t: <i>TStringField *</i>
+    + WithOutTestLogQrSHORT_NAME_1 \t\t: <i>TStringField *</i>
+    + WithoutDetQrNAME_DETAIS \t\t\t: <i>TStringField *</i>
+    + WithoutQrNAME_PRIV \t\t\t\t: <i>TStringField *</i>
+    --
+    <b>FINISH PART 4</b> (For others, see: class_DMUnit_all_fields 1, 2 and 3)
+    --
+    
+    + <b>{abstract} TDM (AOwner \t: <i>TComponent *</i>) virtual</b>
+
+}
+
+@enduml

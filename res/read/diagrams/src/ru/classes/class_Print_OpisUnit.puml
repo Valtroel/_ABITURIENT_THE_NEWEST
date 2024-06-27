@@ -1,0 +1,39 @@
+@startuml Print_OpisUnit.cpp
+
+title Исходный файл: "Print_OpisUnit.cpp"
+
+scale 750 width
+
+"<b>TPrint_OpisForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TPrint_OpisForm</b>"
+{
+    + frxDBDataset1 \t: <i>TfrxDBDataset *</i>
+    ..
+    + frxRepOpis \t\t: <i>TfrxReport *</i>
+    --
+    
+    + <b>TPrint_OpisForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    ..
+    + FormClose \t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TPrint_OpisForm <<Folder>>
+{
+    class TPrint_OpisForm
+    hide  TPrint_OpisForm members
+}
+
+
+' note right of "<b>TPrint_OpisForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

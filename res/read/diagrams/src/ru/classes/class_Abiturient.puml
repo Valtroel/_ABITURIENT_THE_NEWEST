@@ -1,0 +1,157 @@
+@startuml Abiturient.cpp
+
+title Исходный файл: "Abiturient.cpp"
+
+package "АСУ АБИТУРИЕНТ 2021" <<Node>> {
+    class "<b>Abiturient</b>" {
+        '  ..(NO FIELDS)..
+        --
+        <b>WinMain (</b>
+                \t\thInstance \t\t: <i>HINSTANCE</i>,
+                \t\thPrevInstance \t: <i>HINSTANCE</i>,
+                \t\tlpCmdLine \t\t: <i>LPSTR</i>,
+                \t\tnCmdShow \t\t: <i>int</i>
+            \t<b>)</b> : <i>WINAPI</i>
+    }
+
+    class TAbiturForm           <<F, Lightblue>>
+    class TAbiturLogDlg         <<F, Lightblue>>
+    class TAddressForm          <<F, Lightblue, called by WinMain()>>
+    class TAddressLifeForm      <<F, Lightblue, called by WinMain()>>
+    class TApellForm            <<F, Lightblue>>
+    class TBall_Form            <<F, Lightblue>>
+    class TBlockForm            <<F, Lightblue>>
+    class TDlg_ProtokolForm     <<F, Lightblue>>
+    class TDM                   <<F, Lightblue>>
+    class TDMStat               <<F, Lightblue>>
+    class TDMVed                <<F, Lightblue>>
+    class TDop_ResultForm       <<F, Lightblue>>
+    class TDualListDlg          <<F, Lightblue, called by WinMain()>>
+    class TDualListDlgDoc       <<F, Lightblue, called by WinMain()>>
+    class TExam_List_obForm     <<F, Lightblue>>
+    class TExam_ListForm        <<F, Lightblue>>
+    class TExamenForm           <<F, Lightblue>>
+    class TExamenSpecForm       <<F, Lightblue>>
+    class TFormRepSelExerc      <<F, Lightblue>>
+    class TGroup_FacForm        <<F, Lightblue>>
+    class TLetterDualListDlg    <<F, Lightblue>>
+    class TLetterForm           <<F, Lightblue>>
+    class TListDlgForm          <<F, Lightblue>>
+    class TListDocIndexForm     <<F, Lightblue, called by WinMain()>>
+    class TLoginPass            <<F, Lightblue, called by WinMain()>>
+    class TMainForm             <<F, Lightblue>>
+    class TNoticeForm           <<F, Lightblue>>
+    class TPassDlg              <<F, Lightblue>>
+    class TPersonalDocFrm       <<F, Lightblue>>
+    class TPrint_GroupForm      <<F, Lightblue>>
+    class TPrint_OpisForm       <<F, Lightblue>>
+    class TPrint_RaspiskaForm   <<F, Lightblue>>
+    class TPriv_EnterForm       <<F, Lightblue>>
+    class TPrnPersonDocForm     <<F, Lightblue>>
+    class TResult_ExamForm      <<F, Lightblue>>
+    class TSertificatForm       <<F, Lightblue>>
+    class TSpisoc_GroupForm     <<F, Lightblue>>
+    class TSplashForm           <<F, Lightblue>>
+    class TSpravForm            <<F, Lightblue>>
+    class TSredBalForm          <<F, Lightblue>>
+    class TStat_Result_examForm <<F, Lightblue>>
+    class TUndo_Ab_1Form        <<F, Lightblue>>
+    class TUndo_Ab_Form         <<F, Lightblue>>
+    class TUndo_SpravkaForm     <<F, Lightblue>>
+
+    hide TAbiturForm           members
+    hide TAbiturLogDlg         members
+    hide TAddressForm          members
+    hide TAddressLifeForm      members
+    hide TApellForm            members
+    hide TBall_Form            members
+    hide TBlockForm            members
+    hide TDlg_ProtokolForm     members
+    hide TDM                   members
+    hide TDMStat               members
+    hide TDMVed                members
+    hide TDop_ResultForm       members
+    hide TDualListDlg          members
+    hide TDualListDlgDoc       members
+    hide TExam_List_obForm     members
+    hide TExam_ListForm        members
+    hide TExamenForm           members
+    hide TExamenSpecForm       members
+    hide TFormRepSelExerc      members
+    hide TGroup_FacForm        members
+    hide TLetterDualListDlg    members
+    hide TLetterForm           members
+    hide TListDlgForm          members
+    hide TListDocIndexForm     members
+    hide TLoginPass            members
+    hide TMainForm             members
+    hide TNoticeForm           members
+    hide TPassDlg              members
+    hide TPersonalDocFrm       members
+    hide TPrint_GroupForm      members
+    hide TPrint_OpisForm       members
+    hide TPrint_RaspiskaForm   members
+    hide TPriv_EnterForm       members
+    hide TPrnPersonDocForm     members
+    hide TResult_ExamForm      members
+    hide TSertificatForm       members
+    hide TSpisoc_GroupForm     members
+    hide TSplashForm           members
+    hide TSpravForm            members
+    hide TSredBalForm          members
+    hide TStat_Result_examForm members
+    hide TUndo_Ab_1Form        members
+    hide TUndo_Ab_Form         members
+    hide TUndo_SpravkaForm     members
+}
+
+
+"<b>Abiturient</b>" -up[dotted]->   TAbiturLogDlg         : <i>create</i>
+"<b>Abiturient</b>" -up[dotted]->   TAbiturForm           : <i>create</i>
+"<b>Abiturient</b>" -up[dotted]->   TAddressLifeForm      : <i>create</i>
+"<b>Abiturient</b>" -up[dotted]->   TAddressForm          : <i>create</i>
+"<b>Abiturient</b>" -up[dotted]->   TApellForm            : <i>create</i>
+"<b>Abiturient</b>" -up[dotted]->   TBall_Form            : <i>create</i>
+"<b>Abiturient</b>" -up[dotted]->   TBlockForm            : <i>create</i>
+"<b>Abiturient</b>" -up[dotted]->   TDlg_ProtokolForm     : <i>create</i>
+"<b>Abiturient</b>" -up[dotted]->   TDM                   : <i>create</i>
+"<b>Abiturient</b>" -up[dotted]->   TDMStat               : <i>create</i>
+
+TDMVed              <-[dotted]-     "<b>Abiturient</b>"   : <i>create</i>
+TDop_ResultForm     <-[dotted]-     "<b>Abiturient</b>"   : <i>create</i>
+TDualListDlg        <-[dotted]-     "<b>Abiturient</b>"   : <i>create</i>
+TDualListDlgDoc     <-[dotted]-     "<b>Abiturient</b>"   : <i>create</i>
+TExam_List_obForm   <-[dotted]-     "<b>Abiturient</b>"   : <i>create</i>
+TExam_ListForm      <-[dotted]-     "<b>Abiturient</b>"   : <i>create</i>
+TExamenSpecForm     <-[dotted]-     "<b>Abiturient</b>"   : <i>create</i>
+TExamenForm         <-[dotted]-     "<b>Abiturient</b>"   : <i>create</i>
+TGroup_FacForm      <-[dotted]-     "<b>Abiturient</b>"   : <i>create</i>
+TLetterDualListDlg  <-[dotted]-     "<b>Abiturient</b>"   : <i>create</i>
+TLetterForm         <-[dotted]-     "<b>Abiturient</b>"   : <i>create</i>
+
+"<b>Abiturient</b>" -[dotted]->     TListDlgForm          : <i>create</i>
+"<b>Abiturient</b>" -[dotted]->     TListDocIndexForm     : <i>create</i>
+"<b>Abiturient</b>" -[dotted]->     TLoginPass            : <i>create</i>
+"<b>Abiturient</b>" -[dotted]->     TMainForm             : <i>create</i>
+"<b>Abiturient</b>" -[dotted]->     TNoticeForm           : <i>create</i>
+"<b>Abiturient</b>" -[dotted]->     TPassDlg              : <i>create</i>
+"<b>Abiturient</b>" -[dotted]->     TPersonalDocFrm       : <i>create</i>
+"<b>Abiturient</b>" -[dotted]->     TPrint_GroupForm      : <i>create</i>
+"<b>Abiturient</b>" -[dotted]->     TPrint_OpisForm       : <i>create</i>
+"<b>Abiturient</b>" -[dotted]->     TPrint_RaspiskaForm   : <i>create</i>
+"<b>Abiturient</b>" -[dotted]->     TPriv_EnterForm       : <i>create</i>
+
+"<b>Abiturient</b>" -down[dotted]-> TPrnPersonDocForm     : <i>create</i>
+"<b>Abiturient</b>" -down[dotted]-> TFormRepSelExerc      : <i>create</i>
+"<b>Abiturient</b>" -down[dotted]-> TResult_ExamForm      : <i>create</i>
+"<b>Abiturient</b>" -down[dotted]-> TSertificatForm       : <i>create</i>
+"<b>Abiturient</b>" -down[dotted]-> TSpisoc_GroupForm     : <i>create</i>
+"<b>Abiturient</b>" -down[dotted]-> TSplashForm           : <i>create</i>
+"<b>Abiturient</b>" -down[dotted]-> TSpravForm            : <i>create</i>
+"<b>Abiturient</b>" -down[dotted]-> TSredBalForm          : <i>create</i>
+"<b>Abiturient</b>" -down[dotted]-> TStat_Result_examForm : <i>create</i>
+"<b>Abiturient</b>" -down[dotted]-> TUndo_Ab_1Form        : <i>create</i>
+"<b>Abiturient</b>" -down[dotted]-> TUndo_Ab_Form         : <i>create</i>
+"<b>Abiturient</b>" -down[dotted]-> TUndo_SpravkaForm     : <i>create</i>
+
+@enduml

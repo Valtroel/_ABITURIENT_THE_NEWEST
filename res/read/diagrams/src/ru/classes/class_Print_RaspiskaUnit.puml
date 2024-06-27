@@ -1,0 +1,40 @@
+
+@startuml Print_RaspiskaUnit.cpp
+
+title Исходный файл: "Print_RaspiskaUnit.cpp"
+
+scale 750 width
+
+"<b>TPrint_RaspiskaForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TPrint_RaspiskaForm</b>"
+{
+    + frxDBDataset1 \t: <i>TfrxDBDataset *</i>
+    ..
+    + frxRepRaspiska \t\t: <i>TfrxReport *</i>
+    --
+    
+    + <b>TPrint_RaspiskaForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    ..
+    + FormClose \t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TPrint_RaspiskaForm <<Folder>>
+{
+    class TPrint_RaspiskaForm
+    hide  TPrint_RaspiskaForm members
+}
+
+
+' note right of "<b>TPrint_RaspiskaForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

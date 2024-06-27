@@ -1,0 +1,41 @@
+@startuml LoginPassUnit.cpp
+
+title Исходный файл: "LoginPassUnit.cpp"
+
+scale 750 width
+
+"<b>TLoginPass</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TLoginPass</b>"
+{
+    + Button1 \t\t: <i>TButton *</i>
+    + Button2 \t\t: <i>TButton *</i>
+    ..
+    + Login \t\t: <i>TEdit *</i>
+    + Password \t: <i>TEdit *</i>
+    ..
+    + Label1 \t\t: <i>TLabel *</i>
+    + Label2 \t\t: <i>TLabel *</i>
+    --
+    
+    + <b>TLoginPass \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + Button2Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TLoginPass <<Folder>>
+{
+    class TLoginPass
+    hide  TLoginPass members
+}
+
+
+' note right of "<b>TLoginPass</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

@@ -1,0 +1,11 @@
+INSERT INTO OR UPDATE
+    GENDER
+    (
+        GENDER_ID,
+        GENDER
+    )
+VALUES
+    (1, 'Ì') MATCHING (GENDER_ID),
+    (2, 'Æ') MATCHING (GENDER_ID);
+
+COMMIT WORK;

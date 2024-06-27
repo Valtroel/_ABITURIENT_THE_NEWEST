@@ -1,0 +1,645 @@
+@startuml bsupc_abiturient
+
+title Диаграмма классов БГУФК "Абитуриент" 
+
+class "<Временная>\nAB_P\nПеремещения между факультетами" as AB_P
+{
+    N_AB_P             \t\t\t: INTEGER
+    NOMER_AB             \t\t: INTEGER
+    PRICE_DO             \t\t: SMALLINT
+    PRICE_PO             \t\t: SMALLINT
+    VID_EDU_DO           \t\t: SMALLINT
+    VID_EDU_PO           \t\t: SMALLINT
+    NOM_DELA_DO            \t: SMALLINT
+    NOM_DELA_PO            \t: SMALLINT
+    NOM_GROUP_DO           \t: VARCHAR (5)
+    NOM_GROUP_PO           \t: VARCHAR (5)
+    N_SPECIALIZ_DO         \t: SMALLINT
+    N_SPECIALIZ_PO         \t: SMALLINT
+    N_SPEC_DO            \t\t: SMALLINT
+    N_SPEC_PO            \t\t: SMALLINT
+    N_CK               \t\t\t: SMALLINT
+    KONKURS_DO           \t\t: SMALLINT
+    KONKURS_PO           \t\t: SMALLINT
+    DATE_P             \t\t\t: DATE
+}
+
+class "ABITUR_LOGBOOK\nУчет абитуриентов по направлениям" as ABITUR_LOGBOOK
+{
+    ID_LOG               \t\t: INTEGER
+    NOM_DELA               \t: SMALLINT
+    NOMER_AB               \t: INTEGER
+    DATE_IN              \t\t: DATE
+    VID_EDU              \t\t: SMALLINT
+    PRICE                \t\t: SMALLINT
+    TERM_EDU               \t: SMALLINT
+    ADDRESS_BEFORE         \t: VARCHAR (100)   /'\t COLLATE   \t PXW_CYRL '/
+    N_CK                 \t\t: SMALLINT
+    DATE_OUT               \t: DATE
+    N_SPECIALIZ            \t: SMALLINT
+    N_FAC                \t\t: SMALLINT
+    KONKURS                \t: SMALLINT
+    CATEGORY               \t: SMALLIN
+}
+
+' <Впомогательная>\n
+class "ABITUR_PRIVILEG\nОснования предоставления привилегий" as ABITUR_PRIVILEG {
+    NOMER_AB               \t: INTEGER
+    N_PRIV               \t\t: SMALLINT
+    SEL_PRIV               \t: SMALLINT
+    DAT_PRIV               \t: SMALLINT
+}
+
+class "ABITUR_QUEUE\nДанные об абитуриенте для электронной очереди" as ABITUR_QUEUE {
+    ID_AB              \t\t\t: INTEGER
+    FAM                    \t: VARCHAR (30)  /'\t COLLATE   \t PXW_CYRL '/
+    NAME                   \t: VARCHAR (30)  /'\t COLLATE   \t PXW_CYRL '/
+    OTCH                   \t: VARCHAR (30)  /'\t COLLATE   \t PXW_CYRL '/
+    STATUS_QUEUE           \t: SMALLINT      /'\t DEFAULT   \t 0 '/
+    PHOTO              \t\t\t: BLOB          /'\t SUB_TYPE  \t 0  \t SEGMENT SIZE 80 '/
+    DIGIT_SIGN           \t\t: BLOB          /'\t SUB_TYPE  \t 0  \t SEGMENT SIZE 80 '/
+    N_FAC              \t\t\t: SMALLINT      /'\t DEFAULT   \t 0 '/
+    NOMER_QUEUE            \t: SMALLINT      /'\t DEFAULT   \t 0 '/
+    TIME_QUEUE           \t\t: DATE
+    N_SPECIALIZ          \t\t: SMALLINT      /'\t DEFAULT   \t -1 '/
+    N_SPEC             \t\t\t: SMALLINT      /'\t DEFAULT   \t -1 '/
+    VID_EDU            \t\t\t: SMALLINT      /'\t DEFAULT   \t -1 '/
+    CATEGORY_AB            \t: SMALLINT      /'\t DEFAULT   \t -1 '/
+    CATEGORY_IF          \t\t: SMALLINT      /'\t DEFAULT   \t -1 '/
+    CATEGORY_EDU           \t: SMALLINT      /'\t DEFAULT   \t -1 '/
+    TERM_EDU             \t\t: SMALLINT      /'\t DEFAULT   \t -1 '/
+    PRICE              \t\t\t: SMALLINT      /'\t DEFAULT   \t -1 '/
+    KONKURS              \t\t: SMALLINT      /'\t DEFAULT   \t -1 '/
+    DATE_TIME_ID         \t\t: SMALLINT
+}
+
+class "ABITURA\nДанные об абитуриентах" as ABITURA {
+    /' Personal data '/
+    NOMER_AB             \t\t: INTEGER
+    FAM                \t\t\t: VARCHAR (30)  /'\t COLLATE   \t PXW_CYRL '/
+    NAME               \t\t\t: VARCHAR (30)  /'\t COLLATE   \t PXW_CYRL '/
+    OTCH               \t\t\t: VARCHAR (30)  /'\t COLLATE   \t PXW_CYRL '/
+    POL                \t\t\t: CHAR (1)      /'\t COLLATE   \t PXW_CYRL '/
+    DATE_R             \t\t\t: DATE
+    PLACE_R            \t\t\t: VARCHAR (60)  /'\t COLLATE   \t PXW_CYRL '/
+    GRAGDAN              \t\t: VARCHAR (50)  /'\t COLLATE   \t PXW_CYRL '/
+    NAZ                \t\t\t: VARCHAR (15)  /'\t COLLATE   \t PXW_CYRL '/
+    CATEGORY_AB            \t: SMALLINT
+    PHOTO              \t\t\t: BLOB          /'\t SUB_TYPE  \t 0 SEGMENT SIZE 80 '/
+    DIGIT_SIGN           \t\t: BLOB          /'\t SUB_TYPE  \t 0 SEGMENT SIZE 80 '/
+    PHONE              \t\t\t: VARCHAR (30)  /'\t COLLATE   \t PXW_CYRL '/
+    /' Location '/
+    POSTCODE             \t\t: INTEGER
+    CITIZENSHIP          \t\t: SMALLINT
+    N_REGION             \t\t: SMALLINT
+    N_CENTRE             \t\t: INTEGER
+    TOWN_VILLAGE           \t: SMALLINT
+    STREET             \t\t\t: INTEGER
+    HOUSE              \t\t\t: VARCHAR (10)
+    FLAT               \t\t\t: SMALLINT
+    ADDRESS_BEFORE         \t: VARCHAR (100) /'\t COLLATE   \t PXW_CYRL '/
+    ADDRESS_LIFE         \t\t: VARCHAR (100) /'\t COLLATE   \t PXW_CYRL '/
+    /' Personal ID data '/
+    ID_TYPE            \t\t\t: SMALLINT
+    PASPORT              \t\t: VARCHAR (150) /'\t COLLATE   \t PXW_CYRL '/
+    PERSONAL_NOMER         \t: VARCHAR (14)  /'\t COLLATE   \t PXW_CYRL '/
+    ORGAN_V            \t\t\t: VARCHAR (255) /'\t COLLATE   \t PXW_CYRL '/
+    DATE_V             \t\t\t: DATE
+    DATE_OK            \t\t\t: DATE
+    /' Education '/
+    EDUCATION            \t\t: SMALLINT
+    /' Secondary education '/
+    STAT_AB            \t\t\t: VARCHAR (8)
+    WHERE_EDU_MIDDLE       \t: VARCHAR (50)  /'\t COLLATE   \t PXW_CYRL '/
+    NAME_EDU_MIDDLE        \t: VARCHAR (50)  /'\t COLLATE   \t PXW_CYRL '/
+    WHEN_EDU_MIDDLE        \t: SMALLINT
+    NOM_ATTEST           \t\t: VARCHAR (20)  /'\t COLLATE   \t PXW_CYRL '/
+    /' Vocational education '/
+    TYPE_SCHOOL          \t\t: SMALLINT
+    WHERE_EDU_SPEC         \t: VARCHAR (50)  /'\t COLLATE   \t PXW_CYRL '/
+    NAME_EDU_SPEC          \t: VARCHAR (50)  /'\t COLLATE   \t PXW_CYRL '/
+    WHEN_EDU_SPEC          \t: SMALLINT
+    NOM_DIPLOM           \t\t: VARCHAR (20)  /'\t COLLATE   \t PXW_CYRL '/
+    /' Grade Point Average (GPA) '/
+    MIDDLE_BALL          \t\t: DOUBLE PRECISION
+    COPY_AT            \t\t\t: SMALLINT      /'\t DEFAULT   \t 0 '/
+    /' Privileges '/
+    CATEGORY_IF          \t\t: SMALLINT
+    KONKURS              \t\t: SMALLINT
+    N_PRIVILEGE_EXAM       \t: SMALLINT
+    V_K                \t\t\t: VARCHAR (5)
+    WITHOUT              \t\t: VARCHAR (5)
+    PRIV               \t\t\t: VARCHAR (50)
+    DISABLED             \t\t: SMALLINT
+    /' Entrance exams '/
+    ID_AB_QUEUE          \t\t: INTEGER       /'\t DEFAULT   \t 0 '/
+    DATE_PRIEM           \t\t: DATE
+    DATE_VOZVRAT           \t: DATE
+    SUM_BALL             \t\t: DOUBLE PRECISION
+    STATUS             \t\t\t: SMALLINT
+    RUS_BEL            \t\t\t: SMALLINT
+    N_LANGVICH           \t\t: SMALLINT
+    LANGV_BALL           \t\t: SMALLINT
+    /' Enrolled as a student '/
+    NOM_DELA             \t\t: SMALLINT
+    NOM_GROUP            \t\t: VARCHAR (5)   /'\t COLLATE   \t PXW_CYRL '/
+    N_PRIKAZ_INCLUDE       \t: SMALLINT
+    D_PRIKAZ_INCLUDE       \t: DATE
+    N_FOUND            \t\t\t: SMALLINT
+    /' Payment '/
+    PRICE              \t\t\t: SMALLINT
+    N_CK               \t\t\t: SMALLINT
+    /' Edu direction '/
+    VID_EDU            \t\t\t: SMALLINT
+    TERM_EDU             \t\t: SMALLINT
+    N_FAC              \t\t\t: SMALLINT
+    N_SPECIALIZ          \t\t: SMALLINT
+    N_SPEC             \t\t\t: SMALLINT
+    N_VID_SPORT          \t\t: SMALLINT
+    N_SPORT_CATEGORY       \t: SMALLINT
+    /' Parents '/
+    PAPA               \t\t\t: VARCHAR (50)  /'\t COLLATE   \t PXW_CYRL '/
+    ADDRESS_PAPA           \t: VARCHAR (100) /'\t COLLATE   \t PXW_CYRL '/
+    WORK_PAPA            \t\t: VARCHAR (70)  /'\t COLLATE   \t PXW_CYRL '/
+    MAMA               \t\t\t: VARCHAR (50)  /'\t COLLATE   \t PXW_CYRL '/
+    ADDRESS_MAMA           \t: VARCHAR (100) /'\t COLLATE   \t PXW_CYRL '/
+    WORK_MAMA              \t: VARCHAR (70)  /'\t COLLATE   \t PXW_CYRL '/
+    /' Job experience '/
+    WORK_BEFORE            \t: VARCHAR (70)   /'\t COLLATE   \t PXW_CYRL '/
+    STAG               \t\t\t: DOUBLE PRECISION
+    STAG_SPEC            \t\t: DOUBLE PRECISION
+}
+
+class "<Впомогательная>\nBALL\nРасшифровка кодов экзаменационных оценок" as BALL {
+    NOM_BALL               \t: SMALLINT
+    BALL                 \t\t: VARCHAR (15)  /'\t COLLATE   \t PXW_CYRL '/
+}
+
+
+class "<Впомогательная>\nBLOCK_EDIT\nТаблица блокировок данных от изменений" as BLOCK_EDIT {
+    ID_BLOCK             \t\t: INTEGER
+    N_FAC                \t\t: SMALLINT
+    ADD_ABITUR           \t\t: SMALLINT
+    TOOK_DOC1            \t\t: SMALLINT
+    TOOK_DOC2              \t: SMALLINT
+    RE_INSIDE_FAC          \t: SMALLINT
+    RESTOR_LIST          \t\t: SMALLINT
+    BLOCK                \t\t: SMALLINT
+    PEREPODACHA            \t: INTEGER
+    NOTE             \t\t\t\t: VARCHAR (255)
+    NOTE_PEREPODACHA       \t: VARCHAR (100) /'\t COLLATE   \t PXW_CYRL '/
+}
+
+class "<Впомогательная>\nCALL_ABITURIENT\nТаблица распределения абитуриентов по операторам" as CALL_ABITURIENT {
+    ID_CALL              \t\t: SMALLINT
+    N_FAC                \t\t: SMALLINT
+    N_CALL_ABITURIENT      \t: SMALLINT
+    P_CALL               \t\t: SMALLINT
+    P_SOUND_01           \t\t: SMALLINT
+    P_SOUND_02           \t\t: SMALLINT
+    P_SOUND_03           \t\t: SMALLINT
+}
+
+
+class "<Впомогательная>\nCATEGORY\nРасшифровка кодов спортивных разрядов" as CATEGORY {
+    N_SPORT_CATEGORY       \t: SMALLINT
+    SPORT_CATEGORY         \t: VARCHAR (50)  /'\t COLLATE   \t PXW_CYRL '/
+}
+
+class "<Временная>\nCERTIFICATES_LOGBOOK\nПромежутачная таблица\nрезультатов вступительных экзаменов" as CERTIFICATES_LOGBOOK {
+    ID_LOG               \t\t: INTEGER
+    N_PREDMET              \t: SMALLINT
+    SERIA_S                \t: VARCHAR (10)
+    NOMER_S                \t: VARCHAR (15)
+    BALL               \t\t\t: SMALLINT
+    DESCRIBE               \t: VARCHAR (150)
+    RUS_BEL              \t\t: SMALLINT
+}
+
+class "CK\nДанные о Целевом Контракте (ЦК)" as CK {
+    N_CK               \t\t\t: SMALLINT
+    N_SPECIALIZ          \t\t: SMALLINT
+    N_REGION             \t\t: SMALLINT
+    TEXT_DEP             \t\t: VARCHAR (30)  /'\t COLLATE   \t PXW_CYRL '/
+    KOL_P                \t\t: SMALLINT
+    CUSTOMER_PLACE         \t: VARCHAR (50)  /'\t COLLATE   \t PXW_CYRL '/
+    N_FAC                \t\t: SMALLINT
+    N_CENTRE             \t\t: INTEGER
+    CUSTOMER             \t\t: SMALLINT
+    TERM_EDUC              \t: SMALLINT
+}
+
+class "CK_PLAN\nПлан по резервированию мест\nпод Целевой Контракт (ЦК)" as CK_PLAN {
+    ID_CK_PLAN           \t\t: INTEGER
+    N_SPECIALIZ          \t\t: SMALLINT
+    KOL_PLACE            \t\t: SMALLINT
+    TERM_EDUC              \t: SMALLINT
+}
+' -------------------------------------------------------
+class "CONTROL_EXERC\n" as CONTROL_EXERC {
+    ID_CONTROL_EXERC       \t: INTEGER
+    N_FAC                  \t: SMALLINT
+    N_SPECIALIZ            \t: SMALLINT
+    POL                    \t: CHAR (1)
+    NUM_EXERC_GRP          \t: SMALLINT
+    ID_EXERC               \t: SMALLINT
+}
+
+class "DATE_ARRIVED\n" as DATE_ARRIVED {
+    ID_DATE                \t: INTEGER       /'\t NOT NULL '/
+    DATE_TEXT              \t: VARCHAR (20)
+}
+
+class "DATE_TIME_ARRIVED\n" as DATE_TIME_ARRIVED {
+    ID_DATE_TIME           \t: INTEGER       /'\t NOT NULL '/
+    DATE_ID                \t: INTEGER
+    TIME_ID                \t: INTEGER
+    N_FAC                  \t: INTEGER
+}
+
+class "DOCUM\n" as DOCUM {
+    N_DOC                  \t: SMALLINT
+    TEXT_DOC               \t: VARCHAR (200) /'\t COLLATE   \t PXW_CYRL '/
+    DATE_DOC               \t: BOOLEAN
+    INDEX_DOC              \t: BOOLEAN
+}
+
+class "EDU_DOCUMENT\n" as EDU_DOCUMENT {
+    N_EDU_DOC              \t: SMALLINT
+    EDU_DOC                \t: VARCHAR (50)  /'\t COLLATE   \t PXW_CYRL '/
+}
+
+class "EDU_PERIOD\n" as EDU_PERIOD {
+    ID                     \t: SMALLINT
+    EDU_PERIOD             \t: VARCHAR (32)
+}
+
+class "EDUCATION_(garbage)\n" as EDUCATION {
+    ID                     \t: INTEGER
+    NOMER_AB               \t: INTEGER
+    N_EDU_DOC              \t: SMALLINT
+    NOM_DOC                \t: VARCHAR (20)
+    NAME_EDU               \t: VARCHAR (50)
+    WHERE_EDU              \t: VARCHAR (50)
+    WHEN_EDU               \t: VARCHAR (50)
+}
+
+class "EXAMEN\n" as EXAMEN {
+    NOMER_AB               \t: INTEGER
+    N_PREDMET              \t: SMALLINT
+    NOM_BALL               \t: SMALLINT
+    BALL                   \t: DOUBLE PRECISION
+    STATUS_BALL            \t: SMALLINT
+}
+
+class "EXERCISE\n" as EXERCISE {
+    ID_EXERC               \t: SMALLINT
+    NAME_EXERC             \t: VARCHAR (255)
+}
+
+class "FACULTY\n" as FACULTY {
+    N_FAC                  \t: INTEGER
+    FAC                    \t: VARCHAR (70)   /'\t COLLATE   \t PXW_CYRL '/
+    FAC1                   \t: VARCHAR (20)   /'\t COLLATE   \t PXW_CYRL '/
+    KOD_FAC                \t: SMALLINT
+    DEAN                   \t: VARCHAR (30)
+    FAC_RP                 \t: VARCHAR (70)
+}
+
+class "INTERMEDIATE_ABITUR\n" as INTERMEDIATE_ABITUR {
+    /' Personal data '/
+    ABITUR_ID              \t: INTEGER        /'\t NOT NULL '/
+    FAM                    \t: VARCHAR (30)   /'\t COLLATE   \t PXW_CYRL '/
+    NAME                   \t: VARCHAR (30)   /'\t COLLATE   \t PXW_CYRL '/
+    OTCH                   \t: VARCHAR (30)   /'\t COLLATE   \t PXW_CYRL '/
+    POL                    \t: SMALLINT
+    DATE_BIRD              \t: DATE
+    CATEGORY_AB            \t: SMALLINT
+    PHONE                  \t: VARCHAR (30)   /'\t COLLATE   \t PXW_CYRL '/
+    EMAIL                  \t: VARCHAR (100)  /'\t COLLATE   \t PXW_CYRL '/
+    /' Location '/
+    POSTCODE               \t: INTEGER
+    GRAGDAN                \t: INTEGER
+    N_REGION               \t: SMALLINT
+    N_DISTRICT             \t: SMALLINT
+    N_TYPE_LOCALITY        \t: SMALLINT
+    N_LOCALITY             \t: SMALLINT
+    TOWN_VILLAGE           \t: SMALLINT
+    N_TYPE_STREET          \t: SMALLINT
+    N_STREET               \t: INTEGER
+    HOUSE                  \t: VARCHAR (10)
+    FLAT                   \t: SMALLINT
+    ADDRESS_REG            \t: VARCHAR (100)  /'\t COLLATE   \t PXW_CYRL '/
+    ADDRESS_LIFE           \t: VARCHAR (100)  /'\t COLLATE   \t PXW_CYRL '/
+    /' Personal ID data '/
+    N_DOCUM_TYPE           \t: SMALLINT
+    PASPORT                \t: VARCHAR (150)  /'\t COLLATE   \t PXW_CYRL '/
+    PERSONAL_NUMBER        \t: VARCHAR (14)   /'\t COLLATE   \t PXW_CYRL '/
+    ORGAN_V                \t: VARCHAR (255)  /'\t COLLATE   \t PXW_CYRL '/
+    DATE_V                 \t: DATE
+    DATE_OK                \t: DATE
+    /' Education '/
+    EDUCATION              \t: SMALLINT
+    TYPE_SCHOOL            \t: SMALLINT
+    /' Secondary education '/
+    WHERE_EDUC_MIDDLE      \t: VARCHAR (50)   /'\t COLLATE   \t PXW_CYRL '/
+    NAME_EDU_MIDDLE        \t: VARCHAR (50)   /'\t COLLATE   \t PXW_CYRL '/
+    WHEN_EDU_MIDDLE        \t: SMALLINT
+    NUMBER_ATEEST_MIDDLE   \t: VARCHAR (20)
+    /' Vocational education '/
+    WHERE_EDU_SPEC         \t: VARCHAR (50)   /'\t COLLATE   \t PXW_CYRL '/
+    NAME_EDU_SPEC          \t: VARCHAR (50)   /'\t COLLATE   \t PXW_CYRL '/
+    WHEN_EDU_SPEC          \t: SMALLINT
+    NUMBER_DIPLOM_SPEC     \t: VARCHAR (20)
+    /' Grade Point Average (GPA) '/
+    MIDDLE_BALL            \t: INTEGER
+    /' Verification '/
+    REJECTION_REASON       \t: VARCHAR (255)
+    VERIFICATION           \t: SMALLINT
+    /' Edu direction '/
+    VID_EDU                \t: SMALLINT
+    N_FAC                  \t: SMALLINT
+    N_SPECIALIZ            \t: SMALLINT
+    N_SPEC                 \t: SMALLINT
+    N_VID_SPORT            \t: SMALLINT
+    N_SPORT_CATEGORY       \t: SMALLINT
+    N_LANGUAGE             \t: SMALLINT
+    /' Parents '/
+    FIO_DAD                \t: VARCHAR (50)   /'\t COLLATE   \t PXW_CYRL '/
+    ADDRESS_DAD            \t: VARCHAR (100)  /'\t COLLATE   \t PXW_CYRL '/
+    FIO_MOM                \t: VARCHAR (50)   /'\t COLLATE   \t PXW_CYRL '/
+    ADDRESS_MOM            \t: VARCHAR (100)  /'\t COLLATE   \t PXW_CYRL '/
+    /' Job experience '/
+    WORK_BEFORE            \t: VARCHAR (70)   /'\t COLLATE   \t PXW_CYRL '/
+    STAGE                  \t: DOUBLE PRECISION
+}
+
+' ----------------------------------------------------------------------------------------
+
+class "KOL_PLACE\n" as KOL_PLACE {
+    N_KOL_PLACE            \t: SMALLINT
+    N_SPECIALIZ            \t: SMALLINT
+    KOL_PLACE              \t: SMALLINT
+    TEXT                   \t: SMALLINT
+    N_FAC                  \t: SMALLINT
+    VID_EDU                \t: SMALLINT
+    PRICE                  \t: SMALLINT      /'\t DEFAULT \t 0 '/
+    RECRUIT                \t: SMALLINT      /'\t DEFAULT \t 1  \t NOT NULL '/
+}
+
+class "LANGUAGE\n" as LANGUAGE {
+    N_LANGUAGE             \t: INTEGER
+    LANGUAGE               \t: VARCHAR (20)
+}
+
+class "LIST_DOC\n" as LIST_DOC {
+    NOMER_AB               \t: INTEGER       /'\t NOT NULL '/
+    N_DOC                  \t: SMALLINT      /'\t NOT NULL '/
+    DATE_DOC               \t: DATE
+    DOC_INDEX              \t: VARCHAR (20)
+}
+
+class "LOCALITY\n" as LOCALITY {
+    ID                     \t: INTEGER
+    N_REGION               \t: SMALLINT
+    N_DISTRICT             \t: SMALLINT
+    NAME_LOCALITY          \t: VARCHAR (30)
+    CODE_SOATO             \t: VARCHAR (30)
+    CODE_CATEGORY          \t: SMALLINT
+    TYPE_LOCALITY          \t: SMALLINT
+}
+
+class "N_GROUP\n" as N_GROUP {
+    N_GROUP                \t: SMALLINT
+    NOM_GROUP              \t: VARCHAR (5)   /'\t COLLATE   \t PXW_CYRL '/
+    N_SPECIALIZ            \t: SMALLINT
+    VID_EDU                \t: SMALLINT
+    DESCRIBE               \t: VARCHAR (150)
+    N_FAC                  \t: SMALLINT
+    N_COUNT                \t: SMALLINT
+}
+
+class "ORDER_SPECIALIZ\n" as ORDER_SPECIALIZ {
+    N_OR_SPEC              \t: INTEGER
+    N_SPECIALIZ            \t: INTEGER
+    ORDER_SP               \t: INTEGER
+}
+
+class "PERSONAL_TYPE\n" as PERSONAL_TYPE {
+    ID_TYPE                \t: INTEGER       /'\t NOT NULL '/
+    NAME_TYPE              \t: VARCHAR (50)  /'\t COLLATE   \t PXW_CYRL '/
+}
+
+class "PREDMET\n" as PREDMET {
+    N_PREDMET              \t: SMALLINT
+    TEXT_PREDMET           \t: VARCHAR (100)
+}
+
+class "PRIVELEG_ARRAY\n" as PRIVELEG_ARRAY {
+    ID_PRIV                \t: SMALLINT
+    N_ITEM                 \t: SMALLINT
+    ID_DET                 \t: SMALLINT
+}
+
+class "PRIVELEG_DETAILS\n" as PRIVELEG_DETAILS {
+    ID_DET                 \t: SMALLINT
+    NAME_DETAIS            \t: VARCHAR (30)  /'\t COLLATE   \t PXW_CYRL '/
+    SHORT_NAME             \t: VARCHAR (7)   /'\t COLLATE   \t PXW_CYRL '/
+}
+
+class "PRIVILEG_LOG\n" as PRIVILEG_LOG {
+    ID_LOG                 \t: INTEGER
+    N_PRIV                 \t: SMALLINT
+    SEL_PRIV               \t: SMALLINT
+    DAT_PRIV               \t: SMALLINT
+}
+
+class "PRIVILEGE\n" as PRIVILEGE {
+    ID_PRIV                \t: SMALLINT
+    NAME_PRIV              \t: VARCHAR (80)   /'\t COLLATE   \t PXW_CYRL '/
+    SHORT_NAME             \t: VARCHAR (15)   /'\t COLLATE   \t PXW_CYRL '/
+    N_WITHOUT_TESTS        \t: SMALLINT
+    N_OUT_TESTS            \t: SMALLINT
+    N_OTHERS               \t: SMALLINT
+}
+
+class "QUEUE\n" as QUEUE {
+    TIME_QUEUE             \t: DATE
+    SIGN                   \t: INTEGER
+    REFERENCE              \t: INTEGER
+    SIIE_DEKAN             \t: INTEGER
+    MVS_DEKAN              \t: INTEGER
+    OFK_DEKAN              \t: INTEGER
+    MSTIG_DEKAN            \t: INTEGER
+    SIIE                   \t: INTEGER
+    MVS                    \t: INTEGER
+    OFK                    \t: INTEGER
+    MSTIG                  \t: INTEGER
+    SIGN_ONLINE            \t: INTEGER
+    REFERENCE_ONLINE       \t: INTEGER
+    SIIE_DEKAN_ONLINE      \t: INTEGER
+    MVS_DEKAN_ONLINE       \t: INTEGER
+    OFK_DEKAN_ONLINE       \t: INTEGER
+    MSTIG_DEKAN_ONLINE     \t: INTEGER
+    SIIE_DEKAN_PICK_UP     \t: INTEGER
+    MVS_DEKAN_PICK_UP      \t: INTEGER
+    OFK_DEKAN_PICK_UP      \t: INTEGER
+    MSTIG_DEKAN_PICK_UP    \t: INTEGER
+    SIIE_PICK_UP           \t: INTEGER
+    MVS_PICK_UP            \t: INTEGER
+    OFK_PICK_UP            \t: INTEGER
+    MSTIG_PICK_UP          \t: INTEGER
+}
+
+class "REGION\n" as REGION {
+    N_REGION               \t: SMALLINT
+    TEXT_REGION            \t: VARCHAR (40)   /'\t COLLATE   \t PXW_CYRL '/
+}
+
+class "SCANS\n" as SCANS {
+    ID_SCAN                \t: INTEGER
+    ID_ABITUR              \t: INTEGER
+    SCAN                   \t: BLOB           /'\t SUB_TYPE  \t 0  \t SEGMENT SIZE 80 '/
+    TYPE_DOC               \t: INTEGER
+);
+}
+
+class "SEL_EXERCIZE\n" as SEL_EXERCIZE {
+    ID_SEL_EXERC           \t: INTEGER
+    NOMER_AB               \t: INTEGER
+    NUM_EXERC_GRP          \t: SMALLINT
+    ID_EXERC               \t: SMALLINT
+}
+
+class "SELECTION_COMMITTEE\n" as SELECTION_COMMITTEE {
+    POST                   \t: VARCHAR (30)   /'\t COLLATE   \t PXW_CYRL    \t NOT NULL '/
+    FIO                    \t: VARCHAR (30)   /'\t COLLATE   \t PXW_CYRL '/
+    IOF                    \t: VARCHAR (30)   /'\t COLLATE   \t PXW_CYRL '/
+    SIGNATURE              \t: BLOB           /'\t SUB_TYPE  \t 0  \t SEGMENT SIZE 80 '/
+}
+
+class "SERTIFICAT\n" as SERTIFICAT {
+    NOMER_AB               \t: INTEGER
+    N_PREDMET              \t: SMALLINT
+    SERIA_S                \t: VARCHAR (10)
+    NOMER_S                \t: VARCHAR (15)
+    BALLS                  \t: SMALLINT
+    DESCRIBE               \t: VARCHAR (150)  /'\t COLLATE   \t PXW_CYRL '/
+    RUS_BEL                \t: SMALLINT
+    PRICE                  \t: SMALLINT
+    YEAR_S                 \t: INTEGER
+}
+
+class "SHKALA\n" as SHKALA {
+    INC_SHKALA             \t: INTEGER
+    N_PREDMET              \t: INTEGER
+    BALL_SERTIFIKAT        \t: SMALLINT
+    BALL                   \t: DOUBLE PRECISION
+    RUS_BEL                \t: SMALLINT
+}
+
+class "SPECIALITY\n" as SPECIALITY {
+    N_SPEC                 \t: SMALLINT
+    SPEC                   \t: VARCHAR (255)
+    OLD_NUM                \t: SMALLINT       /'\t DEFAULT  \t 0 '/
+    CODE_SPEC              \t: VARCHAR (10)
+}
+
+class "SPECIALIZ\n" as SPECIALIZ {
+    N_SPECIALIZ            \t: SMALLINT
+    CODE_SPECIALIZ         \t: VARCHAR (15)
+    SPECIAL                \t: VARCHAR (80)   /'\t COLLATE   \t PXW_CYRL '/
+    N_FAC                  \t: SMALLINT
+    N_SPEC                 \t: SMALLINT
+    SPECIAL_SKLON          \t: VARCHAR (80)   /'\t COLLATE   \t PXW_CYRL '/
+    SPECIAL_DIRECTION      \t: VARCHAR (255)  /'\t COLLATE   \t PXW_CYRL '/
+    N_SPEC_DIR             \t: INTEGER
+    SPECIAL_DIRECTION_SOKR \t: VARCHAR (255)  /'\t COLLATE   \t PXW_CYRL '/
+}
+
+class "STREET\n" as STREET {
+    ID                     \t: INTEGER
+    ID_LOCALITY            \t: INTEGER
+    NAME_IN_RUS            \t: VARCHAR (62)
+    BEL_NAME               \t: VARCHAR (49)
+    DATE_REG               \t: DATE
+    SOATO                  \t: VARCHAR (30)
+    TYPE_STREET            \t: INTEGER
+}
+
+class "TIME_ARRIVED\n" as TIME_ARRIVED {
+    ID_TIME                \t: INTEGER       /'\t NOT NULL '/
+    TIME_NAME              \t: VARCHAR (20)
+}
+
+class "VID_EDU\n" as VID_EDU {
+    ID_VID_EDU             \t: SMALLINT      /'\t NOT NULL '/
+    VID_EDU                \t: VARCHAR (10)
+}
+'/
+
+
+
+' interface "Площадь" as Area {
+'     Границы : Многоугольник
+' }
+
+' class "Приусадебный участок" as Farm
+
+' class "Постройки"            as Buildings
+
+' class "Амбар / Сарай" as Shed
+' class "Баня"          as Bath
+' class "Летняя кухня"  as Kitchen
+' class "Теплица"       as GreenHouse
+' class "Загон"         as Corral
+
+' Buildings <|-u- Shed
+' Buildings <|-u- Bath
+' Buildings <|-u- Kitchen
+' Buildings <|-u- GreenHouse
+' Buildings <|-u- Corral
+
+' class "Зона посадок" as Zone
+' class "Грядки"       as SeedBed
+' class "Клумба"       as Bed
+
+' Zone <|-- SeedBed
+' Zone <|-- Bed
+
+' Zone      .r.|> Area
+' Buildings .r.|> Area
+' Farm      .r.|> Area
+
+' class "Посадки" as Plants {
+'     Вид        : строка
+'     Сорт       : строка
+'     Однолетнее : флаг
+' }
+
+' class "Однолетние посадки"    as SinglePlants
+' class "Множественные посадки" as MultiplePlants
+
+' SinglePlants   -r-|> Plants
+' MultiplePlants -l-|> Plants
+
+' class "Деревья"     as Tree
+' class "Кустарники"  as Shrubs
+' class "Виноградник" as Grape
+' class "Овощи"       as Vegetables
+' class "Травы"       as Grass
+
+' SinglePlants   <|-- Tree
+' SinglePlants   <|-- Shrubs
+' MultiplePlants <|-- Grape
+' MultiplePlants <|-- Vegetables
+' MultiplePlants <|-- Grass
+
+' Farm o-u- Buildings
+' Farm o--  Zone
+
+' GreenHouse "0..1" ---> "1..4" SeedBed        : может\nсодержать
+' Bed        "*"    -->  "0..1" SinglePlants   : могут\nрасти
+' SeedBed    "*"    -->  "0..3" MultiplePlants : могут\nрасти
+
+@enduml

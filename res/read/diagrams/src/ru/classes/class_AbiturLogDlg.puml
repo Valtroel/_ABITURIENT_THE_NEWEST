@@ -1,0 +1,35 @@
+@startuml AbituraLogDlg.cpp
+
+title Исходный файл: "AbituraLogDlg.cpp"
+
+scale 750 width
+
+"<b>TAbiturLogDlg</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+abstract "<b>TAbiturLogDlg</b>"
+{
+    + Bevel1 \t\t\t\t: <i>TBevel *</i>
+    + CancelBtn \t\t\t: <i>TButton *</i>
+    + OKBtn \t\t\t\t: <i>TButton *</i>
+    + DateTimePicker1 \t: <i>TDateTimePicker *</i>
+    + Label1 \t\t\t\t: <i>TLabel *</i>
+    + Label2 \t\t\t\t: <i>TLabel *</i>
+    --
+    
+    + <b>{abstract} TAbiturLogDlg (AOwner \t: <i>TComponent *</i>) virtual</b>
+
+    + CancelBtnClick \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + OKBtnClick \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TAbiturLogDlg <<Folder>>
+{
+    abstract TAbiturLogDlg
+    hide  TAbiturLogDlg members
+}
+
+@enduml

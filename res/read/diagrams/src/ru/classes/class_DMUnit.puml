@@ -1,0 +1,218 @@
+@startuml DMUnit.cpp
+
+title Исходный файл: "DMUnit.cpp"
+
+scale 750 width
+
+
+"<b>TDM</b>" -up-|> "<b>TDataModule</b>"
+
+hide "<b>TDataModule</b>" members
+
+
+abstract "<b>TDM</b>"
+{
+    <b>SHOWS ONLY METHODS</b>
+    --
+    + ID_from_QUEUE \t: <i>int</i>
+    ..
+    + printdlg  \t\t: <i>bool</i>
+     .. (<i>and etc. For all fields, see: class_DMUnit_all_fields 1 ... 4</i>) ..
+    --
+
+    + <b>{abstract} TDM (AOwner \t: <i>TComponent *</i>) virtual</b>
+
+    + AbiturLogInsStrdPrcCalcFields \t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    ..
+    + ball_result \t\t\t\t\t\t(
+            \t\tb \t\t\t: <i>int</i>,
+            \t\tf \t\t\t: <i>int</i>
+        \t) : <i>double</i>
+    ..
+    + ball_result_float \t\t\t\t\t(
+            \t\tb \t\t\t: <i>int</i>,
+            \t\tpredmet \t: <i>int</i>,
+            \t\trus_bel \t\t: <i>int</i>,
+            \t\tk \t\t\t: <i>int</i>
+        \t) : <i>float</i>
+    ..
+    + FIOSearchDSDataChange \t\t\t(
+            \t\tSender \t\t: <i>TObject *</i>,
+            \t\tField \t\t: <i>TField *</i>
+        \t) : <i>void</i>
+    ..
+    + get_version \t\t\t\t\t\t() : <i>AnsiString</i>
+    + Increment_GroupTableNewRecord \t(DataSet \t: <i>TDataSet *</i>) : </i>void</i>
+    ..
+    + NumDelaString \t\t\t\t\t(
+            \t\tvid_edu \t\t: <i>int</i>,
+            \t\tterm_edu \t: <i>int</i>,
+            \t\tprice \t\t: <i>int</i>,
+            \t\tnom_dela \t: <i>int</i>
+        \t) : <i>String</i>
+    ..
+    + QAbituraAfterInsert \t\t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + QAbituraCalcFields \t\t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + QAdd_N_GroupCalcFields \t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + QCenterCalcFields \t\t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + QExamCalcFields \t\t\t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + QLittle_Spisoc_GRCalcFields \t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + QReport_RaspCalcFields \t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + QSertificat_ResCalcFields \t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + QSertificatCalcFields \t\t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + QSpisoc_GroupCalcFields \t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + QSpisok_SpecCalcFields \t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + QToDekanatAfterInsert \t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + TCategoryNewRecord \t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + TCkNewRecord \t\t\t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + TDocumNewRecord \t\t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + TFacultyNewRecord \t\t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + TFoundationNewRecord \t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + TKol_PlaceCalcFields \t\t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + TKol_PlaceNewRecord \t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + TPredmetNewRecord \t\t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + TRegionAfterOpen \t\t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + TRegionNewRecord \t\t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + TVid_SportNewRecord \t\t\t(DataSet \t: <i>TDataSet *</i>) : <i>void</i>
+    + vozvrat_inc_ab \t\t\t\t\t() : <i>void</i>
+    + vozvrat_inc_people \t\t\t\t() : <i>void</i>
+    + vozvrat_spec \t\t\t\t\t(spec \t: <i>int</i>) : <i>AnsiString</i>
+}
+
+
+note right of "<b>TDM</b>"::ID_from_QUEUE
+    ID с очереди
+end note
+note right of "<b>TDM</b>"::ball_result
+    функция возвращает результат сертификата
+end note
+note right of "<b>TDM</b>"::FIOSearchDSDataChange
+    <-- No implementation!!!!
+end note
+note right of "<b>TDM</b>"::get_version
+    функция возвращает версию программы
+end note
+note right of "<b>TDM</b>"::NumDelaString
+    функция возвращает составной номер дела
+end note
+note right of "<b>TDM</b>"::vozvrat_inc_ab
+    функция возвращает инкремент номера абитуриента
+end note
+note right of "<b>TDM</b>"::vozvrat_inc_people
+    функция возвращает инкремент номера  студента
+end note
+note right of "<b>TDM</b>"::vozvrat_spec
+    функция возвращает название направления специальности
+end note
+
+
+package TDM <<Folder>>
+{
+    abstract TDM
+    hide     TDM members
+}
+
+
+class extern << (E, yellow) >>
+{
+    + cur_d \t\t\t: <i>TDateTime</i>
+    + cur_dir \t\t\t: <i>AnsiString</i>
+    + dateOkonch \t\t: <i>AnsiString</i>
+    + DateServer \t\t: <i>AnsiString</i>
+    + fac1 \t\t\t: <i>AnsiString</i>
+    + FIO \t\t\t\t: <i>AnsiString</i>
+    + IOF \t\t\t\t: <i>AnsiString</i>
+    + n_menu \t\t\t: <i>int</i>
+    + nom_fac \t\t: <i>int</i>
+    + oplata_konkurs \t: <i>int</i>
+    + out_dir \t\t\t: <i>AnsiString</i>
+    + perepodacha \t: <i>int</i>
+    + pole_block \t\t: <i>int</i>
+    + pr_KategIf \t\t: <i>int</i>
+    + press \t\t\t: <i>int</i>
+    + st_asu \t\t\t: <i>bool</i>
+    + st_developer \t: <i>bool</i>
+    + TextTest \t\t: <i>AnsiString</i>
+}
+
+
+note right of extern::cur_dir
+    текущая директория
+end note
+note right of extern::dateOkonch
+    дата окончания видимости компонентов для статистики
+end note
+note right of extern::DateServer
+    Дата с сервера
+end note
+note right of extern::fac1
+    название факультета (сокращенное)
+end note
+note right of extern::FIO
+    "FIO" initialized with value: "Шигаева А.В."
+end note
+note right of extern::IOF
+    "IOF" initialized with value: "А.В. Шигаева"
+end note
+note right of extern::nom_fac
+    номер факультета
+end note
+note right of extern::oplata_konkurs
+    переменная для учета города и села для платников  (0 - общий конкурс; 1 - раздельный конкурс (город/село))
+end note
+note right of extern::out_dir
+    директория для сохранения выходных файлов
+end note
+note right of extern::perepodacha
+    переменная для ИТ (разрешение на переподачу)
+end note
+note right of extern::pole_block
+    переменная для определения ограничения прав доступа пользователей 0-полный доступ; 1-ограниченный
+end note
+note right of extern::pr_KategIf
+    признак категории абитуриента: 0 - РБ, 1 - ИГ, 2 - СНГ
+end note
+note right of extern::press
+    переменная для определения какая кнопка нажата
+end note
+note right of extern::st_asu
+    переменная статуса asu
+end note
+note right of extern::st_developer
+    переменная статуса программиста
+end note
+
+
+class "<b>VidKonkursvoid ()</b>" {
+    --
+    + VidKonkursvoid \t(
+        \tRadioGroup2 \t: <i>TRadioGroup *</i>,
+        \tRadioGroup3 \t\t: <i>TRadioGroup *</i>,
+        \tComboBox1 \t\t: <i>TComboBox *</i>
+        ): <i>void</i>
+}
+
+hide "<b>VidKonkursvoid ()</b>" circle
+show "<b>VidKonkursvoid ()</b>" method
+
+note left of "<b>VidKonkursvoid ()</b>"
+УСТАНОВКА КОНКУРСА АБИТУРИЕНТА
+вызывается если у платников общий конкурс
+(т.е. oplata_konkurs == 0)
+
+I blocked it because the following
+code does the same!
+
+NEED VERIFICATION!
+end note
+
+TDM ..[#green].. "<b>VidKonkursvoid ()</b>"
+    
+note right on link #LightBlue
+The "VidKonkursvoid" function is 
+contained in the "DMUnit.h"
+header, but is not a part of the class  
+end note
+
+
+@enduml

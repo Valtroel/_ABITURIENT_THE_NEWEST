@@ -1,0 +1,312 @@
+@startuml AbiturUnit.cpp
+
+title Исходный файл: "AbiturUnit.cpp"
+
+scale 750 width
+
+"<b>TAbiturForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TAbiturForm</b>"
+{
+    <b>SHOWS ONLY METHODS</b>
+    --
+    + Action1 \t: <i>TAction *</i>
+    + Action2 \t: <i>TAction *</i>
+     .. (<i>and etc. For all fields, see: class_AbiturUnit_all_fields</i>) ..
+    --
+    
+    + <b>TAbiturForm (Owner : <i>TComponent *</i>)</b>
+
+    + AddBtBtnClick \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + AdressLifeEdtClick \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + AdressRegEdtChange \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + AdressRegEdtExit \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    ..
+    + ApplicationEvents1Message \t(
+        \t\tMsg       \t: <i>tagMSG &</i>,
+        \t\tHandled \t: <i>bool</i>
+        \t) : <i>void</i>
+    ..
+    + BitBtn1Click \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + BitBtn9Click \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + BitBtnShow \t\t\t() : <i>void</i>
+    + CancelBtBtnClick \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + CategoryAbCmbBxChange \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Ch3Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Ch5Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Ch6Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Ch7Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Ch8Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Ch9Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + CheckBox1Click \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + CheckBox2Click \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    - Chek_Vid_Edu \t\t() : <i>AnsiString</i>
+    + CkRegionDBLkpCmbBxExit \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + clistAddAwardsClickCheck \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + clistAddAwardsEnter \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + clistddEnrollingClickCheck \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + clistddEnrollingEnter \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + clistGIACClickCheck \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + clistGIACEnter \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + clictNotConcoursClickCheck \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + clictNotConcoursEnter \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + clistNotExamsClickCheck \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + clistNotExamsEnter \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + DBDateEdit1Change  \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + DBGrid1DblClick \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + DBGrid1TitleClick \t\t\t(Column : <i>TColumn *</i>) : <i>void</i>
+    + DBGrid2CellClick \t\t\t\t(Column : <i>TColumn *</i>) : <i>void</i>
+    + DBGrid2DblClick \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    ..
+    + DBGrid2DrawColumnCell \t(
+        \t\tSender\t  : <i>TObject *</i>,
+        \t\tRect\t  : <i>TRect &</i> {readOnly},
+        \t\tDataCol\t  : <i>int</i>,
+        \t\tColumn\t  : <i>TColumn *</i>,
+        \t\tState\t  : <i>TGridDrawState</i>
+        \t) : <i>void</i>
+    ..
+    + DBGrid3DblClick \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + DBGrid3Enter \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    ..
+    + DBNavigator1Click \t\t\t(
+        \t\tSender \t: <i>TObject *</i>,
+        \t\tButton \t: <i>TNavigateBtn</i>
+        \t) : <i>void</i>
+    ..
+    + DistrictDBLkCmbBxExit \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Edit1Change \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + EducatCmbBxChange \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + EducatCmbBxEnter \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + EnableDate \t\t\t() : <i>void</i>
+    + EnabledTrue \t\t\t() : <i>void</i>
+    + ExitBitBtnClick \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + FamDBEdtExit \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    ..
+    + FamDBEdtKeyDown \t\t\t(
+        \t\tSender \t: <i>TObject *</i>,
+        \t\tKey \t\t: <i>WORD &</i>,
+        \t\tShift \t: <i>TShiftState</i>
+        \t) : <i>void</i>
+    ..
+    + FIOReBitBtnClick \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + FIOSearchEdtChange \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormCanResize \t\t\t\t(
+        \t\tSender \t\t: <i>TObject *</i>,
+        \t\tNewWidth \t: <i>int &</i>,
+        \t\tNewHeight \t: <i>int &</i>,
+        \t\tResize \t\t: <i>bool</i>
+        \t) : <i>void</i>
+    ..
+    + FormClose \t\t\t\t\t(
+        \t\tSender \t: <i>TObject *</i>,
+        \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + FormCreate \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + FormEduCmbBxChange \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + FormEduCmbBxExit \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Image1Click \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + InfChekLstBxClickCheck \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + KonkursCmbBxChange \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + KonkursRdGrpClick \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + KonkursRdGrpEnter \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + max_nom_dela \t\t() : <i>void</i>
+    + msgEdit \t\t\t\t() : <i>void</i>
+    + NameBtn \t\t\t() : <i>void</i>
+    + NameDBEdtExit \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    ..
+    + NameDBEdtKeyDown \t\t\t(
+        \t\tSender \t: <i>TObject *</i>,
+        \t\tKey \t\t: <i>WORD &</i>,
+        \t\tShift \t: <i>TShiftState</i>
+        \t) : <i>void</i>
+    ..
+    + NewAbitur  \t\t\t(pr_w : <i>int</i>) : <i>void</i>
+    + NewWo \t\t\t\t() : <i>int</i>
+    + NomDelaDBEdtChange \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + NomGroupCmbBxEnter \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + OtchDBEdtExit \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + OutCmboBx1Change \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + OutCmboBx2Change \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + OutCmboBx3Change \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + OutCmboBx4Change \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + OutCmboBx5Change \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + OutCmboBx6Change \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + OutCmboBx7Change \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + PageControl1Change \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + PersonNumDBEdtChange \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + PersonNumDBEdtExit \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + PlaceRDBEdtChange \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + PoleBlock \t\t\t() : <i>void</i>
+    + Pr1Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr2Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr3Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr4Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr5Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr6Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr7Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr8Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr9Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr10Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr11Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr12Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr13Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr14Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr15Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr16Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr17Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr18Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr19Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr20Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr21Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr22Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Pr23Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + PressBtn \t\t\t(press_btn : <i>int</i>) : <i>void</i>
+    + PriceCmbBxChange \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + PriceRdGrpEnter \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + PrintBtBtnClick \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + RadioGroup1Click \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + RdGrpSchoolClick \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + RefreshCh \t\t\t() : <i>void</i>
+    + RefreshControl \t\t() : <i>void</i>
+    ..
+    + RegionDBLookupCmbBxCloseUp \t\t(
+        \t\tSender : <i>TObject *</i>
+        \t) : <i>void</i>
+    ..
+    + ReInsideFacBtBtnClick \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + ReLoadAbiturPhoto \t() : <i>void</i>
+    + RestorlistBtBtnClick \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + RGrpVillageClick \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + SaveBtBtnClick \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + SchoolCmbBxChange \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + SngFrgCmbBxChange \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + SpecializDBLookupCmbBxExit \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + SpeedButton1Click \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    ..
+    + SportCategoryDBLookupCmboBxExit \t(
+        \t\tSender : <i>TObject *</i>
+        \t) : <i>void</i>
+    ..
+    + StagDBEdtEhExit \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + StagSpecDBEdtEhExit \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + TabSheet1Enter \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + TabSheet1Show \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + TabSheet2Enter \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + TabSheet2Show \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + TabSheet3Enter \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + TabSheet3Show \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + TabSheet4Enter \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + TabSheet4Show \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + TabSheet5Show \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + TermEduCmbBxChange \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + TookDocBtBtn1Click \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + TookDocBtBtn2Click \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + TownVillageCmbBxChange \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + UncheckCh \t\t\t() : <i>void</i>
+    + Vk1Click \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Vk1Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Vk4Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Vk6Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Vk5Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WhereEduMiddleDBEdtClick \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx1Change \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx2Change \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx3Change \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx4Change \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx5Change \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx6Change \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx7Change \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx8Change \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx9Change \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx10Change \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx11Change \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx12Change \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx13Change \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx14Change \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx15Change \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + WithOutCmboBx16Change \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Wo1Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Wo2Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Wo3Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Wo4Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Wo5Enter \t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+}
+
+
+note right of "<b>TAbiturForm</b>"::Chek_Vid_Edu
+возвращает вид обучения
+end note
+
+note right of "<b>TAbiturForm</b>"::EnableDate
+Показ компонентов для разработчика c 26.07.2010
+end note
+
+note right of "<b>TAbiturForm</b>"::EnabledTrue
+показ компонентов для изменения
+данных по абитуриенту
+end note
+
+note right of "<b>TAbiturForm</b>"::msgEdit
+запрет изменения данных
+end note
+
+note right of "<b>TAbiturForm</b>"::NameBtn
+процедура назначения имен некоторым
+кнопкам в зависимости от факультета
+(для Института туризма другие названия)
+end note
+
+note right of "<b>TAbiturForm</b>"::NewWo
+процедура записывает БВИ, ВК и др. в БД
+end note
+
+note right of "<b>TAbiturForm</b>"::PoleBlock
+получение значения поля BLOCK
+end note
+
+
+' left to right direction
+
+package TAbiturForm <<Folder>>
+{
+    class TAbiturForm
+    hide  TAbiturForm members
+}
+
+class "<b>VidKonkursvoid ()</b>" {
+    --
+    + VidKonkursvoid \t(
+        \tKonkursCmbBx \t: <i>TComboBox *</i>,
+        \tPriceCmbBx \t\t: <i>TComboBox *</i>,
+        \tComboBox1 \t\t: <i>TComboBox *</i>
+        ): <i>void</i>
+}
+
+hide "<b>VidKonkursvoid ()</b>" circle
+show "<b>VidKonkursvoid ()</b>" method
+
+note left of "<b>VidKonkursvoid ()</b>"
+УСТАНОВКА КОНКУРСА АБИТУРИЕНТА
+вызывается если у платников общий конкурс
+(т.е. oplata_konkurs == 0)
+
+Using into FormEduCmbBxChange()
+
+Can't operate - I blocked it!
+end note
+
+TAbiturForm ..[#green].. "<b>VidKonkursvoid ()</b>"
+    
+note right on link #LightBlue
+The "VidKonkursvoid" function is 
+contained in the "AbiturUnit.h"
+header, but is not a part of the class  
+end note
+
+@enduml

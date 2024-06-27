@@ -1,0 +1,41 @@
+@startuml
+title Варианты использования системы (верхнеуровневые)
+
+left to right direction
+
+/' Change default actor style '/
+skinparam actorStyle awesome    /' bust '/
+skinparam actorStyle Hollow     /' outline '/
+
+actor "Гость"        as Guest
+
+usecase "Регистрация пользователя" as registration
+usecase "Редактирование профиля пользователя" as editProfile
+
+Guest        --> registration
+registration ..> editProfile  : include
+
+
+actor "Пользователь" as User
+actor "Эксперт"      as Expert
+
+Expert -left-|> User
+
+User   -->      editProfile
+
+usecase "Создать план участка" as createPlan
+
+User                   -->   createPlan
+(Указать базовый план) .up.> createPlan : extends
+
+User   --> (Изменить план своего участка)
+User   --> (Учавствовать в консультации)
+Expert --> (Учавствовать в консультации)
+Expert --> (Согласиться на консультацию)
+
+
+actor "Интернет магазин" as InternetStore
+User          -->   (Получить рекомендации)
+InternetStore -up-> (Получить рекомендации)
+' InternetStore --> (Получить рекомендации)
+@enduml

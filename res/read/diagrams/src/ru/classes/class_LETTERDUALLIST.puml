@@ -1,0 +1,69 @@
+@startuml LETTERDUALLIST.cpp
+
+title Исходный файл: "LETTERDUALLIST.cpp"
+
+scale 750 width
+
+"<b>TLetterDualListDlg</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+abstract "<b>TLetterDualListDlg</b>"
+{
+    + CancelBtn \t: <i>TButton *</i>
+    + OKBtn \t\t: <i>TButton *</i>
+    ..
+    + DBImage1 \t: <i>TDBImage *</i>
+    ..
+    + DstLabel \t: <i>TLabel *</i>
+    + SrcLabel \t: <i>TLabel *</i>
+    ..
+    + DstList \t\t: <i>TListBox *</i>
+    + DstListI \t\t: <i>TListBox *</i>
+    + SrcList \t\t: <i>TListBox *</i>
+    + SrcListI \t\t: <i>TListBox *</i>
+    ..
+    + ExAllBtn \t: <i>TSpeedButton *</i>
+    + ExcludeBtn \t: <i>TSpeedButton *</i>
+    + IncAllBtn \t: <i>TSpeedButton *</i>
+    + IncludeBtn \t: <i>TSpeedButton *</i>
+    --
+    
+    + <b>{abstract} TLetterDualListDlg (AOwner \t: <i>TComponent *</i>) virtual</b>
+
+    + ExcAllBtnClick \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + ExcludeBtnClick \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + GetFirstSelection \t(List \t: <i>TCustomListBox *</i>) : <i>Integer</i>
+    + IncAllBtnClick \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + IncludeBtnClick \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + MoveSelected \t\t(
+            \t\tList1 \t: <i>TCustomListBox *</i>,
+            \t\tItems1 \t: <i>TStrings *</i>,
+            \t\tList2 \t: <i>TCustomListBox *</i>,
+            \t\tItems2 \t: <i>TStrings *</i>
+        \t) : <i>void</i>
+    ..
+    + OKBtnClick \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + SetButtons \t\t\t() : <i>void</i>
+    ..
+    + SetItem \t\t\t\t(
+            \t\tList \t\t: <i>TListBox *</i>,
+            \t\tIndex \t: <i>int</i>
+        \t) : <i>void</i>
+}
+
+
+package TLetterDualListDlg <<Folder>>
+{
+    abstract TLetterDualListDlg
+    hide     TLetterDualListDlg members
+}
+
+
+' note right of "<b>TLetterDualListDlg</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

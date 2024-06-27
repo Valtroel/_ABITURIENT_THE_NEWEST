@@ -1,0 +1,292 @@
+INSERT INTO OR UPDATE
+    PASSWORD_USER
+    (
+        USER_NAME,
+        USER_PASSWORD,
+        N_FAC
+    )
+VALUES
+    ('54',            '2015',           4),
+    ('Abitur1',       'Abitur1',        1),
+    ('Abitur2',       'abitur2020',     2),
+    ('Abitur3',       'abitur2020',     3),
+    ('Abitur4',       'abitur2020',     4),
+    ('alena_2109',    'Alena2109',      1),
+    ('alina_e',       'Alina98',        1),
+    ('ASU',           'fdsfsd',         1),
+    ('ASU1',          'asd',            1),
+    ('ASU2',          'qwe',            2),
+    ('ASU3',          'ewqqwe',         3),
+    ('ASU4',          'asddsa',         4),
+    ('DEV',           'dbudfV',         4),
+    ('dobrovolskaya', '6363415',        4),
+    ('Dvoretskaya_K', 'Ksenya1',        1),
+    ('IMSIT_Z',       '7393400Gap',     4),
+    ('IT_1',          'BGUFK123',       4),
+    ('IT_3',          'nehbpv',         4),
+    ('IT_8',          '12345',          4),
+    ('IT_D',          'trttryrgy',      4),
+    ('IT_L',          'byneh',          4),
+    ('IT_M',          'jhfhjh',         4),
+    ('IT_PK',         '4',              4),
+    ('IT_Z',          'uryturytu',      4),
+    ('IT',            'fgfjh',          4),
+    ('IT1',           'lskds''; kdjs',  4),
+    ('IT2',           'ks ks:?8 д',     4),
+    ('IT3',           'qwe',            4),
+    ('IT4',           '[poiuyt',        4),
+    ('IT5',           'Eva21032014',    4),
+    ('IT6',           '12Elena078',     4),
+    ('IT7',           '12345',          4),
+    ('ivanova_a',     'Fyyf120599',     1),
+    ('kosik_n',       'Kosik0108',      4),
+    ('kristina',      'vera01112016',   4),
+    ('lavrenova_v',   'vikalav17',      1),
+    ('lenaUsova',     'Kristina10',     2),
+    ('Ltrfyfn2019',   'Ltrfyfn2019',    1),
+    ('M_2',           'Afrekmntn874',   5),
+    ('MAGISTR',       '12345',          5),
+    ('marina',        'ks46ks47',       1),
+    ('MVS_1',         'cgjhn123',       2),
+    ('MVS_D_L',       'kjgkfgkfjgkf',   2),
+    ('MVS_D',         '&h*&h*&h*',      2),
+    ('MVS_ETB',       'tnd180908',      2),
+    ('MVS_L',         'dftht',          2),
+    ('MVS_LP',        '010191',         2),
+    ('MVS_N',         '12345',          2),
+    ('MVS_PK',        '2',              2),
+    ('MVS_V',         '12345',          2),
+    ('MVS_Z_L',       'cgjhn12',        2),
+    ('MVS_Z',         '&h*&h*&h*',      2),
+    ('MVS',           '4speciaList',    2),
+    ('MVS',           'hgjkd',          2),
+    ('MVS1',          ';sd;ls',         2),
+    ('MVS2',          ''';al;sdkl',     2),
+    ('MVS4',          'fjdkjjk_fjk',    2),
+    ('NEW78',         '1',              1),
+    ('OFKIT_1',       'pljhjdmt',       3),
+    ('OFKIT_A',       'fghhgf',         3),
+    ('OFKIT_D',       'depechemode',    3),
+    ('OFKIT_L',       'setryertyetr',   3),
+    ('OFKIT_M',       '&h*&h*&h*',      3),
+    ('OFKIT_N',       'yfcnz29',        3),
+    ('OFKIT_PK',      '3',              3),
+    ('OFKIT_Z',       '&h*&h*&h*',      3),
+    ('OFKIT',         'про—то“ак800',   3),
+    ('OFKIT1',        ';s;ldkf',        3),
+    ('OFKIT2',        'qrewrw',         3),
+    ('OFKIT3',        'qeqeqe',         3),
+    ('OFKIT4',        'fgjfjkhjgdfh',   3),
+    ('OK_STUD_1',     '54321',          1),
+    ('PK_MSTIG_1',    'VCNBU_1',        4),
+    ('PK_MSTIG_2',    'VCNBU_2',        4),
+    ('PK_MSTIG_3',    'VCNBU_3',        4),
+    ('PK_MSTIG_4',    'VCNBU_4',        4),
+    ('PK_MSTIG_P1',   'VCNBU_G1',       4),
+    ('PK_MSTIG_P2',   'VCNBU_G2',       4),
+    ('PK_MVS_1',      'VDC_1',          2),
+    ('PK_MVS_2',      'VDC_2',          2),
+    ('PK_MVS_3',      'VDC_3',          2),
+    ('PK_MVS_4',      'VDC_4',          2),
+    ('PK_MVS_5',      'VDC_5',          2),
+    ('PK_MVS_P1',     'VDC_G1',         2),
+    ('PK_MVS_P2',     'VDC_G2',         2),
+    ('PK_OFK_1',      'JAR_1',          3),
+    ('PK_OFK_2',      'JAR_2',          3),
+    ('PK_OFK_3',      'JAR_3',          3),
+    ('PK_OFK_4',      'JAR_4',          3),
+    ('PK_OFK_P1',     'JAR_G1',         3),
+    ('PK_OFK_P2',     'JAR_G2',         3),
+    ('PK_OTV1',       'cbbt1',          1),
+    ('PK_OTV2',       'vdc2',           2),
+    ('PK_OTV3',       'jar3',           3),
+    ('PK_OTV4',       'vcnbu4',         4),
+    ('PK_SIIE_1',     'CBBT_1',         1),
+    ('PK_SIIE_2',     'CBBT_2',         1),
+    ('PK_SIIE_3',     'CBBT_3',         1),
+    ('PK_SIIE_4',     'CBBT_4',         1),
+    ('PK_SIIE_P1',    'CBBT_G1',        1),
+    ('PK_SIIE_P2',    'CBBT_G2',        1),
+    ('PK',            'dgfhdgfh',       2),
+    ('PK1',           '123321',         1),
+    ('PK2',           '345543',         2),
+    ('PK3',           'rtyytr',         3),
+    ('PK4',           '45670',          4),
+    ('planida_e',     'alinaPlanida',   1),
+    ('PRIEM1',        '12345',          1),
+    ('Setun1998',     'vschaos3012',    3),
+    ('Shmaenkova_M',  'Cervelo2',       1),
+    ('shpakevich_p',  '1711Recnbr',     5),
+    ('SIIE_5',        'cgjhn123',       1),
+    ('SIIE_123',      '12345',          1),
+    ('SIIE_D',        'ltrfyfn',        1),
+    ('SIIE_D2',       'dfghd',          1),
+    ('SIIE_LAB_D',    'kjfgfkj',        1),
+    ('SIIE_LAB_Z',    'dlfdklkl',       1),
+    ('SIIE_LAB_Z2',   'fgjhdyt',        1),
+    ('SIIE_LAB_Z3',   'fjdthyjdt',      1),
+    ('SIIE_LAB',      'italy2008',      1),
+    ('SIIE_NEW',      '123',            1),
+    ('SIIE_O',        '6877723',        1),
+    ('SIIE_PK',       '1',              1),
+    ('SIIE_Z',        '&h*&h*&h*',      1),
+    ('SIIE_Z1',       'rerfhtre',       1),
+    ('SIIE-238',      'Cgjhn123',       1),
+    ('SIIE1',         '14309',          1),
+    ('SIIE2',         ';dlsd',          1),
+    ('SIIE3',         'ldklk',          1),
+    ('SIIE4',         '1705',           1),
+    ('SIIE6',         '12345',          1),
+    ('SIIE10',        'Cgjhn123',       1),
+    ('SIIE123',       '12345',          1),
+    ('SIIE1234',      'cgjhn123',       1),
+    ('Smolenkova_t',  '19SmoLa68',      4),
+    ('USER123',       '12345',          1),
+    ('VIEWER1',       '1111',           1),
+    ('Zhanna_73',     'Zhanna_73',      1);
+
+COMMIT WORK;
+
+Abitur1       Abitur1        1
+alena_2109    Alena2109      1
+alina_e       Alina98        1
+ASU           fdsfsd         1
+ASU1          asd            1
+Dvoretskaya_K Ksenya1        1
+ivanova_a     Fyyf120599     1
+lavrenova_v   vikalav17      1
+Ltrfyfn2019   Ltrfyfn2019    1
+marina        ks46ks47       1
+NEW78         1              1
+OK_STUD_1     54321          1
+PK_OTV1       cbbt1          1
+PK_SIIE_1     CBBT_1         1
+PK_SIIE_2     CBBT_2         1
+PK_SIIE_3     CBBT_3         1
+PK_SIIE_4     CBBT_4         1
+PK_SIIE_P1    CBBT_G1        1
+PK_SIIE_P2    CBBT_G2        1
+PK1           123321         1
+planida_e     alinaPlanida   1
+PRIEM1        12345          1
+Shmaenkova_M  Cervelo2       1
+SIIE_5        cgjhn123       1
+SIIE_123      12345          1
+SIIE_D        ltrfyfn        1
+SIIE_D2       dfghd          1
+SIIE_LAB      italy2008      1
+SIIE_LAB_D    kjfgfkj        1
+SIIE_LAB_Z    dlfdklkl       1
+SIIE_LAB_Z2   fgjhdyt        1
+SIIE_LAB_Z3   fjdthyjdt      1
+SIIE_NEW      123            1
+SIIE_O        6877723        1
+SIIE_PK       1              1
+SIIE_Z        &h*&h*&h*      1
+SIIE_Z1       rerfhtre       1
+SIIE-238      Cgjhn123       1
+SIIE1         14309          1
+SIIE2         ;dlsd          1
+SIIE3         ldklk          1
+SIIE4         1705           1
+SIIE6         12345          1
+SIIE10        Cgjhn123       1
+SIIE123       12345          1
+SIIE1234      cgjhn123       1
+USER123       12345          1
+VIEWER1       1111           1
+Zhanna_73     Zhanna_73      1
+
+Abitur2       abitur2020     2
+ASU2          qwe            2
+lenaUsova     Kristina10     2
+MVS           4speciaList    2
+MVS           hgjkd          2
+MVS_1         cgjhn123       2
+MVS_D         &h*&h*&h*      2
+MVS_D_L       kjgkfgkfjgkf   2
+MVS_ETB       tnd180908      2
+MVS_L         dftht          2
+MVS_LP        010191         2
+MVS_N         12345          2
+MVS_PK        2              2
+MVS_V         12345          2
+MVS_Z         &h*&h*&h*      2
+MVS_Z_L       cgjhn12        2
+MVS1          ;sd;ls         2
+MVS2          '';al;sdkl     2
+MVS4          fjdkjjk_fjk    2
+PK            dgfhdgfh       2
+PK_MVS_1      VDC_1          2
+PK_MVS_2      VDC_2          2
+PK_MVS_3      VDC_3          2
+PK_MVS_4      VDC_4          2
+PK_MVS_5      VDC_5          2
+PK_MVS_P1     VDC_G1         2
+PK_MVS_P2     VDC_G2         2
+PK_OTV2       vdc2           2
+PK2           345543         2
+
+Abitur3       abitur2020     3
+ASU3          ewqqwe         3
+OFKIT         про—то“ак800   3
+OFKIT_1       pljhjdmt       3
+OFKIT_A       fghhgf         3
+OFKIT_D       depechemode    3
+OFKIT_L       setryertyetr   3
+OFKIT_M       &h*&h*&h*      3
+OFKIT_N       yfcnz29        3
+OFKIT_PK      3              3
+OFKIT_Z       &h*&h*&h*      3
+OFKIT1        ;s;ldkf        3
+OFKIT2        qrewrw         3
+OFKIT3        qeqeqe         3
+OFKIT4        fgjfjkhjgdfh   3
+PK_OFK_1      JAR_1          3
+PK_OFK_2      JAR_2          3
+PK_OFK_3      JAR_3          3
+PK_OFK_4      JAR_4          3
+PK_OFK_P1     JAR_G1         3
+PK_OFK_P2     JAR_G2         3
+PK_OTV3       jar3           3
+PK3           rtyytr         3
+Setun1998     vschaos3012    3
+
+54            2015           4
+Abitur4       abitur2020     4
+ASU4          asddsa         4
+DEV           dbudfV         4
+dobrovolskaya 6363415        4
+IMSIT_Z       7393400Gap     4
+IT            fgfjh          4
+IT_1          BGUFK123       4
+IT_3          nehbpv         4
+IT_8          12345          4
+IT_D          trttryrgy      4
+IT_L          byneh          4
+IT_M          jhfhjh         4
+IT_PK         4              4
+IT_Z          uryturytu      4
+IT1           lskds''; kdjs  4
+IT2           ks ks:?8 д     4
+IT3           qwe            4
+IT4           [poiuyt        4
+IT5           Eva21032014    4
+IT6           12Elena078     4
+IT7           12345          4
+kosik_n       Kosik0108      4
+kristina      vera01112016   4
+PK_MSTIG_1    VCNBU_1        4
+PK_MSTIG_2    VCNBU_2        4
+PK_MSTIG_3    VCNBU_3        4
+PK_MSTIG_4    VCNBU_4        4
+PK_MSTIG_P1   VCNBU_G1       4
+PK_MSTIG_P2   VCNBU_G2       4
+PK_OTV4       vcnbu4         4
+PK4           45670          4
+Smolenkova_t  19SmoLa68      4
+
+
+M_2           Afrekmntn874   5
+MAGISTR       12345          5
+shpakevich_p  1711Recnbr     5

@@ -1,0 +1,46 @@
+
+@startuml Spisoc_GroupUnit.cpp
+
+title Исходный файл: "Spisoc_GroupUnit.cpp"
+
+scale 750 width
+
+"<b>TSpisoc_GroupForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TSpisoc_GroupForm</b>"
+{
+    + Button1 \t\t\t\t\t: <i>TButton *</i>
+    ..
+    + DBLookupComboBox1 \t: <i>TDBLookupComboBox *</i>
+    ..
+    + R1 \t\t\t\t\t\t: <i>TRichEdit *</i>
+    --
+    
+    + <b>TSpisoc_GroupForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + Button1Click \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + Konkurs \t\t\t(kon \t: <i>int</i>) : <i>void</i>
+    + Stroka  \t\t\t() : <i>void</i>
+}
+
+
+package TSpisoc_GroupForm <<Folder>>
+{
+    class TSpisoc_GroupForm
+    hide  TSpisoc_GroupForm members
+}
+
+
+' note right of "<b>TSpisoc_GroupForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

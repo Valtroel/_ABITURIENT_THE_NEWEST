@@ -1,0 +1,39 @@
+@startuml Rep_Sel_Exerc.cpp
+
+title Исходный файл: "Rep_Sel_Exerc.cpp"
+
+scale 750 width
+
+"<b>TFormRepSelExerc</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TFormRepSelExerc</b>"
+{
+    + frxDBDataset1 \t\t: <i>TfrxDBDataset *</i>
+    + frxDBDataset2 \t\t: <i>TfrxDBDataset *</i>
+    + frxDBDataset3 \t\t: <i>TfrxDBDataset *</i>
+    + frxDBDataset4 \t\t: <i>TfrxDBDataset *</i>
+    ..
+    + frxPreview1 \t\t\t: <i>TfrxPreview *</i>
+    ..
+    + frxRep_Sel_Exerc \t: <i>TfrxReport *</i>
+    --
+    
+    + <b>TFormRepSelExerc \t(Owner \t: <i>TComponent *</i>)</b>
+
+}
+
+
+package TFormRepSelExerc <<Folder>>
+{
+    class TFormRepSelExerc
+    hide  TFormRepSelExerc members
+}
+
+
+' note right of "<b>TFormRepSelExerc</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="870.438px" preserveAspectRatio="none" style="width:751px;height:870px;background:#FFFFFF;" version="1.1" viewBox="0 0 751 870" width="751.8248px" zoomAndPan="magnify"><defs/><g><rect height="47.987" style="stroke:#00000000;stroke-width:1.8248175182481752;fill:none;" width="529.1971" x="98.5401" y="9.1241"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-weight="bold" lengthAdjust="spacing" textLength="510.9489" x="107.6642" y="41.9619">Исходный файл: "SplashUnit.cpp"</text><!--MD5=[8a096b0507ae3f58097f4f57a3a1d5e4]
+cluster TSplashForm--><g id="cluster_TSplashForm"><path d="M455.292,79.0089 L650.5474,79.0089 A6.8431,6.8431 0 0 1 655.1095,83.5709 L667.8832,119.6966 L734.4891,119.6966 A4.562,4.562 0 0 1 739.0511,124.2587 L739.0511,255.1038 A4.562,4.562 0 0 1 734.4891,259.6658 L455.292,259.6658 A4.562,4.562 0 0 1 450.7299,255.1038 L450.7299,83.5709 A4.562,4.562 0 0 1 455.292,79.0089 " style="stroke:#000000;stroke-width:2.7372262773722627;fill:none;"/><line style="stroke:#000000;stroke-width:2.7372262773722627;fill:none;" x1="450.7299" x2="667.8832" y1="119.6966" y2="119.6966"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-weight="bold" lengthAdjust="spacing" textLength="193.4307" x="458.0292" y="106.3722">TSplashForm</text></g><!--MD5=[07cda2a8a163eacfadca61a505c9aeca]
+class TSplashForm--><g id="elem_TSplashForm"><rect codeLine="33" fill="#F1F1F1" height="87.5912" id="TSplashForm" rx="4.562" ry="4.562" style="stroke:#181818;stroke-width:0.9124087591240876;" width="228.1022" x="480.8394" y="142.8775"/><ellipse cx="508.2117" cy="172.0746" fill="#ADD1B2" rx="20.073" ry="20.073" style="stroke:#181818;stroke-width:1.8248175182481752;"/><path d="M512.4886,164.1766 C510.7778,163.3782 509.6943,163.1216 508.0976,163.1216 C503.3075,163.1216 499.6578,166.9138 499.6578,171.875 L499.6578,173.9279 C499.6578,178.6325 503.5071,182.0826 508.7819,182.0826 C511.0059,182.0826 513.1159,181.5408 514.4845,180.5429 C515.5395,179.8016 516.1382,178.9747 516.1382,178.2619 C516.1382,177.435 515.4254,176.7222 514.57,176.7222 C514.1708,176.7222 513.8002,176.8647 513.458,177.2069 C512.6312,178.0908 512.6312,178.0908 512.289,178.2619 C511.5192,178.7466 510.2646,178.9747 508.8675,178.9747 C505.1323,178.9747 502.7657,176.9788 502.7657,173.8709 L502.7657,171.875 C502.7657,168.6245 505.0468,166.2295 508.2117,166.2295 C509.2667,166.2295 510.3786,166.5146 511.234,166.9708 C512.1179,167.484 512.4316,167.8832 512.6026,168.6245 C512.7167,169.3659 512.7737,169.594 513.0303,169.8221 C513.287,170.0787 513.7146,170.2783 514.1138,170.2783 C514.5985,170.2783 515.0833,170.0217 515.3969,169.6225 C515.5965,169.3374 515.6535,168.9952 515.6535,168.2254 L515.6535,165.6307 C515.6535,164.8323 515.625,164.6042 515.4539,164.3191 C515.1688,163.8344 514.6556,163.5778 514.1138,163.5778 C513.5721,163.5778 513.2014,163.7489 512.8022,164.3191 L512.4886,164.1766 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="169.708" x="533.7591" y="180.9189">TSplashForm</text><line style="stroke:#181818;stroke-width:0.9124087591240876;" x1="482.6642" x2="707.1168" y1="201.2717" y2="201.2717"/><line style="stroke:#181818;stroke-width:0.9124087591240876;" x1="482.6642" x2="707.1168" y1="215.8702" y2="215.8702"/></g><!--MD5=[1495214eb30dd37f42e3ad5a30a7f1f3]
+class <b>TSplashForm</b>--><g id="elem_&lt;b&gt;TSplashForm&lt;/b&gt;"><rect codeLine="9" fill="#F1F1F1" height="517.9916" id="&lt;b&gt;TSplashForm&lt;/b&gt;" rx="4.562" ry="4.562" style="stroke:#181818;stroke-width:0.9124087591240876;" width="653.2847" x="12.7737" y="339.9578"/><ellipse cx="234.9453" cy="369.1549" fill="#ADD1B2" rx="20.073" ry="20.073" style="stroke:#181818;stroke-width:1.8248175182481752;"/><path d="M239.2222,361.2568 C237.5114,360.4585 236.4279,360.2019 234.8312,360.2019 C230.0411,360.2019 226.3914,363.9941 226.3914,368.9553 L226.3914,371.0082 C226.3914,375.7128 230.2406,379.1629 235.5155,379.1629 C237.7395,379.1629 239.8495,378.6211 241.2181,377.6232 C242.273,376.8818 242.8718,376.055 242.8718,375.3422 C242.8718,374.5153 242.159,373.8025 241.3036,373.8025 C240.9044,373.8025 240.5338,373.945 240.1916,374.2872 C239.3647,375.1711 239.3647,375.1711 239.0226,375.3422 C238.2527,375.8269 236.9982,376.055 235.601,376.055 C231.8659,376.055 229.4993,374.0591 229.4993,370.9512 L229.4993,368.9553 C229.4993,365.7048 231.7803,363.3098 234.9453,363.3098 C236.0002,363.3098 237.1122,363.5949 237.9676,364.0511 C238.8515,364.5643 239.1651,364.9635 239.3362,365.7048 C239.4503,366.4462 239.5073,366.6743 239.7639,366.9024 C240.0205,367.159 240.4482,367.3586 240.8474,367.3586 C241.3321,367.3586 241.8168,367.102 242.1305,366.7028 C242.3301,366.4177 242.3871,366.0755 242.3871,365.3057 L242.3871,362.711 C242.3871,361.9126 242.3586,361.6845 242.1875,361.3994 C241.9024,360.9147 241.3891,360.6581 240.8474,360.6581 C240.3057,360.6581 239.935,360.8292 239.5358,361.3994 L239.2222,361.2568 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-weight="bold" lengthAdjust="spacing" textLength="193.4307" x="272.354" y="377.9992">TSplashForm</text><line style="stroke:#181818;stroke-width:0.9124087591240876;" x1="14.5985" x2="664.2336" y1="398.352" y2="398.352"/><rect fill="none" height="10.9489" style="stroke:#C82930;stroke-width:1.8248175182481752;" width="10.9489" x="27.3723" y="412.9505"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="104.0146" x="49.2701" y="429.3649">n_count</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="9.1241" x="282.8467" y="429.3649">:</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-style="italic" lengthAdjust="spacing" textLength="32.8467" x="299.2701" y="429.3649">int</text><line style="stroke:#181818;stroke-width:1.8248175182481752;stroke-dasharray:1.0,2.0;" x1="14.5985" x2="664.2336" y1="442.6893" y2="442.6893"/><ellipse cx="32.8467" cy="462.7623" fill="none" rx="5.4745" ry="5.4745" style="stroke:#038048;stroke-width:1.8248175182481752;"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="96.7153" x="49.2701" y="473.7023">Image1</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="9.1241" x="282.8467" y="473.7023">:</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-style="italic" lengthAdjust="spacing" textLength="118.6131" x="299.2701" y="473.7023">TImage *</text><line style="stroke:#181818;stroke-width:1.8248175182481752;stroke-dasharray:1.0,2.0;" x1="14.5985" x2="664.2336" y1="487.0267" y2="487.0267"/><ellipse cx="32.8467" cy="507.0997" fill="none" rx="5.4745" ry="5.4745" style="stroke:#038048;stroke-width:1.8248175182481752;"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="87.5912" x="49.2701" y="518.0397">Label1</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="9.1241" x="282.8467" y="518.0397">:</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-style="italic" lengthAdjust="spacing" textLength="107.6642" x="299.2701" y="518.0397">TLabel *</text><ellipse cx="32.8467" cy="536.8385" fill="none" rx="5.4745" ry="5.4745" style="stroke:#038048;stroke-width:1.8248175182481752;"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="85.7664" x="49.2701" y="547.7785">Label2</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="9.1241" x="282.8467" y="547.7785">:</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-style="italic" lengthAdjust="spacing" textLength="107.6642" x="299.2701" y="547.7785">TLabel *</text><ellipse cx="32.8467" cy="566.5773" fill="none" rx="5.4745" ry="5.4745" style="stroke:#038048;stroke-width:1.8248175182481752;"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="87.5912" x="49.2701" y="577.5173">Label3</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="9.1241" x="282.8467" y="577.5173">:</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-style="italic" lengthAdjust="spacing" textLength="107.6642" x="299.2701" y="577.5173">TLabel *</text><ellipse cx="32.8467" cy="596.3161" fill="none" rx="5.4745" ry="5.4745" style="stroke:#038048;stroke-width:1.8248175182481752;"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="85.7664" x="49.2701" y="607.2561">Label4</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="9.1241" x="282.8467" y="607.2561">:</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-style="italic" lengthAdjust="spacing" textLength="107.6642" x="299.2701" y="607.2561">TLabel *</text><ellipse cx="32.8467" cy="626.055" fill="none" rx="5.4745" ry="5.4745" style="stroke:#038048;stroke-width:1.8248175182481752;"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="87.5912" x="49.2701" y="636.995">Label5</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="9.1241" x="282.8467" y="636.995">:</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-style="italic" lengthAdjust="spacing" textLength="107.6642" x="299.2701" y="636.995">TLabel *</text><line style="stroke:#181818;stroke-width:1.8248175182481752;stroke-dasharray:1.0,2.0;" x1="14.5985" x2="664.2336" y1="650.3193" y2="650.3193"/><ellipse cx="32.8467" cy="670.3923" fill="none" rx="5.4745" ry="5.4745" style="stroke:#038048;stroke-width:1.8248175182481752;"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="173.3577" x="49.2701" y="681.3323">ProgressBar1</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="9.1241" x="282.8467" y="681.3323">:</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-style="italic" lengthAdjust="spacing" textLength="193.4307" x="299.2701" y="681.3323">TProgressBar *</text><line style="stroke:#181818;stroke-width:1.8248175182481752;" x1="14.5985" x2="664.2336" y1="694.6567" y2="694.6567"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="7.2993" x="49.2701" y="725.6697"> </text><ellipse cx="32.8467" cy="744.4685" fill="#84BE84" rx="5.4745" ry="5.4745" style="stroke:#038048;stroke-width:1.8248175182481752;"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-weight="bold" lengthAdjust="spacing" textLength="193.4307" x="49.2701" y="755.4085">TSplashForm</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-weight="bold" lengthAdjust="spacing" textLength="104.0146" x="268.2482" y="755.4085">(Owner</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-weight="bold" lengthAdjust="spacing" textLength="10.9489" x="414.2336" y="755.4085">:</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="208.0292" x="434.3066" y="755.4085">TComponent *</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-weight="bold" lengthAdjust="spacing" textLength="12.7737" x="642.3358" y="755.4085">)</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="7.2993" x="49.2701" y="785.1473"> </text><ellipse cx="32.8467" cy="803.9462" fill="#84BE84" rx="5.4745" ry="5.4745" style="stroke:#038048;stroke-width:1.8248175182481752;"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="178.8321" x="49.2701" y="814.8862">FormActivate</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="102.1898" x="282.8467" y="814.8862">(Sender</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="9.1241" x="399.635" y="814.8862">:</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-style="italic" lengthAdjust="spacing" textLength="120.438" x="416.0584" y="814.8862">TObject *</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="25.5474" x="536.4964" y="814.8862">) :</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-style="italic" lengthAdjust="spacing" textLength="54.7445" x="569.3431" y="814.8862">void</text><ellipse cx="32.8467" cy="833.685" fill="#84BE84" rx="5.4745" ry="5.4745" style="stroke:#038048;stroke-width:1.8248175182481752;"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="156.9343" x="49.2701" y="844.625">FormCreate</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="102.1898" x="282.8467" y="844.625">(Sender</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="9.1241" x="399.635" y="844.625">:</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-style="italic" lengthAdjust="spacing" textLength="120.438" x="416.0584" y="844.625">TObject *</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" lengthAdjust="spacing" textLength="25.5474" x="536.4964" y="844.625">) :</text><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-style="italic" lengthAdjust="spacing" textLength="54.7445" x="569.3431" y="844.625">void</text></g><!--MD5=[dd0bf217da5c5e97452bc452f42aff32]
+class <b>TForm</b>--><g id="elem_&lt;b&gt;TForm&lt;/b&gt;"><rect fill="#F1F1F1" height="58.3942" id="&lt;b&gt;TForm&lt;/b&gt;" rx="4.562" ry="4.562" style="stroke:#181818;stroke-width:0.9124087591240876;" width="153.2847" x="262.7737" y="157.476"/><ellipse cx="290.146" cy="186.6731" fill="#ADD1B2" rx="20.073" ry="20.073" style="stroke:#181818;stroke-width:1.8248175182481752;"/><path d="M294.4229,178.7751 C292.7121,177.9767 291.6286,177.7201 290.0319,177.7201 C285.2418,177.7201 281.5922,181.5123 281.5922,186.4735 L281.5922,188.5265 C281.5922,193.2311 285.4414,196.6811 290.7162,196.6811 C292.9402,196.6811 295.0502,196.1394 296.4188,195.1414 C297.4738,194.4001 298.0725,193.5732 298.0725,192.8604 C298.0725,192.0335 297.3597,191.3207 296.5043,191.3207 C296.1052,191.3207 295.7345,191.4633 295.3923,191.8054 C294.5655,192.6893 294.5655,192.6893 294.2233,192.8604 C293.4535,193.3451 292.1989,193.5732 290.8018,193.5732 C287.0666,193.5732 284.7,191.5773 284.7,188.4694 L284.7,186.4735 C284.7,183.2231 286.9811,180.828 290.146,180.828 C291.201,180.828 292.313,181.1131 293.1683,181.5693 C294.0522,182.0826 294.3659,182.4818 294.537,183.2231 C294.651,183.9644 294.708,184.1925 294.9646,184.4206 C295.2213,184.6772 295.649,184.8768 296.0481,184.8768 C296.5328,184.8768 297.0176,184.6202 297.3312,184.221 C297.5308,183.9359 297.5878,183.5938 297.5878,182.8239 L297.5878,180.2292 C297.5878,179.4309 297.5593,179.2028 297.3882,178.9177 C297.1031,178.4329 296.5899,178.1763 296.0481,178.1763 C295.5064,178.1763 295.1357,178.3474 294.7365,178.9177 L294.4229,178.7751 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="25.5474" font-weight="bold" lengthAdjust="spacing" textLength="94.8905" x="315.6934" y="195.5174">TForm</text></g><!--MD5=[9356a26da8c640a6fe62bb6ec9c63555]
+reverse link <b>TForm</b> to <b>TSplashForm</b>--><g id="link_&lt;b&gt;TForm&lt;/b&gt;_&lt;b&gt;TSplashForm&lt;/b&gt;"><path codeLine="5" d="M339.4161,252.5892 C339.4161,277.4122 339.4161,307.5728 339.4161,339.6111 " fill="none" id="&lt;b&gt;TForm&lt;/b&gt;-backto-&lt;b&gt;TSplashForm&lt;/b&gt;" style="stroke:#181818;stroke-width:1.8248175182481752;"/><polygon fill="none" points="326.6423,252.4487,339.4161,215.9523,352.1898,252.4487,326.6423,252.4487" style="stroke:#181818;stroke-width:1.8248175182481752;"/></g><!--MD5=[bffed87ba02c1f5d16b3f8964f4df676]
+@startuml
+title Исходный файл: "SplashUnit.cpp"
+
+scale 750 width
+
+"<b>TSplashForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TSplashForm</b>"
+{
+    - n_count \t\t\t: <i>int</i>
+    ..
+    + Image1 \t\t\t: <i>TImage *</i>
+    ..
+    + Label1 \t\t\t: <i>TLabel *</i>
+    + Label2 \t\t\t: <i>TLabel *</i>
+    + Label3 \t\t\t: <i>TLabel *</i>
+    + Label4 \t\t\t: <i>TLabel *</i>
+    + Label5 \t\t\t: <i>TLabel *</i>
+    ..
+    + ProgressBar1 \t: <i>TProgressBar *</i>
+    - -
+    
+    + <b>TSplashForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + FormActivate \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormCreate \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TSplashForm <<Folder>>
+{
+    class TSplashForm
+    hide  members
+}
+
+
+' note right of "<b>TSplashForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+@enduml
+
+@startuml
+title Исходный файл: "SplashUnit.cpp"
+
+scale 750 width
+
+"<b>TSplashForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TSplashForm</b>"
+{
+    - n_count \t\t\t: <i>int</i>
+    ..
+    + Image1 \t\t\t: <i>TImage *</i>
+    ..
+    + Label1 \t\t\t: <i>TLabel *</i>
+    + Label2 \t\t\t: <i>TLabel *</i>
+    + Label3 \t\t\t: <i>TLabel *</i>
+    + Label4 \t\t\t: <i>TLabel *</i>
+    + Label5 \t\t\t: <i>TLabel *</i>
+    ..
+    + ProgressBar1 \t: <i>TProgressBar *</i>
+    - -
+    
+    + <b>TSplashForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + FormActivate \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormCreate \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TSplashForm <<Folder>>
+{
+    class TSplashForm
+    hide  members
+}
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

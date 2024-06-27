@@ -1,0 +1,40 @@
+@startuml ListDocIndexUnit.cpp
+
+title Исходный файл: "ListDocIndexUnit.cpp"
+
+scale 750 width
+
+"<b>TListDocIndexForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TListDocIndexForm</b>"
+{
+    + BitBtn1 \t\t: <i>TBitBtn *</i>
+    ..
+    + DateEdit \t: <i>TEdit *</i>
+    + IndexEdit \t: <i>TEdit *</i>
+    ..
+    + Label1 \t\t: <i>TLabel *</i>
+    + Label2 \t\t: <i>TLabel *</i>
+    + Text_doc \t: <i>TLabel *</i>
+    --
+    
+    + <b>TListDocIndexForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + BitBtn1Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TListDocIndexForm <<Folder>>
+{
+    class TListDocIndexForm
+    hide  TListDocIndexForm members
+}
+
+
+' note right of "<b>TListDocIndexForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

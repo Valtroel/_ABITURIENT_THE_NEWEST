@@ -1,0 +1,13 @@
+INSERT INTO OR UPDATE
+    PRIKAZ_KURS_PAU
+    (
+        NOMER,
+        N_KURS,
+        D_PRIKAZ_KURS,
+        N_PRIKAZ_KURS,
+        VID_EDU
+    )
+VALUES
+    (112, 2, '2019-04-03 00:00:00', 221, 1);
+
+COMMIT WORK;

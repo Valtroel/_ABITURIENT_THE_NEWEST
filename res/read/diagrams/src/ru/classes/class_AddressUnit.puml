@@ -1,0 +1,101 @@
+@startuml AddressUnit.cpp
+
+title Исходный файл: "AddressUnit.cpp"
+
+scale 750 width
+' left to right direction
+
+"<b>TAddressForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TAddressForm</b>"
+{
+    + Address \t\t\t\t\t: <i>String</i>
+    ..
+    + AddressSave \t\t\t\t: <i>bool</i>
+    ..
+    + BitBtn1 \t\t\t\t\t: <i>TBitBtn *</i>
+    ..
+    + DBEditFlat \t\t\t\t: <i>TDBEdit *</i>
+    + DBEditHouse \t\t\t: <i>TDBEdit *</i>
+    + DBEditPostcode \t\t\t: <i>TDBEdit *</i>
+    ..
+    + DistrictDBLkCmbBx \t\t: <i>TDBLookupComboBox *</i>
+    + LocalityDBLkCmbBx \t\t: <i>TDBLookupComboBox *</i>
+    + StreetDBLkCmbBx \t\t: <i>TDBLookupComboBox *</i>
+    + Type_localityDBLkCmbBx \t: <i>TDBLookupComboBox *</i>
+    + Type_streetDBLkCmbBx \t: <i>TDBLookupComboBox *</i>
+    ..
+    + Label48 \t\t\t\t\t: <i>TLabel *</i>
+    + Label51 \t\t\t\t\t: <i>TLabel *</i>
+    + Label54 \t\t\t\t\t: <i>TLabel *</i>
+    + Label68 \t\t\t\t\t: <i>TLabel *</i>
+    + Label69 \t\t\t\t\t: <i>TLabel *</i>
+    + Label70 \t\t\t\t\t: <i>TLabel *</i>
+    + Label71 \t\t\t\t\t: <i>TLabel *</i>
+    + Label72 \t\t\t\t\t: <i>TLabel *</i>
+    ..
+    + local_id \t\t\t\t\t: <i>int</i>
+    --
+    
+    + <b>TAddressForm (Owner : <i>TComponent *</i>)</b>
+
+    + BitBtn1Click \t\t\t\t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + DistrictDBLkCmbBxCloseUp \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    ..
+    + DistrictDBLkCmbBxMouseDown \t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tButton \t: <i>TMouseButton</i>,
+            \t\tShift \t: <i>TShiftState</i>,
+            \t\tX \t\t: <i>int</i>,
+            \t\tY \t\t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + FormClose \t\t\t\t\t\t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + LocalityDBLkCmbBxCloseUp \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + LocalityDBLkCmbBxExit \t\t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    ..
+    + LocalityDBLkCmbBxMouseDown \t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tButton \t: <i>TMouseButton</i>,
+            \t\tShift \t: <i>TShiftState</i>,
+            \t\tX \t\t: <i>int</i>,
+            \t\tY \t\t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + Type_localityDBLkCmbBxCloseUp \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Type_localityDBLkCmbBxExit \t\t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    ..
+    + Type_localityDBLkCmbBxMouseDown \t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tButton \t: <i>TMouseButton</i>,
+            \t\tShift \t: <i>TShiftState</i>,
+            \t\tX \t\t: <i>int</i>,
+            \t\tY \t\t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + Type_localityDBLkCmbBxMouseEnter \t(Sender : <i>TObject *</i>) : <i>void</i>
+    + Type_streetDBLkCmbBxCloseUp \t\t(Sender : <i>TObject *</i>) : <i>void</i>
+    ..
+    + Type_streetDBLkCmbBxMouseDown \t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tButton \t: <i>TMouseButton</i>,
+            \t\tShift \t: <i>TShiftState</i>,
+            \t\tX \t\t: <i>int</i>,
+            \t\tY \t\t: <i>int</i>
+        \t) : <i>void</i>
+}
+
+
+package TAddressForm <<Folder>>
+{
+    class TAddressForm
+    hide  TAddressForm members
+}
+
+@enduml

@@ -1,0 +1,140 @@
+@startuml SredBalUnit.cpp
+
+title Исходный файл: "SredBalUnit.cpp"
+
+scale 750 width
+
+"<b>TSredBalForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TSredBalForm</b>"
+{
+    + BitBtn1 \t\t: <i>TBitBtn *</i>
+    + BitBtn2 \t\t: <i>TBitBtn *</i>
+    + BitBtn3 \t\t: <i>TBitBtn *</i>
+    + BitBtn4 \t\t: <i>TBitBtn *</i>
+    ..
+    + Edit1 \t\t: <i>TEdit *</i>
+    + Edit2 \t\t: <i>TEdit *</i>
+    ..
+    + GroupBox1 \t: <i>TGroupBox *</i>
+    ..
+    + Label1 \t\t: <i>TLabel *</i>
+    + Label2 \t\t: <i>TLabel *</i>
+    + Label3 \t\t: <i>TLabel *</i>
+    + Label4 \t\t: <i>TLabel *</i>
+    + Label5 \t\t: <i>TLabel *</i>
+    + Label6 \t\t: <i>TLabel *</i>
+    + Label7 \t\t: <i>TLabel *</i>
+    + Label8 \t\t: <i>TLabel *</i>
+    + Label9 \t\t: <i>TLabel *</i>
+    + Label10 \t\t: <i>TLabel *</i>
+    + Label11 \t\t: <i>TLabel *</i>
+    + Label12 \t\t: <i>TLabel *</i>
+    + Label16 \t\t: <i>TLabel *</i>
+    ..
+    + MaskEdit1 \t: <i>TMaskEdit *</i>
+    + MaskEdit2 \t: <i>TMaskEdit *</i>
+    + MaskEdit3 \t: <i>TMaskEdit *</i>
+    + MaskEdit4 \t: <i>TMaskEdit *</i>
+    + MaskEdit5 \t: <i>TMaskEdit *</i>
+    + MaskEdit6 \t: <i>TMaskEdit *</i>
+    + MaskEdit7 \t: <i>TMaskEdit *</i>
+    + MaskEdit8 \t: <i>TMaskEdit *</i>
+    + MaskEdit9 \t: <i>TMaskEdit *</i>
+    + MaskEdit10 \t: <i>TMaskEdit *</i>
+    ..
+    + Panel1 \t\t: <i>TPanel *</i>
+    + Panel2 \t\t: <i>TPanel *</i>
+    + Panel3 \t\t: <i>TPanel *</i>
+    ..
+    + RadioGroup1 \t: <i>TRadioGroup *</i>
+    --
+    
+    + <b>TSredBalForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    ..
+    + Ball_5 \t\t\t\t\t(
+            \t\tp5 \t\t: <i>AnsiString</i>, 
+            \t\tp4 \t\t: <i>AnsiString</i>, 
+            \t\tp3 \t\t: <i>AnsiString</i>
+        \t) : <i>void</i>
+    ..
+    + Ball_5_10 \t\t\t(ball \t: <i>double</i>) : <i>AnsiString</i>
+    ..
+    + Ball_10 \t\t\t\t(
+            \t\tv10 \t\t: <i>AnsiString</i>,
+            \t\tv9 \t\t: <i>AnsiString</i>,
+            \t\tv8 \t\t: <i>AnsiString</i>,
+            \t\tv7 \t\t: <i>AnsiString</i>, 
+            \t\tv6 \t\t: <i>AnsiString</i>,
+            \t\tv5 \t\t: <i>AnsiString</i>,
+            \t\tv4 \t\t: <i>AnsiString</i>, 
+            \t\tv3 \t\t: <i>AnsiString</i>,
+            \t\tv2 \t\t: <i>AnsiString</i>,
+            \t\tv1 \t\t: <i>AnsiString</i>
+        \t) : <i>void</i>
+    ..
+    + BitBtn1Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn2Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn3Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn4Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t\t\t\t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + RadioGroup1Click \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    - RadioSetup \t\t\t(ind \t: <i>int</i>) : <i>void</i>
+}
+
+
+note right of "<b>TSredBalForm</b>"::Ball_5
+функция расчетна среднего балла для 5-бальной системы
+end note
+note right of "<b>TSredBalForm</b>"::Ball_5_10
+функция перевода 5-бальной системы в 10-бальную
+end note
+note right of "<b>TSredBalForm</b>"::Ball_10
+функция рачтета среднего балла для 10-быльной системы
+end note
+note right of "<b>TSredBalForm</b>"::RadioSetup
+функция выбора системы оценок
+end note
+
+
+package TSredBalForm <<Folder>>
+{
+    class TSredBalForm
+    hide  TSredBalForm members
+}
+
+
+
+class "<b>Round ()</b>" {
+    --
+    + Round \t(
+        \tArgument \t: <i>double *</i>,
+        \tPrecision \t\t: <i>int *</i>
+    ): <i>double</i>
+}
+
+hide "<b>Round ()</b>" circle
+show "<b>Round ()</b>" method
+
+note left of "<b>Round ()</b>"
+ФУНКЦИЯ ОКРУГЛЕНИЯ
+end note
+
+TSredBalForm ..[#green].. "<b>Round ()</b>"
+    
+note right on link #LightBlue
+The "Round" function is 
+contained in the "SredBalUnit.h"
+header, but is not a part of the class  
+end note
+
+@enduml

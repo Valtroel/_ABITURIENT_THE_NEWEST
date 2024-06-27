@@ -1,0 +1,370 @@
+@startuml DMUnit.cpp
+
+title Исходный файл: "DMUnit.cpp" ()
+
+scale 750 width
+
+' left to right direction
+
+class "<b>TDM</b>"
+{
+    <b>SHOWS ONLY FIELDS</b>\n (For methods, see: class_DMUnit)
+    --
+    <b>START PART 1</b> (For others, see: class_DMUnit_all_fields 2, 3 and 4)
+    --
+    + ID_from_QUEUE \t\t\t\t\t\t\t: <i>int</i>
+    ..
+    + printdlg \t\t\t\t\t\t\t\t\t: <i>bool</i>
+    ..
+    + FIOSearchQrDIGIT_SIGN \t\t\t\t\t: <i>TBlobField *</i>
+    + FIOSearchQrPHOTO \t\t\t\t\t\t: <i>TBlobField *</i>
+    + QFotoQeueDIGIT_SIGN \t\t\t\t\t: <i>TBlobField *</i>
+    + QFotoQeuePHOTO \t\t\t\t\t\t: <i>TBlobField *</i>
+    + QFotoSignDIGIT_SIGN \t\t\t\t\t\t: <i>TBlobField *</i>
+    + QFotoSignPHOTO \t\t\t\t\t\t: <i>TBlobField *</i>
+    + QReport_RaspPHOTO \t\t\t\t\t\t: <i>TBlobField *</i>
+    + QSelect_abDIGIT_SIGN \t\t\t\t\t: <i>TBlobField *</i>
+    + QSelect_abPHOTO \t\t\t\t\t\t: <i>TBlobField *</i>
+    + QToDekanatDIGIT_SIGN \t\t\t\t\t: <i>TBlobField *</i>
+    + QToDekanatPHOTO \t\t\t\t\t\t: <i>TBlobField *</i>
+    + Selection_CommitteeFDTableSIGNATURE   \t: <i>TBlobField *</i>
+    ..
+    + ListDocFDQDATE_DOCUM \t\t\t\t\t: <i>TBooleanField *</i>
+    + ListDocFDQINDEX_DOC \t\t\t\t\t: <i>TBooleanField *</i>
+    ..
+    + BlockDS \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + CkRegionDS \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + CntrExrcDS \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + CountryDS \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSAb_P \t\t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSAb_Pr_Enter \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSAbitur_Priv_Enter \t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSAbitura \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSAdd_N_Group \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSAdress \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSBall \t\t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSCategory \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSCenter \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSCk \t\t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSCkQ \t\t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSCkToDekanat \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSDistrict \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSDocum \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSExam \t\t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSExamSpec \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSFaculty \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSFoundation \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSGroup_Count \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSGroup_Count_Spec \t\t\t\t\t: <i>TDataSource *</i>
+    + DSInc_Gr_Old \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSKol_Place \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSLangvich \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSLangvichToDekanat \t\t\t\t\t: <i>TDataSource *</i>
+    + DSLittle_Spisoc_GR \t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSLocality \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSMax_Nom_Dela \t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSMax_Nomer_Ab \t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSPasport \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSPass_User \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSPersonalDocum \t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSPlan_Priem_All \t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSPlan_Priem_CK \t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSPredmet \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSPrivToDekanat \t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSQSertificat_Res \t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSQShkala \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSRegion \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSRegion_Center \t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSReport_Rasp \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSResult_Exam \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSSelect_ab \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSSertificat \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSShow_Result_Exam \t\t\t\t\t: <i>TDataSource *</i>
+    + DSSpecializ \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSSpecializPlan_Priem \t\t\t\t\t: <i>TDataSource *</i>
+    + DSSpisoc_Group \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSSpisoc_Group_Pol \t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSStatistic_Every_Day \t\t\t\t\t: <i>TDataSource *</i>
+    + DSStreet \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSSum_Ball \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSSum_Ball_Nomer \t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSToDekanat \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSType_locality \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSType_street \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSUndo_Abit \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSVid_Sport \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + ExercDS \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + FIOSearchDS \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + Increment_GroupSource \t\t\t\t\t: <i>TDataSource *</i>
+    + ListDocFDDS \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + SPFDDataSource \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + Selection_CommitteeDS \t\t\t\t\t: <i>TDataSource *</i>
+    + SpecializDS \t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + SportQSource \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    ..
+    + FDConnection1 \t\t\t\t\t\t\t: <i>TFDConnection *</i>
+    + FDConnection2 \t\t\t\t\t\t\t: <i>TFDConnection *</i>
+    ..
+    + FDPhysFBDriverLink1 \t\t\t\t\t\t: <i>TFDPhysFBDriverLink *</i>
+    ..
+    + AbiturCompQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + AbiturInvTmpQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + AbiturLogInsQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + AbiturSirTmpQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + AddrLogUpQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + AdrLogLastQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + AdresOutQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + BlockBtnQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + BlockQ \t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + CategUpQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + CertificLogInsQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + CkRegionQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + CntrlExrcQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + ContrySelQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + CountryQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + DocumFDQ \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + FIOSearchQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GrazdanToDekanatQr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + IdAbQueueQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + InfCntQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + InfQr \t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + KodSpecializQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + LangSelQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + ListDocFDQ \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + LogIDSelQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + LogLastQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + MaxExrcQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + OtherPrivQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + OutCntQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + OutDetQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + OutQr \t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + OutTestQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + PasportFDQ \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + PrintDocQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + PrivCnttQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + PrivQr \t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + PrivilegLogSelQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QAbFIOPol \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QAb_P \t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QAb_Pr_Enter \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QAbitur_Priv_Enter \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QAbitura \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QAdd_N_Group \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QAdress \t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QCK_Kol_Plan \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QCenter \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QCk \t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QCkToDekanat \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QControl_Exerc \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QDelite \t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QDistrict \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QExam \t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QExamSpec \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QExerc_Grp \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QFindAbiturExerc \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QFotoQeue \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QFotoSign \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIAC2kSpec \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIAC3Sert \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACAll \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACAllPrivileg1 \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACAllPrivileg \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACAllSpec \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACCKSpec \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACEdLic \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACEdOSred \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACEdOSredCity \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACEdOSredVil \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACForeigner \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACInAll \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACInCel \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACKursi \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACMedal \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACMil \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACOlimp \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACPtu \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACSirot \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACYearSred \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACYearSredCity \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACYearSredSpec \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACYearSredVil \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGroup_Count \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGroup_Count_Spec \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QIP \t\t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QInc_Gr_Old \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QKod_Fac \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QKod_Spec \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QLangvich \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QLangvichToDekanat \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QLetterSource \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QLetterSourceKol \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QListDocToDekanat \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QLittle_Spisoc_GR \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QLocality \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QMax_Nom_Dela \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QMax_Nomer_Ab \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QN_group \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QNoticeFIO \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QNoticeFac \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QNoticeSpec \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QPersonalDocum \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QPlanPriem2Price \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QPlanPriemPrice \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QPlan_Priem_All \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QPlan_Priem_All_Special \t\t\t\t\t: <i>TFDQuery *</i>
+    + QPlan_Priem_CK \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QPlan_Priem_CK_Special \t\t\t\t\t: <i>TFDQuery *</i>
+    + QPlan_Priem_Konk \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QPlan_Priem_Konk_All_Param \t\t\t\t: <i>TFDQuery *</i>
+    + QPlan_Priem_Konk_Special \t\t\t\t: <i>TFDQuery *</i>
+    + QPlan_Priem_Price \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QPrivToDekanat \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QProverka_RYOR \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QProverka_sert \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QRegion_Center \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QRep_Abitura \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QRep_Sel_Exerc \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QReport_Rasp \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QResult_Exam \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QSelect_ab \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QSertificat \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QSertificat_Res \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QSertificat_ex_list \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QShkala \t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QShow_Result_Exam \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QSpecializ \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QSpecializPlan_Priem \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QSpisoc_Group \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QSpisoc_Group_Pol \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QSpisok_Spec \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QStatisticEveryDay \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QStatistic_Every_Day \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QStatistic_Every_Day_Ball \t\t\t\t\t: <i>TFDQuery *</i>
+    + QStatistic_Every_Day_Ball_Price \t\t\t: <i>TFDQuery *</i>
+    + QStatistic_Every_Day_Special \t\t\t\t: <i>TFDQuery *</i>
+    + QStreet \t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QSum_Ball \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QSum_Ball_Nomer \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QToDekanat \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QType_locality \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QType_street \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QUndo_Abit \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + RegionNameQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + RegionQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + RegionUpCKQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + SPFDQ1 \t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + SPFDQ \t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + SelPrivLogQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + SelectLogAbiturQr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + SertSelLogQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + SerteficatSelQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + SpecFacQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + SpecQr \t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + SpecializNameQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + SpecializQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + SportQuery \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + SspecQ \t\t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + Stat3hAll1Qr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + Stat3hAll2Qr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + StatusQueueQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + UpDateOutQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + VO2KSpecializQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + WithOutTestLogQr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + WithoutCntQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + WithoutDetQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + WithoutQr \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    ..
+    + AbiturLogInsStrdPrc \t\t\t\t\t\t: <i>TFDStoredProc *</i>
+    + CertificLogDelStrdPrc \t\t\t\t\t: <i>TFDStoredProc *</i>
+    + MaxNumDelaStrdPrc \t\t\t\t\t\t: <i>TFDStoredProc *</i>
+    + PrivDelStrdPrc \t\t\t\t\t\t\t: <i>TFDStoredProc *</i>
+    + PrivInsStrdPrc \t\t\t\t\t\t\t: <i>TFDStoredProc *</i>
+    + PrivilegLogDelStrdPrc \t\t\t\t\t: <i>TFDStoredProc *</i>
+    + PrivilegLogInsStrdPrc \t\t\t\t\t\t: <i>TFDStoredProc *</i>
+    + RaspredBall12StrdPrc \t\t\t\t\t: <i>TFDStoredProc *</i>
+    + RaspredBall34StrdPrc \t\t\t\t\t: <i>TFDStoredProc *</i>
+    + RaspredBallStrdPrc \t\t\t\t\t\t: <i>TFDStoredProc *</i>
+    + StoredProcBall_Sertifikat \t\t\t\t\t: <i>TFDStoredProc *</i>
+    + StoredProcKolk_Konk1 \t\t\t\t\t: <i>TFDStoredProc *</i>
+    + StoredProcKolk_Konk \t\t\t\t\t: <i>TFDStoredProc *</i>
+    + StoredProcN_AB \t\t\t\t\t\t\t: <i>TFDStoredProc *</i>
+    + StoredProcN_People \t\t\t\t\t\t: <i>TFDStoredProc *</i>
+    + StoredProcSelExercIns \t\t\t\t\t: <i>TFDStoredProc *</i>
+    + StoredProcStatistic_Konk \t\t\t\t\t: <i>TFDStoredProc *</i>
+    + StoredProcSumm_Ball100 \t\t\t\t\t: <i>TFDStoredProc *</i>
+    + StoredProcSumm_Ball \t\t\t\t\t: <i>TFDStoredProc *</i>
+    + StoredProcSumm_Ball_2K \t\t\t\t\t: <i>TFDStoredProc *</i>
+    ..
+    + CntrExrcTbl \t\t\t\t\t\t\t\t: <i>TFDTable *</i>
+    + Increment_GroupTable \t\t\t\t\t: <i>TFDTable *</i>
+    + RegCentrTbl \t\t\t\t\t\t\t: <i>TFDTable *</i>
+    + Selection_CommitteeFDTable \t\t\t\t: <i>TFDTable *</i>
+    + TBall \t\t\t\t\t\t\t\t\t: <i>TFDTable *</i>
+    + TCategory \t\t\t\t\t\t\t\t: <i>TFDTable *</i>
+    + TCk \t\t\t\t\t\t\t\t\t: <i>TFDTable *</i>
+    + TDocum \t\t\t\t\t\t\t\t\t: <i>TFDTable *</i>
+    + TFaculty \t\t\t\t\t\t\t\t: <i>TFDTable *</i>
+    + TFoundation \t\t\t\t\t\t\t\t: <i>TFDTable *</i>
+    + TKol_Place \t\t\t\t\t\t\t\t: <i>TFDTable *</i>
+    + TPass_User \t\t\t\t\t\t\t\t: <i>TFDTable *</i>
+    + TPredmet \t\t\t\t\t\t\t\t: <i>TFDTable *</i>
+    + TRegion \t\t\t\t\t\t\t\t\t: <i>TFDTable *</i>
+    + TVid_Sport \t\t\t\t\t\t\t\t: <i>TFDTable *</i>
+    ..
+    + BloskUpSQL \t\t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + ListDocFDUp \t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + PasportUp \t\t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + QSelectUpdateSQL \t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + SportUpdateSQL \t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UPFoto \t\t\t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpAb_P \t\t\t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpAbitur_Priv_Enter \t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpAbitura \t\t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpAdd_N_Group \t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpCenter \t\t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpCkToDekanat \t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpInc_Gr_Old \t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpLangvichToDekanat \t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpListDocToDekanat \t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpPrivToDekanat \t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpResult_Exam \t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpSertificat \t\t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpShow_Result_Exam \t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpSpecializ \t\t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpSum_Ball \t\t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpSum_Ball_Nomer \t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpToDekanat \t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    + UpUndo_Abit \t\t\t\t\t\t\t: <i>TFDUpdateSQL *</i>
+    ..
+    + QAbituraMIDDLE_BALL \t\t\t\t\t: <i>TFloatField *</i>
+    + QAbituraSTAG \t\t\t\t\t\t\t: <i>TFloatField *</i>
+    + QAbituraSTAG_SPEC \t\t\t\t\t\t: <i>TFloatField *</i>
+    + QAbituraSUM_BALL \t\t\t\t\t\t: <i>TFloatField *</i>
+    + QExamBALL \t\t\t\t\t\t\t\t: <i>TFloatField *</i>
+    + QExamSpecBALL \t\t\t\t\t\t\t: <i>TFloatField *</i>
+    + QResult_ExamBALL \t\t\t\t\t\t: <i>TFloatField *</i>
+    + QSelect_abMIDDLE_BALL \t\t\t\t\t: <i>TFloatField *</i>
+    + QSertificat_ex_listBALL \t\t\t\t\t: <i>TFloatField *</i>
+    + QShow_Result_ExamBALL \t\t\t\t\t: <i>TFloatField *</i>
+    + QSpisoc_GroupMIDDLE_BALL \t\t\t\t: <i>TFloatField *</i>
+    + QSpisoc_GroupSUM_BALL \t\t\t\t\t: <i>TFloatField *</i>
+    + QSpisoc_Group_PolMIDDLE_BALL \t\t\t: <i>TFloatField *</i>
+    + QSpisoc_Group_PolSUM_BALL \t\t\t\t: <i>TFloatField *</i>
+    + QSpisok_SpecMIDDLE_BALL \t\t\t\t: <i>TFloatField *</i>
+    + QSum_BallMIDDLE_BALL \t\t\t\t\t: <i>TFloatField *</i>
+    + QSum_BallSUM \t\t\t\t\t\t\t: <i>TFloatField *</i>
+    + QSum_BallSUM_BALL \t\t\t\t\t\t: <i>TFloatField *</i>
+    + QSum_Ball_NomerMIDDLE_BALL \t\t\t: <i>TFloatField *</i>
+    + QSum_Ball_NomerSUM \t\t\t\t\t: <i>TFloatField *</i>
+    + QSum_Ball_NomerSUM_BALL \t\t\t\t: <i>TFloatField *</i>
+    + QToDekanatMIDDLE_B \t\t\t\t\t: <i>TFloatField *</i>
+    + StoredProcBall_SertifikatB \t\t\t\t: <i>TFloatField *</i>
+    --
+    <b>FINISH PART 1</b> (For others, see: class_DMUnit_all_fields 2, 3 and 4)
+    --
+    
+    + <b>{abstract} TDM (AOwner \t: <i>TComponent *</i>) virtual</b>
+
+}
+
+@enduml

@@ -1,0 +1,45 @@
+
+@startuml SplashUnit.cpp
+
+title Исходный файл: "SplashUnit.cpp"
+
+scale 750 width
+
+"<b>TSplashForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TSplashForm</b>"
+{
+    - n_count \t\t\t: <i>int</i>
+    ..
+    + Image1 \t\t\t: <i>TImage *</i>
+    ..
+    + Label1 \t\t\t: <i>TLabel *</i>
+    + Label2 \t\t\t: <i>TLabel *</i>
+    + Label3 \t\t\t: <i>TLabel *</i>
+    + Label4 \t\t\t: <i>TLabel *</i>
+    + Label5 \t\t\t: <i>TLabel *</i>
+    ..
+    + ProgressBar1 \t: <i>TProgressBar *</i>
+    --
+    
+    + <b>TSplashForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + FormActivate \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormCreate \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TSplashForm <<Folder>>
+{
+    class TSplashForm
+    hide  TSplashForm members
+}
+
+
+' note right of "<b>TSplashForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

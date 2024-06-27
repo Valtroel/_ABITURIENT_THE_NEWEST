@@ -1,0 +1,15 @@
+
+COMMIT WORK;
+
+
+
+INSERT INTO OR UPDATE
+    RESULT_BALL
+    (
+        NOMER,
+        N_PLAN,
+        RESULT,
+        DATE_RESULT,
+        STATUS_RESULT
+    )
+VALUES

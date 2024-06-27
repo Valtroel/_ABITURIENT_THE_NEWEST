@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1014.1388px" preserveAspectRatio="none" style="width:751px;height:1014px;background:#FFFFFF;" version="1.1" viewBox="0 0 751 1014" width="751.928px" zoomAndPan="magnify"><defs/><g><rect height="50.7009" style="stroke:#00000000;stroke-width:1.9280205655526992;fill:none;" width="578.4062" x="73.2648" y="9.6401"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-weight="bold" lengthAdjust="spacing" textLength="559.126" x="82.9049" y="44.3351">Исходный файл: "PassDlgUnit.cpp"</text><!--MD5=[6b3b3e1e12f05d7fccee8cb6e0589dc3]
+cluster TPassDlg--><g id="cluster_TPassDlg"><path d="M496.4653,83.4773 L642.9949,83.4773 A7.2301,7.2301 0 0 1 647.8149,88.2973 L661.3111,126.4661 L733.6118,126.4661 A4.8201,4.8201 0 0 1 738.4319,131.2862 L738.4319,269.5313 A4.8201,4.8201 0 0 1 733.6118,274.3513 L496.4653,274.3513 A4.8201,4.8201 0 0 1 491.6452,269.5313 L491.6452,88.2973 A4.8201,4.8201 0 0 1 496.4653,83.4773 " style="stroke:#000000;stroke-width:2.892030848329049;fill:none;"/><line style="stroke:#000000;stroke-width:2.892030848329049;fill:none;" x1="491.6452" x2="661.3111" y1="126.4661" y2="126.4661"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-weight="bold" lengthAdjust="spacing" textLength="144.6015" x="499.3573" y="112.3882">TPassDlg</text></g><!--MD5=[229db4eb912f23c4b2b37a5967ad7948]
+class TPassDlg--><g id="elem_TPassDlg"><rect codeLine="36" fill="#F1F1F1" height="92.545" id="TPassDlg" rx="4.8201" ry="4.8201" style="stroke:#181818;stroke-width:0.9640102827763496;" width="185.09" x="522.4936" y="150.958"/><ellipse cx="551.4139" cy="181.8063" fill="#ADD1B2" rx="21.2082" ry="21.2082" style="stroke:#181818;stroke-width:1.9280205655526992;"/><path d="M555.9327,173.4616 C554.1252,172.6181 552.9804,172.347 551.2934,172.347 C546.2323,172.347 542.3763,176.3536 542.3763,181.5954 L542.3763,183.7645 C542.3763,188.7351 546.4432,192.3803 552.0164,192.3803 C554.3662,192.3803 556.5954,191.8079 558.0415,190.7535 C559.1561,189.9703 559.7887,189.0966 559.7887,188.3435 C559.7887,187.4699 559.0356,186.7167 558.1318,186.7167 C557.7101,186.7167 557.3184,186.8674 556.9569,187.2289 C556.0833,188.1628 556.0833,188.1628 555.7218,188.3435 C554.9084,188.8556 553.5829,189.0966 552.1068,189.0966 C548.1603,189.0966 545.6599,186.9879 545.6599,183.7042 L545.6599,181.5954 C545.6599,178.1612 548.07,175.6306 551.4139,175.6306 C552.5285,175.6306 553.7034,175.9319 554.6072,176.4139 C555.5411,176.9561 555.8724,177.3779 556.0532,178.1612 C556.1737,178.9444 556.2339,179.1854 556.5051,179.4264 C556.7762,179.6975 557.2281,179.9084 557.6498,179.9084 C558.162,179.9084 558.6741,179.6373 559.0055,179.2155 C559.2163,178.9143 559.2766,178.5528 559.2766,177.7394 L559.2766,174.998 C559.2766,174.1545 559.2465,173.9135 559.0657,173.6122 C558.7645,173.1001 558.2222,172.829 557.6498,172.829 C557.0774,172.829 556.6858,173.0097 556.2641,173.6122 L555.9327,173.4616 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="123.3933" x="578.4062" y="191.1508">TPassDlg</text><line style="stroke:#181818;stroke-width:0.9640102827763496;" x1="524.4216" x2="705.6555" y1="212.6546" y2="212.6546"/><line style="stroke:#181818;stroke-width:0.9640102827763496;" x1="524.4216" x2="705.6555" y1="228.0788" y2="228.0788"/></g><!--MD5=[ab7871b2ecad97d7c4906ee89e512ab1]
+class <b>TPassDlg</b>--><g id="elem_&lt;b&gt;TPassDlg&lt;/b&gt;"><rect codeLine="9" fill="#F1F1F1" height="641.5488" id="&lt;b&gt;TPassDlg&lt;/b&gt;" rx="4.8201" ry="4.8201" style="stroke:#181818;stroke-width:0.9640102827763496;" width="721.0797" x="13.4961" y="359.1842"/><ellipse cx="293.5411" cy="390.0325" fill="#ADD1B2" rx="21.2082" ry="21.2082" style="stroke:#181818;stroke-width:1.9280205655526992;"/><path d="M298.0599,381.6878 C296.2524,380.8443 295.1076,380.5732 293.4206,380.5732 C288.3596,380.5732 284.5035,384.5799 284.5035,389.8217 L284.5035,391.9907 C284.5035,396.9614 288.5705,400.6065 294.1436,400.6065 C296.4934,400.6065 298.7227,400.0341 300.1687,398.9798 C301.2833,398.1965 301.916,397.3229 301.916,396.5697 C301.916,395.6961 301.1628,394.943 300.2591,394.943 C299.8373,394.943 299.4457,395.0936 299.0842,395.4551 C298.2106,396.389 298.2106,396.389 297.8491,396.5697 C297.0357,397.0819 295.7102,397.3229 294.234,397.3229 C290.2876,397.3229 287.7872,395.2141 287.7872,391.9304 L287.7872,389.8217 C287.7872,386.3874 290.1972,383.8568 293.5411,383.8568 C294.6558,383.8568 295.8307,384.1581 296.7344,384.6401 C297.6683,385.1824 297.9997,385.6041 298.1804,386.3874 C298.3009,387.1706 298.3612,387.4116 298.6323,387.6526 C298.9034,387.9238 299.3553,388.1346 299.7771,388.1346 C300.2892,388.1346 300.8013,387.8635 301.1327,387.4418 C301.3436,387.1405 301.4038,386.779 301.4038,385.9656 L301.4038,383.2242 C301.4038,382.3807 301.3737,382.1397 301.193,381.8384 C300.8917,381.3263 300.3495,381.0552 299.7771,381.0552 C299.2047,381.0552 298.8131,381.2359 298.3913,381.8384 L298.0599,381.6878 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-weight="bold" lengthAdjust="spacing" textLength="144.6015" x="333.0656" y="399.377">TPassDlg</text><line style="stroke:#181818;stroke-width:0.9640102827763496;" x1="15.4242" x2="732.6478" y1="420.8809" y2="420.8809"/><ellipse cx="34.7044" cy="442.0891" fill="none" rx="5.7841" ry="5.7841" style="stroke:#038048;stroke-width:1.9280205655526992;"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="107.9692" x="52.0566" y="453.6478">BitBtn1</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="9.6401" x="237.1465" y="453.6478">:</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" lengthAdjust="spacing" textLength="121.4653" x="254.4987" y="453.6478">TBitBtn *</text><ellipse cx="34.7044" cy="473.5098" fill="none" rx="5.7841" ry="5.7841" style="stroke:#038048;stroke-width:1.9280205655526992;"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="106.0411" x="52.0566" y="485.0685">BitBtn2</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="9.6401" x="237.1465" y="485.0685">:</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" lengthAdjust="spacing" textLength="121.4653" x="254.4987" y="485.0685">TBitBtn *</text><line style="stroke:#181818;stroke-width:1.9280205655526992;stroke-dasharray:1.0,2.0;" x1="15.4242" x2="732.6478" y1="499.1464" y2="499.1464"/><ellipse cx="34.7044" cy="520.3547" fill="none" rx="5.7841" ry="5.7841" style="stroke:#038048;stroke-width:1.9280205655526992;"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="127.2494" x="52.0566" y="531.9134">Password</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="9.6401" x="237.1465" y="531.9134">:</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" lengthAdjust="spacing" textLength="90.617" x="254.4987" y="531.9134">TEdit *</text><ellipse cx="34.7044" cy="551.7754" fill="none" rx="5.7841" ry="5.7841" style="stroke:#038048;stroke-width:1.9280205655526992;"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="59.7686" x="52.0566" y="563.3341">User</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="9.6401" x="237.1465" y="563.3341">:</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" lengthAdjust="spacing" textLength="90.617" x="254.4987" y="563.3341">TEdit *</text><line style="stroke:#181818;stroke-width:1.9280205655526992;stroke-dasharray:1.0,2.0;" x1="15.4242" x2="732.6478" y1="577.412" y2="577.412"/><ellipse cx="34.7044" cy="598.6203" fill="none" rx="5.7841" ry="5.7841" style="stroke:#038048;stroke-width:1.9280205655526992;"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="92.545" x="52.0566" y="610.179">Label1</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="9.6401" x="237.1465" y="610.179">:</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" lengthAdjust="spacing" textLength="113.7532" x="254.4987" y="610.179">TLabel *</text><ellipse cx="34.7044" cy="630.041" fill="none" rx="5.7841" ry="5.7841" style="stroke:#038048;stroke-width:1.9280205655526992;"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="90.617" x="52.0566" y="641.5997">Label2</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="9.6401" x="237.1465" y="641.5997">:</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" lengthAdjust="spacing" textLength="113.7532" x="254.4987" y="641.5997">TLabel *</text><line style="stroke:#181818;stroke-width:1.9280205655526992;" x1="15.4242" x2="732.6478" y1="655.6776" y2="655.6776"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="7.7121" x="52.0566" y="688.4446"> </text><ellipse cx="34.7044" cy="708.3066" fill="#84BE84" rx="5.7841" ry="5.7841" style="stroke:#038048;stroke-width:1.9280205655526992;"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="138.8175" x="52.0566" y="719.8653">TPassDlg</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="133.0334" x="206.2982" y="719.8653">(AOwner</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="11.5681" x="360.5398" y="719.8653">:</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="219.7943" x="381.7481" y="719.8653">TComponent *</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="121.4653" x="601.5424" y="719.8653">) virtual</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="7.7121" x="52.0566" y="751.286"> </text><ellipse cx="34.7044" cy="771.148" fill="#84BE84" rx="5.7841" ry="5.7841" style="stroke:#038048;stroke-width:1.9280205655526992;"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="175.4499" x="52.0566" y="782.7067">BitBtn1Click</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="107.9692" x="298.8432" y="782.7067">(Sender</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="9.6401" x="422.2365" y="782.7067">:</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" lengthAdjust="spacing" textLength="127.2494" x="439.5887" y="782.7067">TObject *</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="26.9923" x="566.838" y="782.7067">) :</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" lengthAdjust="spacing" textLength="57.8406" x="601.5424" y="782.7067">void</text><ellipse cx="34.7044" cy="802.5687" fill="#84BE84" rx="5.7841" ry="5.7841" style="stroke:#038048;stroke-width:1.9280205655526992;"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="173.5219" x="52.0566" y="814.1274">BitBtn2Click</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="107.9692" x="298.8432" y="814.1274">(Sender</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="9.6401" x="422.2365" y="814.1274">:</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" lengthAdjust="spacing" textLength="127.2494" x="439.5887" y="814.1274">TObject *</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="26.9923" x="566.838" y="814.1274">) :</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" lengthAdjust="spacing" textLength="57.8406" x="601.5424" y="814.1274">void</text><ellipse cx="34.7044" cy="833.9894" fill="#84BE84" rx="5.7841" ry="5.7841" style="stroke:#038048;stroke-width:1.9280205655526992;"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="188.946" x="52.0566" y="845.5481">FormActivate</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="107.9692" x="298.8432" y="845.5481">(Sender</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="9.6401" x="422.2365" y="845.5481">:</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" lengthAdjust="spacing" textLength="127.2494" x="439.5887" y="845.5481">TObject *</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="26.9923" x="566.838" y="845.5481">) :</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" lengthAdjust="spacing" textLength="57.8406" x="601.5424" y="845.5481">void</text><line style="stroke:#181818;stroke-width:1.9280205655526992;stroke-dasharray:1.0,2.0;" x1="15.4242" x2="732.6478" y1="859.626" y2="859.626"/><ellipse cx="34.7044" cy="880.8343" fill="#84BE84" rx="5.7841" ry="5.7841" style="stroke:#038048;stroke-width:1.9280205655526992;"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="146.5296" x="52.0566" y="892.393">FormClose</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="9.6401" x="298.8432" y="892.393">(</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="98.329" x="175.4499" y="923.8137">Sender</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="9.6401" x="298.8432" y="923.8137">:</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" lengthAdjust="spacing" textLength="127.2494" x="316.1954" y="923.8137">TObject *</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="7.7121" x="443.4447" y="923.8137">,</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="90.617" x="175.4499" y="955.2344">Action</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="9.6401" x="298.8432" y="955.2344">:</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" lengthAdjust="spacing" textLength="208.2262" x="316.1954" y="955.2344">TCloseAction &amp;</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" lengthAdjust="spacing" textLength="26.9923" x="113.7532" y="986.6551">) :</text><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-style="italic" lengthAdjust="spacing" textLength="57.8406" x="148.4576" y="986.6551">void</text></g><!--MD5=[dd0bf217da5c5e97452bc452f42aff32]
+class <b>TForm</b>--><g id="elem_&lt;b&gt;TForm&lt;/b&gt;"><rect fill="#F1F1F1" height="61.6967" id="&lt;b&gt;TForm&lt;/b&gt;" rx="4.8201" ry="4.8201" style="stroke:#181818;stroke-width:0.9640102827763496;" width="161.9537" x="293.0591" y="166.3821"/><ellipse cx="321.9794" cy="197.2305" fill="#ADD1B2" rx="21.2082" ry="21.2082" style="stroke:#181818;stroke-width:1.9280205655526992;"/><path d="M326.4982,188.8858 C324.6907,188.0423 323.546,187.7711 321.8589,187.7711 C316.7979,187.7711 312.9418,191.7778 312.9418,197.0196 L312.9418,199.1886 C312.9418,204.1593 317.0088,207.8045 322.5819,207.8045 C324.9317,207.8045 327.161,207.2321 328.607,206.1777 C329.7216,205.3944 330.3543,204.5208 330.3543,203.7677 C330.3543,202.894 329.6011,202.1409 328.6974,202.1409 C328.2756,202.1409 327.884,202.2915 327.5225,202.653 C326.6489,203.5869 326.6489,203.5869 326.2874,203.7677 C325.474,204.2798 324.1485,204.5208 322.6723,204.5208 C318.7259,204.5208 316.2255,202.412 316.2255,199.1284 L316.2255,197.0196 C316.2255,193.5853 318.6355,191.0548 321.9794,191.0548 C323.0941,191.0548 324.269,191.356 325.1727,191.838 C326.1066,192.3803 326.438,192.8021 326.6187,193.5853 C326.7392,194.3686 326.7995,194.6096 327.0706,194.8506 C327.3417,195.1217 327.7936,195.3326 328.2154,195.3326 C328.7275,195.3326 329.2396,195.0615 329.571,194.6397 C329.7819,194.3384 329.8421,193.9769 329.8421,193.1636 L329.8421,190.4222 C329.8421,189.5786 329.812,189.3376 329.6313,189.0364 C329.33,188.5243 328.7878,188.2531 328.2154,188.2531 C327.643,188.2531 327.2514,188.4339 326.8296,189.0364 L326.4982,188.8858 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="26.9923" font-weight="bold" lengthAdjust="spacing" textLength="100.2571" x="348.9717" y="206.575">TForm</text></g><!--MD5=[4049db1e99fbb8c451760d105590b5db]
+reverse link <b>TForm</b> to <b>TPassDlg</b>--><g id="link_&lt;b&gt;TForm&lt;/b&gt;_&lt;b&gt;TPassDlg&lt;/b&gt;"><path codeLine="5" d="M374.036,267.2485 C374.036,293.1938 374.036,324.7768 374.036,358.789 " fill="none" id="&lt;b&gt;TForm&lt;/b&gt;-backto-&lt;b&gt;TPassDlg&lt;/b&gt;" style="stroke:#181818;stroke-width:1.9280205655526992;"/><polygon fill="none" points="360.5398,266.9689,374.036,228.4085,387.5321,266.9689,360.5398,266.9689" style="stroke:#181818;stroke-width:1.9280205655526992;"/></g><!--MD5=[a63c0e011d53c4796ab38d81715340ae]
+@startuml
+title Исходный файл: "PassDlgUnit.cpp"
+
+scale 750 width
+
+"<b>TPassDlg</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TPassDlg</b>"
+{
+    + BitBtn1 \t\t: <i>TBitBtn *</i>
+    + BitBtn2 \t\t: <i>TBitBtn *</i>
+    ..
+    + Password \t: <i>TEdit *</i>
+    + User \t\t: <i>TEdit *</i>
+    ..
+    + Label1 \t\t: <i>TLabel *</i>
+    + Label2 \t\t: <i>TLabel *</i>
+    - -
+    
+    + <b>{abstract} TPassDlg \t(AOwner \t: <i>TComponent *</i>) virtual</b>
+
+    + BitBtn1Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn2Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TPassDlg <<Folder>>
+{
+    class TPassDlg
+    hide  members
+}
+
+
+' note right of "<b>TPassDlg</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+@enduml
+
+@startuml
+title Исходный файл: "PassDlgUnit.cpp"
+
+scale 750 width
+
+"<b>TPassDlg</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TPassDlg</b>"
+{
+    + BitBtn1 \t\t: <i>TBitBtn *</i>
+    + BitBtn2 \t\t: <i>TBitBtn *</i>
+    ..
+    + Password \t: <i>TEdit *</i>
+    + User \t\t: <i>TEdit *</i>
+    ..
+    + Label1 \t\t: <i>TLabel *</i>
+    + Label2 \t\t: <i>TLabel *</i>
+    - -
+    
+    + <b>{abstract} TPassDlg \t(AOwner \t: <i>TComponent *</i>) virtual</b>
+
+    + BitBtn1Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn2Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TPassDlg <<Folder>>
+{
+    class TPassDlg
+    hide  members
+}
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,47 @@
+@startuml EducationUnit.cpp
+
+title Исходный файл: "Education"
+
+scale 750 width
+' left to right direction
+
+"<b>TEducationForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TEducationForm</b>"
+{
+    + BitBtn1 \t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn2 \t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn3 \t\t\t\t\t: <i>TBitBtn *</i>
+    ..
+    + NameEduMiddleDBEdt \t: <i>TDBEdit *</i>
+    + NomAttestDBEdt \t\t: <i>TDBEdit *</i>
+    + WhenEduMiddleDBEdt \t: <i>TDBEdit *</i>
+    + WhereEduMiddleDBEdt \t: <i>TDBEdit *</i>
+    ..
+    + DBLookupComboBox1 \t: <i>TDBLookupComboBox *</i>
+    ..
+    + Label1 \t\t\t\t\t: <i>TLabel *</i>
+    + Label14 \t\t\t\t\t: <i>TLabel *</i>
+    + Label21 \t\t\t\t\t: <i>TLabel *</i>
+    + Label23 \t\t\t\t\t: <i>TLabel *</i>
+    + Label25 \t\t\t\t\t: <i>TLabel *</i>
+    + Panel2 \t\t\t\t\t: <i>TLabel *</i>
+    --
+
+    + <b>TEducationForm (Owner \t: <i>TComponent *</i>)</b>
+
+    + BitBtn1Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn3Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TEducationForm <<Folder>>
+{
+    class TEducationForm
+    hide  TEducationForm members
+}
+
+@enduml

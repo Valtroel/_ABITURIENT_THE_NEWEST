@@ -1,0 +1,17 @@
+INSERT INTO OR UPDATE
+    SEMESTERS
+    (
+        ID_SEMESTER,
+        N_FAC,
+        VID_EDU,
+        SESS_YEAR,
+        KURS,
+        N_SEMESTR,
+        DATE_BEGIN,
+        DATE_END
+    )
+VALUES
+    (1, 1, 0, 2016, 1, 1, '2016-09-01 08:30:00', '2017-02-12 08:30:00') MATCHING (ID_SEMESTER),
+    (2, 1, 0, 2016, 1, 2, '2017-02-13 08:30:00', '2017-07-02 08:30:00') MATCHING (ID_SEMESTER);
+
+COMMIT WORK;

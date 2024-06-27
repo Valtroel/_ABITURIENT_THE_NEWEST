@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="4650px" preserveAspectRatio="none" style="width:743px;height:4650px;background:#FFFFFF;" version="1.1" viewBox="0 0 743 4650" width="743px" zoomAndPan="magnify"><defs/><g><rect height="26.2969" style="stroke:#00000000;stroke-width:1.0;fill:none;" width="240" x="244.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="230" x="249.5" y="22.9951">Исходный файл: "Func.cpp"</text><!--MD5=[9a53b195b9e6dcc8c7a5cc20ca36bc92]
+cluster functions--><g id="cluster_functions"><rect height="4600" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:1.0;fill:none;" width="730" x="7" y="44.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="333" y="59.292">functions</text></g><!--MD5=[78ef8e97fe66a7cd85afe58a501d3fa9]
+class extern--><g id="elem_extern"><rect codeLine="12" fill="#F1F1F1" height="105.1563" id="extern" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="370" x="24" y="79.7969"/><ellipse cx="180.75" cy="99.9297" fill="#FFFF00" rx="11" ry="11" style="stroke:#A80036;stroke-width:1.0;"/><path d="M184.8438,102.1172 C185.3281,101.9766 185.5625,101.6953 185.5625,101.2734 C185.5625,100.9922 185.4375,100.7422 185.2031,100.5703 C185.0313,100.4609 184.8906,100.4141 184.4219,100.4141 L181.4531,100.4141 C181.0313,100.4141 180.8906,100.4297 180.7344,100.5391 C180.4844,100.6953 180.3281,100.9766 180.3281,101.2734 C180.3281,101.5391 180.4688,101.7891 180.6875,101.9453 C180.8438,102.0859 181.0313,102.1172 181.4531,102.1172 L183.1563,102.1172 L183.1563,103.2891 C182.5,103.5859 181.8438,103.7109 181.0313,103.7109 C179.9531,103.7109 179.1094,103.4609 178.5313,102.9766 C178,102.5234 177.7656,101.8672 177.7656,100.8828 L177.7656,99.7891 C177.7656,98.9453 178.0938,98.0859 178.6563,97.5234 C179.1875,97.0078 179.9531,96.7266 180.9063,96.7266 C182.1406,96.7266 183,97.1016 183.1719,97.6953 C183.2969,98.2266 183.2969,98.2266 183.4063,98.3516 C183.5469,98.4922 183.7813,98.6016 184,98.6016 C184.2656,98.6016 184.5313,98.4609 184.7031,98.2422 C184.8281,98.0703 184.8438,97.9609 184.8438,97.4766 L184.8438,96.1484 C184.8438,95.7422 184.8281,95.6016 184.7344,95.4453 C184.6094,95.1797 184.3438,95.0234 184.0469,95.0234 C183.7344,95.0234 183.5625,95.1641 183.3594,95.5703 C182.6406,95.2109 181.8125,95.0234 180.8906,95.0234 C179.5,95.0234 178.3906,95.4609 177.4844,96.3359 C176.5938,97.2422 176.0625,98.4922 176.0625,99.7891 L176.0625,100.9922 C176.0625,102.1953 176.4844,103.3359 177.1875,104.0703 C178.0156,104.9297 179.4688,105.4141 181.125,105.4141 C182.4531,105.4141 183.3438,105.1641 184.8438,104.3672 L184.8438,102.1172 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="12" font-style="italic" lengthAdjust="spacing" textLength="50" x="200.25" y="95.9355">«global»</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="48" x="201.25" y="111.7607">extern</text><line style="stroke:#181818;stroke-width:0.5;" x1="25" x2="393" y1="120.0625" y2="120.0625"/><ellipse cx="35" cy="131.0625" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="51" x="44" y="137.0576">CurCell</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="172" y="137.0576">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="181" y="137.0576">Variant</text><ellipse cx="35" cy="147.3594" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="44" y="153.3545">CurSheet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="172" y="153.3545">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="181" y="153.3545">Variant</text><ellipse cx="35" cy="163.6563" fill="none" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="44" y="169.6514">mas_column</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="172" y="169.6514">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="121" x="181" y="169.6514">AnsiString [0..25]</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="306" y="169.6514">{readOnly}</text><line style="stroke:#181818;stroke-width:0.5;" x1="25" x2="393" y1="176.9531" y2="176.9531"/></g><path d="M98,220.2969 L98,228.8633 L233,132.2109 L98,236.8633 L98,245.4297 A0,0 0 0 0 98,245.4297 L232,245.4297 A0,0 0 0 0 232,245.4297 L232,230.2969 L222,220.2969 L98,220.2969 A0,0 0 0 0 98,220.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M222,220.2969 L222,230.2969 L232,230.2969 L222,220.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="113" x="104" y="237.3638">Current Excel Cell</text><path d="M98,255.4297 L98,263.9961 L233,148.5078 L98,271.9961 L98,280.5625 A0,0 0 0 0 98,280.5625 L244,280.5625 A0,0 0 0 0 244,280.5625 L244,265.4297 L234,255.4297 L98,255.4297 A0,0 0 0 0 98,255.4297 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M234,255.4297 L234,265.4297 L244,265.4297 L234,255.4297 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="125" x="104" y="272.4966">Current Excel Table</text><path d="M98,290.5625 L98,314.2617 L388,164.8047 L98,322.2617 L98,345.9609 A0,0 0 0 0 98,345.9609 L320,345.9609 A0,0 0 0 0 320,345.9609 L320,300.5625 L310,290.5625 L98,290.5625 A0,0 0 0 0 98,290.5625 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M310,290.5625 L310,300.5625 L320,300.5625 L310,290.5625 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="199" x="104" y="307.6294">"A","B","C","D","E","F","G","H","I",</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="201" x="104" y="322.7622">"J","K","L","M","N","O","P","Q","R",</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="182" x="104" y="337.895">"S","T","U","V","W","X","Y","Z"</text><!--MD5=[d6da9227ac7e438272ae7f888b4b7728]
+class <b>AutoFillCell ()</b>--><g id="elem_&lt;b&gt;AutoFillCell ()&lt;/b&gt;"><rect codeLine="35" fill="#F1F1F1" height="58.5938" id="&lt;b&gt;AutoFillCell ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="318" x="50" y="391.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="110" x="154" y="409.792">AutoFillCell ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="51" x2="367" y1="418.0938" y2="418.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="51" x2="367" y1="426.0938" y2="426.0938"/><ellipse cx="61" cy="437.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="81" x="70" y="443.0889">AutoFillCell</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="166" y="443.0889">(Range</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="230" y="443.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="239" y="443.0889">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="291" y="443.0889">)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="323" y="443.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="332" y="443.0889">void</text></g><g id="elem_GMN2488766"><path d="M517,393.7969 L517,417.2969 L368.243,421.2969 L517,425.2969 L517,449.1953 A0,0 0 0 0 517,449.1953 L659,449.1953 A0,0 0 0 0 659,449.1953 L659,403.7969 L649,393.7969 L517,393.7969 A0,0 0 0 0 517,393.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M649,393.7969 L649,403.7969 L659,403.7969 L649,393.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="523" y="410.8638">Autocomplete</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="523" y="425.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="121" x="523" y="441.1294">(Автозаполнение)</text></g><!--MD5=[88755de4e79eefb52d5f293272886184]
+class <b>AutoFitColumn ()</b>--><g id="elem_&lt;b&gt;AutoFitColumn ()&lt;/b&gt;"><rect codeLine="51" fill="#F1F1F1" height="107.4844" id="&lt;b&gt;AutoFitColumn ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="187" x="115.5" y="485.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="139" x="139.5" y="503.792">AutoFitColumn ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="116.5" x2="301.5" y1="512.0938" y2="512.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="116.5" x2="301.5" y1="520.0938" y2="520.0938"/><ellipse cx="126.5" cy="531.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="107" x="135.5" y="537.0889">AutoFitColumn</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="263.5" y="537.0889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="167.5" y="553.3857">Sheet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="553.3857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="240.5" y="553.3857">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="292.5" y="553.3857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="23" x="167.5" y="569.6826">Col</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="569.6826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="240.5" y="569.6826">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="258.5" y="569.6826">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="135.5" y="585.9795">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="153.5" y="585.9795">void</text></g><g id="elem_GMN2488770"><path d="M473.5,511.7969 L473.5,535.2969 L302.707,539.2969 L473.5,543.2969 L473.5,567.1953 A0,0 0 0 0 473.5,567.1953 L702.5,567.1953 A0,0 0 0 0 702.5,567.1953 L702.5,521.7969 L692.5,511.7969 L473.5,511.7969 A0,0 0 0 0 473.5,511.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M692.5,511.7969 L692.5,521.7969 L702.5,521.7969 L692.5,511.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="139" x="479.5" y="528.8638">AutoFit Column Width</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="479.5" y="543.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="208" x="479.5" y="559.1294">(Автоподбор ширины столбца)</text></g><!--MD5=[65d21b357a011f974486c1a3cd102bb4]
+class <b>AutoFitRow ()</b>--><g id="elem_&lt;b&gt;AutoFitRow ()&lt;/b&gt;"><rect codeLine="70" fill="#F1F1F1" height="107.4844" id="&lt;b&gt;AutoFitRow ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="187" x="115.5" y="627.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="113" x="152.5" y="645.792">AutoFitRow ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="116.5" x2="301.5" y1="654.0938" y2="654.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="116.5" x2="301.5" y1="662.0938" y2="662.0938"/><ellipse cx="126.5" cy="673.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="83" x="135.5" y="679.0889">AutoFitRow</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="679.0889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="43" x="167.5" y="695.3857">Sheet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="695.3857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="240.5" y="695.3857">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="292.5" y="695.3857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="30" x="167.5" y="711.6826">Row</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="711.6826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="240.5" y="711.6826">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="258.5" y="711.6826">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="135.5" y="727.9795">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="153.5" y="727.9795">void</text></g><g id="elem_GMN2488774"><path d="M478.5,653.7969 L478.5,677.2969 L302.707,681.2969 L478.5,685.2969 L478.5,709.1953 A0,0 0 0 0 478.5,709.1953 L697.5,709.1953 A0,0 0 0 0 697.5,709.1953 L697.5,663.7969 L687.5,653.7969 L478.5,653.7969 A0,0 0 0 0 478.5,653.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M687.5,653.7969 L687.5,663.7969 L697.5,663.7969 L687.5,653.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="116" x="484.5" y="670.8638">AutoFit Line Width</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="484.5" y="685.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="198" x="484.5" y="701.1294">(Автоподбор ширины строки)</text></g><!--MD5=[286f462f8ff40fcbefcfe77c54ffc752]
+class <b>BorderCell ()</b>--><g id="elem_&lt;b&gt;BorderCell ()&lt;/b&gt;"><rect codeLine="89" fill="#F1F1F1" height="140.0781" id="&lt;b&gt;BorderCell ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="185" x="116.5" y="770.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="101" x="158.5" y="788.292">BorderCell ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="117.5" x2="300.5" y1="796.5938" y2="796.5938"/><line style="stroke:#181818;stroke-width:1.0;" x1="117.5" x2="300.5" y1="804.5938" y2="804.5938"/><ellipse cx="127.5" cy="815.5938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="136.5" y="821.5889">BorderCell</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="232.5" y="821.5889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="21" x="168.5" y="837.8857">col</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="264.5" y="837.8857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="273.5" y="837.8857">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="291.5" y="837.8857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="168.5" y="854.1826">row</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="264.5" y="854.1826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="273.5" y="854.1826">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="291.5" y="854.1826">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="168.5" y="870.4795">typeline</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="264.5" y="870.4795">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="273.5" y="870.4795">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="168.5" y="886.7764">weightline</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="264.5" y="886.7764">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="273.5" y="886.7764">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="136.5" y="903.0732">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="154.5" y="903.0732">void</text></g><g id="elem_GMN2488778"><path d="M506.5,812.7969 L506.5,836.2969 L301.742,840.2969 L506.5,844.2969 L506.5,868.1953 A0,0 0 0 0 506.5,868.1953 L669.5,868.1953 A0,0 0 0 0 669.5,868.1953 L669.5,822.7969 L659.5,812.7969 L506.5,812.7969 A0,0 0 0 0 506.5,812.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M659.5,812.7969 L659.5,822.7969 L669.5,822.7969 L659.5,812.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="86" x="512.5" y="829.8638">cell bordering</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="512.5" y="844.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="142" x="512.5" y="860.1294">(обрамление ячейки)</text></g><!--MD5=[79239b2a485e02aef827390474a9e6ef]
+class <b>Borders ()</b>--><g id="elem_&lt;b&gt;Borders ()&lt;/b&gt;"><rect codeLine="110" fill="#F1F1F1" height="123.7813" id="&lt;b&gt;Borders ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="219" x="99.5" y="945.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="81" x="168.5" y="963.292">Borders ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="100.5" x2="317.5" y1="971.5938" y2="971.5938"/><line style="stroke:#181818;stroke-width:1.0;" x1="100.5" x2="317.5" y1="979.5938" y2="979.5938"/><ellipse cx="110.5" cy="990.5938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="56" x="119.5" y="996.5889">Borders</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="183.5" y="996.5889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="151.5" y="1012.8857">Range</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="247.5" y="1012.8857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="256.5" y="1012.8857">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="308.5" y="1012.8857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="151.5" y="1029.1826">LineStyle</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="247.5" y="1029.1826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="256.5" y="1029.1826">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="274.5" y="1029.1826">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="75" x="151.5" y="1045.4795">weightline</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="247.5" y="1045.4795">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="256.5" y="1045.4795">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="119.5" y="1061.7764">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="137.5" y="1061.7764">void</text></g><!--MD5=[2cc131a93a763c86aa94390b64450aed]
+class <b>CellFont ()</b>--><g id="elem_&lt;b&gt;CellFont ()&lt;/b&gt;"><rect codeLine="124" fill="#F1F1F1" height="172.6719" id="&lt;b&gt;CellFont ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="271" x="73.5" y="1104.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="167" y="1122.792">CellFont ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="74.5" x2="343.5" y1="1131.0938" y2="1131.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="74.5" x2="343.5" y1="1139.0938" y2="1139.0938"/><ellipse cx="84.5" cy="1150.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="60" x="93.5" y="1156.0889">CellFont</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="189.5" y="1156.0889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="74" x="125.5" y="1172.3857">NameFont</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="253.5" y="1172.3857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="72" x="262.5" y="1172.3857">AnsiString</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="334.5" y="1172.3857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="63" x="125.5" y="1188.6826">SizeFont</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="253.5" y="1188.6826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="262.5" y="1188.6826">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="280.5" y="1188.6826">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="65" x="125.5" y="1204.9795">BoldFont</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="253.5" y="1204.9795">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="31" x="262.5" y="1204.9795">bool</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="68" x="125.5" y="1221.2764">ItalicFont</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="253.5" y="1221.2764">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="31" x="262.5" y="1221.2764">bool</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="101" x="125.5" y="1237.5732">UnderlineFont</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="253.5" y="1237.5732">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="262.5" y="1237.5732">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="125.5" y="1253.8701">Range</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="253.5" y="1253.8701">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="262.5" y="1253.8701">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="93.5" y="1270.167">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="111.5" y="1270.167">void</text></g><g id="elem_GMN2488783"><path d="M467.5,1163.7969 L467.5,1187.2969 L344.509,1191.2969 L467.5,1195.2969 L467.5,1219.1953 A0,0 0 0 0 467.5,1219.1953 L708.5,1219.1953 A0,0 0 0 0 708.5,1219.1953 L708.5,1173.7969 L698.5,1163.7969 L467.5,1163.7969 A0,0 0 0 0 467.5,1163.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M698.5,1163.7969 L698.5,1173.7969 L708.5,1173.7969 L698.5,1163.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="101" x="473.5" y="1180.8638">set font options</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="473.5" y="1195.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="220" x="473.5" y="1211.1294">(установить параметры шрифта)</text></g><!--MD5=[374cf38c41ae4a206412abe496ee58f7]
+class <b>CellFormula ()</b>--><g id="elem_&lt;b&gt;CellFormula ()&lt;/b&gt;"><rect codeLine="147" fill="#F1F1F1" height="140.0781" id="&lt;b&gt;CellFormula ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="207" x="105.5" y="1313.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="113" x="152.5" y="1331.292">CellFormula ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="106.5" x2="311.5" y1="1339.5938" y2="1339.5938"/><line style="stroke:#181818;stroke-width:1.0;" x1="106.5" x2="311.5" y1="1347.5938" y2="1347.5938"/><ellipse cx="116.5" cy="1358.5938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="84" x="125.5" y="1364.5889">CellFormula</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="221.5" y="1364.5889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="55" x="157.5" y="1380.8857">formula</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="221.5" y="1380.8857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="72" x="230.5" y="1380.8857">AnsiString</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="302.5" y="1380.8857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="157.5" y="1397.1826">column</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="221.5" y="1397.1826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="230.5" y="1397.1826">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="248.5" y="1397.1826">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="157.5" y="1413.4795">row</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="221.5" y="1413.4795">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="230.5" y="1413.4795">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="157.5" y="1429.7764">sheet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="221.5" y="1429.7764">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="230.5" y="1429.7764">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="125.5" y="1446.0732">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="143.5" y="1446.0732">void</text></g><g id="elem_GMN2488787"><path d="M485.5,1355.7969 L485.5,1379.2969 L312.519,1383.2969 L485.5,1387.2969 L485.5,1411.1953 A0,0 0 0 0 485.5,1411.1953 L690.5,1411.1953 A0,0 0 0 0 690.5,1411.1953 L690.5,1365.7969 L680.5,1355.7969 L485.5,1355.7969 A0,0 0 0 0 485.5,1355.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M680.5,1355.7969 L680.5,1365.7969 L690.5,1365.7969 L680.5,1355.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="184" x="491.5" y="1372.8638">entering a formula into a cell</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="491.5" y="1387.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="170" x="491.5" y="1403.1294">(ввод формулы в ячейку)</text></g><!--MD5=[92a5f557ef578e8ef293924c304501e6]
+class <b>CellOrient ()</b>--><g id="elem_&lt;b&gt;CellOrient ()&lt;/b&gt;"><rect codeLine="168" fill="#F1F1F1" height="123.7813" id="&lt;b&gt;CellOrient ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="153" x="132.5" y="1488.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="98" x="160" y="1506.292">CellOrient ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="133.5" x2="284.5" y1="1514.5938" y2="1514.5938"/><line style="stroke:#181818;stroke-width:1.0;" x1="133.5" x2="284.5" y1="1522.5938" y2="1522.5938"/><ellipse cx="143.5" cy="1533.5938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="152.5" y="1539.5889">CellOrient</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="248.5" y="1539.5889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="21" x="184.5" y="1555.8857">col</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="248.5" y="1555.8857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="257.5" y="1555.8857">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="275.5" y="1555.8857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="184.5" y="1572.1826">row</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="248.5" y="1572.1826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="257.5" y="1572.1826">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="275.5" y="1572.1826">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="32" x="184.5" y="1588.4795">grad</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="248.5" y="1588.4795">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="257.5" y="1588.4795">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="152.5" y="1604.7764">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="170.5" y="1604.7764">void</text></g><g id="elem_GMN2488791"><path d="M477,1522.7969 L477,1546.2969 L285.838,1550.2969 L477,1554.2969 L477,1578.1953 A0,0 0 0 0 477,1578.1953 L699,1578.1953 A0,0 0 0 0 699,1578.1953 L699,1532.7969 L689,1522.7969 L477,1522.7969 A0,0 0 0 0 477,1522.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M689,1522.7969 L689,1532.7969 L699,1532.7969 L689,1522.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="170" x="483" y="1539.8638">Orientation of text in a cell</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="483" y="1554.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="201" x="483" y="1570.1294">(Ориентация текста в ячейке)</text></g><!--MD5=[fd4bab9e9df336f900c95029d058817b]
+class <b>CellValue ()</b>--><g id="elem_&lt;b&gt;CellValue ()&lt;/b&gt;"><rect codeLine="188" fill="#F1F1F1" height="140.0781" id="&lt;b&gt;CellValue ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="187" x="115.5" y="1647.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="92" x="163" y="1665.292">CellValue ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="116.5" x2="301.5" y1="1673.5938" y2="1673.5938"/><line style="stroke:#181818;stroke-width:1.0;" x1="116.5" x2="301.5" y1="1681.5938" y2="1681.5938"/><ellipse cx="126.5" cy="1692.5938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="66" x="135.5" y="1698.5889">CellValue</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="1698.5889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="37" x="167.5" y="1714.8857">value</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="1714.8857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="240.5" y="1714.8857">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="292.5" y="1714.8857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="167.5" y="1731.1826">column</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="1731.1826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="240.5" y="1731.1826">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="258.5" y="1731.1826">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="167.5" y="1747.4795">row</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="1747.4795">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="240.5" y="1747.4795">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="258.5" y="1747.4795">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="167.5" y="1763.7764">sheet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="1763.7764">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="240.5" y="1763.7764">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="135.5" y="1780.0732">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="153.5" y="1780.0732">void</text></g><g id="elem_GMN2488795"><path d="M493,1689.7969 L493,1713.2969 L302.707,1717.2969 L493,1721.2969 L493,1745.1953 A0,0 0 0 0 493,1745.1953 L683,1745.1953 A0,0 0 0 0 683,1745.1953 L683,1699.7969 L673,1689.7969 L493,1689.7969 A0,0 0 0 0 493,1689.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M673,1689.7969 L673,1699.7969 L683,1699.7969 L673,1689.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="169" x="499" y="1706.8638">entering a value into a cell</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="499" y="1721.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="168" x="499" y="1737.1294">(ввод значения в ячейку)</text></g><!--MD5=[a77df8d8925525688d706e716f02f572]
+class <b>CopySheet ()</b>--><g id="elem_&lt;b&gt;CopySheet ()&lt;/b&gt;"><rect codeLine="209" fill="#F1F1F1" height="58.5938" id="&lt;b&gt;CopySheet ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="318" x="50" y="1822.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="103" x="157.5" y="1840.792">CopySheet ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="51" x2="367" y1="1849.0938" y2="1849.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="51" x2="367" y1="1857.0938" y2="1857.0938"/><ellipse cx="61" cy="1868.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="80" x="70" y="1874.0889">CopySheet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="166" y="1874.0889">(sheet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="230" y="1874.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="239" y="1874.0889">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="291" y="1874.0889">)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="323" y="1874.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="332" y="1874.0889">void</text></g><g id="elem_GMN2488799"><path d="M507,1824.7969 L507,1848.2969 L368.243,1852.2969 L507,1856.2969 L507,1880.1953 A0,0 0 0 0 507,1880.1953 L669,1880.1953 A0,0 0 0 0 669,1880.1953 L669,1834.7969 L659,1824.7969 L507,1824.7969 A0,0 0 0 0 507,1824.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M659,1824.7969 L659,1834.7969 L669,1834.7969 L659,1824.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="72" x="513" y="1841.8638">Sheet copy</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="513" y="1856.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="141" x="513" y="1872.1294">(Копирование листа)</text></g><!--MD5=[db1b2a4d6d520fcc30c83e7fc5dc9c2c]
+class <b>DeleteSheet ()</b>--><g id="elem_&lt;b&gt;DeleteSheet ()&lt;/b&gt;"><rect codeLine="225" fill="#F1F1F1" height="58.5938" id="&lt;b&gt;DeleteSheet ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="350" x="34" y="1916.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="115" x="151.5" y="1934.792">DeleteSheet ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="35" x2="383" y1="1943.0938" y2="1943.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="35" x2="383" y1="1951.0938" y2="1951.0938"/><ellipse cx="45" cy="1962.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="54" y="1968.0889">DeleteSheet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="46" x="182" y="1968.0889">(sheet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="246" y="1968.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="255" y="1968.0889">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="307" y="1968.0889">)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="339" y="1968.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="348" y="1968.0889">void</text></g><g id="elem_GMN2488803"><path d="M517.5,1916.7969 L517.5,1940.6669 L384.154,1945.3769 L517.5,1948.6669 L517.5,1972.1953 A0,0 0 0 0 517.5,1972.1953 L658.5,1972.1953 A0,0 0 0 0 658.5,1972.1953 L658.5,1926.7969 L648.5,1916.7969 L517.5,1916.7969 A0,0 0 0 0 517.5,1916.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M648.5,1916.7969 L648.5,1926.7969 L658.5,1926.7969 L648.5,1916.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="105" x="523.5" y="1933.8638">Deleting a sheet</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="523.5" y="1948.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="120" x="523.5" y="1964.1294">(Удаление листа)</text></g><!--MD5=[6051beabfe8aa7f477a6a6ee62694ec1]
+class <b>DisplayAlert ()</b>--><g id="elem_&lt;b&gt;DisplayAlert ()&lt;/b&gt;"><rect codeLine="241" fill="#F1F1F1" height="58.5938" id="&lt;b&gt;DisplayAlert ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="318" x="50" y="2010.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="117" x="150.5" y="2028.792">DisplayAlert ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="51" x2="367" y1="2037.0938" y2="2037.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="51" x2="367" y1="2045.0938" y2="2045.0938"/><ellipse cx="61" cy="2056.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="70" y="2062.0889">DisplayAlert</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="166" y="2062.0889">(ole_obj</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="230" y="2062.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="239" y="2062.0889">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="291" y="2062.0889">)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="323" y="2062.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="332" y="2062.0889">void</text></g><g id="elem_GMN2488807"><path d="M478,2007.2969 L478,2043.3969 L368.243,2044.4969 L478,2051.3969 L478,2092.9609 A0,0 0 0 0 478,2092.9609 L698,2092.9609 A0,0 0 0 0 698,2092.9609 L698,2017.2969 L688,2007.2969 L478,2007.2969 A0,0 0 0 0 478,2007.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M688,2007.2969 L688,2017.2969 L698,2017.2969 L688,2007.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="146" x="484" y="2024.3638">remove Excel prompts</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="146" x="484" y="2039.4966">for action confirmation</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="484" y="2054.6294"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="157" x="484" y="2069.7622">(убрать запросы Excela</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="199" x="484" y="2084.895">на подтверждения действия)</text></g><!--MD5=[12c97d44d7fbb38efe1859317497a249]
+class <b>GetCellValue ()</b>--><g id="elem_&lt;b&gt;GetCellValue ()&lt;/b&gt;"><rect codeLine="259" fill="#F1F1F1" height="123.7813" id="&lt;b&gt;GetCellValue ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="183" x="117.5" y="2105.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="121" x="148.5" y="2123.292">GetCellValue ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="118.5" x2="299.5" y1="2131.5938" y2="2131.5938"/><line style="stroke:#181818;stroke-width:1.0;" x1="118.5" x2="299.5" y1="2139.5938" y2="2139.5938"/><ellipse cx="128.5" cy="2150.5938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="137.5" y="2156.5889">GetCellValue</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="265.5" y="2156.5889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="169.5" y="2172.8857">column</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="233.5" y="2172.8857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="242.5" y="2172.8857">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="260.5" y="2172.8857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="169.5" y="2189.1826">row</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="233.5" y="2189.1826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="242.5" y="2189.1826">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="260.5" y="2189.1826">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="169.5" y="2205.4795">sheet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="233.5" y="2205.4795">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="242.5" y="2205.4795">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="137.5" y="2221.7764">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="155.5" y="2221.7764">Variant</text></g><g id="elem_GMN2488811"><path d="M469.5,2139.7969 L469.5,2163.2969 L300.781,2167.2969 L469.5,2171.2969 L469.5,2195.1953 A0,0 0 0 0 469.5,2195.1953 L706.5,2195.1953 A0,0 0 0 0 706.5,2195.1953 L706.5,2149.7969 L696.5,2139.7969 L469.5,2139.7969 A0,0 0 0 0 469.5,2139.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M696.5,2139.7969 L696.5,2149.7969 L706.5,2149.7969 L696.5,2139.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="144" x="475.5" y="2156.8638">getting value from cell</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="475.5" y="2171.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="216" x="475.5" y="2187.1294">(получение значения из ячейки)</text></g><!--MD5=[74ec592c74011c3f36d1ddad6000ab12]
+class <b>HeightRow ()</b>--><g id="elem_&lt;b&gt;HeightRow ()&lt;/b&gt;"><rect codeLine="279" fill="#F1F1F1" height="107.4844" id="&lt;b&gt;HeightRow ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="187" x="115.5" y="2264.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="105" x="156.5" y="2282.792">HeightRow ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="116.5" x2="301.5" y1="2291.0938" y2="2291.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="116.5" x2="301.5" y1="2299.0938" y2="2299.0938"/><ellipse cx="126.5" cy="2310.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="135.5" y="2316.0889">HeightRow</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="2316.0889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="167.5" y="2332.3857">Range</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="2332.3857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="240.5" y="2332.3857">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="292.5" y="2332.3857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="47" x="167.5" y="2348.6826">height</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="2348.6826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="240.5" y="2348.6826">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="135.5" y="2364.9795">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="153.5" y="2364.9795">void</text></g><g id="elem_GMN2488815"><path d="M484.5,2290.7969 L484.5,2314.2969 L302.707,2318.2969 L484.5,2322.2969 L484.5,2346.1953 A0,0 0 0 0 484.5,2346.1953 L691.5,2346.1953 A0,0 0 0 0 691.5,2346.1953 L691.5,2300.7969 L681.5,2290.7969 L484.5,2290.7969 A0,0 0 0 0 484.5,2290.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M681.5,2290.7969 L681.5,2300.7969 L691.5,2300.7969 L681.5,2290.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="109" x="490.5" y="2307.8638">setting line width</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="490.5" y="2322.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="186" x="490.5" y="2338.1294">(установка ширины строки)</text></g><!--MD5=[f2b9d28f5faff68d79b1eb3cf539d931]
+class <b>HorizontalAlign ()</b>--><g id="elem_&lt;b&gt;HorizontalAlign ()&lt;/b&gt;"><rect codeLine="298" fill="#F1F1F1" height="107.4844" id="&lt;b&gt;HorizontalAlign ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="219" x="99.5" y="2406.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="144" x="137" y="2424.792">HorizontalAlign ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="100.5" x2="317.5" y1="2433.0938" y2="2433.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="100.5" x2="317.5" y1="2441.0938" y2="2441.0938"/><ellipse cx="110.5" cy="2452.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="119.5" y="2458.0889">HorizontalAlign</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="247.5" y="2458.0889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="151.5" y="2474.3857">Range</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="247.5" y="2474.3857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="256.5" y="2474.3857">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="308.5" y="2474.3857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="151.5" y="2490.6826">nom_align</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="247.5" y="2490.6826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="256.5" y="2490.6826">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="119.5" y="2506.9795">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="137.5" y="2506.9795">void</text></g><g id="elem_GMN2488819"><path d="M479,2424.7969 L479,2456.2969 L318.538,2460.2969 L479,2464.2969 L479,2495.3281 A0,0 0 0 0 479,2495.3281 L697,2495.3281 A0,0 0 0 0 697,2495.3281 L697,2434.7969 L687,2424.7969 L479,2424.7969 A0,0 0 0 0 479,2424.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M687,2424.7969 L687,2434.7969 L697,2434.7969 L687,2424.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="187" x="485" y="2441.8638">Align cell content horizontally</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="485" y="2456.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="485" y="2472.1294">(Выравнивание содержимого</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="161" x="485" y="2487.2622">ячейки по горизонтали)</text></g><!--MD5=[a43bc991e0b10c981543fb36d5a50604]
+class <b>M1 ()</b>--><g id="elem_&lt;b&gt;M1 ()&lt;/b&gt;"><rect codeLine="318" fill="#F1F1F1" height="58.5938" id="&lt;b&gt;M1 ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="254" x="82" y="2548.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="42" x="188" y="2566.792">M1 ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="83" x2="335" y1="2575.0938" y2="2575.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="83" x2="335" y1="2583.0938" y2="2583.0938"/><ellipse cx="93" cy="2594.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="21" x="102" y="2600.0889">M1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="134" y="2600.0889">(Range</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="198" y="2600.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="207" y="2600.0889">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="259" y="2600.0889">)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="291" y="2600.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="300" y="2600.0889">void</text></g><g id="elem_GMN2488823"><path d="M505,2550.7969 L505,2574.2969 L336.06,2578.2969 L505,2582.2969 L505,2606.1953 A0,0 0 0 0 505,2606.1953 L671,2606.1953 A0,0 0 0 0 671,2606.1953 L671,2560.7969 L661,2550.7969 L505,2550.7969 A0,0 0 0 0 505,2550.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M661,2550.7969 L661,2560.7969 L671,2560.7969 L661,2550.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="82" x="511" y="2567.8638">Merging cells</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="511" y="2582.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="145" x="511" y="2598.1294">(Объединение ячеек)</text></g><!--MD5=[4c662974050e4ed25c1c5a21139fab76]
+class <b>NameSheet1 ()</b>--><g id="elem_&lt;b&gt;NameSheet1 ()&lt;/b&gt;"><rect codeLine="334" fill="#F1F1F1" height="107.4844" id="&lt;b&gt;NameSheet1 ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="203" x="107.5" y="2642.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="119" x="149.5" y="2660.792">NameSheet1 ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="108.5" x2="309.5" y1="2669.0938" y2="2669.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="108.5" x2="309.5" y1="2677.0938" y2="2677.0938"/><ellipse cx="118.5" cy="2688.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="93" x="127.5" y="2694.0889">NameSheet1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="255.5" y="2694.0889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="159.5" y="2710.3857">sheet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="223.5" y="2710.3857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="232.5" y="2710.3857">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="284.5" y="2710.3857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="159.5" y="2726.6826">name</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="223.5" y="2726.6826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="72" x="232.5" y="2726.6826">AnsiString</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="127.5" y="2742.9795">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="145.5" y="2742.9795">void</text></g><g id="elem_GMN2488827"><path d="M495,2668.7969 L495,2692.2969 L310.534,2696.2969 L495,2700.2969 L495,2724.1953 A0,0 0 0 0 495,2724.1953 L681,2724.1953 A0,0 0 0 0 681,2724.1953 L681,2678.7969 L671,2668.7969 L495,2668.7969 A0,0 0 0 0 495,2668.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M671,2668.7969 L671,2678.7969 L681,2678.7969 L671,2668.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="113" x="501" y="2685.8638">renaming a sheet</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="501" y="2700.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="165" x="501" y="2716.1294">(переименование листа)</text></g><!--MD5=[b32704ee9c6835cf1dd8b37d8f0b1fb7]
+class <b>NewBook ()</b>--><g id="elem_&lt;b&gt;NewBook ()&lt;/b&gt;"><rect codeLine="353" fill="#F1F1F1" height="58.5938" id="&lt;b&gt;NewBook ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="372" x="23" y="2784.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="91" x="163.5" y="2802.792">NewBook ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="24" x2="394" y1="2811.0938" y2="2811.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="24" x2="394" y1="2819.0938" y2="2819.0938"/><ellipse cx="34" cy="2830.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="67" x="43" y="2836.0889">NewBook</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="139" y="2836.0889">(excel_app</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="235" y="2836.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="244" y="2836.0889">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="296" y="2836.0889">)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="328" y="2836.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="337" y="2836.0889">Variant</text></g><g id="elem_GMN2488831"><path d="M531.5,2786.7969 L531.5,2810.2969 L395.187,2814.2969 L531.5,2818.2969 L531.5,2842.1953 A0,0 0 0 0 531.5,2842.1953 L644.5,2842.1953 A0,0 0 0 0 644.5,2842.1953 L644.5,2796.7969 L634.5,2786.7969 L531.5,2786.7969 A0,0 0 0 0 531.5,2786.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M634.5,2786.7969 L634.5,2796.7969 L644.5,2796.7969 L634.5,2786.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="75" x="537.5" y="2803.8638">A new book</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="537.5" y="2818.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="92" x="537.5" y="2834.1294">(Новая книга)</text></g><!--MD5=[335a8326c010845aaeadba910ea81a63]
+class <b>NewSheet1 ()</b>--><g id="elem_&lt;b&gt;NewSheet1 ()&lt;/b&gt;"><rect codeLine="369" fill="#F1F1F1" height="58.5938" id="&lt;b&gt;NewSheet1 ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="372" x="23" y="2878.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="107" x="155.5" y="2896.792">NewSheet1 ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="24" x2="394" y1="2905.0938" y2="2905.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="24" x2="394" y1="2913.0938" y2="2913.0938"/><ellipse cx="34" cy="2924.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="43" y="2930.0889">NewSheet1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="139" y="2930.0889">(excel_app</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="235" y="2930.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="244" y="2930.0889">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="296" y="2930.0889">)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="328" y="2930.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="337" y="2930.0889">Variant</text></g><g id="elem_GMN2488835"><path d="M484.5,2880.7969 L484.5,2904.2969 L395.187,2908.2969 L484.5,2912.2969 L484.5,2936.1953 A0,0 0 0 0 484.5,2936.1953 L691.5,2936.1953 A0,0 0 0 0 691.5,2936.1953 L691.5,2890.7969 L681.5,2880.7969 L484.5,2880.7969 A0,0 0 0 0 484.5,2880.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M681.5,2880.7969 L681.5,2890.7969 L691.5,2890.7969 L681.5,2880.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="127" x="490.5" y="2897.8638">Adding a new sheet</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="490.5" y="2912.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="186" x="490.5" y="2928.1294">(Добавление нового листа)</text></g><!--MD5=[00167aaa6179fc8a49ecec7e1d70c6bc]
+class <b>OpenBook ()</b>--><g id="elem_&lt;b&gt;OpenBook ()&lt;/b&gt;"><rect codeLine="385" fill="#F1F1F1" height="107.4844" id="&lt;b&gt;OpenBook ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="267" x="75.5" y="2972.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="99" x="159.5" y="2990.792">OpenBook ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="76.5" x2="341.5" y1="2999.0938" y2="2999.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="76.5" x2="341.5" y1="3007.0938" y2="3007.0938"/><ellipse cx="86.5" cy="3018.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="95.5" y="3024.0889">OpenBook</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="191.5" y="3024.0889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="110" x="127.5" y="3040.3857">KonkursCmbBx</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="255.5" y="3040.3857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="264.5" y="3040.3857">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="316.5" y="3040.3857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="69" x="127.5" y="3056.6826">full_name</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="255.5" y="3056.6826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="72" x="264.5" y="3056.6826">AnsiString</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="95.5" y="3072.9795">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="113.5" y="3072.9795">Variant</text></g><g id="elem_GMN2488839"><path d="M526.5,3013.7969 L526.5,3022.2969 L342.651,3026.2969 L526.5,3030.2969 L526.5,3038.9297 A0,0 0 0 0 526.5,3038.9297 L649.5,3038.9297 A0,0 0 0 0 649.5,3038.9297 L649.5,3023.7969 L639.5,3013.7969 L526.5,3013.7969 A0,0 0 0 0 526.5,3013.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M639.5,3013.7969 L639.5,3023.7969 L649.5,3023.7969 L639.5,3013.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="102" x="532.5" y="3030.8638">Open WorkBook</text></g><!--MD5=[fc832efe896db95448fe465115a10550]
+class <b>OVisible ()</b>--><g id="elem_&lt;b&gt;OVisible ()&lt;/b&gt;"><rect codeLine="402" fill="#F1F1F1" height="58.5938" id="&lt;b&gt;OVisible ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="286" x="66" y="3114.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="84" x="167" y="3132.792">OVisible ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="67" x2="351" y1="3141.0938" y2="3141.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="67" x2="351" y1="3149.0938" y2="3149.0938"/><ellipse cx="77" cy="3160.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="59" x="86" y="3166.0889">OVisible</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="57" x="150" y="3166.0889">(ole_obj</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="214" y="3166.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="223" y="3166.0889">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="275" y="3166.0889">)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="307" y="3166.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="316" y="3166.0889">void</text></g><g id="elem_GMN2488843"><path d="M502.5,3131.7969 L502.5,3140.2969 L352.259,3144.2969 L502.5,3148.2969 L502.5,3156.9297 A0,0 0 0 0 502.5,3156.9297 L673.5,3156.9297 A0,0 0 0 0 673.5,3156.9297 L673.5,3141.7969 L663.5,3131.7969 L502.5,3131.7969 A0,0 0 0 0 502.5,3131.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M663.5,3131.7969 L663.5,3141.7969 L673.5,3141.7969 L663.5,3131.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="150" x="508.5" y="3148.8638">set Visible to Ole object</text></g><!--MD5=[e9f4e0956c35b2eed78d8c4cff3c8965]
+class <b>Quit_ex ()</b>--><g id="elem_&lt;b&gt;Quit_ex ()&lt;/b&gt;"><rect codeLine="416" fill="#F1F1F1" height="58.5938" id="&lt;b&gt;Quit_ex ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="318" x="50" y="3208.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="78" x="170" y="3226.792">Quit_ex ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="51" x2="367" y1="3235.0938" y2="3235.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="51" x2="367" y1="3243.0938" y2="3243.0938"/><ellipse cx="61" cy="3254.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="54" x="70" y="3260.0889">Quit_ex</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="78" x="134" y="3260.0889">(excel_app</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="230" y="3260.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="239" y="3260.0889">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="291" y="3260.0889">)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="323" y="3260.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="332" y="3260.0889">void</text></g><g id="elem_GMN2488847"><path d="M538.5,3225.7969 L538.5,3234.2969 L368.243,3238.2969 L538.5,3242.2969 L538.5,3250.9297 A0,0 0 0 0 538.5,3250.9297 L637.5,3250.9297 A0,0 0 0 0 637.5,3250.9297 L637.5,3235.7969 L627.5,3225.7969 L538.5,3225.7969 A0,0 0 0 0 538.5,3225.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M627.5,3225.7969 L627.5,3235.7969 L637.5,3235.7969 L627.5,3225.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="78" x="544.5" y="3242.8638">delete Excel</text></g><!--MD5=[ad36787bfe105cd022e33860e22a45e5]
+class <b>Range ()</b>--><g id="elem_&lt;b&gt;Range ()&lt;/b&gt;"><rect codeLine="430" fill="#F1F1F1" height="123.7813" id="&lt;b&gt;Range ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="219" x="99.5" y="3303.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="68" x="175" y="3321.292">Range ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="100.5" x2="317.5" y1="3329.5938" y2="3329.5938"/><line style="stroke:#181818;stroke-width:1.0;" x1="100.5" x2="317.5" y1="3337.5938" y2="3337.5938"/><ellipse cx="110.5" cy="3348.5938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="119.5" y="3354.5889">Range</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="183.5" y="3354.5889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="151.5" y="3370.8857">excel_book</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="247.5" y="3370.8857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="256.5" y="3370.8857">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="308.5" y="3370.8857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="36" x="151.5" y="3387.1826">Cell1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="247.5" y="3387.1826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="256.5" y="3387.1826">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="308.5" y="3387.1826">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="35" x="151.5" y="3403.4795">Cell2</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="247.5" y="3403.4795">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="256.5" y="3403.4795">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="119.5" y="3419.7764">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="137.5" y="3419.7764">Variant</text></g><g id="elem_GMN2488851"><path d="M513,3337.7969 L513,3361.2969 L318.538,3365.2969 L513,3369.2969 L513,3393.1953 A0,0 0 0 0 513,3393.1953 L663,3393.1953 A0,0 0 0 0 663,3393.1953 L663,3347.7969 L653,3337.7969 L513,3337.7969 A0,0 0 0 0 513,3337.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M653,3337.7969 L653,3347.7969 L663,3347.7969 L653,3337.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="84" x="519" y="3354.8638">Cell selection</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="519" y="3369.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="129" x="519" y="3385.1294">(Выделение ячеек)</text></g><!--MD5=[489f677b3a76f6d7616f5f2283b20778]
+class <b>SaveBook ()</b>--><g id="elem_&lt;b&gt;SaveBook ()&lt;/b&gt;"><rect codeLine="450" fill="#F1F1F1" height="58.5938" id="&lt;b&gt;SaveBook ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="372" x="23" y="3462.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="96" x="161" y="3480.792">SaveBook ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="24" x2="394" y1="3489.0938" y2="3489.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="24" x2="394" y1="3497.0938" y2="3497.0938"/><ellipse cx="34" cy="3508.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="71" x="43" y="3514.0889">SaveBook</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="87" x="139" y="3514.0889">(excel_book</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="235" y="3514.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="244" y="3514.0889">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="296" y="3514.0889">)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="328" y="3514.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="337" y="3514.0889">Variant</text></g><g id="elem_GMN2488855"><path d="M510.5,3464.7969 L510.5,3488.2969 L395.187,3492.2969 L510.5,3496.2969 L510.5,3520.1953 A0,0 0 0 0 510.5,3520.1953 L665.5,3520.1953 A0,0 0 0 0 665.5,3520.1953 L665.5,3474.7969 L655.5,3464.7969 L510.5,3464.7969 A0,0 0 0 0 510.5,3464.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M655.5,3464.7969 L655.5,3474.7969 L665.5,3474.7969 L655.5,3464.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="90" x="516.5" y="3481.8638">Saving a book</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="516.5" y="3496.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="134" x="516.5" y="3512.1294">(Сохранение книги)</text></g><!--MD5=[cc364b753ea1e59dc61b9d884a5a193e]
+class <b>SaveBookAs ()</b>--><g id="elem_&lt;b&gt;SaveBookAs ()&lt;/b&gt;"><rect codeLine="466" fill="#F1F1F1" height="107.4844" id="&lt;b&gt;SaveBookAs ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="235" x="91.5" y="3556.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="116" x="151" y="3574.792">SaveBookAs ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="92.5" x2="325.5" y1="3583.0938" y2="3583.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="92.5" x2="325.5" y1="3591.0938" y2="3591.0938"/><ellipse cx="102.5" cy="3602.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="88" x="111.5" y="3608.0889">SaveBookAs</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="207.5" y="3608.0889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="143.5" y="3624.3857">excel_book</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="239.5" y="3624.3857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="248.5" y="3624.3857">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="300.5" y="3624.3857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="143.5" y="3640.6826">name</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="239.5" y="3640.6826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="72" x="248.5" y="3640.6826">AnsiString</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="111.5" y="3656.9795">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="129.5" y="3656.9795">Variant</text></g><g id="elem_GMN2488859"><path d="M455,3582.7969 L455,3606.2969 L326.703,3610.2969 L455,3614.2969 L455,3638.1953 A0,0 0 0 0 455,3638.1953 L721,3638.1953 A0,0 0 0 0 721,3638.1953 L721,3592.7969 L711,3582.7969 L455,3582.7969 A0,0 0 0 0 455,3582.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M711,3582.7969 L711,3592.7969 L721,3592.7969 L711,3582.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="205" x="461" y="3599.8638">Saving a book with a new name</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="461" y="3614.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="245" x="461" y="3630.1294">(Сохранение книги c новым именем)</text></g><!--MD5=[88f9acc238fe39aa55f7c6befed4b754]
+class <b>SelectCell ()</b>--><g id="elem_&lt;b&gt;SelectCell ()&lt;/b&gt;"><rect codeLine="485" fill="#F1F1F1" height="123.7813" id="&lt;b&gt;SelectCell ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="183" x="117.5" y="3699.2969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="97" x="160.5" y="3717.292">SelectCell ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="118.5" x2="299.5" y1="3725.5938" y2="3725.5938"/><line style="stroke:#181818;stroke-width:1.0;" x1="118.5" x2="299.5" y1="3733.5938" y2="3733.5938"/><ellipse cx="128.5" cy="3744.5938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="137.5" y="3750.5889">SelectCell</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="233.5" y="3750.5889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="169.5" y="3766.8857">column</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="233.5" y="3766.8857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="242.5" y="3766.8857">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="260.5" y="3766.8857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="169.5" y="3783.1826">row</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="233.5" y="3783.1826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="242.5" y="3783.1826">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="260.5" y="3783.1826">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="169.5" y="3799.4795">sheet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="233.5" y="3799.4795">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="242.5" y="3799.4795">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="137.5" y="3815.7764">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="155.5" y="3815.7764">Variant</text></g><g id="elem_GMN2488863"><path d="M490,3733.7969 L490,3757.2969 L300.781,3761.2969 L490,3765.2969 L490,3789.1953 A0,0 0 0 0 490,3789.1953 L686,3789.1953 A0,0 0 0 0 686,3789.1953 L686,3743.7969 L676,3733.7969 L490,3733.7969 A0,0 0 0 0 490,3733.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M676,3733.7969 L676,3743.7969 L686,3743.7969 L676,3733.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="159" x="496" y="3750.8638">Cell selection by address</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="496" y="3765.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="175" x="496" y="3781.1294">(Выбор ячейки по адресу)</text></g><!--MD5=[83d6016a18bab0e44bf3968cfce66146]
+class <b>SelectColumn ()</b>--><g id="elem_&lt;b&gt;SelectColumn ()&lt;/b&gt;"><rect codeLine="505" fill="#F1F1F1" height="107.4844" id="&lt;b&gt;SelectColumn ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="187" x="115.5" y="3858.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="128" x="145" y="3876.792">SelectColumn ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="116.5" x2="301.5" y1="3885.0938" y2="3885.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="116.5" x2="301.5" y1="3893.0938" y2="3893.0938"/><ellipse cx="126.5" cy="3904.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="100" x="135.5" y="3910.0889">SelectColumn</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="263.5" y="3910.0889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="167.5" y="3926.3857">sheet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="3926.3857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="240.5" y="3926.3857">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="292.5" y="3926.3857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="167.5" y="3942.6826">column</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="3942.6826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="240.5" y="3942.6826">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="135.5" y="3958.9795">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="153.5" y="3958.9795">Variant</text></g><g id="elem_GMN2488867"><path d="M515,3884.7969 L515,3908.2969 L302.707,3912.2969 L515,3916.2969 L515,3940.1953 A0,0 0 0 0 515,3940.1953 L661,3940.1953 A0,0 0 0 0 661,3940.1953 L661,3894.7969 L651,3884.7969 L515,3884.7969 A0,0 0 0 0 515,3884.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M651,3884.7969 L651,3894.7969 L661,3894.7969 L651,3884.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="89" x="521" y="3901.8638">select column</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="521" y="3916.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="125" x="521" y="3932.1294">(выбрать столбец)</text></g><!--MD5=[d70f5589d8e98d581759094b8a7f5222]
+class <b>SelectRow ()</b>--><g id="elem_&lt;b&gt;SelectRow ()&lt;/b&gt;"><rect codeLine="524" fill="#F1F1F1" height="107.4844" id="&lt;b&gt;SelectRow ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="187" x="115.5" y="4000.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="102" x="158" y="4018.792">SelectRow ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="116.5" x2="301.5" y1="4027.0938" y2="4027.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="116.5" x2="301.5" y1="4035.0938" y2="4035.0938"/><ellipse cx="126.5" cy="4046.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="76" x="135.5" y="4052.0889">SelectRow</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="4052.0889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="41" x="167.5" y="4068.3857">sheet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="4068.3857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="240.5" y="4068.3857">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="292.5" y="4068.3857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="26" x="167.5" y="4084.6826">row</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="231.5" y="4084.6826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="240.5" y="4084.6826">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="10" x="135.5" y="4100.9795">):</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="149.5" y="4100.9795">Variant</text></g><g id="elem_GMN2488871"><path d="M520,4034.2969 L520,4050.2969 L302.707,4054.2969 L520,4058.2969 L520,4074.5625 A0,0 0 0 0 520,4074.5625 L656,4074.5625 A0,0 0 0 0 656,4074.5625 L656,4044.2969 L646,4034.2969 L520,4034.2969 A0,0 0 0 0 520,4034.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M646,4034.2969 L646,4044.2969 L656,4044.2969 L646,4034.2969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="66" x="526" y="4051.3638">select row</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="115" x="526" y="4066.4966">(выбрать строку)</text></g><!--MD5=[29460bcfcb4990e2b9069ece90b8d6f3]
+class <b>SelectSheet ()</b>--><g id="elem_&lt;b&gt;SelectSheet ()&lt;/b&gt;"><rect codeLine="542" fill="#F1F1F1" height="107.4844" id="&lt;b&gt;SelectSheet ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="235" x="91.5" y="4142.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="114" x="152" y="4160.792">SelectSheet ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="92.5" x2="325.5" y1="4169.0938" y2="4169.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="92.5" x2="325.5" y1="4177.0938" y2="4177.0938"/><ellipse cx="102.5" cy="4188.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="89" x="111.5" y="4194.0889">SelectSheet</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="207.5" y="4194.0889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="82" x="143.5" y="4210.3857">excel_book</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="239.5" y="4210.3857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="248.5" y="4210.3857">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="300.5" y="4210.3857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="40" x="143.5" y="4226.6826">name</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="239.5" y="4226.6826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="72" x="248.5" y="4226.6826">AnsiString</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="111.5" y="4242.9795">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="129.5" y="4242.9795">Variant</text></g><g id="elem_GMN2488875"><path d="M490,4183.7969 L490,4192.2969 L326.703,4196.2969 L490,4200.2969 L490,4208.9297 A0,0 0 0 0 490,4208.9297 L686,4208.9297 A0,0 0 0 0 686,4208.9297 L686,4193.7969 L676,4183.7969 L490,4183.7969 A0,0 0 0 0 490,4183.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M676,4183.7969 L676,4193.7969 L686,4193.7969 L676,4183.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="175" x="496" y="4200.8638">Select WorkSheet by Name</text></g><!--MD5=[7d18d5a7b8d31268a5011baf3ba426a5]
+class <b>SheetFormat ()</b>--><g id="elem_&lt;b&gt;SheetFormat ()&lt;/b&gt;"><rect codeLine="559" fill="#F1F1F1" height="107.4844" id="&lt;b&gt;SheetFormat ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="203" x="107.5" y="4284.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="123" x="147.5" y="4302.792">SheetFormat ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="108.5" x2="309.5" y1="4311.0938" y2="4311.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="108.5" x2="309.5" y1="4319.0938" y2="4319.0938"/><ellipse cx="118.5" cy="4330.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="95" x="127.5" y="4336.0889">SheetFormat</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="255.5" y="4336.0889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="25" x="159.5" y="4352.3857">cell</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="223.5" y="4352.3857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="232.5" y="4352.3857">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="284.5" y="4352.3857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="52" x="159.5" y="4368.6826">Format</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="223.5" y="4368.6826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="72" x="232.5" y="4368.6826">AnsiString</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="127.5" y="4384.9795">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="145.5" y="4384.9795">void</text></g><g id="elem_GMN2488879"><path d="M522,4310.7969 L522,4334.2969 L310.534,4338.2969 L522,4342.2969 L522,4366.1953 A0,0 0 0 0 522,4366.1953 L654,4366.1953 A0,0 0 0 0 654,4366.1953 L654,4320.7969 L644,4310.7969 L522,4310.7969 A0,0 0 0 0 522,4310.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M644,4310.7969 L644,4320.7969 L654,4320.7969 L644,4310.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="73" x="528" y="4327.8638">Cell Format</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="528" y="4342.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="111" x="528" y="4358.1294">(Формат ячейки)</text></g><!--MD5=[320923b827ad166487836f94148b3651]
+class <b>VerticalAlign ()</b>--><g id="elem_&lt;b&gt;VerticalAlign ()&lt;/b&gt;"><rect codeLine="578" fill="#F1F1F1" height="107.4844" id="&lt;b&gt;VerticalAlign ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="219" x="99.5" y="4426.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="123" x="147.5" y="4444.792">VerticalAlign ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="100.5" x2="317.5" y1="4453.0938" y2="4453.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="100.5" x2="317.5" y1="4461.0938" y2="4461.0938"/><ellipse cx="110.5" cy="4472.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="92" x="119.5" y="4478.0889">VerticalAlign</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="247.5" y="4478.0889">(</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="45" x="151.5" y="4494.3857">Range</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="247.5" y="4494.3857">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="256.5" y="4494.3857">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="4" x="308.5" y="4494.3857">,</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="73" x="151.5" y="4510.6826">nom_align</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="247.5" y="4510.6826">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="18" x="256.5" y="4510.6826">int</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="14" x="119.5" y="4526.9795">) :</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="137.5" y="4526.9795">void</text></g><g id="elem_GMN2488883"><path d="M479,4444.7969 L479,4476.2969 L318.538,4480.2969 L479,4484.2969 L479,4515.3281 A0,0 0 0 0 479,4515.3281 L697,4515.3281 A0,0 0 0 0 697,4515.3281 L697,4454.7969 L687,4444.7969 L479,4444.7969 A0,0 0 0 0 479,4444.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M687,4444.7969 L687,4454.7969 L697,4454.7969 L687,4444.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="178" x="485" y="4461.8638">Align cell contents vertically</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="485" y="4476.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="197" x="485" y="4492.1294">(Выравнивание содержимого</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="146" x="485" y="4507.2622">ячейки по вертикали)</text></g><!--MD5=[15b8d301eafaa5fb4e7329a03cead4c9]
+class <b>W1 ()</b>--><g id="elem_&lt;b&gt;W1 ()&lt;/b&gt;"><rect codeLine="598" fill="#F1F1F1" height="58.5938" id="&lt;b&gt;W1 ()&lt;/b&gt;" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="254" x="82" y="4568.7969"/><text fill="#000000" font-family="sans-serif" font-size="14" font-weight="bold" lengthAdjust="spacing" textLength="43" x="187.5" y="4586.792">W1 ()</text><line style="stroke:#181818;stroke-width:0.5;" x1="83" x2="335" y1="4595.0938" y2="4595.0938"/><line style="stroke:#181818;stroke-width:1.0;" x1="83" x2="335" y1="4603.0938" y2="4603.0938"/><ellipse cx="93" cy="4614.0938" fill="#84BE84" rx="3" ry="3" style="stroke:#038048;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="23" x="102" y="4620.0889">W1</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="50" x="134" y="4620.0889">(Range</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="198" y="4620.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="52" x="207" y="4620.0889">Variant</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="259" y="4620.0889">)</text><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="5" x="291" y="4620.0889">:</text><text fill="#000000" font-family="sans-serif" font-size="14" font-style="italic" lengthAdjust="spacing" textLength="30" x="300" y="4620.0889">void</text></g><g id="elem_GMN2488887"><path d="M508.5,4570.7969 L508.5,4594.2969 L336.06,4598.2969 L508.5,4602.2969 L508.5,4626.1953 A0,0 0 0 0 508.5,4626.1953 L667.5,4626.1953 A0,0 0 0 0 667.5,4626.1953 L667.5,4580.7969 L657.5,4570.7969 L508.5,4570.7969 A0,0 0 0 0 508.5,4570.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><path d="M657.5,4570.7969 L657.5,4580.7969 L667.5,4580.7969 L657.5,4570.7969 " fill="#FEFFDD" style="stroke:#181818;stroke-width:0.5;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="70" x="514.5" y="4587.8638">Word wrap</text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="4" x="514.5" y="4602.9966"> </text><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="138" x="514.5" y="4618.1294">(Перенос по словам)</text></g><!--MD5=[7f41b26f8ccc912374bed8e3d5ca29fe]
+@startuml
+title Исходный файл: "Func.cpp"
+
+scale 750 width
+
+
+left to right direction
+
+scale max 750 width
+
+
+package functions <<rectangle>> {
+    class extern << (G, yellow) global>>
+    {
+        + CurCell \t\t\t: <i>Variant</i>
+        + CurSheet \t\t: <i>Variant</i>
+        + mas_column \t\t: <i>AnsiString [0..25]</i> {readOnly}
+
+    }
+    note right of extern::CurCell
+    Current Excel Cell
+    end note
+
+    note right of extern::CurSheet
+    Current Excel Table
+    end note
+
+    note right of extern::mas_column
+    "A","B","C","D","E","F","G","H","I",
+    "J","K","L","M","N","O","P","Q","R",
+    "S","T","U","V","W","X","Y","Z"
+    end note
+
+
+
+    class "<b>AutoFillCell ()</b>" {
+        - -
+        + AutoFillCell \t(Range \t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>AutoFillCell ()</b>" circle
+    show "<b>AutoFillCell ()</b>" method
+
+    note right of "<b>AutoFillCell ()</b>"
+    Autocomplete
+
+    (Автозаполнение)
+    end note
+
+
+
+    class "<b>AutoFitColumn ()</b>" {
+        - -
+        + AutoFitColumn \t(
+            \tSheet \t: <i>Variant</i>,
+            \tCol \t\t: <i>int</i>,
+            ) : <i>void</i>
+    }
+
+    hide "<b>AutoFitColumn ()</b>" circle
+    show "<b>AutoFitColumn ()</b>" method
+
+    note right of "<b>AutoFitColumn ()</b>"
+    AutoFit Column Width
+
+    (Автоподбор ширины столбца)
+    end note
+
+
+
+    class "<b>AutoFitRow ()</b>" {
+        - -
+        + AutoFitRow \t(
+            \tSheet \t: <i>Variant</i>,
+            \tRow \t: <i>int</i>,
+            ) : <i>void</i>
+    }
+
+    hide "<b>AutoFitRow ()</b>" circle
+    show "<b>AutoFitRow ()</b>" method
+
+    note right of "<b>AutoFitRow ()</b>"
+    AutoFit Line Width
+
+    (Автоподбор ширины строки)
+    end note
+
+
+
+    class "<b>BorderCell ()</b>" {
+        - -
+        + BorderCell \t(
+            \tcol \t\t\t: <i>int</i>,
+            \trow \t\t\t: <i>int</i>,
+            \ttypeline \t: <i>int</i>
+            \tweightline \t: <i>int</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>BorderCell ()</b>" circle
+    show "<b>BorderCell ()</b>" method
+
+    note right of "<b>BorderCell ()</b>"
+    cell bordering
+
+    (обрамление ячейки)
+    end note
+
+
+
+    class "<b>Borders ()</b>" {
+        - -
+        + Borders \t(
+            \tRange \t\t: <i>Variant</i>,
+            \tLineStyle \t: <i>int</i>,
+            \tweightline \t: <i>int</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>Borders ()</b>" circle
+    show "<b>Borders ()</b>" method
+
+
+
+    class "<b>CellFont ()</b>" {
+        - -
+        + CellFont \t(
+            \tNameFont \t\t: <i>AnsiString</i>,
+            \tSizeFont \t\t: <i>int</i>,
+            \tBoldFont \t\t: <i>bool</i>
+            \tItalicFont \t\t: <i>bool</i>
+            \tUnderlineFont \t: <i>int</i>
+            \tRange \t\t\t: <i>Variant</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>CellFont ()</b>" circle
+    show "<b>CellFont ()</b>" method
+
+    note right of "<b>CellFont ()</b>"
+    set font options
+
+    (установить параметры шрифта)
+    end note
+
+
+
+    class "<b>CellFormula ()</b>" {
+        - -
+        + CellFormula \t(
+            \tformula \t: <i>AnsiString</i>,
+            \tcolumn \t: <i>int</i>,
+            \trow \t\t: <i>int</i>
+            \tsheet \t: <i>Variant</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>CellFormula ()</b>" circle
+    show "<b>CellFormula ()</b>" method
+
+    note right of "<b>CellFormula ()</b>"
+    entering a formula into a cell
+
+    (ввод формулы в ячейку)
+    end note
+
+
+
+    class "<b>CellOrient ()</b>" {
+        - -
+        + CellOrient \t(
+            \tcol \t\t: <i>int</i>,
+            \trow \t\t: <i>int</i>,
+            \tgrad \t: <i>int</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>CellOrient ()</b>" circle
+    show "<b>CellOrient ()</b>" method
+
+    note right of "<b>CellOrient ()</b>"
+    Orientation of text in a cell
+
+    (Ориентация текста в ячейке)
+    end note
+
+
+
+    class "<b>CellValue ()</b>" {
+        - -
+        + CellValue \t(
+            \tvalue \t: <i>Variant</i>,
+            \tcolumn \t: <i>int</i>,
+            \trow \t\t: <i>int</i>,
+            \tsheet \t: <i>Variant</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>CellValue ()</b>" circle
+    show "<b>CellValue ()</b>" method
+
+    note right of "<b>CellValue ()</b>"
+    entering a value into a cell
+
+    (ввод значения в ячейку)
+    end note
+
+
+
+    class "<b>CopySheet ()</b>" {
+        - -
+        + CopySheet \t(sheet \t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>CopySheet ()</b>" circle
+    show "<b>CopySheet ()</b>" method
+
+    note right of "<b>CopySheet ()</b>"
+    Sheet copy
+
+    (Копирование листа)
+    end note
+
+
+
+    class "<b>DeleteSheet ()</b>" {
+        - -
+        + DeleteSheet \t(sheet \t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>DeleteSheet ()</b>" circle
+    show "<b>DeleteSheet ()</b>" method
+
+    note right of "<b>DeleteSheet ()</b>"
+    Deleting a sheet
+
+    (Удаление листа)
+    end note
+
+
+    
+    class "<b>DisplayAlert ()</b>" {
+        - -
+        + DisplayAlert \t(ole_obj \t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>DisplayAlert ()</b>" circle
+    show "<b>DisplayAlert ()</b>" method
+
+    note right of "<b>DisplayAlert ()</b>"
+    remove Excel prompts
+    for action confirmation
+
+    (убрать запросы Excela
+    на подтверждения действия)
+    end note
+
+
+
+    class "<b>GetCellValue ()</b>" {
+        - -
+        + GetCellValue \t(
+            \tcolumn \t: <i>int</i>,
+            \trow \t\t: <i>int</i>,
+            \tsheet \t: <i>Variant</i>
+            ) : <i>Variant</i>
+    }
+
+    hide "<b>GetCellValue ()</b>" circle
+    show "<b>GetCellValue ()</b>" method
+
+    note right of "<b>GetCellValue ()</b>"
+    getting value from cell
+
+    (получение значения из ячейки)
+    end note
+
+
+
+    class "<b>HeightRow ()</b>" {
+        - -
+        + HeightRow \t(
+            \tRange \t: <i>Variant</i>,
+            \theight \t: <i>int</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>HeightRow ()</b>" circle
+    show "<b>HeightRow ()</b>" method
+
+    note right of "<b>HeightRow ()</b>"
+    setting line width
+
+    (установка ширины строки)
+    end note
+
+
+
+    class "<b>HorizontalAlign ()</b>" {
+        - -
+        + HorizontalAlign \t(
+            \tRange \t\t: <i>Variant</i>,
+            \tnom_align \t: <i>int</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>HorizontalAlign ()</b>" circle
+    show "<b>HorizontalAlign ()</b>" method
+
+    note right of "<b>HorizontalAlign ()</b>"
+    Align cell content horizontally
+
+    (Выравнивание содержимого
+    ячейки по горизонтали)
+    end note
+
+
+
+    class "<b>M1 ()</b>" {
+        - -
+        + M1 \t(Range\t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>M1 ()</b>" circle
+    show "<b>M1 ()</b>" method
+
+    note right of "<b>M1 ()</b>"
+    Merging cells
+
+    (Объединение ячеек)
+    end note
+
+
+
+    class "<b>NameSheet1 ()</b>" {
+        - -
+        + NameSheet1 \t(
+            \tsheet \t: <i>Variant</i>,
+            \tname \t: <i>AnsiString</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>NameSheet1 ()</b>" circle
+    show "<b>NameSheet1 ()</b>" method
+
+    note right of "<b>NameSheet1 ()</b>"
+    renaming a sheet
+
+    (переименование листа)
+    end note
+
+
+
+    class "<b>NewBook ()</b>" {
+        - -
+        + NewBook \t(excel_app \t: <i>Variant</i>) \t: <i>Variant</i>
+    }
+
+    hide "<b>NewBook ()</b>" circle
+    show "<b>NewBook ()</b>" method
+
+    note right of "<b>NewBook ()</b>"
+    A new book
+
+    (Новая книга)
+    end note
+
+
+
+    class "<b>NewSheet1 ()</b>" {
+        - -
+        + NewSheet1 \t(excel_app \t: <i>Variant</i>) \t: <i>Variant</i>
+    }
+
+    hide "<b>NewSheet1 ()</b>" circle
+    show "<b>NewSheet1 ()</b>" method
+
+    note right of "<b>NewSheet1 ()</b>"
+    Adding a new sheet
+
+    (Добавление нового листа)
+    end note
+
+
+
+    class "<b>OpenBook ()</b>" {
+        - -
+        + OpenBook \t(
+            \tKonkursCmbBx \t: <i>Variant</i>,
+            \tfull_name \t\t: <i>AnsiString</i>
+            ) : <i>Variant</i>
+    }
+
+    hide "<b>OpenBook ()</b>" circle
+    show "<b>OpenBook ()</b>" method
+
+    note right of "<b>OpenBook ()</b>"
+    Open WorkBook
+    end note
+
+
+
+    class "<b>OVisible ()</b>" {
+        - -
+        + OVisible \t(ole_obj \t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>OVisible ()</b>" circle
+    show "<b>OVisible ()</b>" method
+
+    note right of "<b>OVisible ()</b>"
+    set Visible to Ole object
+    end note
+
+
+
+    class "<b>Quit_ex ()</b>" {
+        - -
+        + Quit_ex \t(excel_app \t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>Quit_ex ()</b>" circle
+    show "<b>Quit_ex ()</b>" method
+
+    note right of "<b>Quit_ex ()</b>"
+    delete Excel
+    end note
+
+
+
+    class "<b>Range ()</b>" {
+        - -
+        + Range \t(
+            \texcel_book \t: <i>Variant</i>,
+            \tCell1 \t\t: <i>Variant</i>,
+            \tCell2 \t\t: <i>Variant</i>
+            ) : <i>Variant</i>
+    }
+
+    hide "<b>Range ()</b>" circle
+    show "<b>Range ()</b>" method
+
+    note right of "<b>Range ()</b>"
+    Cell selection
+
+    (Выделение ячеек)
+    end note
+
+
+
+    class "<b>SaveBook ()</b>" {
+        - -
+        + SaveBook \t(excel_book \t: <i>Variant</i>) \t: <i>Variant</i>
+    }
+
+    hide "<b>SaveBook ()</b>" circle
+    show "<b>SaveBook ()</b>" method
+
+    note right of "<b>SaveBook ()</b>"
+    Saving a book
+
+    (Сохранение книги)
+    end note
+
+
+
+    class "<b>SaveBookAs ()</b>" {
+        - -
+        + SaveBookAs \t(
+            \texcel_book \t: <i>Variant</i>,
+            \tname \t\t: <i>AnsiString</i>
+            ) : <i>Variant</i>
+    }
+
+    hide "<b>SaveBookAs ()</b>" circle
+    show "<b>SaveBookAs ()</b>" method
+
+    note right of "<b>SaveBookAs ()</b>"
+    Saving a book with a new name
+    
+    (Сохранение книги c новым именем)
+    end note
+
+
+
+    class "<b>SelectCell ()</b>" {
+        - -
+        + SelectCell \t(
+            \tcolumn \t: <i>int</i>,
+            \trow \t\t: <i>int</i>,
+            \tsheet \t: <i>Variant</i>
+            ) : <i>Variant</i>
+    }
+
+    hide "<b>SelectCell ()</b>" circle
+    show "<b>SelectCell ()</b>" method
+
+    note right of "<b>SelectCell ()</b>"
+    Cell selection by address
+
+    (Выбор ячейки по адресу)
+    end note
+
+
+
+    class "<b>SelectColumn ()</b>" {
+        - -
+        + SelectColumn \t(
+            \tsheet \t: <i>Variant</i>,
+            \tcolumn \t: <i>int</i>
+            ) : <i>Variant</i>
+    }
+
+    hide "<b>SelectColumn ()</b>" circle
+    show "<b>SelectColumn ()</b>" method
+
+    note right of "<b>SelectColumn ()</b>"
+    select column
+
+    (выбрать столбец)
+    end note
+
+
+
+    class "<b>SelectRow ()</b>" {
+        - -
+        + SelectRow \t(
+            \tsheet \t: <i>Variant</i>,
+            \trow \t\t: <i>int</i>
+            ): <i>Variant</i>
+    }
+
+    hide "<b>SelectRow ()</b>" circle
+    show "<b>SelectRow ()</b>" method
+
+    note right of "<b>SelectRow ()</b>"
+    select row
+    (выбрать строку)
+    end note
+
+
+
+    class "<b>SelectSheet ()</b>" {
+        - -
+        + SelectSheet \t(
+            \texcel_book \t: <i>Variant</i>,
+            \tname \t\t: <i>AnsiString</i>
+            ) : <i>Variant</i>
+    }
+
+    hide "<b>SelectSheet ()</b>" circle
+    show "<b>SelectSheet ()</b>" method
+
+    note right of "<b>SelectSheet ()</b>"
+    Select WorkSheet by Name
+    end note
+
+
+
+    class "<b>SheetFormat ()</b>" {
+        - -
+        + SheetFormat \t(
+            \tcell \t\t: <i>Variant</i>,
+            \tFormat \t: <i>AnsiString</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>SheetFormat ()</b>" circle
+    show "<b>SheetFormat ()</b>" method
+
+    note right of "<b>SheetFormat ()</b>"
+    Cell Format
+
+    (Формат ячейки)
+    end note
+
+
+
+    class "<b>VerticalAlign ()</b>" {
+        - -
+        + VerticalAlign \t(
+            \tRange \t\t: <i>Variant</i>,
+            \tnom_align \t: <i>int</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>VerticalAlign ()</b>" circle
+    show "<b>VerticalAlign ()</b>" method
+
+    note right of "<b>VerticalAlign ()</b>"
+    Align cell contents vertically
+
+    (Выравнивание содержимого
+    ячейки по вертикали)
+    end note
+
+
+
+    class "<b>W1 ()</b>" {
+        - -
+        + W1 \t(Range \t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>W1 ()</b>" circle
+    show "<b>W1 ()</b>" method
+
+    note right of "<b>W1 ()</b>"
+    Word wrap
+
+    (Перенос по словам)
+    end note
+}
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

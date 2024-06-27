@@ -1,0 +1,317 @@
+@startuml MainUnit.cpp
+
+title Исходный файл: "MainUnit.cpp"
+
+scale max 750 width
+
+"<b>TMainForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TMainForm</b>"
+{
+    <b>SHOWS ONLY METHODS</b>
+    --
+    + AbiturLogDate \t: <i>TDateTime</i>
+    ..
+    + DBGrid1 \t\t: <i>TDBGrid *</i>
+     .. (<i>and etc. For all fields, see: class_MainUnit_all_fields</i>) ..
+    --
+    
+    + <b>TMainForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + AllCount_spec \t\t\t(n \t: <i>int</i>) : <i>void</i>
+    ..
+    + CellValue_Ball \t\t\t(
+            \t\tcol_pred \t: <i>int</i>,
+            \t\tnom_stroka \t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + Cicle_ball \t\t\t\t(
+            \t\tedu \t\t\t: <i>int</i>,
+            \t\tkonk \t\t: <i>int</i>,
+            \t\tprice \t\t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + Cicle_ball_konk \t\t\t(
+            \t\tedu \t\t\t: <i>int</i>,
+            \t\tkonk \t\t: <i>int</i>,
+            \t\tprice \t\t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + Cicle_Report \t\t\t(edu \t: <i>int</i>) : <i>void</i>
+    + Cicle_Report_special \t\t(edu \t: <i>int</i>) : <i>void</i>
+    ..
+    + CicleSum \t\t\t\t(
+            \t\tn_r \t\t\t: <i>int</i>,
+            \t\tnom_row \t: <i>int</i>,
+            \t\tst1 \t\t\t: <i>int</i>,
+            \t\tst2 \t\t\t: <i>int</i>,
+            \t\tindex \t\t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + Clear_mas \t\t\t\t(n_ab \t: <i>int</i>) : <i>bool</i>
+    ..
+    + Create_mas_all \t\t\t(
+            \t\tn_spec \t\t: <i>int</i>,
+            \t\tvid_edu \t\t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + Create_Svod_ved \t\t(
+            \t\tedu \t\t\t: <i>int</i>,
+            \t\tprice \t\t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + Create_Svod_ved_2VO2K \t(
+            \t\tedu \t\t\t: <i>int</i>,
+            \t\tprice \t\t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + Create_Svod_ved_short \t(
+            \t\tedu \t\t\t: <i>int</i>,
+            \t\tprice \t\t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + Data_spisok \t\t\t\t(
+            \t\tcol_pred \t: <i>int</i>,
+            \t\tnom_stroka \t: <i>int</i>,
+            \t\tj \t\t\t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + Data_spisok_Pol \t\t\t(
+            \t\tnom_stroka \t: <i>int</i>,
+            \t\tj \t\t\t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + Find_nom_spec_str \t\t(
+            \t\tn_spec \t\t: <i>int</i>,
+            \t\trec_count \t: <i>int</i>
+        \t) : <i>int</i>
+    ..
+    + Forma_Giac \t\t\t\t(
+            \t\tform \t\t: <i>int</i>,
+            \t\tvid_educ \t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + FormActivate \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t\t\t(
+            \t\tSender \t\t: <i>TObject *</i>,
+            \t\tAction \t\t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + FormCloseQuery \t\t\t(
+            \t\tSender \t\t: <i>TObject *</i>,
+            \t\tCanClose \t: <i>bool &</i>
+        \t) : <i>void</i>
+    ..
+    + FormCreate \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + Itog_podano \t\t\t\t(
+            \t\tedu \t\t\t: <i>int</i>,
+            \t\tn_r \t\t\t: <i>int</i>,
+            \t\titog \t\t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + MergeCell \t\t\t\t(
+            \t\tcol_nom1 \t: <i>int</i>,
+            \t\tcol_nom2 \t: <i>int</i>,
+            \t\trow_nom1 \t: <i>int</i>,
+            \t\trow_nom2 \t: <i>int</i>,
+            \t\talign \t\t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + MergeCellCenter \t\t\t(
+            \t\tcol_nom1 \t: <i>int</i>,
+            \t\tcol_nom2 \t: <i>int</i>,
+            \t\trow_nom \t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + N1Click \t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N4Click \t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N5Click \t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N6Click \t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N10Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N12Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N13Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N14Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N15Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N16Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N17Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N21Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N22Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N23Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N26Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N27Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N28Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N30Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N31Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N32Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N33Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N35Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N36Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N37Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N39Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N41Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N42Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N43Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N44Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N45Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N46Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N47Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N48Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N50Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N52Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N53Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N54Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N55Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N58Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N59Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N62Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N63Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N64Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N68Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N69Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N70Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N71Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N75Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N76Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N77Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N78Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N81Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N82Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N83Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N84Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N85Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N86Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N110Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N112Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + N310Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + Priv_Str \t\t\t\t\t(par \t: <i>int</i>) : <i>void</i>
+    + Protokol4_J \t\t\t\t(pol \t: <i>int</i>) : <i>void</i>
+    + ReturnField \t\t\t\t(f \t\t: <i>AnsiString</i>) : <i>AnsiString</i>
+    + ReturnField_IT \t\t\t(f \t\t: <i>AnsiString</i>) : <i>AnsiString</i>
+    ..
+    + Run_ProcBall \t\t\t(
+            \t\tfac \t\t\t: <i>int</i>,
+            \t\ted \t\t\t: <i>int</i>,
+            \t\tkonk \t\t: <i>int</i>,
+            \t\tprice \t\t: <i>int</i>,
+            \t\tkolon \t\t: <i>int</i>,
+            \t\tstroka_n \t: <i>int</i>
+        \t) : <i>void</i>
+    ..
+    + Shapka_spisok \t\t\t(col_pred \t: <i>int</i>) : <i>void</i>
+    ..
+    + Shapka_spisok_Pol \t\t(
+            \t\tn_gr \t\t: <i>AnsiString</i>,
+            \t\tpol \t\t\t: <i>String</i>
+        \t) : <i>void</i>
+    ..
+    + SpeedButton1Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + SpeedButton2Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + SpeedButton3Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + SpeedButton4Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + Spisok_Pol \t\t\t\t(
+            \t\tpol \t\t\t: <i>String</i>,
+            \t\tWorkbook \t: <i>Variant</i>
+        \t) : <i>void</i>
+    ..
+    + Svod_ved \t\t\t\t(
+            \t\tnom_str \t\t: <i>int</i>,
+            \t\tkonk \t\t: <i>int</i>,
+            \t\tvid_edu \t\t: <i>int</i>,
+            \t\trec_pred \t: <i>int</i>,
+            \t\tprice \t\t: <i>int</i>,
+            \t\tpr_ved \t\t: <i>int</i>
+        \t) : <i>int</i>
+    ..
+    + Zachisl_Sertificat \t\t(
+            \t\tf \t\t\t: <i>int</i>,
+            \t\tv \t\t\t: <i>int</i>,
+            \t\ts \t\t\t: <i>int</i>,
+            \t\tall \t\t\t: <i>bool</i>
+        \t) : <i>void</i>
+}
+
+
+note left of "<b>TMainForm</b>"::AllCount_spec
+функция занесения общего
+количества абитуриентов
+по специализации
+end note
+note right of "<b>TMainForm</b>"::Cicle_ball
+цикл для статистики по сумме баллов
+end note
+note left of "<b>TMainForm</b>"::Cicle_ball_konk
+цикл для статистики по конкурсу
+end note
+note right of "<b>TMainForm</b>"::Cicle_Report
+для отчета по приемной комиссии
+end note
+note left of "<b>TMainForm</b>"::Cicle_Report_special
+для отчета по приемной комиссии по специальностям
+end note
+note right of "<b>TMainForm</b>"::Create_Svod_ved
+функция формирования сводной ведомости
+end note
+note left of "<b>TMainForm</b>"::Create_Svod_ved_2VO2K
+функция формирования сводной ведомости 2 курс ВО
+end note
+note right of "<b>TMainForm</b>"::Create_Svod_ved_short
+функция формирования сводной ведомости сокращённый срок
+end note
+note left of "<b>TMainForm</b>"::Data_spisok
+функция занесения данных в полный список абитуриентов
+end note
+note right of "<b>TMainForm</b>"::Data_spisok_Pol
+функция занесения данных в полный список абитуриентов
+end note
+note left of "<b>TMainForm</b>"::Itog_podano
+функция суммирования итоговых значений по виду обучения или факультету для статистики Подано заявлений (итоговая)
+end note
+note right of "<b>TMainForm</b>"::Priv_Str
+функция возвращает строку с привилегиями
+end note
+note left of "<b>TMainForm</b>"::Protokol4_J
+Таня протоколы
+end note
+note right of "<b>TMainForm</b>"::ReturnField
+возвращает значение поля
+end note
+note left of "<b>TMainForm</b>"::ReturnField_IT
+возвращает значение поля
+end note
+note right of "<b>TMainForm</b>"::Run_ProcBall
+вызов процедуры с расчетом количества по сумме баллов
+end note
+note left of "<b>TMainForm</b>"::Shapka_spisok
+функция занесения шапки в полный список абитуриентов
+end note
+note right of "<b>TMainForm</b>"::Shapka_spisok_Pol
+функция занесения шапки в полный список абитуриентов
+end note
+note left of "<b>TMainForm</b>"::Spisok_Pol
+функция вывода таблицы по полу
+end note
+note right of "<b>TMainForm</b>"::Svod_ved
+функция для формирования сводной ведомости
+end note
+note left of "<b>TMainForm</b>"::Zachisl_Sertificat
+Сертификаты
+end note
+
+
+' note right of "<b>TMainForm</b>"::AbiturLogDate
+' дата создания журнала регистрации
+' end note
+
+
+package TMainForm <<Folder>>
+{
+    class TMainForm
+    hide  TMainForm members
+}
+
+@enduml

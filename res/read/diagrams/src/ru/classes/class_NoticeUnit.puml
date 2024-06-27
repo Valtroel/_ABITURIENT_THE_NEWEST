@@ -1,0 +1,35 @@
+@startuml NoticeUnit.cpp
+
+title Исходный файл: "NoticeUnit.cpp"
+
+scale 750 width
+
+"<b>TNoticeForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TNoticeForm</b>"
+{
+    + frxDBDataset1 \t: <i>TfrxDBDataset *</i>
+    + frxPrvNotice \t\t: <i>TfrxPreview *</i>
+    + frxRepNotice \t: <i>TfrxReport *</i>
+    --
+    
+    + <b>TNoticeForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + frxRepNoticeAfterPrintReport \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TNoticeForm <<Folder>>
+{
+    class TNoticeForm
+    hide  TNoticeForm members
+}
+
+
+' note right of "<b>TNoticeForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

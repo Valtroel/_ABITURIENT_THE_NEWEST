@@ -1,0 +1,277 @@
+@startuml AbiturUnit.cpp
+
+title Исходный файл: "AbiturUnit.cpp"
+
+scale 750 width
+
+abstract "<b>TAbiturForm</b>"
+{
+    <b>SHOWS ONLY FIELDS</b>\n (For methods, see: class_AbiturUnit)
+    --
+    + Action1 \t\t\t\t\t\t\t: <i>TAction *</i>
+    + Action2 \t\t\t\t\t\t\t: <i>TAction *</i>
+    ..
+    + ActionList1 \t\t\t\t\t\t: <i>TActionList *</i>
+    ..
+    + ApplicationEvents1 \t\t\t\t: <i>TApplicationEvents *</i>
+    ..
+    + Bevel1 \t\t\t\t\t\t\t: <i>TBevel *</i>
+    ..
+    + AddBtBtn \t\t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn9 \t\t\t\t\t\t\t: <i>TBitBtn *</i>
+    + CancelBtBtn \t\t\t\t\t\t: <i>TBitBtn *</i>
+    + ExitBitBtn \t\t\t\t\t\t: <i>TBitBtn *</i>
+    + FIOReBitBtn \t\t\t\t\t\t: <i>TBitBtn *</i>
+    + ReInsideFacBtBtn \t\t\t\t: <i>TBitBtn *</i>
+    + PrintBtBtn \t\t\t\t\t\t: <i>TBitBtn *</i>
+    + RestorlistBtBtn \t\t\t\t\t: <i>TBitBtn *</i>
+    + SaveBtBtn \t\t\t\t\t\t: <i>TBitBtn *</i>
+    + TookDocBtBtn1 \t\t\t\t\t: <i>TBitBtn *</i>
+    + TookDocBtBtn2 \t\t\t\t\t: <i>TBitBtn *</i>
+    ..
+    + AbitSelBtn \t\t\t\t\t\t: <i>TButton *</i>
+    ..
+    + CheckBox1 \t\t\t\t\t\t: <i>TCheckBox *</i>
+    + CheckBox2 \t\t\t\t\t\t: <i>TCheckBox *</i>
+    ..
+    + InfChekLstBx \t\t\t\t\t: <i>TCheckListBox *</i>
+    ..
+    + CategoryAbCmbBx \t\t\t\t: <i>TComboBox *</i>
+    + ComboBox1 \t\t\t\t\t\t: <i>TComboBox *</i>
+    + ComboBox2 \t\t\t\t\t\t: <i>TComboBox *</i>
+    + EducatCmbBx \t\t\t\t\t: <i>TComboBox *</i>
+    + FormEduCmbBx \t\t\t\t\t: <i>TComboBox *</i>
+    + KonkursCmbBx \t\t\t\t\t: <i>TComboBox *</i>
+    + NomGroupCmbBx \t\t\t\t: <i>TComboBox *</i>
+    + OutCmboBx1 \t\t\t\t\t: <i>TComboBox *</i>
+    + OutCmboBx2 \t\t\t\t\t: <i>TComboBox *</i>
+    + OutCmboBx3 \t\t\t\t\t: <i>TComboBox *</i>
+    + OutCmboBx4 \t\t\t\t\t: <i>TComboBox *</i>
+    + OutCmboBx5 \t\t\t\t\t: <i>TComboBox *</i>
+    + OutCmboBx6 \t\t\t\t\t: <i>TComboBox *</i>
+    + OutCmboBx7 \t\t\t\t\t: <i>TComboBox *</i>
+    + PriceCmbBx \t\t\t\t\t\t: <i>TComboBox *</i>
+    + SchoolCmbBx \t\t\t\t\t: <i>TComboBox *</i>
+    + SngFrgCmbBx \t\t\t\t\t: <i>TComboBox *</i>
+    + TermEduCmbBx \t\t\t\t\t: <i>TComboBox *</i>
+    + TownVillageCmbBx \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx1 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx2 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx3 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx4 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx5 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx6 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx7 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx8 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx9 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx10 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx11 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx12 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx13 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx14 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx15 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx16 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx17 \t\t\t\t: <i>TComboBox *</i>
+    + WithOutCmboBx18 \t\t\t\t: <i>TComboBox *</i>
+    ..
+    + PolDBCmbBx \t\t\t\t\t: <i>TDBComboBox *</i>
+    ..
+    + AdresMamaDBEdt \t\t\t\t: <i>TDBEdit *</i>
+    + AdresPapaDBEdt \t\t\t\t\t: <i>TDBEdit *</i>
+    + AveragScoreDBEdt \t\t\t\t: <i>TDBEdit *</i>
+    + BirthdayDBDateEdit \t\t\t\t: <i>TDBEdit *</i>
+    + DateOKBDtEdt \t\t\t\t\t: <i>TDBEdit *</i>
+    + DateVDBDtEdt \t\t\t\t\t: <i>TDBEdit *</i>
+    + DBDateEdit1 \t\t\t\t\t: <i>TDBEdit *</i>
+    + DBEditNumAb \t\t\t\t\t: <i>TDBEdit *</i>
+    + DBEditPol \t\t\t\t\t\t: <i>TDBEdit *</i>
+    + DBEditSpec \t\t\t\t\t\t: <i>TDBEdit *</i>
+    + FamDBEdt \t\t\t\t\t\t: <i>TDBEdit *</i>
+    + MamaDBEdt \t\t\t\t\t\t: <i>TDBEdit *</i>
+    + NameDBEdt \t\t\t\t\t\t: <i>TDBEdit *</i>
+    + NameEduMiddleDBEdt \t\t\t: <i>TDBEdit *</i>
+    + NameEduSpecDBEdt \t\t\t\t: <i>TDBEdit *</i>
+    + NomAttestDBEdt \t\t\t\t: <i>TDBEdit *</i>
+    + NomDelaDBEdt \t\t\t\t\t: <i>TDBEdit *</i>
+    + NomDiplomDBEdt \t\t\t\t: <i>TDBEdit *</i>
+    + OrganVDBEdt \t\t\t\t\t: <i>TDBEdit *</i>
+    + OtchDBEdt \t\t\t\t\t\t: <i>TDBEdit *</i>
+    + PapaDBEdt \t\t\t\t\t\t: <i>TDBEdit *</i>
+    + PasportDBEdt \t\t\t\t\t: <i>TDBEdit *</i>
+    + PersonNumDBEdt \t\t\t\t: <i>TDBEdit *</i>
+    + PhoneDBEdt \t\t\t\t\t\t: <i>TDBEdit *</i>
+    + StagDBEdtEh \t\t\t\t\t: <i>TDBEdit *</i>
+    + StagSpecDBEdtEh \t\t\t\t: <i>TDBEdit *</i>
+    + WhenEduMiddleDBEdt \t\t\t: <i>TDBEdit *</i>
+    + WhenEduSpecDBEdt \t\t\t\t: <i>TDBEdit *</i>
+    + WhereEduMiddleDBEdt \t\t\t: <i>TDBEdit *</i>
+    + WhereEduSpecDBEdt \t\t\t\t: <i>TDBEdit *</i>
+    + WorkBeforeDBEdt \t\t\t\t: <i>TDBEdit *</i>
+    + DBGrid1 \t\t\t\t\t\t: <i>TDBGrid *</i>
+    + DBGrid2 \t\t\t\t\t\t\t: <i>TDBGrid *</i>
+    + DBGrid3 \t\t\t\t\t\t: <i>TDBGrid *</i>
+    ..
+    + CkRegionDBLkpCmbBx \t\t\t: <i>TDBLookupComboBox *</i>
+    + DocumDBLkCmbBx \t\t\t\t: <i>TDBLookupComboBox *</i>
+    + LangvDBLkpCmbBx \t\t\t\t: <i>TDBLookupComboBox *</i>
+    + RegionDBLookupCmbBx \t\t\t: <i>TDBLookupComboBox *</i>
+    + SitizenshipDBLkCmbBx \t\t\t: <i>TDBLookupComboBox *</i>
+    + SpecializDBLookupCmbBx \t\t: <i>TDBLookupComboBox *</i>
+    + SportCategoryDBLookupCmboBx \t: <i>TDBLookupComboBox *</i>
+    + VidSportDBLookupCmbBx \t\t: <i>TDBLookupComboBox *</i>
+    ..
+    + DBNavigator4 \t\t\t\t\t: <i>TDBNavigator *</i>
+    + DBNavigator1 \t\t\t\t\t: <i>TDBNavigator *</i>
+    + DBNavigator3 \t\t\t\t\t: <i>TDBNavigator *</i>
+    + DBNavigator2 \t\t\t\t\t: <i>TDBNavigator *</i>
+    ..
+    + DBText1 \t\t\t\t\t\t: <i>TDBText *</i>
+    + DBText2 \t\t\t\t\t\t: <i>TDBText *</i>
+    + DBText3 \t\t\t\t\t\t: <i>TDBText *</i>
+    ..
+    + AdressLifeEdt \t\t\t\t\t: <i>TEdit *</i>
+    + AdressRegEdt \t\t\t\t\t: <i>TEdit *</i>
+    + Edit1 \t\t\t\t\t\t\t: <i>TEdit *</i>
+    + FIOSearchEdt \t\t\t\t\t: <i>TEdit *</i>
+    ..
+    + GroupBox1 \t\t\t\t\t\t: <i>TGroupBox *</i>
+    + GroupBox2 \t\t\t\t\t\t: <i>TGroupBox *</i>
+    + GroupBox3 \t\t\t\t\t\t: <i>TGroupBox *</i>
+    + GroupBox4 \t\t\t\t\t\t: <i>TGroupBox *</i>
+    ..
+    + Image1 \t\t\t\t\t\t\t: <i>TImage *</i>
+    + FIOSearchPhImg \t\t\t\t\t: <i>TImage *</i>
+    ..
+    + FIOSearchLbl \t\t\t\t\t: <i>TLabel *</i>
+    + Label1 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label2 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label3 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label4 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label5 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label6 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label7 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label8 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label9 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label10 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label12 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label14 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label15 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label16 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label17 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label18 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label19 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label20 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label21 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label22 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label23 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label24 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label25 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label26 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label27 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label28 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label29 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label30 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label31 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label32 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label33 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label35 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label36 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label37 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label38 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label39 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label40 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label41 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label43 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label44 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label45 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label46 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label47 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label49 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label50 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label52 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label55 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label58 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label59 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label61 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label63 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label64 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label65 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label66 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + Label67 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + NumDelaLbl \t\t\t\t\t\t: <i>TLabel *</i>
+    + OutLbl1 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + OutLbl2 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + OutLbl3 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + OutLbl4 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + OutLbl5 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + OutLbl6 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + OutLbl7 \t\t\t\t\t\t\t: <i>TLabel *</i>
+    + SchoolLbl \t\t\t\t\t\t: <i>TLabel *</i>
+    + SngFrgLbl \t\t\t\t\t\t: <i>TLabel *</i>
+    + SportcategLbl \t\t\t\t\t: <i>TLabel *</i>
+    + TownVillageLbl \t\t\t\t\t: <i>TLabel *</i>
+    + VidSportLbl \t\t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl1 \t\t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl2 \t\t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl3 \t\t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl4 \t\t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl5 \t\t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl6 \t\t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl7 \t\t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl8 \t\t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl9 \t\t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl10 \t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl11 \t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl12 \t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl13 \t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl14 \t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl15 \t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl16 \t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl17 \t\t\t\t\t: <i>TLabel *</i>
+    + WithOutLbl18 \t\t\t\t\t: <i>TLabel *</i>
+    ..
+    + OpenPictureDialog1 \t\t\t\t: <i>TOpenPictureDialog *</i>
+    ..
+    + PageControl1 \t\t\t\t\t: <i>TPageControl *</i>
+    ..
+    + Panel1 \t\t\t\t\t\t\t: <i>TPanel *</i>
+    + Panel2 \t\t\t\t\t\t\t: <i>TPanel *</i>
+    + Panel3 \t\t\t\t\t\t\t: <i>TPanel *</i>
+    + Panel4 \t\t\t\t\t\t\t: <i>TPanel *</i>
+    + Panel5 \t\t\t\t\t\t\t: <i>TPanel *</i>
+    + Panel6 \t\t\t\t\t\t\t: <i>TPanel *</i>
+    + Panel7 \t\t\t\t\t\t\t: <i>TPanel *</i>
+    + Panel8 \t\t\t\t\t\t\t: <i>TPanel *</i>
+    + Panel9 \t\t\t\t\t\t\t: <i>TPanel *</i>
+    + Panel10 \t\t\t\t\t\t\t: <i>TPanel *</i>
+    + Panel11 \t\t\t\t\t\t\t: <i>TPanel *</i>
+    + Panel12 \t\t\t\t\t\t\t: <i>TPanel *</i>
+    + Panel16 \t\t\t\t\t\t\t: <i>TPanel *</i>
+    + Panel18 \t\t\t\t\t\t\t: <i>TPanel *</i>
+    + PanelCtrlGrp \t\t\t\t\t: <i>TPanel *</i>
+    ..
+    + PrintDialog1 \t\t\t\t\t\t: <i>TPrintDialog *</i>
+    + PrintDialog2 \t\t\t\t\t\t: <i>TPrintDialog *</i>
+    + RadioGroup1 \t\t\t\t\t: <i>TRadioGroup *</i>
+    + RdGrpCtrlExerc1 \t\t\t\t\t: <i>TRadioGroup *</i>
+    + RdGrpCtrlExerc2 \t\t\t\t\t: <i>TRadioGroup *</i>
+    + RdGrpCtrlExerc3 \t\t\t\t\t: <i>TRadioGroup *</i>
+    ..
+    + Shape4 \t\t\t\t\t\t\t: <i>TShape *</i>
+    + Shape5 \t\t\t\t\t\t\t: <i>TShape *</i>
+    + Shape7 \t\t\t\t\t\t\t: <i>TShape *</i>
+    ..
+    + SpeedButton1 \t\t\t\t\t: <i>TSpeedButton * </i>
+    ..
+    + TabSheet1 \t\t\t\t\t\t: <i>TTabSheet *</i>
+    + TabSheet2 \t\t\t\t\t\t: <i>TTabSheet *</i>
+    + TabSheet3 \t\t\t\t\t\t: <i>TTabSheet *</i>
+    + TabSheet4 \t\t\t\t\t\t: <i>TTabSheet *</i>
+    + TabSheet5 \t\t\t\t\t\t: <i>TTabSheet *</i>
+    --
+    
+    + <b>TAbiturForm (Owner : <i>TComponent *</i>)</b>
+
+}
+
+@enduml

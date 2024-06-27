@@ -1,0 +1,108 @@
+@startuml SpravUnit.cpp
+
+title Исходный файл: "SpravUnit.cpp"
+
+scale 750 width
+
+"<b>TSpravForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TSpravForm</b>"
+{
+    <b>SHOWS ONLY METHODS</b>
+    --
+    + BitBtn1 \t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn2 \t\t\t\t\t: <i>TBitBtn *</i>
+     .. (<i>and etc. For all fields, see: class_SpravUnit_all_fields</i>) ..
+    --
+        
+    + <b>TSpravForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + BitBtn1Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn2Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn3Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn4Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn5Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn6Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn7Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn8Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn9Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn10Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn11Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn12Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn13Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn14Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn15Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn16Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn17Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn18Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn19Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn20Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn21Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn22Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn23Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn24Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn25Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn26Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn27Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn30Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn31Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn32Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn33Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn35Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn36Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid1DblClick \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid7DblClick \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid12DblClick \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid1Enter \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid2Enter \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid3Enter \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid4Enter \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid5Enter \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid6Enter \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid7Enter \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid9Enter \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid9EditButtonClick \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid11Enter \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid12Enter \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t\t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + KUDBGrdDblClick \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + search_nomer \t\t\t(
+            \t\trec_sp \t: <i>int</i>,
+            \t\tname \t: <i>AnsiString</i>
+        \t) : <i>AnsiString</i>
+    ..
+    + SpeedButton1Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + TabSheet1Show \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + TabSheet4Show \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + TabSheet5Show \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + TabSheet6Show \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + TabSheet7Show \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + TabSheet8Show \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + TabSheet9Show \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + TabSheet10Show \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + TabSheet11Show \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+note right of "<b>TSpravForm</b>"::search_nomer
+Поиск номера специализации
+по названию
+end note
+
+
+package TSpravForm <<Folder>>
+{
+    class TSpravForm
+    hide  TSpravForm members
+}
+
+@enduml

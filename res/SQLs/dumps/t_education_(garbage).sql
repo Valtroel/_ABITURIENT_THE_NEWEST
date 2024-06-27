@@ -1,0 +1,16 @@
+INSERT INTO
+	EDUCATION
+	(
+		ID,
+		NOMER_AB,
+		N_EDU_DOC,
+		NOM_DOC,
+		NAME_EDU,
+		WHERE_EDU,
+		WHEN_EDU
+	)
+VALUES
+	(1, 1463, 2, '1243363', 'לוםןולנונ7', 'לנםנםלנםנ', '2011'),
+	(NULL, 0, NULL, NULL, NULL, NULL, NULL);
+
+COMMIT WORK;

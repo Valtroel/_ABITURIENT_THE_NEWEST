@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="644.335px" preserveAspectRatio="none" style="width:750px;height:644px;background:#FFFFFF;" version="1.1" viewBox="0 0 750 644" width="750.7389px" zoomAndPan="magnify"><defs/><g><rect height="38.8624" style="stroke:#00000000;stroke-width:1.4778325123152711;fill:none;" width="490.6404" x="120.0739" y="7.3892"/><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-weight="bold" lengthAdjust="spacing" textLength="475.8621" x="127.4631" y="33.9829">Исходный файл: "Print_GroupUnit.cpp"</text><!--MD5=[4f55da6b1f5e74dbb1a5a4e53dba61a1]
+cluster TPrint_GroupForm--><g id="cluster_TPrint_GroupForm"><path d="M455.1724,63.9855 L675.3695,63.9855 A5.5419,5.5419 0 0 1 679.064,67.6801 L689.4089,96.9366 L737.4384,96.9366 A3.6946,3.6946 0 0 1 741.133,100.6312 L741.133,206.5964 A3.6946,3.6946 0 0 1 737.4384,210.2909 L455.1724,210.2909 A3.6946,3.6946 0 0 1 451.4778,206.5964 L451.4778,67.6801 A3.6946,3.6946 0 0 1 455.1724,63.9855 " style="stroke:#000000;stroke-width:2.2167487684729066;fill:none;"/><line style="stroke:#000000;stroke-width:2.2167487684729066;fill:none;" x1="451.4778" x2="689.4089" y1="96.9366" y2="96.9366"/><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-weight="bold" lengthAdjust="spacing" textLength="218.7192" x="457.3892" y="86.1458">TPrint_GroupForm</text></g><!--MD5=[b5e6ca0c8c3bf83c4c2d8f3cba874f09]
+class TPrint_GroupForm--><g id="elem_TPrint_GroupForm"><rect codeLine="30" fill="#F1F1F1" height="70.936" id="TPrint_GroupForm" rx="3.6946" ry="3.6946" style="stroke:#181818;stroke-width:0.7389162561576356;" width="242.3645" x="475.1232" y="115.7097"/><ellipse cx="497.2906" cy="139.355" fill="#ADD1B2" rx="16.2562" ry="16.2562" style="stroke:#181818;stroke-width:1.4778325123152711;"/><path d="M500.7543,132.9587 C499.3688,132.3122 498.4914,132.1044 497.1983,132.1044 C493.319,132.1044 490.3633,135.1755 490.3633,139.1933 L490.3633,140.8559 C490.3633,144.6659 493.4806,147.46 497.7525,147.46 C499.5536,147.46 501.2623,147.0212 502.3707,146.2131 C503.2251,145.6127 503.71,144.943 503.71,144.3658 C503.71,143.6961 503.1327,143.1188 502.44,143.1188 C502.1167,143.1188 501.8165,143.2343 501.5394,143.5114 C500.8698,144.2272 500.8698,144.2272 500.5927,144.3658 C499.9692,144.7583 498.9532,144.943 497.8217,144.943 C494.7968,144.943 492.8802,143.3267 492.8802,140.8097 L492.8802,139.1933 C492.8802,136.561 494.7275,134.6213 497.2906,134.6213 C498.145,134.6213 499.0456,134.8522 499.7383,135.2217 C500.4541,135.6373 500.7081,135.9606 500.8467,136.561 C500.939,137.1613 500.9852,137.3461 501.193,137.5308 C501.4009,137.7386 501.7472,137.9002 502.0705,137.9002 C502.4631,137.9002 502.8556,137.6924 503.1096,137.3692 C503.2712,137.1382 503.3174,136.8611 503.3174,136.2377 L503.3174,134.1364 C503.3174,133.4898 503.2943,133.3051 503.1558,133.0742 C502.9249,132.6817 502.5092,132.4738 502.0705,132.4738 C501.6318,132.4738 501.3316,132.6124 501.0083,133.0742 L500.7543,132.9587 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="195.0739" x="517.9803" y="146.5176">TPrint_GroupForm</text><line style="stroke:#181818;stroke-width:0.7389162561576356;" x1="476.601" x2="716.0099" y1="163.0003" y2="163.0003"/><line style="stroke:#181818;stroke-width:0.7389162561576356;" x1="476.601" x2="716.0099" y1="174.823" y2="174.823"/></g><!--MD5=[06c1481729c6cd7418a387bbe2e45b29]
+class <b>TPrint_GroupForm</b>--><g id="elem_&lt;b&gt;TPrint_GroupForm&lt;/b&gt;"><rect codeLine="9" fill="#F1F1F1" height="359.5058" id="&lt;b&gt;TPrint_GroupForm&lt;/b&gt;" rx="3.6946" ry="3.6946" style="stroke:#181818;stroke-width:0.7389162561576356;" width="701.9704" x="10.3448" y="275.3156"/><ellipse cx="245.6897" cy="298.9609" fill="#ADD1B2" rx="16.2562" ry="16.2562" style="stroke:#181818;stroke-width:1.4778325123152711;"/><path d="M249.1533,292.5647 C247.7679,291.9181 246.8904,291.7103 245.5973,291.7103 C241.718,291.7103 238.7623,294.7814 238.7623,298.7993 L238.7623,300.4618 C238.7623,304.2719 241.8796,307.0659 246.1515,307.0659 C247.9526,307.0659 249.6613,306.6272 250.7697,305.819 C251.6241,305.2186 252.109,304.549 252.109,303.9717 C252.109,303.302 251.5317,302.7248 250.839,302.7248 C250.5157,302.7248 250.2155,302.8402 249.9384,303.1173 C249.2688,303.8331 249.2688,303.8331 248.9917,303.9717 C248.3682,304.3642 247.3522,304.549 246.2208,304.549 C243.1958,304.549 241.2792,302.9326 241.2792,300.4156 L241.2792,298.7993 C241.2792,296.1669 243.1265,294.2272 245.6897,294.2272 C246.544,294.2272 247.4446,294.4581 248.1373,294.8276 C248.8531,295.2432 249.1071,295.5665 249.2457,296.1669 C249.3381,296.7672 249.3842,296.952 249.5921,297.1367 C249.7999,297.3445 250.1462,297.5062 250.4695,297.5062 C250.8621,297.5062 251.2546,297.2983 251.5086,296.9751 C251.6703,296.7442 251.7164,296.4671 251.7164,295.8436 L251.7164,293.7423 C251.7164,293.0958 251.6933,292.911 251.5548,292.6801 C251.3239,292.2876 250.9083,292.0797 250.4695,292.0797 C250.0308,292.0797 249.7306,292.2183 249.4073,292.6801 L249.1533,292.5647 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-weight="bold" lengthAdjust="spacing" textLength="218.7192" x="275.9852" y="306.1235">TPrint_GroupForm</text><line style="stroke:#181818;stroke-width:0.7389162561576356;" x1="11.8227" x2="710.8374" y1="322.6062" y2="322.6062"/><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-weight="bold" lengthAdjust="spacing" textLength="277.8325" x="19.2118" y="347.7222">SHOWS ONLY METHODS</text><line style="stroke:#181818;stroke-width:1.4778325123152711;" x1="11.8227" x2="710.8374" y1="358.5129" y2="358.5129"/><ellipse cx="26.601" cy="374.7691" fill="none" rx="4.4335" ry="4.4335" style="stroke:#038048;stroke-width:1.4778325123152711;"/><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="124.1379" x="39.9015" y="383.6289">QRDBText1</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="7.3892" x="181.7734" y="383.6289">:</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-style="italic" lengthAdjust="spacing" textLength="137.4384" x="195.0739" y="383.6289">TQRDBText *</text><ellipse cx="26.601" cy="398.8531" fill="none" rx="4.4335" ry="4.4335" style="stroke:#038048;stroke-width:1.4778325123152711;"/><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="122.6601" x="39.9015" y="407.7129">QRDBText2</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="7.3892" x="181.7734" y="407.7129">:</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-style="italic" lengthAdjust="spacing" textLength="137.4384" x="195.0739" y="407.7129">TQRDBText *</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="28.0788" x="39.9015" y="431.797">.. (</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-style="italic" lengthAdjust="spacing" textLength="607.3892" x="67.9803" y="431.797">and etc. For all fields, see: class_Print_GroupUnit_all_fields</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="28.0788" x="675.3695" y="431.797">) ..</text><line style="stroke:#181818;stroke-width:1.4778325123152711;" x1="11.8227" x2="710.8374" y1="442.5877" y2="442.5877"/><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="5.9113" x="39.9015" y="467.7037"> </text><ellipse cx="26.601" cy="482.928" fill="#84BE84" rx="4.4335" ry="4.4335" style="stroke:#038048;stroke-width:1.4778325123152711;"/><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-weight="bold" lengthAdjust="spacing" textLength="218.7192" x="39.9015" y="491.7877">TPrint_GroupForm</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-weight="bold" lengthAdjust="spacing" textLength="84.2365" x="276.3547" y="491.7877">(Owner</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-weight="bold" lengthAdjust="spacing" textLength="8.867" x="394.5813" y="491.7877">:</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="168.4729" x="410.8374" y="491.7877">TComponent *</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-weight="bold" lengthAdjust="spacing" textLength="10.3448" x="579.3103" y="491.7877">)</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="5.9113" x="39.9015" y="515.8718"> </text><line style="stroke:#181818;stroke-width:1.4778325123152711;stroke-dasharray:1.0,2.0;" x1="11.8227" x2="710.8374" y1="526.6626" y2="526.6626"/><ellipse cx="26.601" cy="542.9187" fill="#84BE84" rx="4.4335" ry="4.4335" style="stroke:#038048;stroke-width:1.4778325123152711;"/><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="112.3153" x="39.9015" y="551.7785">FormClose</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="7.3892" x="181.7734" y="551.7785">(</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="75.3695" x="134.4828" y="575.8626">Sender</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="7.3892" x="229.064" y="575.8626">:</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-style="italic" lengthAdjust="spacing" textLength="97.5369" x="242.3645" y="575.8626">TObject *</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="5.9113" x="339.9015" y="575.8626">,</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="69.4581" x="134.4828" y="599.9466">Action</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="7.3892" x="229.064" y="599.9466">:</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-style="italic" lengthAdjust="spacing" textLength="159.6059" x="242.3645" y="599.9466">TCloseAction &amp;</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" lengthAdjust="spacing" textLength="20.6897" x="87.1921" y="624.0307">) :</text><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-style="italic" lengthAdjust="spacing" textLength="44.335" x="113.7931" y="624.0307">void</text></g><!--MD5=[dd0bf217da5c5e97452bc452f42aff32]
+class <b>TForm</b>--><g id="elem_&lt;b&gt;TForm&lt;/b&gt;"><rect fill="#F1F1F1" height="47.2906" id="&lt;b&gt;TForm&lt;/b&gt;" rx="3.6946" ry="3.6946" style="stroke:#181818;stroke-width:0.7389162561576356;" width="124.1379" x="299.2611" y="127.5323"/><ellipse cx="321.4286" cy="151.1776" fill="#ADD1B2" rx="16.2562" ry="16.2562" style="stroke:#181818;stroke-width:1.4778325123152711;"/><path d="M324.8922,144.7814 C323.5068,144.1349 322.6293,143.927 321.3362,143.927 C317.4569,143.927 314.5012,146.9982 314.5012,151.016 L314.5012,152.6786 C314.5012,156.4886 317.6185,159.2826 321.8904,159.2826 C323.6915,159.2826 325.4002,158.8439 326.5086,158.0357 C327.363,157.4353 327.8479,156.7657 327.8479,156.1884 C327.8479,155.5188 327.2706,154.9415 326.5779,154.9415 C326.2546,154.9415 325.9544,155.057 325.6773,155.3341 C325.0077,156.0499 325.0077,156.0499 324.7306,156.1884 C324.1071,156.581 323.0911,156.7657 321.9597,156.7657 C318.9347,156.7657 317.0182,155.1493 317.0182,152.6324 L317.0182,151.016 C317.0182,148.3836 318.8655,146.444 321.4286,146.444 C322.2829,146.444 323.1835,146.6749 323.8762,147.0443 C324.5921,147.46 324.8461,147.7833 324.9846,148.3836 C325.077,148.984 325.1232,149.1687 325.331,149.3534 C325.5388,149.5613 325.8852,149.7229 326.2084,149.7229 C326.601,149.7229 326.9935,149.5151 327.2475,149.1918 C327.4092,148.9609 327.4554,148.6838 327.4554,148.0603 L327.4554,145.9591 C327.4554,145.3125 327.4323,145.1278 327.2937,144.8969 C327.0628,144.5043 326.6472,144.2965 326.2084,144.2965 C325.7697,144.2965 325.4695,144.435 325.1462,144.8969 L324.8922,144.7814 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="20.6897" font-weight="bold" lengthAdjust="spacing" textLength="76.8473" x="342.1182" y="158.3402">TForm</text></g><!--MD5=[21e9012c7e3ea9d4b86e24ce79677d8e]
+reverse link <b>TForm</b> to <b>TPrint_GroupForm</b>--><g id="link_&lt;b&gt;TForm&lt;/b&gt;_&lt;b&gt;TPrint_GroupForm&lt;/b&gt;"><path codeLine="5" d="M361.33,205.1614 C361.33,225.3294 361.33,249.6515 361.33,275.0791 " fill="none" id="&lt;b&gt;TForm&lt;/b&gt;-backto-&lt;b&gt;TPrint_GroupForm&lt;/b&gt;" style="stroke:#181818;stroke-width:1.4778325123152711;"/><polygon fill="none" points="350.9852,204.8171,361.33,175.2604,371.6749,204.8171,350.9852,204.8171" style="stroke:#181818;stroke-width:1.4778325123152711;"/></g><!--MD5=[cc908375d97f5c9066fbfff3b3bab455]
+@startuml
+title Исходный файл: "Print_GroupUnit.cpp"
+
+scale 750 width
+
+"<b>TPrint_GroupForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TPrint_GroupForm</b>"
+{
+    <b>SHOWS ONLY METHODS</b>
+    - -
+    + QRDBText1 \t: <i>TQRDBText *</i>
+    + QRDBText2 \t: <i>TQRDBText *</i>
+     .. (<i>and etc. For all fields, see: class_Print_GroupUnit_all_fields</i>) ..
+    - -
+        
+    + <b>TPrint_GroupForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    ..
+    + FormClose \t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TPrint_GroupForm <<Folder>>
+{
+    class TPrint_GroupForm
+    hide  members
+}
+
+
+' note right of "<b>TPrint_GroupForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+@enduml
+
+@startuml
+title Исходный файл: "Print_GroupUnit.cpp"
+
+scale 750 width
+
+"<b>TPrint_GroupForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TPrint_GroupForm</b>"
+{
+    <b>SHOWS ONLY METHODS</b>
+    - -
+    + QRDBText1 \t: <i>TQRDBText *</i>
+    + QRDBText2 \t: <i>TQRDBText *</i>
+     .. (<i>and etc. For all fields, see: class_Print_GroupUnit_all_fields</i>) ..
+    - -
+        
+    + <b>TPrint_GroupForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    ..
+    + FormClose \t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TPrint_GroupForm <<Folder>>
+{
+    class TPrint_GroupForm
+    hide  members
+}
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,34 @@
+@startuml LetterUnit.cpp
+
+title Исходный файл: "LetterUnit.cpp"
+
+scale 750 width
+
+"<b>TLetterForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TLetterForm</b>"
+{
+    + frxPreview1 \t\t: <i>TfrxPreview *</i>
+    + frxReport1 \t\t: <i>TfrxReport *</i>
+    --
+    
+    + <b>TLetterForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + frxReport1AfterPrintReport \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TLetterForm <<Folder>>
+{
+    class TLetterForm
+    hide  TLetterForm members
+}
+
+
+' note right of "<b>TLetterForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

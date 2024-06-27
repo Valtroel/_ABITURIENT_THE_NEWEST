@@ -1,0 +1,42 @@
+@startuml PersonalDocUnit.cpp
+
+title Исходный файл: "PersonalDocUnit.cpp"
+
+scale 750 width
+
+"<b>TPersonalDocFrm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TPersonalDocFrm</b>"
+{
+    + Button1 \t\t\t: <i>TButton *</i>
+    ..
+    + SpecializCmbBx \t: <i>TComboBox *</i>
+    + VidEduCmbBx \t: <i>TComboBox *</i>
+    ..
+    + frxRichObject1 \t: <i>TfrxRichObject *</i>
+    ..
+    + Label1 \t\t\t: <i>TLabel *</i>
+    + Label2 \t\t\t: <i>TLabel *</i>
+    --
+    
+    + <b>TPersonalDocFrm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + Button1Click \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TPersonalDocFrm <<Folder>>
+{
+    class TPersonalDocFrm
+    hide  TPersonalDocFrm members
+}
+
+
+' note right of "<b>TPersonalDocFrm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

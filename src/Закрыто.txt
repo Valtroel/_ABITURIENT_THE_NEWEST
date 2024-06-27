@@ -1,0 +1,20 @@
+Закрываю после 25.07.2010
+
+Форма Абитуриент
+void __fastcall TAbiturForm::FormActivate(TObject *Sender)
+
+1. RadioGroup3 - выбор формы оплаты    (Enabled false)
+2. BitBtn7 - Кнопка "Забрал документы" (Enabled false)
+3. BitBtn8 - Кнопка "Восстановить в списке" (Enabled false)
+4. ComboBox2 - Образование (Enabled false)
+5. Ch3,Ch4,Ch5,Ch6,Ch7,Ch8,Ch9 - Птички (Учреждение образование, Выпускник) (Enabled false)
+6. RadioGroup2 - КОНКУРС
+7. DBEdit23, SpeedButton1 - Средний балл (Enabled false)
+8. DBGrid3 - Сертификаты (Enabled false)
+9. Vk1,Vk2,Vk3,Vk4,Vk5
+10.Wo1-Wo5
+
+
+
+
+

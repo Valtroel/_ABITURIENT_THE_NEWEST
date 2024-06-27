@@ -1,0 +1,18 @@
+INSERT INTO
+	CALL_ABITURIENT
+	(
+		ID_CALL,
+		N_FAC,
+		N_CALL_ABITURIENT,
+		P_CALL,
+		P_SOUND_01,
+		P_SOUND_02,
+		P_SOUND_03
+	)
+VALUES
+	(0, 1, 454, 0, 0, 0, 0),
+	(1, 2, 557, 0, 0, 0, 0),
+	(2, 3, 532, 0, 0, 0, 0),
+	(3, 4, 289, 0, 0, 0, 0);
+
+COMMIT WORK;

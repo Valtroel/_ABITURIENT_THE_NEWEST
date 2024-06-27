@@ -1,0 +1,265 @@
+@startuml DMVedUnit.cpp
+
+title Исходный файл: "DMVedUnit.cpp"
+
+scale 750 width
+
+"<b>TDMVed</b>" -up-|> "<b>TDataModule</b>"
+
+hide "<b>TDataModule</b>" members
+
+class "<b>TDMVed</b>"
+{
+    + QDateCAST \t\t\t\t\t\t\t: <i>TDateField *</i>
+    ..
+    + DSGorod \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSPredm \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSPredmet_Ball \t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSQ_All_Mas \t\t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSQKol_Place \t\t\t\t\t\t: <i>TDataSource *</i>
+    ..
+    + GIAZ2_1_10Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_1_11Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_1_12Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_1_13Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_1_14Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_1_3Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_1_4_ckQr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_1_4Qr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_1_5_ckQr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_1_5Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_1_6Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_1_7Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_1_9Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_2_1ckQr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_2_1Qr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_2_2Qr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_2_4Qr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_2_6Qr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_3_1ckQr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_3_1Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_3_2Qr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_3_3Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_3_4Qr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_3_6Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_3_7Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_3_8Qr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_3_9Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_4_10Qr \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_4_1Qr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_4_3Qr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_4_5Qr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_4_6Qr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZ2_4_8Qr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + GIAZInQr \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QAll_Mas \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QDate \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIAC3Sert \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACBvi \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACInAll \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACInDate \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACMinBall \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACViIn \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGIACViPlus \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGorod \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QGroupProtokol \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QKol_Place \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QKol_Place15 \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QKonkPlus \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QKonkPlus2 \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QKonkurs \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QKonkurs12 \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QKonkurs2V \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QKonkurs34 \t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QPeopleProtocol \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QPredm \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QPredmet_Ball \t\t\t\t\t\t: <i>TFDQuery *</i>
+    + QSpec1 \t\t\t\t\t\t\t\t: <i>TFDQuery *</i>
+    ..
+    + GIAZ2_1_1StrdPrc \t\t\t\t\t: <i>TFDStoredProc *</i>
+    ..
+    + QGIACMinBallMIN \t\t\t\t\t\t: <i>TFloatField *</i>
+    + QGorodOUT_MID_B \t\t\t\t\t: <i>TFloatField *</i>
+    + QGorodOUT_STAG_SP \t\t\t\t\t: <i>TFloatField *</i>
+    + QGorodOUT_STAG \t\t\t\t\t: <i>TFloatField *</i>
+    + QGorodOUT_SUM_BALL \t\t\t\t: <i>TFloatField *</i>
+    + QKonkurs12OUT_MIDDLE_BALL \t\t: <i>TFloatField *</i>
+    + QKonkurs12OUT_STAG_SPEC \t\t\t: <i>TFloatField *</i>
+    + QKonkurs12OUT_STAG \t\t\t\t: <i>TFloatField *</i>
+    + QKonkurs12OUT_SUM_BALL \t\t\t: <i>TFloatField *</i>
+    + QKonkurs2VOUT_MIDDLE_BALL \t\t: <i>TFloatField *</i>
+    + QKonkurs2VOUT_STAG_SPEC \t\t\t: <i>TFloatField *</i>
+    + QKonkurs2VOUT_STAG \t\t\t\t: <i>TFloatField *</i>
+    + QKonkurs2VOUT_SUM_BALL \t\t\t: <i>TFloatField *</i>
+    + QKonkurs34OUT_MIDDLE_BALL \t\t: <i>TFloatField *</i>
+    + QKonkurs34OUT_STAG_SPEC \t\t\t: <i>TFloatField *</i>
+    + QKonkurs34OUT_STAG \t\t\t\t: <i>TFloatField *</i>
+    + QKonkurs34OUT_SUM_BALL \t\t\t: <i>TFloatField *</i>
+    + QKonkursOUT_MIDDLE_BALL \t\t\t: <i>TFloatField *</i>
+    + QKonkursOUT_STAG_SPEC \t\t\t: <i>TFloatField *</i>
+    + QKonkursOUT_STAG \t\t\t\t\t: <i>TFloatField *</i>
+    + QKonkursOUT_SUM_BALL \t\t\t\t: <i>TFloatField *</i>
+    + QPredmet_BallOUT_BALL \t\t\t\t: <i>TFloatField *</i>
+    ..
+    + GIAZ2_1_1StrdPrcSUM1 \t\t\t\t: <i>TIntegerField *</i>
+    + QAll_MasOUT_N_AB_ALL_M \t\t\t: <i>TIntegerField *</i>
+    + QGIAC3SertCOUNT \t\t\t\t\t: <i>TIntegerField *</i>
+    + QGIACBviCOUNT \t\t\t\t\t\t: <i>TIntegerField *</i>
+    + QGIACInAllCOUNT \t\t\t\t\t: <i>TIntegerField *</i>
+    + QGIACInDateCOUNT \t\t\t\t\t: <i>TIntegerField *</i>
+    + QGIACViInCOUNT \t\t\t\t\t\t: <i>TIntegerField *</i>
+    + QGIACViPlusCOUNT \t\t\t\t\t: <i>TIntegerField *</i>
+    + QGorodOUT_CENTRE \t\t\t\t\t: <i>TIntegerField *</i>
+    + QGorodOUT_NOMER_AB \t\t\t\t: <i>TIntegerField *</i>
+    + QKonkurs12OUT_N_DELA \t\t\t\t: <i>TIntegerField *</i>
+    + QKonkurs12OUT_NOMER_AB \t\t\t: <i>TIntegerField *</i>
+    + QKonkurs2VOUT_N_DELA \t\t\t\t: <i>TIntegerField *</i>
+    + QKonkurs2VOUT_NOMER_AB \t\t\t: <i>TIntegerField *</i>
+    + QKonkurs34OUT_N_DELA \t\t\t\t: <i>TIntegerField *</i>
+    + QKonkurs34OUT_NOMER_AB \t\t\t: <i>TIntegerField *</i>
+    + QKonkursOUT_N_DELA \t\t\t\t: <i>TIntegerField *</i>
+    + QKonkursOUT_NOMER_AB \t\t\t\t: <i>TIntegerField *</i>
+    ..
+    + GIAZ2_1_10QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_1_11QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_1_12QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_1_13QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_1_14QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_1_3QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_1_4_ckQrCOUNT \t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_1_4QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_1_5_ckQrCOUNT \t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_1_5QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_1_6QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_1_7QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_1_9QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_2_1ckQrCOUNT \t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_2_1QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_2_2QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_2_4QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_2_6QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_3_1ckQrCOUNT \t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_3_1QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_3_2QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_3_3QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_3_4QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_3_6QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_3_7QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_3_8QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_3_9QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_4_10QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_4_1QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_4_3QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_4_5QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_4_6QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZ2_4_8QrCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + GIAZInQrCOUNT \t\t\t\t\t\t: <i>TLargeintField *</i>
+    + QKonkPlus2COUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    + QKonkPlusCOUNT \t\t\t\t\t: <i>TLargeintField *</i>
+    ..
+    + QGorodOUT_COPY_AT \t\t\t\t: <i>TSmallintField *</i>
+    + QGorodOUT_N_CK \t\t\t\t\t: <i>TSmallintField *</i>
+    + QGorodOUT_N_DELO \t\t\t\t\t: <i>TSmallintField *</i>
+    + QGorodOUT_REGION \t\t\t\t\t: <i>TSmallintField *</i>
+    + QGorodOUT_WHEN_E_M \t\t\t\t: <i>TSmallintField *</i>
+    + QGorodOUT_WHEN_E_S \t\t\t\t: <i>TSmallintField *</i>
+    + QGroupProtokolN_COUNT \t\t\t\t: <i>TSmallintField *</i>
+    + QGroupProtokolN_FAC \t\t\t\t: <i>TSmallintField *</i>
+    + QGroupProtokolN_GROUP \t\t\t\t: <i>TSmallintField *</i>
+    + QGroupProtokolN_SPECIALIZ \t\t\t: <i>TSmallintField *</i>
+    + QGroupProtokolVID_EDU \t\t\t\t: <i>TSmallintField *</i>
+    + QKol_Place15KOL_PLACE \t\t\t\t: <i>TSmallintField *</i>
+    + QKol_PlaceKOL_PLACE \t\t\t\t: <i>TSmallintField *</i>
+    + QKol_PlaceTEXT \t\t\t\t\t\t: <i>TSmallintField *</i>
+    + QKonkurs12OUT_CATEGORY_AB \t\t: <i>TSmallintField *</i>
+    + QKonkurs12OUT_KONKURS \t\t\t: <i>TSmallintField *</i>
+    + QKonkurs12OUT_N_CK \t\t\t\t: <i>TSmallintField *</i>
+    + QKonkurs12OUT_N_SPECIALIZ \t\t\t: <i>TSmallintField *</i>
+    + QKonkurs12OUT_TERM_EDU \t\t\t: <i>TSmallintField *</i>
+    + QKonkurs12OUT_WHEN_EDU_MIDDLE \t: <i>TSmallintField *</i>
+    + QKonkurs12OUT_WHEN_EDU_SPEC \t\t: <i>TSmallintField *</i>
+    + QKonkurs2VOUT_CATEGORY_AB \t\t: <i>TSmallintField *</i>
+    + QKonkurs2VOUT_KONKURS \t\t\t: <i>TSmallintField *</i>
+    + QKonkurs2VOUT_N_CK \t\t\t\t: <i>TSmallintField *</i>
+    + QKonkurs2VOUT_TERM_EDU \t\t\t: <i>TSmallintField *</i>
+    + QKonkurs2VOUT_WHEN_EDU_MIDDLE \t: <i>TSmallintField *</i>
+    + QKonkurs2VOUT_WHEN_EDU_SPEC \t\t: <i>TSmallintField *</i>
+    + QKonkurs34OUT_CATEGORY_AB \t\t: <i>TSmallintField *</i>
+    + QKonkurs34OUT_KONKURS \t\t\t: <i>TSmallintField *</i>
+    + QKonkurs34OUT_N_CK \t\t\t\t: <i>TSmallintField *</i>
+    + QKonkurs34OUT_N_SPECIALIZ \t\t\t: <i>TSmallintField *</i>
+    + QKonkurs34OUT_TERM_EDU \t\t\t: <i>TSmallintField *</i>
+    + QKonkurs34OUT_WHEN_EDU_MIDDLE \t: <i>TSmallintField *</i>
+    + QKonkurs34OUT_WHEN_EDU_SPEC \t\t: <i>TSmallintField *</i>
+    + QKonkursOUT_CATEGORY_AB \t\t\t: <i>TSmallintField *</i>
+    + QKonkursOUT_KONKURS \t\t\t\t: <i>TSmallintField *</i>
+    + QKonkursOUT_N_CK \t\t\t\t\t: <i>TSmallintField *</i>
+    + QKonkursOUT_TERM_EDU \t\t\t\t: <i>TSmallintField *</i>
+    + QKonkursOUT_WHEN_EDU_MIDDLE \t\t: <i>TSmallintField *</i>
+    + QKonkursOUT_WHEN_EDU_SPEC \t\t: <i>TSmallintField *</i>
+    + QPredmet_BallOUT_N_PREDMET \t\t: <i>TSmallintField *</i>
+    + QSpec1N_SPECIALIZ \t\t\t\t\t: <i>TSmallintField *</i>
+    ..
+    + QGorodOUT_DATE_R \t\t\t\t\t: <i>TSQLTimeStampField *</i>
+    + QKonkurs12OUT_DATE_R \t\t\t\t: <i>TSQLTimeStampField *</i>
+    + QKonkurs2VOUT_DATE_R \t\t\t\t: <i>TSQLTimeStampField *</i>
+    + QKonkurs34OUT_DATE_R \t\t\t\t: <i>TSQLTimeStampField *</i>
+    + QKonkursOUT_DATE_R \t\t\t\t: <i>TSQLTimeStampField *</i>
+    + QPeopleProtocolDATE_R \t\t\t\t: <i>TSQLTimeStampField *</i>
+    ..
+    + QGorodOUT_ADDRESS \t\t\t\t: <i>TStringField *</i>
+    + QGorodOUT_F \t\t\t\t\t\t: <i>TStringField *</i>
+    + QGorodOUT_FIO \t\t\t\t\t\t: <i>TStringField *</i>
+    + QGorodOUT_N \t\t\t\t\t\t: <i>TStringField *</i>
+    + QGorodOUT_NAME_E_M \t\t\t\t: <i>TStringField *</i>
+    + QGorodOUT_NAME_E_S \t\t\t\t: <i>TStringField *</i>
+    + QGorodOUT_O \t\t\t\t\t\t: <i>TStringField *</i>
+    + QGorodOUT_POL \t\t\t\t\t\t: <i>TStringField *</i>
+    + QGorodOUT_PRIV \t\t\t\t\t: <i>TStringField *</i>
+    + QGorodOUT_SPORT \t\t\t\t\t: <i>TStringField *</i>
+    + QGorodOUT_V_K \t\t\t\t\t\t: <i>TStringField *</i>
+    + QGorodOUT_WITHOUT \t\t\t\t: <i>TStringField *</i>
+    + QGroupProtokolDESCRIBE \t\t\t: <i>TStringField *</i>
+    + QGroupProtokolNOM_GROUP \t\t\t: <i>TStringField *</i>
+    + QKonkurs12OUT_ADDRESS_BEFORE \t: <i>TStringField *</i>
+    + QKonkurs12OUT_FIO \t\t\t\t\t: <i>TStringField *</i>
+    + QKonkurs12OUT_NAME_EDU_MIDDLE \t: <i>TStringField *</i>
+    + QKonkurs12OUT_NAME_EDU_SPEC \t\t: <i>TStringField *</i>
+    + QKonkurs12OUT_POL \t\t\t\t\t: <i>TStringField *</i>
+    + QKonkurs12OUT_SPORT_CATEGORY \t: <i>TStringField *</i>
+    + QKonkurs2VOUT_ADDRESS_BEFORE \t: <i>TStringField *</i>
+    + QKonkurs2VOUT_FIO \t\t\t\t\t: <i>TStringField *</i>
+    + QKonkurs2VOUT_NAME_EDU_MIDDLE \t: <i>TStringField *</i>
+    + QKonkurs2VOUT_NAME_EDU_SPEC \t\t: <i>TStringField *</i>
+    + QKonkurs2VOUT_POL \t\t\t\t\t: <i>TStringField *</i>
+    + QKonkurs2VOUT_SPORT_CATEGORY \t: <i>TStringField *</i>
+    + QKonkurs34OUT_ADDRESS_BEFORE \t: <i>TStringField *</i>
+    + QKonkurs34OUT_FIO \t\t\t\t\t: <i>TStringField *</i>
+    + QKonkurs34OUT_NAME_EDU_MIDDLE \t: <i>TStringField *</i>
+    + QKonkurs34OUT_NAME_EDU_SPEC \t\t: <i>TStringField *</i>
+    + QKonkurs34OUT_POL \t\t\t\t\t: <i>TStringField *</i>
+    + QKonkurs34OUT_SPORT_CATEGORY \t: <i>TStringField *</i>
+    + QKonkursOUT_ADDRESS_BEFORE \t\t: <i>TStringField *</i>
+    + QKonkursOUT_FIO \t\t\t\t\t: <i>TStringField *</i>
+    + QKonkursOUT_NAME_EDU_MIDDLE \t\t: <i>TStringField *</i>
+    + QKonkursOUT_NAME_EDU_SPEC \t\t: <i>TStringField *</i>
+    + QKonkursOUT_POL \t\t\t\t\t: <i>TStringField *</i>
+    + QKonkursOUT_SPORT_CATEGORY \t\t: <i>TStringField *</i>
+    + QPeopleProtocolFIO \t\t\t\t\t: <i>TStringField *</i>
+    + QPeopleProtocolNOM_GROUP \t\t\t: <i>TStringField *</i>
+    + QPeopleProtocolPOL \t\t\t\t\t: <i>TStringField *</i>
+    + QPredmet_BallOUT_TEXT_PREDMET \t: <i>TStringField *</i>
+    + QPredmTEXT_PREDMET \t\t\t\t: <i>TStringField *</i>
+    --
+    
+    + <b>TDMVed (Owner \t: <i>TComponent *</i>)</b>
+
+}
+
+package TDMVed <<Folder>>
+{
+    class TDMVed
+    hide  TDMVed members
+}
+
+@enduml

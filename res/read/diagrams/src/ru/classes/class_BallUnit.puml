@@ -1,0 +1,72 @@
+@startuml BallUnit.cpp
+
+title Исходный файл: "BallUnit.cpp"
+
+scale 750 width
+' left to right direction
+
+"<b>TBall_Form</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TBall_Form</b>"
+{
+    + BitBtn1 \t\t\t: <i>TBitBtn *</i>
+    + BitBtn2 \t\t\t: <i>TBitBtn *</i>
+    + BitBtn3 \t\t\t: <i>TBitBtn *</i>
+    + CheckBox1 \t\t: <i>TCheckBox *</i>
+    + DBNavigator1 \t: <i>TDBNavigator *</i>
+    + DBText1 \t\t: <i>TDBText *</i>
+    + DBText2 \t\t: <i>TDBText *</i>
+    + DBText3 \t\t: <i>TDBText *</i>
+    + Edit1 \t\t\t: <i>TEdit *</i>
+    + Label1 \t\t\t: <i>TLabel *</i>
+    + Panel1 \t\t\t: <i>TPanel *</i>
+    + RadioGroup1 \t: <i>TRadioGroup *</i>
+    + RadioGroup2 \t: <i>TRadioGroup *</i>
+    --
+    
+    + <b>TBall_Form (Owner \t: <i>TComponent *</i>)</b>
+    
+    + ball_check \t\t\t\t\t\t() : <i>void</i>
+    + BitBtn1Click \t\t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn2Click \t\t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn3Click \t\t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + CheckBox1Click \t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBLookupComboBox1CloseUp \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + DBNavigator1Click \t\t\t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tButton \t: <i>TNavigateBtn</i>
+        \t) : <i>void</i>
+    ..
+    + Edit1Change \t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t\t\t\t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + Proverka \t\t\t\t\t\t() : <i>void</i>
+    + RadioGroup1Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+note right of "<b>TBall_Form</b>"::ball_check
+установка RadioGroup 1 или 2
+в нужное значение балла
+end note
+note right of "<b>TBall_Form</b>"::Proverka
+изменение статуса абитуриента
+при получении отрицательной оценки
+end note
+
+
+package TBall_Form <<Folder>>
+{
+    class TBall_Form
+    hide  TBall_Form members
+}
+
+@enduml

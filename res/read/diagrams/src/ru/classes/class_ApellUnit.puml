@@ -1,0 +1,43 @@
+@startuml ApellUnit.cpp
+
+title Исходный файл: "ApellUnit.cpp"
+
+scale 750 width
+' left to right direction
+
+"<b>TApellForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TApellForm</b>"
+{
+    + BitBtn1 \t: <i>TBitBtn *</i>
+    ..
+    + LookB \t: <i>TDBLookupComboBox *</i>
+    + LookF \t: <i>TDBLookupComboBox *</i>
+    + LookP \t: <i>TDBLookupComboBox *</i>
+    ..
+    + Label1 \t: <i>TLabel *</i>
+    + Label2 \t: <i>TLabel *</i>
+    + Label3 \t: <i>TLabel *</i>
+    + Panel1 \t: <i>TPanel *</i>
+    --
+    
+    + <b>TApellForm (Owner \t: <i>TComponent *</i>)</b>
+
+    + BitBtn1Click \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TApellForm <<Folder>>
+{
+    class TApellForm
+    hide  TApellForm members
+}
+
+@enduml

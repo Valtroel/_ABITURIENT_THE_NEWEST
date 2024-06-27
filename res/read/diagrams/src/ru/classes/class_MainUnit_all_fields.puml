@@ -1,0 +1,152 @@
+@startuml MainUnit.cpp
+
+title Исходный файл: "MainUnit.cpp"
+
+scale 750 width
+
+class "<b>TMainForm</b>"
+{
+    <b>SHOWS ONLY FIELDS</b>\n (For methods, see: class_MainUnit)
+    --
+    + AbiturLogDate \t: <i>TDateTime</i>
+    ..
+    + DBGrid1 \t\t: <i>TDBGrid *</i>
+    ..
+    + Label1 \t\t\t: <i>TLabel *</i>
+    + Label2 \t\t\t: <i>TLabel *</i>
+    + Label3 \t\t\t: <i>TLabel *</i>
+    + Label4 \t\t\t: <i>TLabel *</i>
+    + Label5 \t\t\t: <i>TLabel *</i>
+    + Label6 \t\t\t: <i>TLabel *</i>
+    + Label7 \t\t\t: <i>TLabel *</i>
+    + Label8 \t\t\t: <i>TLabel *</i>
+    + Label9 \t\t\t: <i>TLabel *</i>
+    + NumDelaLbl1 \t: <i>TLabel *</i>
+    + NumDelaLbl2 \t: <i>TLabel *</i>
+    + NumDelaLbl3 \t: <i>TLabel *</i>
+    + NumDelaLbl4 \t: <i>TLabel *</i>
+    + NumDelaLbl5 \t: <i>TLabel *</i>
+    + NumDelaLbl6 \t: <i>TLabel *</i>
+    + NumDelaLbl7 \t: <i>TLabel *</i>
+    + NumDelaLbl8 \t: <i>TLabel *</i>
+    ..
+    + MainMenu1 \t\t: <i>TMainMenu *</i>
+    + N1 \t\t\t\t: <i>TMainMenu *</i>
+    + N2 \t\t\t\t: <i>TMainMenu *</i>
+    + N3 \t\t\t\t: <i>TMainMenu *</i>
+    + N4 \t\t\t\t: <i>TMainMenu *</i>
+    + N5 \t\t\t\t: <i>TMainMenu *</i>
+    + N6 \t\t\t\t: <i>TMainMenu *</i>
+    + N7 \t\t\t\t: <i>TMainMenu *</i>
+    + N8 \t\t\t\t: <i>TMainMenu *</i>
+    + N9 \t\t\t\t: <i>TMainMenu *</i>
+    + N10 \t\t\t: <i>TMainMenu *</i>
+    + N11 \t\t\t: <i>TMainMenu *</i>
+    + N12 \t\t\t\t: <i>TMainMenu *</i>
+    + N13 \t\t\t: <i>TMainMenu *</i>
+    + N14 \t\t\t\t: <i>TMainMenu *</i>
+    + N15 \t\t\t: <i>TMainMenu *</i>
+    + N16 \t\t\t: <i>TMainMenu *</i>
+    + N17 \t\t\t: <i>TMainMenu *</i>
+    + N18 \t\t\t\t: <i>TMainMenu *</i>
+    + N19 \t\t\t: <i>TMainMenu *</i>
+    + N20 \t\t\t\t: <i>TMainMenu *</i>
+    + N21 \t\t\t\t: <i>TMainMenu *</i>
+    + N22 \t\t\t\t: <i>TMainMenu *</i>
+    + N23 \t\t\t\t: <i>TMainMenu *</i>
+    + N24 \t\t\t\t: <i>TMainMenu *</i>
+    + N25 \t\t\t\t: <i>TMainMenu *</i>
+    + N26 \t\t\t\t: <i>TMainMenu *</i>
+    + N27 \t\t\t\t: <i>TMainMenu *</i>
+    + N28 \t\t\t\t: <i>TMainMenu *</i>
+    + N29 \t\t\t\t: <i>TMainMenu *</i>
+    + N30 \t\t\t: <i>TMainMenu *</i>
+    + N31 \t\t\t: <i>TMainMenu *</i>
+    + N32 \t\t\t\t: <i>TMainMenu *</i>
+    + N33 \t\t\t: <i>TMainMenu *</i>
+    + N34 \t\t\t\t: <i>TMainMenu *</i>
+    + N35 \t\t\t: <i>TMainMenu *</i>
+    + N36 \t\t\t: <i>TMainMenu *</i>
+    + N37 \t\t\t: <i>TMainMenu *</i>
+    + N38 \t\t\t\t: <i>TMainMenu *</i>
+    + N39 \t\t\t: <i>TMainMenu *</i>
+    + N40 \t\t\t\t: <i>TMainMenu *</i>
+    + N41 \t\t\t\t: <i>TMainMenu *</i>
+    + N42 \t\t\t\t: <i>TMainMenu *</i>
+    + N43 \t\t\t\t: <i>TMainMenu *</i>
+    + N44 \t\t\t\t: <i>TMainMenu *</i>
+    + N45 \t\t\t\t: <i>TMainMenu *</i>
+    + N46 \t\t\t\t: <i>TMainMenu *</i>
+    + N47 \t\t\t\t: <i>TMainMenu *</i>
+    + N48 \t\t\t\t: <i>TMainMenu *</i>
+    + N49 \t\t\t\t: <i>TMainMenu *</i>
+    + N50 \t\t\t: <i>TMainMenu *</i>
+    + N51 \t\t\t: <i>TMainMenu *</i>
+    + N52 \t\t\t\t: <i>TMainMenu *</i>
+    + N53 \t\t\t: <i>TMainMenu *</i>
+    + N54 \t\t\t\t: <i>TMainMenu *</i>
+    + N55 \t\t\t: <i>TMainMenu *</i>
+    + N56 \t\t\t: <i>TMainMenu *</i>
+    + N57 \t\t\t: <i>TMainMenu *</i>
+    + N58 \t\t\t\t: <i>TMainMenu *</i>
+    + N59 \t\t\t: <i>TMainMenu *</i>
+    + N60 \t\t\t: <i>TMainMenu *</i>
+    + N61 \t\t\t: <i>TMainMenu *</i>
+    + N62 \t\t\t\t: <i>TMainMenu *</i>
+    + N63 \t\t\t: <i>TMainMenu *</i>
+    + N64 \t\t\t\t: <i>TMainMenu *</i>
+    + N65 \t\t\t: <i>TMainMenu *</i>
+    + N66 \t\t\t: <i>TMainMenu *</i>
+    + N67 \t\t\t: <i>TMainMenu *</i>
+    + N68 \t\t\t\t: <i>TMainMenu *</i>
+    + N69 \t\t\t: <i>TMainMenu *</i>
+    + N70 \t\t\t: <i>TMainMenu *</i>
+    + N71 \t\t\t: <i>TMainMenu *</i>
+    + N72 \t\t\t\t: <i>TMainMenu *</i>
+    + N73 \t\t\t: <i>TMainMenu *</i>
+    + N74 \t\t\t\t: <i>TMainMenu *</i>
+    + N75 \t\t\t: <i>TMainMenu *</i>
+    + N76 \t\t\t: <i>TMainMenu *</i>
+    + N77 \t\t\t: <i>TMainMenu *</i>
+    + N78 \t\t\t\t: <i>TMainMenu *</i>
+    + N79 \t\t\t: <i>TMainMenu *</i>
+    + N80 \t\t\t\t: <i>TMainMenu *</i>
+    + N81 \t\t\t\t: <i>TMainMenu *</i>
+    + N82 \t\t\t\t: <i>TMainMenu *</i>
+    + N83 \t\t\t\t: <i>TMainMenu *</i>
+    + N84 \t\t\t\t: <i>TMainMenu *</i>
+    + N85 \t\t\t\t: <i>TMainMenu *</i>
+    + N86 \t\t\t\t: <i>TMainMenu *</i>
+    + N110 \t\t\t: <i>TMainMenu *</i>
+    + N111 \t\t\t: <i>TMainMenu *</i>
+    + N112 \t\t\t: <i>TMainMenu *</i>
+    + N113 \t\t\t: <i>TMainMenu *</i>
+    + N114 \t\t\t: <i>TMainMenu *</i>
+    + N115 \t\t\t: <i>TMainMenu *</i>
+    + N116 \t\t\t: <i>TMainMenu *</i>
+    + N210 \t\t\t: <i>TMainMenu *</i>
+    + N221 \t\t\t: <i>TMainMenu *</i>
+    + N310 \t\t\t: <i>TMainMenu *</i>
+    + N311 \t\t\t: <i>TMainMenu *</i>
+    + N1001 \t\t\t: <i>TMainMenu *</i>
+    + N150010001 \t\t: <i>TMainMenu *</i>
+    ..
+    + Shape1 \t\t\t: <i>TShape *</i>
+    ..
+    + SpeedButton1 \t: <i>TSpeedButton *</i>
+    + SpeedButton2 \t: <i>TSpeedButton *</i>
+    + SpeedButton3 \t: <i>TSpeedButton *</i>
+    + SpeedButton4 \t: <i>TSpeedButton *</i>
+    --
+    
+    + <b>TMainForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+}
+
+
+note right of "<b>TMainForm</b>"::AbiturLogDate
+дата создания журнала регистрации
+end note
+
+
+@enduml

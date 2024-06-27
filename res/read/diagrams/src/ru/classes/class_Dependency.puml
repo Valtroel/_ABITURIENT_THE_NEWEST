@@ -1,0 +1,432 @@
+@startuml Dependency
+
+title Class relationship "Abiturient"
+
+scale 750 width
+
+package "<i>RAD Studio components</i>" <<node>> {
+
+    class "<b>Buttons</b>"              << (C, Coral) >>
+    class "<b>Classes</b>"              << (C, Coral) >>
+    class "<b>comobj</b>"               << (C, Coral) >>
+    class "<b>Controls</b>"             << (C, Coral) >>
+    class "<b>Data</b>"                 << (C, Coral) >>
+    class "<b>DBCtrls</b>"              << (C, Coral) >>
+    class "<b>DBGrids</b>"              << (C, Coral) >>
+    class "<b>ExtCtrls</b>"             << (C, Coral) >>
+    class "<b>Forms</b>"                << (C, Coral) >>
+    class "<b>Grids</b>"                << (C, Coral) >>
+    class "<b>Mask</b>"                 << (C, Coral) >>
+    class "<b>Menus</b>"                << (C, Coral) >>
+    class "<b>StdCtrls</b>"             << (C, Coral) >>
+    class "<b>TApplication</b>"         << (C, Coral) >>
+    class "<b>TComponent</b>"           << (C, Coral) >>
+    class "<b>TControl</b>"             << (C, Coral) >>
+    class "<b>TCustomForm</b>"          << (C, Coral) >>
+    class "<b>TDataModule</b>"          << (C, Coral) >>
+    class "<b>TForm</b>"                << (C, Coral) >>
+    class "<b>TObject</b>"              << (C, Coral) >>
+    class "<b>TPersistent</b>"          << (C, Coral) >>
+    class "<b>TScreen</b>"              << (C, Coral) >>
+    class "<b>TScrollingWinControl</b>" << (C, Coral) >>
+    class "<b>TWinControl</b>"          << (C, Coral) >>
+    class "<b>vcl</b>"                  << (C, Coral) >>
+
+    hide members
+
+    "<b>TObject</b>"              <|-- "<b>TPersistent</b>"
+    "<b>TPersistent</b>"          <|-- "<b>TComponent</b>"
+    "<b>TComponent</b>"           <|-- "<b>TApplication</b>"
+    "<b>TComponent</b>"           <|-- "<b>TScreen</b>"
+    "<b>TComponent</b>"           <|-- "<b>TControl</b>"
+    "<b>TControl</b>"             <|-- "<b>TWinControl</b>"
+    "<b>TWinControl</b>"          <|-- "<b>TScrollingWinControl</b>"
+    "<b>TScrollingWinControl</b>" <|-- "<b>TCustomForm</b>"
+    "<b>TCustomForm</b>"          <|-- "<b>TForm</b>"
+}
+
+package DMUnit                  <<Folder>>
+{
+    class DMUnit 
+    hide  members
+}
+package TAbiturLogDlg           <<Folder>>
+{
+    abstract TAbiturLogDlg
+    hide     members
+}
+package TAbiturForm             <<Folder>>
+{
+    class TAbiturForm
+    hide  members
+}
+package TAddressForm            <<Folder>>
+{
+    class TAddressForm
+    hide  members
+}
+package TAddressLifeForm        <<Folder>>
+{
+    class TAddressLifeForm
+    hide  members
+}
+package TBall_Form              <<Folder>>
+{
+    class TBall_Form
+    hide  members
+}
+package TBlockForm              <<Folder>>
+{
+    class TBlockForm
+    hide  members
+}
+package TDlg_ProtokolForm       <<Folder>>
+{
+    abstract TDlg_ProtokolForm
+    hide     members
+}
+package TDM                     <<Folder>>
+{
+    abstract TDM
+    hide     members
+}
+package TDMStat                 <<Folder>>
+{
+    class TDMStat
+    hide  members
+}
+package TDMVed                  <<Folder>>
+{
+    class TDMVed
+    hide  members
+}
+package TDop_ResultForm         <<Folder>>
+{
+    class TDop_ResultForm
+    hide  members
+}
+package TDualListDlg            <<Folder>>
+{
+    class TDualListDlg
+    hide  members
+}
+package TDualListDlgDoc         <<Folder>>
+{
+    abstract TDualListDlgDoc
+    hide     members
+}
+package TExam_List_2Form        <<Folder>>
+{
+    class TExam_List_2Form
+    hide  members
+}
+package TExam_List_AllForm      <<Folder>>
+{
+    class TExam_List_AllForm
+    hide  members
+}
+package TExam_List_obForm       <<Folder>>
+{
+    class TExam_List_obForm
+    hide  members
+}
+package TExam_ListForm          <<Folder>>
+{
+    class TExam_ListForm
+    hide  members
+}
+package TExamenForm             <<Folder>>
+{
+    class TExamenForm
+    hide  members
+}
+package TExamenSpecForm         <<Folder>>
+{
+    class TExamenSpecForm
+    hide  members
+}
+package TForm1                  <<Folder>>
+{
+    class TForm1
+    hide  members
+}
+package TFormRepSelExerc        <<Folder>>
+{
+    class TFormRepSelExerc
+    hide  members
+}
+package TGroup_FacForm          <<Folder>>
+{
+    class TGroup_FacForm 
+    hide  members
+}
+package TLetterDualListDlg      <<Folder>>
+{
+    abstract TLetterDualListDlg
+    hide     members
+}
+package TLetterForm             <<Folder>>
+{
+    class TLetterForm
+    hide  members
+}
+package TListDlgForm            <<Folder>>
+{
+    class TListDlgForm
+    hide  members
+}
+package TListDocIndexForm       <<Folder>>
+{
+    class TListDocIndexForm
+    hide  members
+}
+package TLoginPass              <<Folder>>
+{
+    class TLoginPass
+    hide  members
+}
+package TMainForm               <<Folder>>
+{
+    class TMainForm
+    hide  members
+}
+package TNoticeForm             <<Folder>>
+{
+    class TNoticeForm
+    hide  members
+}
+package TNoticeForm             <<Folder>>
+{
+    class TNoticeForm
+    hide  members
+}
+package TPassDlg                <<Folder>>
+{
+    abstract TPassDlg
+    hide     members
+}
+package TPersonalDocFrm         <<Folder>>
+{
+    class TPersonalDocFrm
+    hide  members
+}
+package TPrint_GroupForm        <<Folder>>
+{
+    class TPrint_GroupForm
+    hide  members
+}
+package TPrint_OpisForm         <<Folder>>
+{
+    class TPrint_OpisForm
+    hide  members
+}
+package TPrint_RaspiskaForm     <<Folder>>
+{
+    class TPrint_RaspiskaForm
+    hide  members
+}
+package TPriv_EnterForm         <<Folder>>
+{
+    class TPriv_EnterForm
+    hide  members
+}
+package TPrnPersonDocForm       <<Folder>>
+{
+    class TPrnPersonDocForm
+    hide  members
+}
+package TResult_ExamForm        <<Folder>>
+{
+    class TResult_ExamForm
+    hide  members
+}
+package TSertificat_ResultForm  <<Folder>>
+{
+    class TSertificat_ResultForm
+    hide  members
+}
+package TSertificatForm         <<Folder>>
+{
+    class TSertificatForm
+    hide  members
+}
+package TSpisoc_GroupForm       <<Folder>>
+{
+    class TSpisoc_GroupForm
+    hide  members
+}
+package TSplashForm             <<Folder>>
+{
+    class TSplashForm
+    hide  members
+}
+package TSpravForm              <<Folder>>
+{
+    class TSpravForm
+    hide  members
+}
+package TSredBalForm            <<Folder>>
+{
+    class TSredBalForm
+    hide  members
+}
+package TStat_Result_examForm   <<Folder>>
+{
+    class TStat_Result_examForm
+    hide  members
+}
+package TUndo_Ab_1Form          <<Folder>>
+{
+    class TUndo_Ab_1Form
+    hide  members
+}
+package TUndo_Ab_Form           <<Folder>>
+{
+    class TUndo_Ab_Form
+    hide  members
+}
+package TUndo_SpravkaForm       <<Folder>>
+{
+    class TUndo_SpravkaForm
+    hide  members
+}
+' package APPLICATION <<node>> {
+
+' }
+
+' INHERITANCE
+TAbiturLogDlg          -up-|> "<b>TForm</b>"
+TAbiturForm            -up-|> "<b>TForm</b>"
+TAddressForm           -up-|> "<b>TForm</b>"
+TAddressLifeForm       -up-|> "<b>TForm</b>"
+TApellForm             -up-|> "<b>TForm</b>"
+TBall_Form             -up-|> "<b>TForm</b>"
+TBlockForm             -up-|> "<b>TForm</b>"
+TDlg_ProtokolForm      -up-|> "<b>TForm</b>"
+TDM                    -up-|> "<b>TDataModule</b>"
+TDMStat                -up-|> "<b>TDataModule</b>"
+TDMVed                 -up-|> "<b>TDataModule</b>"
+TDop_ResultForm        -up-|> "<b>TForm</b>"
+TDualListDlg           -up-|> "<b>TForm</b>"
+TDualListDlgDoc        -up-|> "<b>TForm</b>"
+TExam_List_2Form       -up-|> "<b>TForm</b>"
+TExam_List_AllForm     -up-|> "<b>TForm</b>"
+TExam_List_obForm      -up-|> "<b>TForm</b>"
+TExam_ListForm         -up-|> "<b>TForm</b>"
+TExamenForm            -up-|> "<b>TForm</b>"
+TExamenSpecForm        -up-|> "<b>TForm</b>"
+TForm1                 -up-|> "<b>TForm</b>"
+TFormRepSelExerc       -up-|> "<b>TForm</b>"
+TGroup_FacForm         -up-|> "<b>TForm</b>"
+TLetterDualListDlg     -up-|> "<b>TForm</b>"
+TLetterForm            -up-|> "<b>TForm</b>"
+TListDlgForm           -up-|> "<b>TForm</b>"
+TListDocIndexForm      -up-|> "<b>TForm</b>"
+TLoginPass             -up-|> "<b>TForm</b>"
+TMainForm              -up-|> "<b>TForm</b>"
+TNoticeForm            -up-|> "<b>TForm</b>"
+TPassDlg               -up-|> "<b>TForm</b>"
+TPersonalDocFrm        -up-|> "<b>TForm</b>"
+TPrint_GroupForm       -up-|> "<b>TForm</b>"
+TPrint_OpisForm        -up-|> "<b>TForm</b>"
+TPrint_RaspiskaForm    -up-|> "<b>TForm</b>"
+TPriv_EnterForm        -up-|> "<b>TForm</b>"
+TPrnPersonDocForm      -up-|> "<b>TForm</b>"
+TResult_ExamForm       -up-|> "<b>TForm</b>"
+TSertificat_ResultForm -up-|> "<b>TForm</b>"
+TSertificatForm        -up-|> "<b>TForm</b>"
+TSpisoc_GroupForm      -up-|> "<b>TForm</b>"
+TSplashForm            -up-|> "<b>TForm</b>"
+TSpravForm             -up-|> "<b>TForm</b>"
+TSredBalForm           -up-|> "<b>TForm</b>"
+TStat_Result_examForm  -up-|> "<b>TForm</b>"
+TUndo_Ab_Form          -up-|> "<b>TForm</b>"
+TUndo_Ab_1Form         -up-|> "<b>TForm</b>"
+TUndo_SpravkaForm      -up-|> "<b>TForm</b>"
+
+
+' DEPENDENCY
+TGroup_FacForm <-- "<b>Buttons</b>"
+TGroup_FacForm <-- "<b>Classes</b>"
+TGroup_FacForm <-- "<b>Controls</b>"
+TGroup_FacForm <-- "<b>Data</b>"
+TGroup_FacForm <-- "<b>DBCtrls</b>"
+TGroup_FacForm <-- "<b>DBGrids</b>"
+TGroup_FacForm <-- "<b>ExtCtrls</b>"
+TGroup_FacForm <-- "<b>Forms</b>"
+TGroup_FacForm <-- "<b>Grids</b>"
+TGroup_FacForm <-- "<b>Mask</b>"
+TGroup_FacForm <-- "<b>StdCtrls</b>"
+TGroup_FacForm <-- "<b>vcl</b>"
+
+TMainForm <-- "<b>Buttons</b>"
+TMainForm <-- "<b>Classes</b>"
+TMainForm <-- "<b>comobj</b>"
+TMainForm <-- "<b>Controls</b>"
+TMainForm <-- "<b>Data</b>"
+TMainForm <-- "<b>DBCtrls</b>"
+TMainForm <-- "<b>DBGrids</b>"
+TMainForm <-- "<b>ExtCtrls</b>"
+TMainForm <-- "<b>Forms</b>"
+TMainForm <-- "<b>Grids</b>"
+TMainForm <-- "<b>Menus</b>"
+TMainForm <-- "<b>StdCtrls</b>"
+TMainForm <-- "<b>vcl</b>"
+
+TUndo_Ab_Form <-- "<b>Buttons</b>"
+TUndo_Ab_Form <-- "<b>Classes</b>"
+TUndo_Ab_Form <-- "<b>Controls</b>"
+TUndo_Ab_Form <-- "<b>Data</b>"
+TUndo_Ab_Form <-- "<b>DBGrids</b>"
+TUndo_Ab_Form <-- "<b>ExtCtrls</b>"
+TUndo_Ab_Form <-- "<b>Forms</b>"
+TUndo_Ab_Form <-- "<b>Grids</b>"
+TUndo_Ab_Form <-- "<b>StdCtrls</b>"
+TUndo_Ab_Form  <-- "<b>vcl</b>"
+
+TUndo_SpravkaForm <-- "<b>Buttons</b>"
+TUndo_SpravkaForm <-- "<b>Classes</b>"
+TUndo_SpravkaForm <-- "<b>Controls</b>"
+TUndo_SpravkaForm <-- "<b>DBGrids</b>"
+TUndo_SpravkaForm <-- "<b>ExtCtrls</b>"
+TUndo_SpravkaForm <-- "<b>Forms</b>"
+TUndo_SpravkaForm <-- "<b>Grids</b>"
+TUndo_SpravkaForm <-- "<b>StdCtrls</b>"
+TUndo_SpravkaForm <-- "<b>vcl</b>"
+
+' APP DEPENDENCY
+TGroup_FacForm <-- "<b>DMUnit</b>"
+
+TMainForm <-- "<b>TAbiturLogDlg</b>"
+TMainForm <-- "<b>AbiturUnit</b>"
+TMainForm <-- "<b>ApellUnit</b>"
+TMainForm <-- "<b>Dlg_ProtokolUnit</b>"
+TMainForm <-- "<b>DMStatUnit</b>"
+TMainForm <-- "<b>DMUnit</b>"
+TMainForm <-- "<b>DMVedUnit</b>"
+TMainForm <-- "<b>Dop_ResultUnit</b>"
+TMainForm <-- "<b>ExamenSpecUnit</b>"
+TMainForm <-- "<b>ExamenUnit</b>"
+TMainForm <-- "<b>Func</b>"
+TMainForm <-- "<b>Group_FacUnit</b>"
+TMainForm <-- "<b>LETTERDUALLIST</b>"
+TMainForm <-- "<b>PassDlgUnit</b>"
+TMainForm <-- "<b>PersonalDocUnit</b>"
+TMainForm <-- "<b>Resuilt_ExamUnit</b>"
+TMainForm <-- "<b>Sertificat_ResultUnit</b>"
+TMainForm <-- "<b>Spisoc_GroupUnit</b>"
+TMainForm <-- "<b>SpravUnit</b>"
+TMainForm <-- "<b>Stat_Result_examUnit</b>"
+TMainForm <-- "<b>Undo_SpravkaUnit</b>"
+
+
+TUndo_Ab_Form  <-- "<b>AbiturUnit</b>"
+TUndo_Ab_Form  <-- "<b>DMUnit</b>"
+TUndo_Ab_Form  <-- "<b>Undo_Ab_1Unit</b>"
+TUndo_Ab_Form  <-- "<b>Undo_Ab_Unit</b>"
+
+TUndo_SpravkaForm <-- "<b>DMUnit</b>"
+
+' left to right direction
+
+@enduml

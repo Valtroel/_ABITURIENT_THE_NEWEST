@@ -1,0 +1,98 @@
+@startuml DMStatUnit.cpp
+
+title Исходный файл: "DMStatUnit.cpp"
+
+scale 750 width
+' left to right direction
+
+"<b>TDMStat</b>" -up-|> "<b>TDataModule</b>"
+
+hide "<b>TDataModule</b>" members
+
+class "<b>TDMStat</b>"
+{
+    <b>SHOWS ONLY METHODS</b>
+    --
+    + DSCount_Ball_Examen \t\t\t\t\t\t: <i>TDataSource *</i>
+    + DSCount_CK \t\t\t\t\t\t\t\t\t: <i>TDataSource *</i>
+     .. (<i>and etc. For all fields, see: class_DMStatUnit_All_Fields</i>) ..
+    --
+        
+    + <b>TDMStat (Owner \t: <i>TComponent *</i>)</b>
+
+    + FIO \t\t\t\t(
+            \t\ttext \t\t\t: <i>AnsiString</i>,
+            \t\tq \t\t\t\t: <i>TFDQuery *</i>,
+            \t\tpole \t\t\t: <i>AnsiString</i> 
+        \t) : <i>void</i>
+    ..
+    + Prohod_Ball \t\t(
+            \t\tgorod \t\t\t: <i>float</i>,
+            \t\tselo \t\t\t: <i>float</i>,
+            \t\tstroka \t\t\t: <i>int</i>,
+            \t\tprice_twokurs \t: <i>int</i> 
+        \t) : <i>void</i>
+    ..
+    + SQL_Build \t\t(
+            \t\tform \t\t\t: <i>int</i>,
+            \t\tvid \t\t\t\t: <i>int</i>,
+            \t\tparam \t\t\t: <i>int</i> 
+        \t) : <i>void</i>
+    ..
+    + SQL_BuildCycle \t(
+            \t\tform \t\t\t: <i>int</i>,
+            \t\tvid \t\t\t\t: <i>int</i>,
+            \t\trec_spec \t\t: <i>int</i>,
+            \t\tparam \t\t\t: <i>int</i> 
+        \t) : <i>void</i>
+    ..
+    + SQL_Min_Ball \t(
+            \t\tvid_educ \t\t: <i>int</i>,
+            \t\tsp \t\t\t\t: <i>int</i>,
+            \t\tprice \t\t\t: <i>int</i>,
+            \t\tkonkurs \t\t\t: <i>int</i> 
+        \t) : <i>float</i>
+    ..
+    + SQL_Run \t\t(
+            \t\tq \t\t\t\t: <i>TFDQuery *</i>,
+            \t\tsql \t\t\t\t: <i>AnsiString</i>,
+            \t\tvid_educ \t\t: <i>int</i>,
+            \t\tstb \t\t\t\t: <i>int</i>,
+            \t\tstr \t\t\t\t: <i>int</i> 
+        \t) : <i>void</i>
+    ..
+    + SQL_RunCycle \t(
+            \t\tq \t\t\t\t: <i>TFDQuery *</i>,
+            \t\tsql \t\t\t\t: <i>AnsiString</i>,
+            \t\tvid_educ \t\t: <i>int</i>,
+            \t\trec_spec \t\t: <i>int</i>,
+            \t\tstb \t\t\t\t: <i>int</i> 
+        \t) : <i>void</i>
+}
+
+note right of "<b>TDMStat</b>"::FIO
+Обработка ФИО с приведением
+его в нужный формат
+end note
+note right of "<b>TDMStat</b>"::Prohod_Ball
+определить какой балл занести
+(общий или раздельный конкурс)
+end note
+note right of "<b>TDMStat</b>"::SQL_BuildCycle
+создать Query
+end note
+note right of "<b>TDMStat</b>"::SQL_Min_Ball
+выдать проходной балл
+end note
+note right of "<b>TDMStat</b>"::SQL_RunCycle
+выполнить Query и занести данные в Excel
+end note
+
+
+package TDMStat <<Folder>>
+{
+    class TDMStat
+    hide  TDMStat members
+}
+
+@enduml

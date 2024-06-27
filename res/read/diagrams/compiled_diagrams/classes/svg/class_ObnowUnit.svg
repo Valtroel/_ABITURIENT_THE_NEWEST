@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="684.136px" preserveAspectRatio="none" style="width:752px;height:684px;background:#FFFFFF;" version="1.1" viewBox="0 0 752 684" width="752.1246px" zoomAndPan="magnify"><defs/><g><rect height="55.8715" style="stroke:#00000000;stroke-width:2.1246458923512748;fill:none;" width="618.272" x="52.0538" y="10.6232"/><text fill="#000000" font-family="sans-serif" font-size="29.745" font-weight="bold" lengthAdjust="spacing" textLength="597.0255" x="62.6771" y="48.8565">Исходный файл: "ObnowUnit.cpp"</text><!--MD5=[8f09bd46f66ea3444b7a5e3c375e0c94]
+cluster TForm1--><g id="cluster_TForm1"><path d="M487.6062,91.9905 L621.4589,91.9905 A7.9674,7.9674 0 0 1 626.7705,97.3021 L641.6431,139.3635 L731.9405,139.3635 A5.3116,5.3116 0 0 1 737.2521,144.6751 L737.2521,297.0189 A5.3116,5.3116 0 0 1 731.9405,302.3305 L487.6062,302.3305 A5.3116,5.3116 0 0 1 482.2946,297.0189 L482.2946,97.3021 A5.3116,5.3116 0 0 1 487.6062,91.9905 " style="stroke:#000000;stroke-width:3.186968838526912;fill:none;"/><line style="stroke:#000000;stroke-width:3.186968838526912;fill:none;" x1="482.2946" x2="641.6431" y1="139.3635" y2="139.3635"/><text fill="#000000" font-family="sans-serif" font-size="29.745" font-weight="bold" lengthAdjust="spacing" textLength="131.728" x="490.7932" y="123.8498">TForm1</text></g><!--MD5=[3f044bc0de839b8714e58d65f980f596]
+class TForm1--><g id="elem_TForm1"><rect codeLine="22" fill="#F1F1F1" height="101.983" id="TForm1" rx="5.3116" ry="5.3116" style="stroke:#181818;stroke-width:1.0623229461756374;" width="184.8442" x="517.3513" y="166.3531"/><ellipse cx="549.221" cy="200.3475" fill="#ADD1B2" rx="23.3711" ry="23.3711" style="stroke:#181818;stroke-width:2.1246458923512748;"/><path d="M554.2006,191.1517 C552.2087,190.2222 550.9472,189.9234 549.0882,189.9234 C543.511,189.9234 539.2617,194.3387 539.2617,200.1151 L539.2617,202.5053 C539.2617,207.9829 543.7434,211.9998 549.8849,211.9998 C552.4743,211.9998 554.9309,211.3691 556.5244,210.2072 C557.7527,209.344 558.4499,208.3813 558.4499,207.5513 C558.4499,206.5886 557.62,205.7587 556.624,205.7587 C556.1593,205.7587 555.7277,205.9247 555.3293,206.323 C554.3666,207.3522 554.3666,207.3522 553.9682,207.5513 C553.0719,208.1157 551.6112,208.3813 549.9845,208.3813 C545.6356,208.3813 542.8802,206.0575 542.8802,202.4389 L542.8802,200.1151 C542.8802,196.3306 545.536,193.542 549.221,193.542 C550.4493,193.542 551.744,193.8739 552.7399,194.4051 C553.769,195.0027 554.1342,195.4674 554.3334,196.3306 C554.4662,197.1937 554.5326,197.4593 554.8314,197.7249 C555.1301,198.0236 555.6281,198.256 556.0929,198.256 C556.6572,198.256 557.2216,197.9572 557.5868,197.4925 C557.8191,197.1605 557.8855,196.7621 557.8855,195.8658 L557.8855,192.8448 C557.8855,191.9153 557.8523,191.6497 557.6532,191.3177 C557.3212,190.7534 556.7236,190.4546 556.0929,190.4546 C555.4621,190.4546 555.0305,190.6538 554.5658,191.3177 L554.2006,191.1517 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="29.745" lengthAdjust="spacing" textLength="116.8555" x="578.966" y="210.6449">TForm1</text><line style="stroke:#181818;stroke-width:1.0623229461756374;" x1="519.4759" x2="700.0708" y1="234.3418" y2="234.3418"/><line style="stroke:#181818;stroke-width:1.0623229461756374;" x1="519.4759" x2="700.0708" y1="251.339" y2="251.339"/></g><!--MD5=[ffe0aaf913bf55300a767dc254878b3a]
+class <b>TForm1</b>--><g id="elem_&lt;b&gt;TForm1&lt;/b&gt;"><rect codeLine="9" fill="#F1F1F1" height="275.1084" id="&lt;b&gt;TForm1&lt;/b&gt;" rx="5.3116" ry="5.3116" style="stroke:#181818;stroke-width:1.0623229461756374;" width="675.6374" x="14.8725" y="395.8149"/><ellipse cx="277.7975" cy="429.8092" fill="#ADD1B2" rx="23.3711" ry="23.3711" style="stroke:#181818;stroke-width:2.1246458923512748;"/><path d="M282.7771,420.6135 C280.7852,419.684 279.5237,419.3852 277.6647,419.3852 C272.0875,419.3852 267.8382,423.8005 267.8382,429.5768 L267.8382,431.9671 C267.8382,437.4447 272.3198,441.4616 278.4614,441.4616 C281.0508,441.4616 283.5074,440.8308 285.1009,439.6689 C286.3292,438.8058 287.0264,437.843 287.0264,437.0131 C287.0264,436.0504 286.1964,435.2204 285.2005,435.2204 C284.7357,435.2204 284.3042,435.3864 283.9058,435.7848 C282.9431,436.8139 282.9431,436.8139 282.5447,437.0131 C281.6484,437.5775 280.1877,437.843 278.561,437.843 C274.2121,437.843 271.4567,435.5192 271.4567,431.9007 L271.4567,429.5768 C271.4567,425.7923 274.1125,423.0037 277.7975,423.0037 C279.0258,423.0037 280.3205,423.3357 281.3164,423.8669 C282.3455,424.4644 282.7107,424.9292 282.9099,425.7923 C283.0427,426.6555 283.1091,426.921 283.4078,427.1866 C283.7066,427.4854 284.2046,427.7178 284.6694,427.7178 C285.2337,427.7178 285.7981,427.419 286.1632,426.9542 C286.3956,426.6223 286.462,426.2239 286.462,425.3275 L286.462,422.3066 C286.462,421.377 286.4288,421.1115 286.2296,420.7795 C285.8977,420.2151 285.3001,419.9163 284.6694,419.9163 C284.0386,419.9163 283.607,420.1155 283.1423,420.7795 L282.7771,420.6135 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="29.745" font-weight="bold" lengthAdjust="spacing" textLength="131.728" x="321.3527" y="440.1067">TForm1</text><line style="stroke:#181818;stroke-width:1.0623229461756374;" x1="16.9972" x2="688.3853" y1="463.8036" y2="463.8036"/><ellipse cx="38.2436" cy="487.1747" fill="none" rx="6.3739" ry="6.3739" style="stroke:#038048;stroke-width:2.1246458923512748;"/><text fill="#000000" font-family="sans-serif" font-size="29.745" lengthAdjust="spacing" textLength="127.4788" x="57.3654" y="499.9122">DBGrid1</text><text fill="#000000" font-family="sans-serif" font-size="29.745" lengthAdjust="spacing" textLength="10.6232" x="261.3314" y="499.9122">:</text><text fill="#000000" font-family="sans-serif" font-size="29.745" font-style="italic" lengthAdjust="spacing" textLength="150.8499" x="280.4533" y="499.9122">TDBGrid *</text><ellipse cx="38.2436" cy="521.7998" fill="none" rx="6.3739" ry="6.3739" style="stroke:#038048;stroke-width:2.1246458923512748;"/><text fill="#000000" font-family="sans-serif" font-size="29.745" lengthAdjust="spacing" textLength="157.2238" x="57.3654" y="534.5373">Обновить</text><text fill="#000000" font-family="sans-serif" font-size="29.745" lengthAdjust="spacing" textLength="10.6232" x="261.3314" y="534.5373">:</text><text fill="#000000" font-family="sans-serif" font-size="29.745" font-style="italic" lengthAdjust="spacing" textLength="142.3513" x="280.4533" y="534.5373">TButton *</text><line style="stroke:#181818;stroke-width:2.1246458923512748;" x1="16.9972" x2="688.3853" y1="550.0509" y2="550.0509"/><text fill="#000000" font-family="sans-serif" font-size="29.745" lengthAdjust="spacing" textLength="8.4986" x="57.3654" y="586.1595"> </text><ellipse cx="38.2436" cy="608.0471" fill="#84BE84" rx="6.3739" ry="6.3739" style="stroke:#038048;stroke-width:2.1246458923512748;"/><text fill="#000000" font-family="sans-serif" font-size="29.745" font-weight="bold" lengthAdjust="spacing" textLength="131.728" x="57.3654" y="620.7846">TForm1</text><text fill="#000000" font-family="sans-serif" font-size="29.745" font-weight="bold" lengthAdjust="spacing" textLength="121.1048" x="227.3371" y="620.7846">(Owner</text><text fill="#000000" font-family="sans-serif" font-size="29.745" font-weight="bold" lengthAdjust="spacing" textLength="12.7479" x="397.3088" y="620.7846">:</text><text fill="#000000" font-family="sans-serif" font-size="29.745" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="242.2096" x="420.6799" y="620.7846">TComponent *</text><text fill="#000000" font-family="sans-serif" font-size="29.745" font-weight="bold" lengthAdjust="spacing" textLength="14.8725" x="662.8895" y="620.7846">)</text><text fill="#000000" font-family="sans-serif" font-size="29.745" lengthAdjust="spacing" textLength="8.4986" x="57.3654" y="655.4097"> </text></g><!--MD5=[dd0bf217da5c5e97452bc452f42aff32]
+class <b>TForm</b>--><g id="elem_&lt;b&gt;TForm&lt;/b&gt;"><rect fill="#F1F1F1" height="67.9887" id="&lt;b&gt;TForm&lt;/b&gt;" rx="5.3116" ry="5.3116" style="stroke:#181818;stroke-width:1.0623229461756374;" width="178.4703" x="263.4561" y="183.3503"/><ellipse cx="295.3258" cy="217.3446" fill="#ADD1B2" rx="23.3711" ry="23.3711" style="stroke:#181818;stroke-width:2.1246458923512748;"/><path d="M300.3054,208.1489 C298.3136,207.2194 297.0521,206.9206 295.193,206.9206 C289.6158,206.9206 285.3665,211.3359 285.3665,217.1123 L285.3665,219.5025 C285.3665,224.9801 289.8482,228.997 295.9897,228.997 C298.5791,228.997 301.0358,228.3662 302.6292,227.2043 C303.8576,226.3412 304.5547,225.3785 304.5547,224.5485 C304.5547,223.5858 303.7248,222.7558 302.7288,222.7558 C302.2641,222.7558 301.8325,222.9218 301.4341,223.3202 C300.4714,224.3493 300.4714,224.3493 300.073,224.5485 C299.1767,225.1129 297.716,225.3785 296.0893,225.3785 C291.7404,225.3785 288.985,223.0546 288.985,219.4361 L288.985,217.1123 C288.985,213.3277 291.6408,210.5391 295.3258,210.5391 C296.5541,210.5391 297.8488,210.8711 298.8447,211.4023 C299.8738,211.9998 300.239,212.4646 300.4382,213.3277 C300.571,214.1909 300.6374,214.4564 300.9362,214.722 C301.235,215.0208 301.7329,215.2532 302.1977,215.2532 C302.762,215.2532 303.3264,214.9544 303.6916,214.4896 C303.924,214.1577 303.9904,213.7593 303.9904,212.863 L303.9904,209.842 C303.9904,208.9124 303.9572,208.6469 303.758,208.3149 C303.426,207.7505 302.8284,207.4518 302.1977,207.4518 C301.5669,207.4518 301.1354,207.6509 300.6706,208.3149 L300.3054,208.1489 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="29.745" font-weight="bold" lengthAdjust="spacing" textLength="110.4816" x="325.0708" y="227.6421">TForm</text></g><!--MD5=[948bac07210c52686a102acb78fe6351]
+reverse link <b>TForm</b> to <b>TForm1</b>--><g id="link_&lt;b&gt;TForm&lt;/b&gt;_&lt;b&gt;TForm1&lt;/b&gt;"><path codeLine="5" d="M352.6912,294.2207 C352.6912,324.567 352.6912,360.5968 352.6912,395.2667 " fill="none" id="&lt;b&gt;TForm&lt;/b&gt;-backto-&lt;b&gt;TForm1&lt;/b&gt;" style="stroke:#181818;stroke-width:2.1246458923512748;"/><polygon fill="none" points="337.8187,294.0996,352.6912,251.6067,367.5637,294.0996,337.8187,294.0996" style="stroke:#181818;stroke-width:2.1246458923512748;"/></g><!--MD5=[7c9bf91b7dc3e26ec509f32b729a88de]
+@startuml
+title Исходный файл: "ObnowUnit.cpp"
+
+scale 750 width
+
+"<b>TForm1</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TForm1</b>"
+{
+    + DBGrid1 \t: <i>TDBGrid *</i>
+    + Обновить \t: <i>TButton *</i>
+    - -
+    
+    + <b>TForm1 \t(Owner \t: <i>TComponent *</i>)</b>
+
+}
+
+
+package TForm1 <<Folder>>
+{
+    class TForm1
+    hide  members
+}
+
+
+' note right of "<b>TForm1</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+@enduml
+
+@startuml
+title Исходный файл: "ObnowUnit.cpp"
+
+scale 750 width
+
+"<b>TForm1</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TForm1</b>"
+{
+    + DBGrid1 \t: <i>TDBGrid *</i>
+    + Обновить \t: <i>TButton *</i>
+    - -
+    
+    + <b>TForm1 \t(Owner \t: <i>TComponent *</i>)</b>
+
+}
+
+
+package TForm1 <<Folder>>
+{
+    class TForm1
+    hide  members
+}
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

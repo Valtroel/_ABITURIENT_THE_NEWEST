@@ -1,0 +1,88 @@
+@startuml Exam_List_2Unit.cpp
+
+title Исходный файл: "Exam_List_2Unit.cpp"
+
+scale 750 width
+
+"<b>TExam_List_2Form</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TExam_List_2Form</b>"
+{
+    + DetailBand1 \t\t: <i>TQRBand *</i>
+    ..
+    + QRDBText1_1 \t: <i>TQRDBText *</i>
+    + QRDBText2_1 \t: <i>TQRDBText *</i>
+    + QRDBText3_1 \t: <i>TQRDBText *</i>
+    + QRDBText4_1 \t: <i>TQRDBText *</i>
+    + QRDBText5_1 \t: <i>TQRDBText *</i>
+    + QRDBText6_1 \t: <i>TQRDBText *</i>
+    + QRDBText7_1 \t: <i>TQRDBText *</i>
+    + QRDBText8_1 \t: <i>TQRDBText *</i>
+    ..
+    + QRImage1_1 \t\t: <i>TQRImage *</i>
+    ..
+    + QRLabel1_1 \t\t: <i>TQRLabel *</i>
+    + QRLabel2_1 \t\t: <i>TQRLabel *</i>
+    + QRLabel3_1 \t\t: <i>TQRLabel *</i>
+    + QRLabel4_1 \t\t: <i>TQRLabel *</i>
+    + QRLabel5_1 \t\t: <i>TQRLabel *</i>
+    + QRLabel6_1 \t\t: <i>TQRLabel *</i>
+    + QRLabel7_1 \t\t: <i>TQRLabel *</i>
+    + QRLabel8_1 \t\t: <i>TQRLabel *</i>
+    + QRLabel9_1 \t\t: <i>TQRLabel *</i>
+    + QRLabel10_1 \t: <i>TQRLabel *</i>
+    + QRLabel11_1 \t: <i>TQRLabel *</i>
+    + QRLabel12_1 \t: <i>TQRLabel *</i>
+    + QRLabel13_1 \t: <i>TQRLabel *</i>
+    + QRLabel14_1 \t: <i>TQRLabel *</i>
+    + QRLabel15_1 \t: <i>TQRLabel *</i>
+    + QRLabel16_1 \t: <i>TQRLabel *</i>
+    + QRLabel17_1 \t: <i>TQRLabel *</i>
+    + QRLabel18_1 \t: <i>TQRLabel *</i>
+    + QRLabel19_1 \t: <i>TQRLabel *</i>
+    + QRLabel20_1 \t: <i>TQRLabel *</i>
+    + QRLabel21_1 \t: <i>TQRLabel *</i>
+    + QRLabel22_1 \t: <i>TQRLabel *</i>
+    + QRLabel23_1 \t: <i>TQRLabel *</i>
+    + QRLabel24_1 \t: <i>TQRLabel *</i>
+    + QRLabel25_1 \t: <i>TQRLabel *</i>
+    + QRLabel26_1 \t: <i>TQRLabel *</i>
+    + QRLabel27_1 \t: <i>TQRLabel *</i>
+    + QRLabel28_1 \t: <i>TQRLabel *</i>
+    + QRLabel29_1 \t: <i>TQRLabel *</i>
+    + QRLabel30_1 \t: <i>TQRLabel *</i>
+    + QRLabel31_1 \t: <i>TQRLabel *</i>
+    + QRLabel32_1 \t: <i>TQRLabel *</i>
+    + QRLabel33_1 \t: <i>TQRLabel *</i>
+    + QRLabel34_1 \t: <i>TQRLabel *</i>
+    + QRLabel35_1 \t: <i>TQRLabel *</i>
+    + QRLabel36_1 \t: <i>TQRLabel *</i>
+    + QRLabel37_1 \t: <i>TQRLabel *</i>
+    + QRLabel38_1 \t: <i>TQRLabel *</i>
+    + QRLabel39_1 \t: <i>TQRLabel *</i>
+    + QRLabel40_1 \t: <i>TQRLabel *</i>
+    + QRLabel41_1 \t: <i>TQRLabel *</i>
+    ..
+    + QRRichText1_1 \t: <i>TQRRichText *</i>
+    ..
+    + QRShape1_1 \t\t: <i>TQRShape *</i>
+    + QRShape2_1 \t\t: <i>TQRShape *</i>
+    + QRShape3_1 \t\t: <i>TQRShape *</i>
+    ..
+    + QuickRep1 \t\t: <i>TQuickRep *</i>
+    --
+    
+    + <b>TExam_List_2Form (Owner \t: <i>TComponent *</i>)</b>
+
+}
+
+
+package TExam_List_2Form <<Folder>>
+{
+    class TExam_List_2Form
+    hide  TExam_List_2Form members
+}
+
+@enduml

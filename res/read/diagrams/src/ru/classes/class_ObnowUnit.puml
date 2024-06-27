@@ -1,0 +1,33 @@
+@startuml ObnowUnit.cpp
+
+title Исходный файл: "ObnowUnit.cpp"
+
+scale 750 width
+
+"<b>TForm1</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TForm1</b>"
+{
+    + DBGrid1 \t: <i>TDBGrid *</i>
+    + Обновить \t: <i>TButton *</i>
+    --
+    
+    + <b>TForm1 \t(Owner \t: <i>TComponent *</i>)</b>
+
+}
+
+
+package TForm1 <<Folder>>
+{
+    class TForm1
+    hide  TForm1 members
+}
+
+
+' note right of "<b>TForm1</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

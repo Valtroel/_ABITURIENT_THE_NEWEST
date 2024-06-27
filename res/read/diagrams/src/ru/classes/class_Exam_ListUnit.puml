@@ -1,0 +1,34 @@
+@startuml Exam_ListUnit.cpp
+
+title Исходный файл: "Exam_ListUnit.cpp"
+
+scale 750 width
+
+"<b>TExam_ListForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TExam_ListForm</b>"
+{
+    + frxDBDataset1 \t: <i>TfrxDBDataset *</i>
+    + frxRepExam \t\t: <i>TfrxReport *</i>
+    --
+    
+    + <b>TExam_ListForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    ..
+    + FormClose \t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TExam_ListForm <<Folder>>
+{
+    class TExam_ListForm
+    hide  TExam_ListForm members
+}
+
+
+@enduml

@@ -1,0 +1,36 @@
+@startuml PrnPersonDocUnit.cpp
+
+title Исходный файл: "PrnPersonDocUnit.cpp"
+
+scale 750 width
+
+"<b>TPrnPersonDocForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TPrnPersonDocForm</b>"
+{
+    + frxPreview1 \t: <i>TfrxPreview *</i>
+    ..
+    + frxReport1 \t: <i>TfrxReport *</i>
+    --
+    
+    + <b>TPrnPersonDocForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    ..
+    + frxReport1AfterPrintReport \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TPrnPersonDocForm <<Folder>>
+{
+    class TPrnPersonDocForm
+    hide  TPrnPersonDocForm members
+}
+
+
+' note right of "<b>TPrnPersonDocForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

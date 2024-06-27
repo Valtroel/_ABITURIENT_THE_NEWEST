@@ -1,0 +1,12 @@
+INSERT INTO OR UPDATE
+    SPEC_PLAN_PAU
+    (
+        N_SPEC_PLAN,
+        N_PLAN,
+        N_SPECIALIZ,
+        DESCRIBE
+    )
+VALUES
+    (110, 19517, 118, NULL) MATCHING (N_SPEC_PLAN);
+
+COMMIT WORK;

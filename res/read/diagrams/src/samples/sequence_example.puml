@@ -1,0 +1,47 @@
+@startuml
+
+title Выдача рекомендаций
+
+actor "Пользователь" as User
+boundary "Страница планирования участка" as Page
+database "База планов участков" as DB
+
+User --> Page ++ : кнонка показать рекомендации
+Page --> DB   ++ : кнонка показать рекомендации
+
+entity "План как будет" as PlanToBe
+entity "План как есть"  as PlanAsIs
+
+DB --> PlanToBe ** : load
+DB --> PlanAsIs ** : load
+
+Page <-- DB --
+Page --> User : индикатор прогресса
+
+create control "Расчет рекомендаций" as Calculator
+Page --> Calculator ++ : new
+
+Calculator -> PlanToBe ++ : найти новые постройки
+Calculator <-- PlanToBe --
+Calculator -> PlanToBe ++ : найти новые зоны
+Calculator <-- PlanToBe --
+
+Calculator -> Calculator ++ : расчет материалов и инструмента для постройки
+deactivate Calculator
+
+Calculator -> Calculator ++ : расчет материалов, инструмента и саженцев для зоны
+deactivate Calculator
+
+participant "Интернет-магазин" as InternetStore
+Calculator -> InternetStore ++ : Получить цены
+Calculator <-- InternetStore --
+
+Calculator -> Calculator ++ : сформировать список рекомендаций
+deactivate Calculator
+
+Calculator --> Page
+destroy Calculator
+
+Page --> User : результаты
+
+@enduml

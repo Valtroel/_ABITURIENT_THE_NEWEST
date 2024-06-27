@@ -1,0 +1,29 @@
+@startuml Exam_List_AllUnit.cpp
+
+title Исходный файл: "Exam_List_AllUnit.cpp"
+
+scale 750 width
+
+"<b>TExam_List_AllForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TExam_List_AllForm</b>"
+{
+    + QRCompositeReport1 \t: <i>TQRCompositeReport *</i>
+    --
+    
+    + <b>TExam_List_AllForm (Owner \t: <i>TComponent *</i>)</b>
+
+    + QRCompositeReport1AddReports \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TExam_List_AllForm <<Folder>>
+{
+    class TExam_List_AllForm
+    hide  TExam_List_AllForm members
+}
+
+
+@enduml

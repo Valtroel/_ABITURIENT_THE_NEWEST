@@ -1,0 +1,22 @@
+INSERT INTO OR UPDATE
+    CATEGORY
+    (
+        SPORT_CATEGORY,
+        TEXT_SPORT_CATEGORY,
+        DISCHARGE
+    )
+VALUES
+    (1, '3 разряд', 3) MATCHING (SPORT_CATEGORY),
+    (2, '2 разряд', 5) MATCHING (SPORT_CATEGORY),
+    (3, '1 разряд', 7) MATCHING (SPORT_CATEGORY),
+    (4, 'КМС', 8) MATCHING (SPORT_CATEGORY),
+    (5, 'МС', 9) MATCHING (SPORT_CATEGORY),
+    (6, 'МСМК', 10) MATCHING (SPORT_CATEGORY),
+    (7, 'ЗМС', 11) MATCHING (SPORT_CATEGORY),
+    (8, '3 кю', 2) MATCHING (SPORT_CATEGORY),
+    (9, '2 кю', 4) MATCHING (SPORT_CATEGORY),
+    (10, '1 кю', 6) MATCHING (SPORT_CATEGORY),
+    (11, '1 юношеский разряд', 1) MATCHING (SPORT_CATEGORY),
+    (12, 'нет', 0) MATCHING (SPORT_CATEGORY);
+
+COMMIT WORK;

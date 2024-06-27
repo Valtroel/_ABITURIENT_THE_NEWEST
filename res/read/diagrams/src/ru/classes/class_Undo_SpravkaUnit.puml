@@ -1,0 +1,39 @@
+@startuml Undo_SpravkaUnit.cpp
+
+title Исходный файл: "Undo_SpravkaUnit.cpp"
+
+scale 750 width
+
+"<b>TUndo_SpravkaForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TUndo_SpravkaForm</b>"
+{
+    + BitBtn1 \t: <i>TBitBtn *</i>
+    ..
+    + DBGrid1\t: <i>TDBGrid *</i>
+    ..
+    + Panel1 \t: <i>TPanel *</i>
+    + Panel2 \t: <i>TPanel *</i>
+    --
+    
+    + <b>TUndo_SpravkaForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + BitBtn1Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TUndo_SpravkaForm <<Folder>>
+{
+    class TUndo_SpravkaForm
+    hide  TUndo_SpravkaForm members
+}
+
+
+@enduml

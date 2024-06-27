@@ -1,0 +1,41 @@
+@startuml Print_GroupUnit.cpp
+
+title Исходный файл: "Print_GroupUnit.cpp"
+
+scale 750 width
+
+"<b>TPrint_GroupForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TPrint_GroupForm</b>"
+{
+    <b>SHOWS ONLY METHODS</b>
+    --
+    + QRDBText1 \t: <i>TQRDBText *</i>
+    + QRDBText2 \t: <i>TQRDBText *</i>
+     .. (<i>and etc. For all fields, see: class_Print_GroupUnit_all_fields</i>) ..
+    --
+        
+    + <b>TPrint_GroupForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    ..
+    + FormClose \t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TPrint_GroupForm <<Folder>>
+{
+    class TPrint_GroupForm
+    hide  TPrint_GroupForm members
+}
+
+
+' note right of "<b>TPrint_GroupForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

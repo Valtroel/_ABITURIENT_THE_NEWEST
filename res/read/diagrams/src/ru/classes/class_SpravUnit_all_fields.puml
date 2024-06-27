@@ -1,0 +1,162 @@
+@startuml SpravUnit.cpp
+
+title Исходный файл: "SpravUnit.cpp"
+
+scale 750 width
+
+
+class "<b>TSpravForm</b>"
+{
+    <b>SHOWS ONLY FIELDS</b>\n (For methods, see: class_SpravUnit)
+    --
+    + BitBtn1 \t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn2 \t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn3 \t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn4 \t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn5 \t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn6 \t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn7 \t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn8 \t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn9 \t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn10 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn11 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn12 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn13 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn14 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn15 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn16 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn17 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn18 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn19 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn20 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn21 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn22 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn23 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn24 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn25 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn26 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn27 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn30 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn31 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn32 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn33 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn34 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn35 \t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn36 \t\t\t\t: <i>TBitBtn *</i>
+    ..
+    + ComboBox1 \t\t\t\t: <i>TComboBox *</i>
+    + ComboBox2 \t\t\t\t: <i>TComboBox *</i>
+    + ComboBox3 \t\t\t\t: <i>TComboBox *</i>
+    + GrpCmbBx \t\t\t\t: <i>TComboBox *</i>
+    + PolCmbBx \t\t\t\t: <i>TComboBox *</i>
+    ..
+    + DBEdit1 \t\t\t\t\t: <i>TDBEdit *</i>
+    ..
+    + DBGrid1 \t\t\t\t: <i>TDBGrid *</i>
+    + DBGrid2 \t\t\t\t\t: <i>TDBGrid *</i>
+    + DBGrid3 \t\t\t\t: <i>TDBGrid *</i>
+    + DBGrid4 \t\t\t\t\t: <i>TDBGrid *</i>
+    + DBGrid5 \t\t\t\t: <i>TDBGrid *</i>
+    + DBGrid6 \t\t\t\t: <i>TDBGrid *</i>
+    + DBGrid7 \t\t\t\t: <i>TDBGrid *</i>
+    + DBGrid9 \t\t\t\t: <i>TDBGrid *</i>
+    + DBGrid11 \t\t\t\t: <i>TDBGrid *</i>
+    + DBGrid12 \t\t\t\t: <i>TDBGrid *</i>
+    + DBGrid13 \t\t\t\t: <i>TDBGrid *</i>
+    + KUDBGrd \t\t\t\t: <i>TDBGrid *</i>
+    ..
+    + DBLookupComboBox1 \t: <i>TDBLookupComboBox *</i>
+    + DBLookupComboBox2 \t: <i>TDBLookupComboBox *</i>
+    + KUDBLkpCmbBx \t\t\t: <i>TDBLookupComboBox *</i>
+    + SpecializDBLkpCmbBx \t: <i>TDBLookupComboBox *</i>
+    ..
+    + DBNavigator1 \t\t\t: <i>TDBNavigator *</i>
+    ..
+    + Edit1 \t\t\t\t\t: <i>TEdit *</i>
+    + Edit2 \t\t\t\t\t: <i>TEdit *</i>
+    + Edit3 \t\t\t\t\t: <i>TEdit *</i>
+    ..
+    + Label1 \t\t\t\t\t: <i>TLabel *</i>
+    + Label2 \t\t\t\t\t: <i>TLabel *</i>
+    + Label3 \t\t\t\t\t: <i>TLabel *</i>
+    + Label4 \t\t\t\t\t: <i>TLabel *</i>
+    + Label5 \t\t\t\t\t: <i>TLabel *</i>
+    + Label6 \t\t\t\t\t: <i>TLabel *</i>
+    + Label7 \t\t\t\t\t: <i>TLabel *</i>
+    + Label9 \t\t\t\t\t: <i>TLabel *</i>
+    + Label10 \t\t\t\t\t: <i>TLabel *</i>
+    + Label11 \t\t\t\t\t: <i>TLabel *</i>
+    + Label12 \t\t\t\t\t: <i>TLabel *</i>
+    + Label13 \t\t\t\t\t: <i>TLabel *</i>
+    + Label14 \t\t\t\t\t: <i>TLabel *</i>
+    + Label15 \t\t\t\t\t: <i>TLabel *</i>
+    + Label16 \t\t\t\t\t: <i>TLabel *</i>
+    + Label17 \t\t\t\t\t: <i>TLabel *</i>
+    + Label18 \t\t\t\t\t: <i>TLabel *</i>
+    + Label19 \t\t\t\t\t: <i>TLabel *</i>
+    + Label20 \t\t\t\t\t: <i>TLabel *</i>
+    + Label21 \t\t\t\t\t: <i>TLabel *</i>
+    + Label22 \t\t\t\t\t: <i>TLabel *</i>
+    + Label23 \t\t\t\t\t: <i>TLabel *</i>
+    + Label24 \t\t\t\t\t: <i>TLabel *</i>
+    + Label25 \t\t\t\t\t: <i>TLabel *</i>
+    + Label26 \t\t\t\t\t: <i>TLabel *</i>
+    ..
+    + PageControl1 \t\t\t: <i>TPageControl *</i>
+    ..
+    + Panel1 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel2 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel3 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel4 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel5 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel6 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel7 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel8 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel11 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel12 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel13 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel14 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel15 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel16 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel17 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel18 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel19 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel20 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel21 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel22 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel23 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel24 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel25 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel26 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel27 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel28 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel29 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel30 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel31 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel32 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel33 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel34 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel35 \t\t\t\t\t: <i>TPanel *</i>
+    ..
+    + RadioGroup1 \t\t\t: <i>TRadioGroup *</i>
+    + RadioGroup2 \t\t\t: <i>TRadioGroup *</i>
+    ..
+    + SpeedButton1 \t\t\t: <i>TSpeedButton *</i>
+    ..
+    + TabSheet1 \t\t\t\t: <i>TTabSheet *</i>
+    + TabSheet2 \t\t\t\t: <i>TTabSheet *</i>
+    + TabSheet4 \t\t\t\t: <i>TTabSheet *</i>
+    + TabSheet5 \t\t\t\t: <i>TTabSheet *</i>
+    + TabSheet6 \t\t\t\t: <i>TTabSheet *</i>
+    + TabSheet7 \t\t\t\t: <i>TTabSheet *</i>
+    + TabSheet8 \t\t\t\t: <i>TTabSheet *</i>
+    + TabSheet9 \t\t\t\t: <i>TTabSheet *</i>
+    + TabSheet10 \t\t\t\t: <i>TTabSheet *</i>
+    + TabSheet11 \t\t\t\t: <i>TTabSheet *</i>
+    --
+    
+    + <b>TSpravForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+}
+
+@enduml

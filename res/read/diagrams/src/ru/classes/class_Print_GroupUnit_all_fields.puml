@@ -1,0 +1,94 @@
+@startuml Print_GroupUnit.cpp
+
+title Исходный файл: "Print_GroupUnit.cpp"
+
+scale 750 width
+
+class "<b>TPrint_GroupForm</b>"
+{
+    <b>SHOWS ONLY FIELDS</b>\n (For methods, see: class_Print_GroupUnit)
+    --
+    + QRDBText1 \t\t: <i>TQRDBText *</i>
+    + QRDBText2 \t\t: <i>TQRDBText *</i>
+    + QRDBText3 \t\t: <i>TQRDBText *</i>
+    + QRDBText4 \t\t: <i>TQRDBText *</i>
+    + QRDBText5 \t\t: <i>TQRDBText *</i>
+    + QRDBText6 \t\t: <i>TQRDBText *</i>
+    + QRDBText7 \t\t: <i>TQRDBText *</i>
+    + QRDBText8 \t\t: <i>TQRDBText *</i>
+    + QRDBText9 \t\t: <i>TQRDBText *</i>
+    + QRDBText10 \t: <i>TQRDBText *</i>
+    + QRDBText11 \t: <i>TQRDBText *</i>
+    + QRDBText12 \t: <i>TQRDBText *</i>
+    + QRDBText13 \t: <i>TQRDBText *</i>
+    + QRDBText14 \t: <i>TQRDBText *</i>
+    + QRDBText15 \t: <i>TQRDBText *</i>
+    ..
+    + QRLabel1 \t\t: <i>TQRLabel *</i>
+    + QRLabel2 \t\t: <i>TQRLabel *</i>
+    + QRLabel3 \t\t: <i>TQRLabel *</i>
+    + QRLabel4 \t\t: <i>TQRLabel *</i>
+    + QRLabel5 \t\t: <i>TQRLabel *</i>
+    + QRLabel6 \t\t: <i>TQRLabel *</i>
+    + QRLabel7 \t\t: <i>TQRLabel *</i>
+    + QRLabel8 \t\t: <i>TQRLabel *</i>
+    + QRLabel9 \t\t: <i>TQRLabel *</i>
+    + QRLabel10 \t\t: <i>TQRLabel *</i>
+    + QRLabel11 \t\t: <i>TQRLabel *</i>
+    + QRLabel12 \t\t: <i>TQRLabel *</i>
+    + QRLabel13 \t\t: <i>TQRLabel *</i>
+    + QRLabel14 \t\t: <i>TQRLabel *</i>
+    + QRLabel15 \t\t: <i>TQRLabel *</i>
+    + QRLabel16 \t\t: <i>TQRLabel *</i>
+    + QRLabel17 \t\t: <i>TQRLabel *</i>
+    + QRLabel18 \t\t: <i>TQRLabel *</i>
+    + QRLabel19 \t\t: <i>TQRLabel *</i>
+    + QRLabel20 \t\t: <i>TQRLabel *</i>
+    + QRLabel21 \t\t: <i>TQRLabel *</i>
+    + QRLabel22 \t\t: <i>TQRLabel *</i>
+    + QRLabel23 \t\t: <i>TQRLabel *</i>
+    + QRLabel24 \t\t: <i>TQRLabel *</i>
+    + QRLabel25 \t\t: <i>TQRLabel *</i>
+    + QRLabel26 \t\t: <i>TQRLabel *</i>
+    + QRLabel27 \t\t: <i>TQRLabel *</i>
+    + QRLabel28 \t\t: <i>TQRLabel *</i>
+    + QRLabel29 \t\t: <i>TQRLabel *</i>
+    + QRLabel30 \t\t: <i>TQRLabel *</i>
+    + QRLabel31 \t\t: <i>TQRLabel *</i>
+    + QRLabel32 \t\t: <i>TQRLabel *</i>
+    + QRLabel33 \t\t: <i>TQRLabel *</i>
+    + QRLabel34 \t\t: <i>TQRLabel *</i>
+    + QRLabel35 \t\t: <i>TQRLabel *</i>
+    + QRLabel36 \t\t: <i>TQRLabel *</i>
+    + QRLabel37 \t\t: <i>TQRLabel *</i>
+    + QRLabel38 \t\t: <i>TQRLabel *</i>
+    + QRLabel39 \t\t: <i>TQRLabel *</i>
+    + QRLabel40 \t\t: <i>TQRLabel *</i>
+    + QRLabel41 \t\t: <i>TQRLabel *</i>
+    + QRLabel42 \t\t: <i>TQRLabel *</i>
+    + QRLabel43 \t\t: <i>TQRLabel *</i>
+    + QRLabel44 \t\t: <i>TQRLabel *</i>
+    + QRLabel45 \t\t: <i>TQRLabel *</i>
+    + QRLabel46 \t\t: <i>TQRLabel *</i>
+    + QRLabel47 \t\t: <i>TQRLabel *</i>
+    + QRLabel48 \t\t: <i>TQRLabel *</i>
+    + QRLabel49 \t\t: <i>TQRLabel *</i>
+    + QRLabel50 \t\t: <i>TQRLabel *</i>
+    + QRLabel51 \t\t: <i>TQRLabel *</i>
+    + QRLabel52 \t\t: <i>TQRLabel *</i>
+    ..
+    + QRShape1 \t\t: <i>TQRShape *</i>
+    ..
+    + QuickRep1 \t\t: <i>TQuickRep *</i>
+    --
+    
+    + <b>TPrint_GroupForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+}
+
+
+' note right of "<b>TPrint_GroupForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

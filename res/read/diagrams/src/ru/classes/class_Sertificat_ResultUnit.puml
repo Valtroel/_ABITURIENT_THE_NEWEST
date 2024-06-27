@@ -1,0 +1,67 @@
+@startuml Sertificat_ResultUnit.cpp
+
+title Исходный файл: "Sertificat_ResultUnit.cpp"
+
+scale 750 width
+
+"<b>TSertificat_ResultForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TSertificat_ResultForm</b>"
+{
+    + BitBtn1 \t\t: <i>TBitBtn *</i>
+    ..
+    + Button1 \t\t: <i>TButton *</i>
+    + Button2 \t\t: <i>TButton *</i>
+    ..
+    + LookFIO \t\t: <i>TDBLookupComboBox *</i>
+    + LookPred \t: <i>TDBLookupComboBox *</i>
+    ..
+    + Edit1 \t\t: <i>TEdit *</i>
+    ..
+    + Label1 \t\t: <i>TLabel *</i>
+    + Label2 \t\t: <i>TLabel *</i>
+    + Label3 \t\t: <i>TLabel *</i>
+    + Label4 \t\t: <i>TLabel *</i>
+    + Label5 \t\t: <i>TLabel *</i>
+    + Label6 \t\t: <i>TLabel *</i>
+    + Label7 \t\t: <i>TLabel *</i>
+    + Label8 \t\t: <i>TLabel *</i>
+    + Label9 \t\t: <i>TLabel *</i>
+    + Label10 \t\t: <i>TLabel *</i>
+    + Label11 \t\t: <i>TLabel *</i>
+    ..
+    + Panel1 \t\t: <i>TPanel *</i>
+    --
+    
+    + <b>TSertificat_ResultForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + BitBtn1Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + Button1Click \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + Button2Click \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + Edit1Change \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+
+    + FormClose \t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + FormShow \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + LookFIOCloseUp \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TSertificat_ResultForm <<Folder>>
+{
+    class TSertificat_ResultForm
+    hide  TSertificat_ResultForm members
+}
+
+
+' note right of "<b>TSertificat_ResultForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

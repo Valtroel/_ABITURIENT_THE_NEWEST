@@ -1,0 +1,54 @@
+@startuml
+
+title BSUPC "Abiturient" system
+
+left to right direction
+
+/' Change default actor style '/
+' skinparam actorStyle awesome    /' bust '/
+skinparam actorStyle Hollow     /' outline '/
+
+package Candidates {
+    actor "Guest"      as Unknown
+    actor "Abiturient" as Candidate
+    actor "Student"    as Person
+}
+
+package "System User" {
+    actor "Auditor"    as Observer
+    actor "Dean"       as Controller
+    actor "Operator"   as Executor
+}
+
+' package Developers {
+'     actor "Root"       as Developer
+' }
+
+usecase "Filing an application"                                             as fillInApplication
+usecase "Receiving an application and checking documents from the Guest"    as receiveGuestApplication
+usecase "Issuing a list of necessary medical examinations to the candidate" as issuingListMedicalExam
+usecase "Entering preliminary registration data about the Candidate"        as addPreRegistrationData
+usecase "After pre-registration received the status of Candidate"           as getCandidateStatus
+usecase "Received candidate status"                                         as receivedCandidateStatus
+
+
+/' INHERITANCE '/
+Candidate -right-|>  Unknown
+Person    -right-|>  Candidate
+
+
+Unknown --> fillInApplication
+Unknown --> getCandidateStatus
+
+fillInApplication ..> Observer
+
+Observer --> receiveGuestApplication
+Observer --> addPreRegistrationData
+Observer --> issuingListMedicalExam
+
+addPreRegistrationData  --> receivedCandidateStatus
+receivedCandidateStatus --> Candidate
+
+issuingListMedicalExam --> Candidate
+
+@enduml

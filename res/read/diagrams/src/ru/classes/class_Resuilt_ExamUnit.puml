@@ -1,0 +1,52 @@
+@startuml Resuilt_ExamUnit.cpp
+
+title Исходный файл: "Resuilt_ExamUnit.cpp"
+
+scale 750 width
+
+"<b>TResult_ExamForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TResult_ExamForm</b>"
+{
+    + Button1 \t\t\t\t\t: <i>TButton *</i>
+    ..
+    + DBGrid1 \t\t\t\t: <i>TDBGrid *</i>
+    + DBGrid2 \t\t\t\t\t: <i>TDBGrid *</i>
+    ..
+    + DBLookupComboBox1 \t: <i>TDBLookupComboBox *</i>
+    ..
+    + Edit1 \t\t\t\t\t: <i>TEdit *</i>
+    ..
+    + Label1 \t\t\t\t\t: <i>TPanel *</i>
+    + Label2 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel1 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel2 \t\t\t\t\t: <i>TPanel *</i>
+    --
+    
+    + <b>TResult_ExamForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + Button1Click \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid1DblClick \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TResult_ExamForm <<Folder>>
+{
+    class TResult_ExamForm
+    hide  TResult_ExamForm members
+}
+
+
+' note right of "<b>TResult_ExamForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

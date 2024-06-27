@@ -1,0 +1,217 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<!-- C++Builder XML Project -->
+<PROJECT>
+  <MACROS>
+    <VERSION value="BCB.06.00"/>
+    <PROJECT value="Abiturient.exe"/>
+    <OBJFILES value="Abiturient.obj MainUnit.obj DMUnit.obj AbiturUnit.obj SplashUnit.obj 
+      SpravUnit.obj PassDlgUnit.obj Priv_EnterUnit.obj ListDlgUnit.obj 
+      Print_GroupUnit.obj Exam_ListUnit.obj Undo_Ab_Unit.obj Undo_Ab_1Unit.obj 
+      Spisoc_GroupUnit.obj Func.obj ExamenUnit.obj Resuilt_ExamUnit.obj 
+      Ball_Unit.obj Undo_SpravkaUnit.obj Dop_ResultUnit.obj DMStatUnit.obj 
+      DMVedUnit.obj Dlg_ProtokolUnit.obj ApellUnit.obj ExamenSpecUnit.obj 
+      Stat_Result_examUnit.obj Group_FacUnit.obj SertificatUnit.obj 
+      Exam_List_obUnit.obj SredBalUnit.obj Print_OpisUnit.obj 
+      Print_RaspiskaUnit.obj BlockUnit.obj"/>
+    <RESFILES value="Abiturient.res"/>
+    <IDLFILES value=""/>
+    <IDLGENFILES value=""/>
+    <DEFFILE value=""/>
+    <RESDEPEN value="$(RESFILES) MainUnit.dfm DMUnit.dfm AbiturUnit.dfm SplashUnit.dfm 
+      SpravUnit.dfm PassDlgUnit.dfm Priv_EnterUnit.dfm ListDlgUnit.dfm 
+      Print_GroupUnit.dfm Exam_ListUnit.dfm Undo_Ab_Unit.dfm Undo_Ab_1Unit.dfm 
+      Spisoc_GroupUnit.dfm ExamenUnit.dfm Resuilt_ExamUnit.dfm Ball_Unit.dfm 
+      Undo_SpravkaUnit.dfm Dop_ResultUnit.dfm DMStatUnit.dfm DMVedUnit.dfm 
+      Dlg_ProtokolUnit.dfm ApellUnit.dfm ExamenSpecUnit.dfm 
+      Stat_Result_examUnit.dfm Group_FacUnit.dfm SertificatUnit.dfm 
+      Exam_List_obUnit.dfm SredBalUnit.dfm Print_OpisUnit.dfm 
+      Print_RaspiskaUnit.dfm BlockUnit.dfm"/>
+    <LIBFILES value=""/>
+    <LIBRARIES value="rxdb6.lib rxctl6.lib Package1.lib qrpt.lib bdertl.lib vcldb.lib dbrtl.lib 
+      vclx.lib vcl.lib rtl.lib"/>
+    <SPARELIBS value="rtl.lib vcl.lib vclx.lib dbrtl.lib vcldb.lib bdertl.lib qrpt.lib 
+      Package1.lib rxctl6.lib rxdb6.lib"/>
+    <PACKAGES value="adortl.bpi dbrtl.bpi vcldb.bpi rtl.bpi vcl.bpi vclx.bpi bdertl.bpi 
+      vcldbx.bpi ibsmp.bpi bcbsmp.bpi bcb97axserver.bpi bcbie.bpi dss.bpi 
+      teeui.bpi teedb.bpi tee.bpi vclie.bpi inetdb.bpi inet.bpi webdsnap.bpi 
+      dsnap.bpi dclocx.bpi ibxpress.bpi nmfast.bpi qrpt.bpi teeqr.bpi 
+      DclrxAll6.bpi"/>
+    <PATHCPP value=".;"/>
+    <PATHPAS value=".;"/>
+    <PATHRC value=".;"/>
+    <PATHASM value=".;"/>
+    <DEBUGLIBPATH value="$(BCB)\lib\debug"/>
+    <RELEASELIBPATH value="$(BCB)\lib\release"/>
+    <LINKER value="ilink32"/>
+    <USERDEFINES value="_DEBUG"/>
+    <SYSDEFINES value="NO_STRICT"/>
+    <MAINSOURCE value="Abiturient.cpp"/>
+    <INCLUDEPATH value="$(BCB)\Bin;$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX\Units;$(BCB)\MyList;C:\Library.CB\Rx;c:\Library.CB\Abitura"/>
+    <LIBPATH value="$(BCB)\Bin;$(BCB)\Projects\Lib;$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units;$(BCB)\MyList;C:\Library.CB\Rx;C:\Library.CB\Abitura"/>
+    <WARNINGS value="-w-par"/>
+    <OTHERFILES value=""/>
+  </MACROS>
+  <OPTIONS>
+    <IDLCFLAGS value="-I$(BCB)\Bin -I$(BCB)\Projects -I$(BCB)\include -I$(BCB)\include\vcl 
+      -I$(BCB)\RX\Units -I$(BCB)\MyList -IC:\Library.CB\Rx 
+      -Ic:\Library.CB\Abitura -src_suffix cpp -D_DEBUG -boa"/>
+    <CFLAG1 value="-Od -H=c:\PROGRA~1\borland\CBUILD~1\lib\vcl60.csm -Hc -Vx -Ve -X- -r- -a8 
+      -6 -b- -k -y -v -vi- -c -tW -tWM"/>
+    <PFLAGS value="-$Y+ -$W -$O- -$A8 -v -JPHNE -M"/>
+    <RFLAGS value=""/>
+    <AFLAGS value="/mx /w2 /zi"/>
+    <LFLAGS value="-D&quot;&quot; -aa -Tpe -x -Gn -v"/>
+    <OTHERFILES value=""/>
+  </OPTIONS>
+  <LINKER>
+    <ALLOBJ value="c0w32.obj sysinit.obj $(OBJFILES)"/>
+    <ALLRES value="$(RESFILES)"/>
+    <ALLLIB value="$(LIBFILES) $(LIBRARIES) import32.lib cp32mt.lib"/>
+    <OTHERFILES value=""/>
+  </LINKER>
+  <FILELIST>
+      <FILE FILENAME="Abiturient.cpp" FORMNAME="" UNITNAME="Abiturient" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Abiturient.res" FORMNAME="" UNITNAME="Abiturient" CONTAINERID="ResTool" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="MainUnit.cpp" FORMNAME="MainForm" UNITNAME="MainUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DMUnit.cpp" FORMNAME="DM" UNITNAME="DMUnit" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="AbiturUnit.cpp" FORMNAME="AbiturForm" UNITNAME="AbiturUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SplashUnit.cpp" FORMNAME="SplashForm" UNITNAME="SplashUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SpravUnit.cpp" FORMNAME="SpravForm" UNITNAME="SpravUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="PassDlgUnit.cpp" FORMNAME="PassDlg" UNITNAME="PassDlgUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Priv_EnterUnit.cpp" FORMNAME="Priv_EnterForm" UNITNAME="Priv_EnterUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ListDlgUnit.cpp" FORMNAME="ListDlgForm" UNITNAME="ListDlgUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Print_GroupUnit.cpp" FORMNAME="Print_GroupForm" UNITNAME="Print_GroupUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Exam_ListUnit.cpp" FORMNAME="Exam_ListForm" UNITNAME="Exam_ListUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Undo_Ab_Unit.cpp" FORMNAME="Undo_Ab_Form" UNITNAME="Undo_Ab_Unit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Undo_Ab_1Unit.cpp" FORMNAME="Undo_Ab_1Form" UNITNAME="Undo_Ab_1Unit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Spisoc_GroupUnit.cpp" FORMNAME="Spisoc_GroupForm" UNITNAME="Spisoc_GroupUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Func.cpp" FORMNAME="" UNITNAME="Func" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ExamenUnit.cpp" FORMNAME="ExamenForm" UNITNAME="ExamenUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Resuilt_ExamUnit.cpp" FORMNAME="Result_ExamForm" UNITNAME="Resuilt_ExamUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Ball_Unit.cpp" FORMNAME="Ball_Form" UNITNAME="Ball_Unit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Undo_SpravkaUnit.cpp" FORMNAME="Undo_SpravkaForm" UNITNAME="Undo_SpravkaUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Dop_ResultUnit.cpp" FORMNAME="Dop_ResultForm" UNITNAME="Dop_ResultUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="DMStatUnit.cpp" FORMNAME="DMStat" UNITNAME="DMStatUnit" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="DMVedUnit.cpp" FORMNAME="DMVed" UNITNAME="DMVedUnit" CONTAINERID="CCompiler" DESIGNCLASS="TDataModule" LOCALCOMMAND=""/>
+      <FILE FILENAME="Dlg_ProtokolUnit.cpp" FORMNAME="Dlg_ProtokolForm" UNITNAME="Dlg_ProtokolUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ApellUnit.cpp" FORMNAME="ApellForm" UNITNAME="ApellUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="ExamenSpecUnit.cpp" FORMNAME="ExamenSpecForm" UNITNAME="ExamenSpecUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Stat_Result_examUnit.cpp" FORMNAME="Stat_Result_examForm" UNITNAME="Stat_Result_examUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Group_FacUnit.cpp" FORMNAME="Group_FacForm" UNITNAME="Group_FacUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SertificatUnit.cpp" FORMNAME="SertificatForm" UNITNAME="SertificatUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Exam_List_obUnit.cpp" FORMNAME="Exam_List_obForm" UNITNAME="Exam_List_obUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="SredBalUnit.cpp" FORMNAME="SredBalForm" UNITNAME="SredBalUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Print_OpisUnit.cpp" FORMNAME="Print_OpisForm" UNITNAME="Print_OpisUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="Print_RaspiskaUnit.cpp" FORMNAME="Print_RaspiskaForm" UNITNAME="Print_RaspiskaUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+      <FILE FILENAME="BlockUnit.cpp" FORMNAME="BlockForm" UNITNAME="BlockUnit" CONTAINERID="CCompiler" DESIGNCLASS="" LOCALCOMMAND=""/>
+  </FILELIST>
+  <BUILDTOOLS>
+  </BUILDTOOLS>
+
+  <IDEOPTIONS>
+[Version Info]
+IncludeVerInfo=0
+AutoIncBuild=0
+MajorVer=0
+MinorVer=7
+Release=3
+Build=5
+Debug=0
+PreRelease=0
+Special=0
+Private=0
+DLL=0
+Locale=1049
+CodePage=1251
+
+[Version Info Keys]
+CompanyName=BGUFK
+FileDescription=
+FileVersion=0.7.3.5
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=6.0.8.0
+Comments=
+
+[HistoryLists\hlIncludePath]
+Count=15
+Item0=$(BCB)\Bin;$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX\Units;$(BCB)\MyList;C:\Library.CB\Rx;c:\Library.CB\Abitura
+Item1=$(BCB)\Bin;$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX\Units;$(BCB)\MyList;C:\Library.CB\Rx
+Item2=$(BCB)\Bin;$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX\Units;$(BCB)\MyList
+Item3=C:\Program Files\Borland\CBuilder6\Bin;$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX\Units;$(BCB)\MyList
+Item4=$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX\Units;$(BCB)\MyList
+Item5=$(BCB)\Projects;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX\Units
+Item6=C:\Program Files\Borland\CBuilder5\Projects\;D:\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX\Units
+Item7=C:\Program Files\Borland\CBuilder5\Projects;D:\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX\Units
+Item8=D:\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX\Units
+Item9=;D:\Borland\CBuilder5\Projects\;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX\Units
+Item10=D:\Borland\CBuilder5\Projects;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX\Units
+Item11=$(BCB)\Projects\;$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX\Units
+Item12=$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX\Units
+Item13=$(BCB)\include;$(BCB)\include\vcl;$(BCB)\RX
+Item14=$(BCB)\include;$(BCB)\include\vcl
+
+[HistoryLists\hlLibraryPath]
+Count=19
+Item0=$(BCB)\Bin;$(BCB)\Projects\Lib;$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units;$(BCB)\MyList;C:\Library.CB\Rx;C:\Library.CB\Abitura
+Item1=$(BCB)\Bin;$(BCB)\Projects\Lib;$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units;$(BCB)\MyList;C:\Library.CB\Rx
+Item2=$(BCB)\Bin;$(BCB)\Projects\Lib;$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units;$(BCB)\MyList
+Item3=$(BCB)\c:\PROGRA~1\borland\CBUILD~1\lib\release;$(BCB)\Bin;$(BCB)\Projects\Lib;$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units;$(BCB)\MyList
+Item4=C:\Program Files\Borland\CBuilder6\Bin;$(BCB)\Projects\Lib;$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units;$(BCB)\MyList
+Item5=$(BCB)\Projects\Lib;$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units;$(BCB)\MyList
+Item6=$(BCB)\Projects\Lib;$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units
+Item7=$(BCB)\Projects\Lib;$(BCB)\Projects\;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units
+Item8=$(BCB)\Projects\Lib;C:\Program Files\Borland\CBuilder5\Projects\;D:\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units
+Item9=C:\Program Files\Borland\CBuilder5\Projects\;D:\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units
+Item10=C:\Program Files\Borland\CBuilder5\Projects;D:\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units
+Item11=D:\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units
+Item12=;D:\Borland\CBuilder5\Projects\;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units
+Item13=D:\Borland\CBuilder5\Projects;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units
+Item14=$(BCB)\Projects;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units
+Item15=$(BCB)\Projects\;$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units
+Item16=$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX\Units
+Item17=$(BCB)\lib\obj;$(BCB)\lib;$(BCB)\RX
+Item18=$(BCB)\lib\obj;$(BCB)\lib
+
+[HistoryLists\hlDebugSourcePath]
+Count=1
+Item0=$(BCB)\source\vcl
+
+[HistoryLists\hlConditionals]
+Count=1
+Item0=_DEBUG
+
+[Debugging]
+DebugSourceDirs=$(BCB)\source\vcl
+
+[Parameters]
+RunParams=
+Launcher=
+UseLauncher=0
+DebugCWD=
+HostApplication=
+RemoteHost=
+RemotePath=
+RemoteLauncher=
+RemoteCWD=
+RemoteDebug=0
+
+[Compiler]
+ShowInfoMsgs=0
+LinkDebugVcl=0
+LinkCGLIB=0
+
+[CORBA]
+AddServerUnit=1
+AddClientUnit=1
+PrecompiledHeaders=1
+
+[Language]
+ActiveLang=
+ProjectLang=
+RootDir=
+  </IDEOPTIONS>
+</PROJECT>

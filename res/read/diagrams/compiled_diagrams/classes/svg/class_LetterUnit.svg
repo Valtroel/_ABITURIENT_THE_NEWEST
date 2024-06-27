@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="527.4896px" preserveAspectRatio="none" style="width:751px;height:527px;background:#FFFFFF;" version="1.1" viewBox="0 0 751 527" width="751.556px" zoomAndPan="magnify"><defs/><g><rect height="40.9184" style="stroke:#00000000;stroke-width:1.5560165975103735;fill:none;" width="445.0207" x="142.3755" y="7.7801"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="429.4606" x="150.1556" y="35.7808">Исходный файл: "LetterUnit.cpp"</text><!--MD5=[dd40d4c28edb337685c121cda54ac1fb]
+cluster TLetterForm--><g id="cluster_TLetterForm"><path d="M474.5851,67.3707 L634.8548,67.3707 A5.8351,5.8351 0 0 1 638.7448,71.2607 L649.6369,102.065 L709.5436,102.065 A3.89,3.89 0 0 1 713.4336,105.955 L713.4336,217.5263 A3.89,3.89 0 0 1 709.5436,221.4163 L474.5851,221.4163 A3.89,3.89 0 0 1 470.695,217.5263 L470.695,71.2607 A3.89,3.89 0 0 1 474.5851,67.3707 " style="stroke:#000000;stroke-width:2.3340248962655603;fill:none;"/><line style="stroke:#000000;stroke-width:2.3340248962655603;fill:none;" x1="470.695" x2="649.6369" y1="102.065" y2="102.065"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="158.7137" x="476.9191" y="90.7033">TLetterForm</text></g><!--MD5=[33116da4c0ad2ad6bda215a482481a14]
+class TLetterForm--><g id="elem_TLetterForm"><rect codeLine="23" fill="#F1F1F1" height="74.6888" id="TLetterForm" rx="3.89" ry="3.89" style="stroke:#181818;stroke-width:0.7780082987551867;" width="192.9461" x="495.5913" y="121.8312"/><ellipse cx="518.9315" cy="146.7275" fill="#ADD1B2" rx="17.1162" ry="17.1162" style="stroke:#181818;stroke-width:1.5560165975103735;"/><path d="M522.5784,139.9929 C521.1197,139.3121 520.1958,139.0933 518.8343,139.0933 C514.7497,139.0933 511.6377,142.3269 511.6377,146.5573 L511.6377,148.3078 C511.6377,152.3194 514.9199,155.2613 519.4178,155.2613 C521.3142,155.2613 523.1133,154.7993 524.2803,153.9484 C525.1799,153.3163 525.6905,152.6112 525.6905,152.0034 C525.6905,151.2983 525.0827,150.6905 524.3533,150.6905 C524.0129,150.6905 523.6968,150.812 523.4051,151.1038 C522.7,151.8575 522.7,151.8575 522.4083,152.0034 C521.7518,152.4167 520.6821,152.6112 519.4907,152.6112 C516.3058,152.6112 514.2878,150.9093 514.2878,148.2592 L514.2878,146.5573 C514.2878,143.7857 516.2328,141.7434 518.9315,141.7434 C519.8311,141.7434 520.7793,141.9865 521.5087,142.3755 C522.2624,142.8131 522.5298,143.1535 522.6757,143.7857 C522.773,144.4178 522.8216,144.6123 523.0404,144.8068 C523.2592,145.0256 523.6239,145.1958 523.9643,145.1958 C524.3776,145.1958 524.7909,144.977 525.0584,144.6366 C525.2285,144.3935 525.2772,144.1017 525.2772,143.4453 L525.2772,141.2328 C525.2772,140.5521 525.2529,140.3576 525.107,140.1144 C524.8638,139.7011 524.4262,139.4823 523.9643,139.4823 C523.5023,139.4823 523.1863,139.6282 522.8459,140.1144 L522.5784,139.9929 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="143.1535" x="540.7158" y="154.269">TLetterForm</text><line style="stroke:#181818;stroke-width:0.7780082987551867;" x1="497.1473" x2="686.9813" y1="171.6238" y2="171.6238"/><line style="stroke:#181818;stroke-width:0.7780082987551867;" x1="497.1473" x2="686.9813" y1="184.0719" y2="184.0719"/></g><!--MD5=[3212484167d3cfc36e3c9ce34b194647]
+class <b>TLetterForm</b>--><g id="elem_&lt;b&gt;TLetterForm&lt;/b&gt;"><rect codeLine="9" fill="#F1F1F1" height="226.838" id="&lt;b&gt;TLetterForm&lt;/b&gt;" rx="3.89" ry="3.89" style="stroke:#181818;stroke-width:0.7780082987551867;" width="729.7718" x="10.8921" y="289.881"/><ellipse cx="289.8081" cy="314.7773" fill="#ADD1B2" rx="17.1162" ry="17.1162" style="stroke:#181818;stroke-width:1.5560165975103735;"/><path d="M293.455,308.0427 C291.9962,307.3619 291.0724,307.1431 289.7108,307.1431 C285.6263,307.1431 282.5143,310.3767 282.5143,314.6071 L282.5143,316.3576 C282.5143,320.3692 285.7965,323.3111 290.2943,323.3111 C292.1907,323.3111 293.9899,322.8491 295.1569,321.9982 C296.0565,321.3661 296.567,320.661 296.567,320.0532 C296.567,319.3481 295.9592,318.7403 295.2298,318.7403 C294.8895,318.7403 294.5734,318.8618 294.2816,319.1536 C293.5766,319.9073 293.5766,319.9073 293.2848,320.0532 C292.6284,320.4665 291.5586,320.661 290.3673,320.661 C287.1823,320.661 285.1644,318.9591 285.1644,316.309 L285.1644,314.6071 C285.1644,311.8355 287.1094,309.7932 289.8081,309.7932 C290.7077,309.7932 291.6559,310.0363 292.3852,310.4253 C293.1389,310.8629 293.4064,311.2033 293.5523,311.8355 C293.6495,312.4676 293.6981,312.6621 293.9169,312.8566 C294.1358,313.0754 294.5005,313.2456 294.8408,313.2456 C295.2541,313.2456 295.6675,313.0268 295.9349,312.6864 C296.1051,312.4433 296.1537,312.1515 296.1537,311.4951 L296.1537,309.2826 C296.1537,308.6019 296.1294,308.4074 295.9835,308.1642 C295.7404,307.7509 295.3028,307.5321 294.8408,307.5321 C294.3789,307.5321 294.0628,307.678 293.7224,308.1642 L293.455,308.0427 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="158.7137" x="321.7064" y="322.3188">TLetterForm</text><line style="stroke:#181818;stroke-width:0.7780082987551867;" x1="12.4481" x2="739.1079" y1="339.6736" y2="339.6736"/><ellipse cx="28.0083" cy="356.7897" fill="none" rx="4.668" ry="4.668" style="stroke:#038048;stroke-width:1.5560165975103735;"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="132.2614" x="42.0124" y="366.1182">frxPreview1</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="7.7801" x="241.1826" y="366.1182">:</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-style="italic" lengthAdjust="spacing" textLength="146.2656" x="255.1867" y="366.1182">TfrxPreview *</text><ellipse cx="28.0083" cy="382.148" fill="none" rx="4.668" ry="4.668" style="stroke:#038048;stroke-width:1.5560165975103735;"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="124.4813" x="42.0124" y="391.4765">frxReport1</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="7.7801" x="241.1826" y="391.4765">:</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-style="italic" lengthAdjust="spacing" textLength="135.3734" x="255.1867" y="391.4765">TfrxReport *</text><line style="stroke:#181818;stroke-width:1.5560165975103735;" x1="12.4481" x2="739.1079" y1="402.8381" y2="402.8381"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="6.2241" x="42.0124" y="429.2828"> </text><ellipse cx="28.0083" cy="445.3125" fill="#84BE84" rx="4.668" ry="4.668" style="stroke:#038048;stroke-width:1.5560165975103735;"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="158.7137" x="42.0124" y="454.641">TLetterForm</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="88.6929" x="228.7344" y="454.641">(Owner</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="9.3361" x="353.2158" y="454.641">:</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="177.3859" x="370.332" y="454.641">TComponent *</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="10.8921" x="547.7178" y="454.641">)</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="6.2241" x="42.0124" y="479.9992"> </text><ellipse cx="28.0083" cy="496.0289" fill="#84BE84" rx="4.668" ry="4.668" style="stroke:#038048;stroke-width:1.5560165975103735;"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="317.4274" x="42.0124" y="505.3574">frxReport1AfterPrintReport</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="87.1369" x="440.3527" y="505.3574">(Sender</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="7.7801" x="539.9378" y="505.3574">:</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-style="italic" lengthAdjust="spacing" textLength="102.6971" x="553.9419" y="505.3574">TObject *</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="21.7842" x="656.639" y="505.3574">) :</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-style="italic" lengthAdjust="spacing" textLength="46.6805" x="684.6473" y="505.3574">void</text></g><!--MD5=[dd0bf217da5c5e97452bc452f42aff32]
+class <b>TForm</b>--><g id="elem_&lt;b&gt;TForm&lt;/b&gt;"><rect fill="#F1F1F1" height="49.7925" id="&lt;b&gt;TForm&lt;/b&gt;" rx="3.89" ry="3.89" style="stroke:#181818;stroke-width:0.7780082987551867;" width="130.7054" x="310.4253" y="134.2794"/><ellipse cx="333.7656" cy="159.1756" fill="#ADD1B2" rx="17.1162" ry="17.1162" style="stroke:#181818;stroke-width:1.5560165975103735;"/><path d="M337.4125,152.441 C335.9537,151.7602 335.0298,151.5414 333.6683,151.5414 C329.5838,151.5414 326.4717,154.775 326.4717,159.0054 L326.4717,160.756 C326.4717,164.7676 329.754,167.7094 334.2518,167.7094 C336.1482,167.7094 337.9474,167.2475 339.1144,166.3965 C340.0139,165.7644 340.5245,165.0593 340.5245,164.4515 C340.5245,163.7464 339.9167,163.1386 339.1873,163.1386 C338.8469,163.1386 338.5309,163.2602 338.2391,163.5519 C337.534,164.3056 337.534,164.3056 337.2423,164.4515 C336.5858,164.8648 335.5161,165.0593 334.3248,165.0593 C331.1398,165.0593 329.1218,163.3574 329.1218,160.7073 L329.1218,159.0054 C329.1218,156.2338 331.0668,154.1915 333.7656,154.1915 C334.6651,154.1915 335.6133,154.4346 336.3427,154.8237 C337.0964,155.2613 337.3638,155.6017 337.5097,156.2338 C337.607,156.8659 337.6556,157.0604 337.8744,157.2549 C338.0932,157.4737 338.4579,157.6439 338.7983,157.6439 C339.2116,157.6439 339.6249,157.4251 339.8924,157.0847 C340.0626,156.8416 340.1112,156.5499 340.1112,155.8934 L340.1112,153.681 C340.1112,153.0002 340.0869,152.8057 339.941,152.5626 C339.6979,152.1492 339.2602,151.9304 338.7983,151.9304 C338.3364,151.9304 338.0203,152.0763 337.6799,152.5626 L337.4125,152.441 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="80.9129" x="355.5498" y="166.7171">TForm</text></g><!--MD5=[aa2de9d2247f7564c08997df808dd1f4]
+reverse link <b>TForm</b> to <b>TLetterForm</b>--><g id="link_&lt;b&gt;TForm&lt;/b&gt;_&lt;b&gt;TLetterForm&lt;/b&gt;"><path codeLine="5" d="M375.778,215.6217 C375.778,237.6175 375.778,263.81 375.778,289.5045 " fill="none" id="&lt;b&gt;TForm&lt;/b&gt;-backto-&lt;b&gt;TLetterForm&lt;/b&gt;" style="stroke:#181818;stroke-width:1.5560165975103735;"/><polygon fill="none" points="364.8859,215.4163,375.778,184.296,386.6701,215.4163,364.8859,215.4163" style="stroke:#181818;stroke-width:1.5560165975103735;"/></g><!--MD5=[c6891ee262555e37da8465cf6a0d7b24]
+@startuml
+title Исходный файл: "LetterUnit.cpp"
+
+scale 750 width
+
+"<b>TLetterForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TLetterForm</b>"
+{
+    + frxPreview1 \t\t: <i>TfrxPreview *</i>
+    + frxReport1 \t\t: <i>TfrxReport *</i>
+    - -
+    
+    + <b>TLetterForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + frxReport1AfterPrintReport \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TLetterForm <<Folder>>
+{
+    class TLetterForm
+    hide  members
+}
+
+
+' note right of "<b>TLetterForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+@enduml
+
+@startuml
+title Исходный файл: "LetterUnit.cpp"
+
+scale 750 width
+
+"<b>TLetterForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TLetterForm</b>"
+{
+    + frxPreview1 \t\t: <i>TfrxPreview *</i>
+    + frxReport1 \t\t: <i>TfrxReport *</i>
+    - -
+    
+    + <b>TLetterForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + frxReport1AfterPrintReport \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TLetterForm <<Folder>>
+{
+    class TLetterForm
+    hide  members
+}
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

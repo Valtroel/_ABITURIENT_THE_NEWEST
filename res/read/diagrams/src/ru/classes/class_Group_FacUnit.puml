@@ -1,0 +1,101 @@
+@startuml Group_FacUnit.cpp
+
+title Исходный файл: "Group_FacUnit.cpp"
+
+scale 750 width
+
+"<b>TGroup_FacForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TGroup_FacForm</b>"
+{
+    + Bevel1 \t\t\t\t: <i>TBevel *</i>
+    + Bevel2 \t\t\t\t: <i>TBevel *</i>
+    ..
+    + Button1 \t\t\t\t: <i>TButton *</i>
+    + Button2 \t\t\t\t: <i>TButton *</i>
+    ..
+    + CheckBox1 \t\t\t: <i>TCheckBox *</i>
+    ..
+    + ComboBox1 \t\t\t: <i> TComboBox*</i>
+    ..
+    + DateTimePicker1 \t: <i>TDateTimePicker *</i>
+    ..
+    + DBGrid1 \t\t\t: <i>TDBGrid *</i>
+    ..
+    + LookFound \t\t\t: <i>TDBLookupComboBox *</i>
+    + LookNewSp \t\t\t: <i>TDBLookupComboBox *</i>
+    + LookSp \t\t\t\t: <i>TDBLookupComboBox *</i>
+    ..
+    + Edit1 \t\t\t\t: <i>TEdit *</i>
+    + Edit2 \t\t\t\t: <i>TEdit *</i>
+    + Edit3 \t\t\t\t: <i>TEdit *</i>
+    ..
+    + Label1 \t\t\t\t: <i>TLabel *</i>
+    + Label2 \t\t\t\t: <i>TLabel *</i>
+    + Label3 \t\t\t\t: <i>TLabel *</i>
+    + Label4 \t\t\t\t: <i>TLabel *</i>
+    + Label5 \t\t\t\t: <i>TLabel *</i>
+    + Label6 \t\t\t\t: <i>TLabel *</i>
+    + Label7 \t\t\t\t: <i>TLabel *</i>
+    + Label8 \t\t\t\t: <i>TLabel *</i>
+    + Label9 \t\t\t\t: <i>TLabel *</i>
+    + Label10 \t\t\t\t: <i>TLabel *</i>
+    + Label11 \t\t\t\t: <i>TLabel *</i>
+    ..
+    + List1 \t\t\t\t: <i>TListBox *</i>
+    ..
+    + Panel1 \t\t\t\t: <i>TPanel *</i>
+    + Panel2 \t\t\t\t: <i>TPanel *</i>
+    + Panel3 \t\t\t\t: <i>TPanel *</i>
+    ..
+    + RadioGroup1 \t\t: <i>TRadioGroup *</i>
+    ..
+    + SpeedButton1 \t\t: <i>TSpeedButton *</i>
+    + SpeedButton2 \t\t: <i>TSpeedButton *</i>
+    + SpeedButton3 \t\t: <i>TSpeedButton *</i>
+    + SpeedButton4 \t\t: <i>TSpeedButton *</i>
+    --
+    
+    + <b>TGroup_FacForm (Owner \t: <i>TComponent *</i>)</b>
+
+    + Button1Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + Button2Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DateTimePicker1Change \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBGrid1DblClick \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t\t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + LookFoundCloseUp \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + LookSpCloseUp \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    - Save_Priv \t\t\t\t(
+            \t\tpeople \t\t: <i>int</i>,
+            \t\tpriv \t\t: <i>int</i>,
+            \t\ttext \t\t: <i>AnsiString</i>,
+            \t\tyear_cur \t: <i>AnsiString</i>
+        \t) : <i>void</i>
+    ..
+    + SpeedButton1Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + SpeedButton2Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + SpeedButton3Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + SpeedButton4Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TGroup_FacForm <<Folder>>
+{
+    class TGroup_FacForm
+    hide  TGroup_FacForm members
+}
+
+
+note right of "<b>TGroup_FacForm</b>"::Save_Priv
+сохранение привелегий (сирота, Чаэс, инвалид)
+end note
+
+@enduml

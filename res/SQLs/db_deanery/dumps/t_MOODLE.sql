@@ -1,0 +1,11 @@
+INSERT INTO OR UPDATE
+    MOODLE
+    (
+        ID_MOODLE,
+        PASS_UPDATE,
+        EDU_YEAR
+    )
+VALUES
+    (0, 1, 2016) MATCHING (ID_MOODLE);
+
+COMMIT WORK;

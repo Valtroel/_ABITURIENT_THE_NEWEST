@@ -1,0 +1,87 @@
+@startuml ExamenSpecUnit.cpp
+
+title Исходный файл: "ExamenSpecUnit.cpp"
+
+scale 750 width
+
+"<b>TExamenSpecForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TExamenSpecForm</b>"
+{
+    + Button1 \t\t\t\t\t: <i>TButton *</i>
+    + Button2 \t\t\t\t\t: <i>TButton *</i>
+    ..
+    + ComboBoxEx1 \t\t\t: <i>TComboBoxEx *</i>
+    ..
+    + DateTimePicker1 \t\t: <i>TDateTimePicker *</i>
+    ..
+    + DBLookupComboBox1 \t: <i>TDBLookupComboBox *</i>
+    + LookSP \t\t\t\t\t: <i>TDBLookupComboBox *</i>
+    ..
+    + Edit1 \t\t\t\t\t: <i>TEdit *</i>
+    ..
+    + Label1 \t\t\t\t\t: <i>TLabel *</i>
+    + Label2 \t\t\t\t\t: <i>TLabel *</i>
+    + Label3 \t\t\t\t\t: <i>TLabel *</i>
+    + Label4 \t\t\t\t\t: <i>TLabel *</i>
+    + Label5 \t\t\t\t\t: <i>TLabel *</i>
+    + Label6 \t\t\t\t\t: <i>TLabel *</i>
+    ..
+    + ListBox1 \t\t\t\t: <i>TListBox *</i>
+    ..
+    + MaskEdit1 \t\t\t\t: <i>TMaskEdit *</i>
+    ..
+    + Panel1 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel2 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel3 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel4 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel5 \t\t\t\t\t: <i>TPanel *</i>
+    ..
+    + SpeedButton1 \t\t\t: <i>TSpeedButton *</i>
+    + SpeedButton2 \t\t\t: <i>TSpeedButton *</i>
+    + SpeedButton3 \t\t\t: <i>TSpeedButton *</i>
+    + SpeedButton4 \t\t\t: <i>TSpeedButton *</i>
+    + SpeedButton5 \t\t\t: <i>TSpeedButton *</i>
+    ..
+    + Splitter1 \t\t\t\t: <i>TSplitter *</i>
+    ..
+    + SG1 \t\t\t\t\t: <i>TStringGrid *</i>
+    --
+    
+    + <b>TExamenSpecForm (Owner \t: <i>TComponent *</i>)</b>
+
+    + Button1Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + Button2Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DateTimePicker1Change \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + Edit1Change \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t\t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + FormCreate \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + search_nomdela2 \t\t(
+            \t\tcol_ab \t: <i>int</i>,
+            \t\tfam \t: <i>AnsiString</i>,
+            \t\tind \t\t: <i>int</i>
+        \t) : <i>AnsiString</i>
+    ..
+    + SG1DblClick \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + SpeedButton2Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + SpeedButton3Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + SpeedButton4Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TExamenSpecForm <<Folder>>
+{
+    class TExamenSpecForm
+    hide  TExamenSpecForm members
+}
+
+
+@enduml

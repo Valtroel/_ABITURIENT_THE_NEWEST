@@ -1,0 +1,61 @@
+@startuml Stat_Result_examUnit.cpp
+
+title Исходный файл: "Stat_Result_examUnit.cpp"
+
+scale 750 width
+
+"<b>TStat_Result_examForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TStat_Result_examForm</b>"
+{
+    + BitBtn1 \t\t\t: <i>TBitBtn *</i>
+    + BitBtn2 \t\t\t: <i>TBitBtn *</i>
+    ..
+    + ComboBox1 \t\t: <i>TComboBox *</i>
+    + Vid_edu \t\t\t: <i>TComboBox *</i>
+    ..
+    + DBGrid1 \t\t: <i> TDBGrid*</i>
+    ..
+    + LookPredm \t\t: <i>TDBLookupComboBox *</i>
+    ..
+    + Label1 \t\t\t: <i>TLabel *</i>
+    + Label2 \t\t\t: <i>TLabel *</i>
+    + Label3 \t\t\t: <i>TLabel *</i>
+    ..
+    + Panel1 \t\t\t: <i>TPanel *</i>
+    ..
+    + RadioGroup1 \t: <i>TRadioGroup *</i>
+    --
+    
+    + <b>TStat_Result_examForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + BitBtn1Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn2Click \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + LookPredmCloseUp \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + Set_ball \t\t\t\t() : <i>void</i>
+    + Vid_eduChange \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+note right of "<b>TStat_Result_examForm</b>"::Set_ball
+функция которая проставит количество
+оценок в статистике результатов
+(экзаменов, сертификатов)...
+end note
+
+
+package TStat_Result_examForm <<Folder>>
+{
+    class TStat_Result_examForm
+    hide  TStat_Result_examForm members
+}
+
+@enduml

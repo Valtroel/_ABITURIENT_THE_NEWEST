@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="527.2277px" preserveAspectRatio="none" style="width:751px;height:527px;background:#FFFFFF;" version="1.1" viewBox="0 0 751 527" width="751.4851px" zoomAndPan="magnify"><defs/><g><rect height="39.0548" style="stroke:#00000000;stroke-width:1.4851485148514854;fill:none;" width="516.8317" x="106.9307" y="7.4257"/><text fill="#000000" font-family="sans-serif" font-size="20.7921" font-weight="bold" lengthAdjust="spacing" textLength="501.9802" x="114.3564" y="34.1512">Исходный файл: "PrnPersonDocUnit.cpp"</text><!--MD5=[5990a88bbfbe8b541769bd0705f3e4ca]
+cluster TPrnPersonDocForm--><g id="cluster_TPrnPersonDocForm"><path d="M429.9505,64.3023 L675,64.3023 A5.5693,5.5693 0 0 1 678.7129,68.0152 L689.1089,97.4165 L737.3762,97.4165 A3.7129,3.7129 0 0 1 741.0891,101.1293 L741.0891,207.6191 A3.7129,3.7129 0 0 1 737.3762,211.332 L429.9505,211.332 A3.7129,3.7129 0 0 1 426.2376,207.6191 L426.2376,68.0152 A3.7129,3.7129 0 0 1 429.9505,64.3023 " style="stroke:#000000;stroke-width:2.227722772277228;fill:none;"/><line style="stroke:#000000;stroke-width:2.227722772277228;fill:none;" x1="426.2376" x2="689.1089" y1="97.4165" y2="97.4165"/><text fill="#000000" font-family="sans-serif" font-size="20.7921" font-weight="bold" lengthAdjust="spacing" textLength="243.5644" x="432.1782" y="86.5723">TPrnPersonDocForm</text></g><!--MD5=[278143c1a448853af690de1334ef7dc9]
+class TPrnPersonDocForm--><g id="elem_TPrnPersonDocForm"><rect codeLine="25" fill="#F1F1F1" height="71.2871" id="TPrnPersonDocForm" rx="3.7129" ry="3.7129" style="stroke:#181818;stroke-width:0.7425742574257427;" width="265.8416" x="450.7426" y="116.2825"/><ellipse cx="473.0198" cy="140.0449" fill="#ADD1B2" rx="16.3366" ry="16.3366" style="stroke:#181818;stroke-width:1.4851485148514854;"/><path d="M476.5006,133.617 C475.1083,132.9672 474.2265,132.7584 472.927,132.7584 C469.0285,132.7584 466.0582,135.8447 466.0582,139.8824 L466.0582,141.5532 C466.0582,145.3821 469.1909,148.19 473.4839,148.19 C475.2939,148.19 477.0111,147.7491 478.125,146.9369 C478.9836,146.3335 479.4709,145.6606 479.4709,145.0804 C479.4709,144.4075 478.8908,143.8274 478.1946,143.8274 C477.8697,143.8274 477.5681,143.9434 477.2896,144.2218 C476.6166,144.9412 476.6166,144.9412 476.3382,145.0804 C475.7116,145.4749 474.6906,145.6606 473.5535,145.6606 C470.5136,145.6606 468.5876,144.0362 468.5876,141.5068 L468.5876,139.8824 C468.5876,137.237 470.444,135.2877 473.0198,135.2877 C473.8784,135.2877 474.7834,135.5198 475.4796,135.8911 C476.1989,136.3088 476.4542,136.6337 476.5934,137.237 C476.6863,137.8403 476.7327,138.026 476.9415,138.2116 C477.1504,138.4205 477.4985,138.5829 477.8233,138.5829 C478.2178,138.5829 478.6123,138.3741 478.8676,138.0492 C479.03,137.8171 479.0764,137.5387 479.0764,136.9121 L479.0764,134.8004 C479.0764,134.1507 479.0532,133.965 478.914,133.733 C478.6819,133.3385 478.2642,133.1296 477.8233,133.1296 C477.3824,133.1296 477.0808,133.2689 476.7559,133.733 L476.5006,133.617 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="20.7921" lengthAdjust="spacing" textLength="218.3168" x="493.8119" y="147.2429">TPrnPersonDocForm</text><line style="stroke:#181818;stroke-width:0.7425742574257427;" x1="452.2277" x2="715.099" y1="163.8072" y2="163.8072"/><line style="stroke:#181818;stroke-width:0.7425742574257427;" x1="452.2277" x2="715.099" y1="175.6884" y2="175.6884"/></g><!--MD5=[7108946bcade63c51b2597e258e4277c]
+class <b>TPrnPersonDocForm</b>--><g id="elem_&lt;b&gt;TPrnPersonDocForm&lt;/b&gt;"><rect codeLine="9" fill="#F1F1F1" height="240.2692" id="&lt;b&gt;TPrnPersonDocForm&lt;/b&gt;" rx="3.7129" ry="3.7129" style="stroke:#181818;stroke-width:0.7425742574257427;" width="650.495" x="10.396" y="276.6785"/><ellipse cx="207.5495" cy="300.4409" fill="#ADD1B2" rx="16.3366" ry="16.3366" style="stroke:#181818;stroke-width:1.4851485148514854;"/><path d="M211.0303,294.013 C209.638,293.3632 208.7562,293.1544 207.4567,293.1544 C203.5582,293.1544 200.5879,296.2407 200.5879,300.2785 L200.5879,301.9493 C200.5879,305.7782 203.7206,308.586 208.0136,308.586 C209.8236,308.586 211.5408,308.1451 212.6547,307.3329 C213.5133,306.7296 214.0006,306.0566 214.0006,305.4765 C214.0006,304.8035 213.4205,304.2234 212.7243,304.2234 C212.3994,304.2234 212.0978,304.3394 211.8193,304.6179 C211.1463,305.3373 211.1463,305.3373 210.8679,305.4765 C210.2413,305.871 209.2203,306.0566 208.0832,306.0566 C205.0433,306.0566 203.1173,304.4322 203.1173,301.9028 L203.1173,300.2785 C203.1173,297.633 204.9737,295.6838 207.5495,295.6838 C208.4081,295.6838 209.3131,295.9158 210.0093,296.2871 C210.7287,296.7048 210.9839,297.0297 211.1231,297.633 C211.216,298.2364 211.2624,298.422 211.4712,298.6077 C211.6801,298.8165 212.0282,298.979 212.353,298.979 C212.7475,298.979 213.142,298.7701 213.3973,298.4452 C213.5597,298.2132 213.6061,297.9347 213.6061,297.3082 L213.6061,295.1965 C213.6061,294.5467 213.5829,294.3611 213.4437,294.129 C213.2116,293.7345 212.7939,293.5257 212.353,293.5257 C211.9121,293.5257 211.6105,293.6649 211.2856,294.129 L211.0303,294.013 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="20.7921" font-weight="bold" lengthAdjust="spacing" textLength="243.5644" x="237.995" y="307.6389">TPrnPersonDocForm</text><line style="stroke:#181818;stroke-width:0.7425742574257427;" x1="11.8812" x2="659.4059" y1="324.2033" y2="324.2033"/><ellipse cx="26.7327" cy="340.5399" fill="none" rx="4.4554" ry="4.4554" style="stroke:#038048;stroke-width:1.4851485148514854;"/><text fill="#000000" font-family="sans-serif" font-size="20.7921" lengthAdjust="spacing" textLength="126.2376" x="40.099" y="349.4436">frxPreview1</text><text fill="#000000" font-family="sans-serif" font-size="20.7921" lengthAdjust="spacing" textLength="7.4257" x="182.6733" y="349.4436">:</text><text fill="#000000" font-family="sans-serif" font-size="20.7921" font-style="italic" lengthAdjust="spacing" textLength="139.604" x="196.0396" y="349.4436">TfrxPreview *</text><line style="stroke:#181818;stroke-width:1.4851485148514854;stroke-dasharray:1.0,2.0;" x1="11.8812" x2="659.4059" y1="360.2877" y2="360.2877"/><ellipse cx="26.7327" cy="376.6244" fill="none" rx="4.4554" ry="4.4554" style="stroke:#038048;stroke-width:1.4851485148514854;"/><text fill="#000000" font-family="sans-serif" font-size="20.7921" lengthAdjust="spacing" textLength="118.8119" x="40.099" y="385.528">frxReport1</text><text fill="#000000" font-family="sans-serif" font-size="20.7921" lengthAdjust="spacing" textLength="7.4257" x="182.6733" y="385.528">:</text><text fill="#000000" font-family="sans-serif" font-size="20.7921" font-style="italic" lengthAdjust="spacing" textLength="129.2079" x="196.0396" y="385.528">TfrxReport *</text><line style="stroke:#181818;stroke-width:1.4851485148514854;" x1="11.8812" x2="659.4059" y1="396.3722" y2="396.3722"/><text fill="#000000" font-family="sans-serif" font-size="20.7921" lengthAdjust="spacing" textLength="5.9406" x="40.099" y="421.6125"> </text><ellipse cx="26.7327" cy="436.9121" fill="#84BE84" rx="4.4554" ry="4.4554" style="stroke:#038048;stroke-width:1.4851485148514854;"/><text fill="#000000" font-family="sans-serif" font-size="20.7921" font-weight="bold" lengthAdjust="spacing" textLength="243.5644" x="40.099" y="445.8158">TPrnPersonDocForm</text><text fill="#000000" font-family="sans-serif" font-size="20.7921" font-weight="bold" lengthAdjust="spacing" textLength="84.6535" x="337.1287" y="445.8158">(Owner</text><text fill="#000000" font-family="sans-serif" font-size="20.7921" font-weight="bold" lengthAdjust="spacing" textLength="8.9109" x="455.9406" y="445.8158">:</text><text fill="#000000" font-family="sans-serif" font-size="20.7921" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="169.3069" x="472.2772" y="445.8158">TComponent *</text><text fill="#000000" font-family="sans-serif" font-size="20.7921" font-weight="bold" lengthAdjust="spacing" textLength="10.396" x="641.5842" y="445.8158">)</text><text fill="#000000" font-family="sans-serif" font-size="20.7921" lengthAdjust="spacing" textLength="5.9406" x="40.099" y="470.019"> </text><line style="stroke:#181818;stroke-width:1.4851485148514854;stroke-dasharray:1.0,2.0;" x1="11.8812" x2="659.4059" y1="480.8632" y2="480.8632"/><ellipse cx="26.7327" cy="497.1999" fill="#84BE84" rx="4.4554" ry="4.4554" style="stroke:#038048;stroke-width:1.4851485148514854;"/><text fill="#000000" font-family="sans-serif" font-size="20.7921" lengthAdjust="spacing" textLength="302.9703" x="40.099" y="506.1035">frxReport1AfterPrintReport</text><text fill="#000000" font-family="sans-serif" font-size="20.7921" lengthAdjust="spacing" textLength="83.1683" x="372.7723" y="506.1035">(Sender</text><text fill="#000000" font-family="sans-serif" font-size="20.7921" lengthAdjust="spacing" textLength="7.4257" x="467.8218" y="506.1035">:</text><text fill="#000000" font-family="sans-serif" font-size="20.7921" font-style="italic" lengthAdjust="spacing" textLength="98.0198" x="481.1881" y="506.1035">TObject *</text><text fill="#000000" font-family="sans-serif" font-size="20.7921" lengthAdjust="spacing" textLength="20.7921" x="579.2079" y="506.1035">) :</text><text fill="#000000" font-family="sans-serif" font-size="20.7921" font-style="italic" lengthAdjust="spacing" textLength="44.5545" x="605.9406" y="506.1035">void</text></g><!--MD5=[dd0bf217da5c5e97452bc452f42aff32]
+class <b>TForm</b>--><g id="elem_&lt;b&gt;TForm&lt;/b&gt;"><rect fill="#F1F1F1" height="47.5248" id="&lt;b&gt;TForm&lt;/b&gt;" rx="3.7129" ry="3.7129" style="stroke:#181818;stroke-width:0.7425742574257427;" width="124.7525" x="273.2673" y="128.1637"/><ellipse cx="295.5446" cy="151.9261" fill="#ADD1B2" rx="16.3366" ry="16.3366" style="stroke:#181818;stroke-width:1.4851485148514854;"/><path d="M299.0254,145.4981 C297.633,144.8484 296.7512,144.6395 295.4517,144.6395 C291.5532,144.6395 288.5829,147.7259 288.5829,151.7636 L288.5829,153.4344 C288.5829,157.2633 291.7157,160.0712 296.0087,160.0712 C297.8187,160.0712 299.5359,159.6303 300.6498,158.8181 C301.5084,158.2147 301.9957,157.5418 301.9957,156.9616 C301.9957,156.2887 301.4155,155.7085 300.7194,155.7085 C300.3945,155.7085 300.0928,155.8246 299.8144,156.103 C299.1414,156.8224 299.1414,156.8224 298.8629,156.9616 C298.2364,157.3561 297.2153,157.5418 296.0783,157.5418 C293.0384,157.5418 291.1123,155.9174 291.1123,153.388 L291.1123,151.7636 C291.1123,149.1182 292.9688,147.1689 295.5446,147.1689 C296.4032,147.1689 297.3082,147.401 298.0043,147.7723 C298.7237,148.19 298.979,148.5149 299.1182,149.1182 C299.211,149.7215 299.2574,149.9072 299.4663,150.0928 C299.6751,150.3017 300.0232,150.4641 300.3481,150.4641 C300.7426,150.4641 301.1371,150.2553 301.3923,149.9304 C301.5548,149.6983 301.6012,149.4199 301.6012,148.7933 L301.6012,146.6816 C301.6012,146.0319 301.578,145.8462 301.4387,145.6142 C301.2067,145.2197 300.789,145.0108 300.3481,145.0108 C299.9072,145.0108 299.6055,145.1501 299.2806,145.6142 L299.0254,145.4981 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="20.7921" font-weight="bold" lengthAdjust="spacing" textLength="77.2277" x="316.3366" y="159.1241">TForm</text></g><!--MD5=[d05d5beb655cb82f51da8b7d007f362b]
+reverse link <b>TForm</b> to <b>TPrnPersonDocForm</b>--><g id="link_&lt;b&gt;TForm&lt;/b&gt;_&lt;b&gt;TPrnPersonDocForm&lt;/b&gt;"><path codeLine="5" d="M335.6436,205.7983 C335.6436,226.6097 335.6436,251.4666 335.6436,276.2241 " fill="none" id="&lt;b&gt;TForm&lt;/b&gt;-backto-&lt;b&gt;TPrnPersonDocForm&lt;/b&gt;" style="stroke:#181818;stroke-width:1.4851485148514854;"/><polygon fill="none" points="325.2475,205.4553,335.6436,175.7508,346.0396,205.4538,325.2475,205.4553" style="stroke:#181818;stroke-width:1.4851485148514854;"/></g><!--MD5=[544ee6a7ca19b0e7cf586765ee4aa59f]
+@startuml
+title Исходный файл: "PrnPersonDocUnit.cpp"
+
+scale 750 width
+
+"<b>TPrnPersonDocForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TPrnPersonDocForm</b>"
+{
+    + frxPreview1 \t: <i>TfrxPreview *</i>
+    ..
+    + frxReport1 \t: <i>TfrxReport *</i>
+    - -
+    
+    + <b>TPrnPersonDocForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    ..
+    + frxReport1AfterPrintReport \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TPrnPersonDocForm <<Folder>>
+{
+    class TPrnPersonDocForm
+    hide  members
+}
+
+
+' note right of "<b>TPrnPersonDocForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+@enduml
+
+@startuml
+title Исходный файл: "PrnPersonDocUnit.cpp"
+
+scale 750 width
+
+"<b>TPrnPersonDocForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TPrnPersonDocForm</b>"
+{
+    + frxPreview1 \t: <i>TfrxPreview *</i>
+    ..
+    + frxReport1 \t: <i>TfrxReport *</i>
+    - -
+    
+    + <b>TPrnPersonDocForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    ..
+    + frxReport1AfterPrintReport \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TPrnPersonDocForm <<Folder>>
+{
+    class TPrnPersonDocForm
+    hide  members
+}
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

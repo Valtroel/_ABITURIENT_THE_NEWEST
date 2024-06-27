@@ -1,0 +1,52 @@
+@startuml Dlg_ProtokolUnit.cpp
+
+title Исходный файл: "Dlg_ProtokolUnit.cpp"
+
+scale 750 width
+' left to right direction
+
+"<b>TDlg_ProtokolForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+abstract "<b>TDlg_ProtokolForm</b>"
+{
+    + BitBtn1 \t\t\t\t: <i>TBitBtn *</i>
+    + DateTimePicker1 \t: <i>TDateTimePicker *</i>
+    + Edit1 \t\t\t\t: <i>TEdit *</i>
+    + Label1 \t\t\t\t: <i>TLabel *</i>
+    + Label2 \t\t\t\t: <i>TLabel *</i>
+    + Panel1 \t\t\t\t: <i>TPanel *</i>
+    --
+    
+    + <b>{abstract} TDlg_ProtokolForm (Owner \t: <i>TComponent *</i>) virtual</b>
+
+    + BitBtn1Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DateTimePicker1Change \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t\t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + Panel1DblClick \t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + Protokol_FIO \t\t\t(
+            \t\tf \t\t: <i>int</i>,
+            \t\tdat_p \t: <i>TDateTime</i>,
+            \t\tv \t\t: <i>int</i>,
+            \t\tk \t\t: <i>int</i>,
+            \t\tpr \t\t: <i>int</i>
+        \t) : <i>bool</i>
+}
+
+
+
+package TDlg_ProtokolForm <<Folder>>
+{
+    abstract TDlg_ProtokolForm
+    hide     TDlg_ProtokolForm members
+}
+
+@enduml

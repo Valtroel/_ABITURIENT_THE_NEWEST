@@ -1,0 +1,47 @@
+@startuml PassDlgUnit.cpp
+
+title Исходный файл: "PassDlgUnit.cpp"
+
+scale 750 width
+
+"<b>TPassDlg</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+abstract "<b>TPassDlg</b>"
+{
+    + BitBtn1 \t\t: <i>TBitBtn *</i>
+    + BitBtn2 \t\t: <i>TBitBtn *</i>
+    ..
+    + Password \t: <i>TEdit *</i>
+    + User \t\t: <i>TEdit *</i>
+    ..
+    + Label1 \t\t: <i>TLabel *</i>
+    + Label2 \t\t: <i>TLabel *</i>
+    --
+    
+    + <b>{abstract} TPassDlg \t(AOwner \t: <i>TComponent *</i>) virtual</b>
+
+    + BitBtn1Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn2Click \t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TPassDlg <<Folder>>
+{
+    abstract TPassDlg
+    hide     TPassDlg members
+}
+
+
+' note right of "<b>TPassDlg</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+
+@enduml

@@ -1,0 +1,112 @@
+
+@startuml Undo_Ab_1Unit.cpp
+
+title Исходный файл: "Undo_Ab_1Unit.cpp"
+
+scale 750 width
+
+"<b>TUndo_Ab_1Form</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TUndo_Ab_1Form</b>"
+{
+    + BitBtn1 \t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn2 \t\t\t\t\t: <i>TBitBtn *</i>
+    ..
+    + CategoryAbCmbBx \t\t: <i>TComboBox *</i>
+    + ComboBox1 \t\t\t\t: <i>TComboBox *</i>
+    + ComboBox2 \t\t\t\t: <i>TComboBox *</i>
+    + KonkursCmbBx \t\t\t: <i>TComboBox *</i>
+    + PriceCmbBx \t\t\t\t: <i>TComboBox *</i>
+    + SngFrgCmbBx \t\t\t: <i>TComboBox *</i>
+    ..
+    + DBLookupComboBox1 \t: <i>TDBLookupComboBox *</i>
+    + DBLookupComboBox2 \t: <i>TDBLookupComboBox *</i>
+    + DBLookupComboBox3 \t: <i>TDBLookupComboBox *</i>
+    + DBLookupComboBox4 \t: <i>TDBLookupComboBox *</i>
+    ..
+    + DBText1 \t\t\t\t: <i>TDBText *</i>
+    + DBText2 \t\t\t\t: <i>TDBText *</i>
+    + DBText3 \t\t\t\t: <i>TDBText *</i>
+    ..
+    + Edit2 \t\t\t\t\t: <i>TEdit *</i>
+    ..
+    + Label1 \t\t\t\t\t: <i>TLabel *</i>
+    + Label2 \t\t\t\t\t: <i>TLabel *</i>
+    + Label3 \t\t\t\t\t: <i>TLabel *</i>
+    + Label4 \t\t\t\t\t: <i>TLabel *</i>
+    + Label5 \t\t\t\t\t: <i>TLabel *</i>
+    + Label6 \t\t\t\t\t: <i>TLabel *</i>
+    + Label7 \t\t\t\t\t: <i>TLabel *</i>
+    + Label8 \t\t\t\t\t: <i>TLabel *</i>
+    + Label29 \t\t\t\t\t: <i>TLabel *</i>
+    ..
+    + Panel1 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel2 \t\t\t\t\t: <i>TPanel *</i>
+    --
+    
+    + <b>TUndo_Ab_1Form \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + BitBtn1Click \t\t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn2Click \t\t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + ComboBox1Change \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBLookupComboBox1CloseUp \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t\t\t\t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + Grupp \t\t\t\t\t\t\t(sp \t\t: <i>AnsiString</i>) : <i>void</i>
+    + RadioGroup3Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+note right of "<b>TUndo_Ab_1Form</b>"::Grupp
+функция проверки на возможные номера
+групп, в зависимости от специализации
+и вида обучения
+end note
+
+
+package TUndo_Ab_1Form <<Folder>>
+{
+    class TUndo_Ab_1Form
+    hide  TUndo_Ab_1Form members
+}
+
+
+
+class "<b>VidKonkursvoid ()</b>" {
+    --
+    + VidKonkursvoid \t(
+        \tRadioGroup2 \t: <i>TRadioGroup *</i>,
+        \tPriceCmbBx \t\t: <i>TComboBox *</i>,
+        \tComboBox1 \t\t: <i>TComboBox *</i>
+    ): <i>void</i>
+}
+
+hide "<b>VidKonkursvoid ()</b>" circle
+show "<b>VidKonkursvoid ()</b>" method
+
+note left of "<b>VidKonkursvoid ()</b>"
+УСТАНОВКА КОНКУРСА АБИТУРИЕНТА
+вызывается если у платников общий конкурс
+(т.е. oplata_konkurs == 0)
+
+Using into FormEduCmbBxChange()
+
+NEED CHECK IMPLIMENTATION !!!!!!!!
+end note
+
+TUndo_Ab_1Form ..[#green].. "<b>VidKonkursvoid ()</b>"
+    
+note right on link #LightBlue
+The "VidKonkursvoid" function is 
+contained in the "Undo_Ab_1Unit.h"
+header, but is not a part of the class  
+end note
+
+@enduml

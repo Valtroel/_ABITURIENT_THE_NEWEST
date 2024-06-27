@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="726.0479px" preserveAspectRatio="none" style="width:751px;height:726px;background:#FFFFFF;" version="1.1" viewBox="0 0 751 726" width="751.497px" zoomAndPan="magnify"><defs/><g><rect height="39.3666" style="stroke:#00000000;stroke-width:1.4970059880239521;fill:none;" width="516.4671" x="107.0359" y="7.485"/><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-weight="bold" lengthAdjust="spacing" textLength="501.497" x="114.521" y="34.4238">Исходный файл: "Spisoc_GroupUnit.cpp"</text><!--MD5=[83df36494a364bf401ad16acb4a81ef8]
+cluster TSpisoc_GroupForm--><g id="cluster_TSpisoc_GroupForm"><path d="M433.3832,64.8157 L675.8982,64.8157 A5.6138,5.6138 0 0 1 679.6407,68.5582 L690.1198,98.1942 L737.2754,98.1942 A3.7425,3.7425 0 0 1 741.018,101.9368 L741.018,209.2768 A3.7425,3.7425 0 0 1 737.2754,213.0193 L433.3832,213.0193 A3.7425,3.7425 0 0 1 429.6407,209.2768 L429.6407,68.5582 A3.7425,3.7425 0 0 1 433.3832,64.8157 " style="stroke:#000000;stroke-width:2.245508982035928;fill:none;"/><line style="stroke:#000000;stroke-width:2.245508982035928;fill:none;" x1="429.6407" x2="690.1198" y1="98.1942" y2="98.1942"/><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-weight="bold" lengthAdjust="spacing" textLength="241.018" x="435.6287" y="87.2635">TSpisoc_GroupForm</text></g><!--MD5=[af2ff7d1732ced62049e394e48da8e88]
+class TSpisoc_GroupForm--><g id="elem_TSpisoc_GroupForm"><rect codeLine="34" fill="#F1F1F1" height="71.8563" id="TSpisoc_GroupForm" rx="3.7425" ry="3.7425" style="stroke:#181818;stroke-width:0.7485029940119761;" width="263.4731" x="453.5928" y="117.2109"/><ellipse cx="476.0479" cy="141.163" fill="#ADD1B2" rx="16.4671" ry="16.4671" style="stroke:#181818;stroke-width:1.4970059880239521;"/><path d="M479.5565,134.6838 C478.1531,134.0288 477.2642,133.8183 475.9543,133.8183 C472.0247,133.8183 469.0307,136.9293 469.0307,140.9993 L469.0307,142.6834 C469.0307,146.5429 472.1884,149.3731 476.5157,149.3731 C478.3402,149.3731 480.0711,148.9287 481.1939,148.11 C482.0593,147.5019 482.5505,146.8235 482.5505,146.2388 C482.5505,145.5604 481.9658,144.9757 481.264,144.9757 C480.9366,144.9757 480.6325,145.0926 480.3518,145.3733 C479.6735,146.0984 479.6735,146.0984 479.3928,146.2388 C478.7612,146.6364 477.732,146.8235 476.5859,146.8235 C473.5217,146.8235 471.5803,145.1862 471.5803,142.6366 L471.5803,140.9993 C471.5803,138.3327 473.4515,136.3679 476.0479,136.3679 C476.9134,136.3679 477.8256,136.6018 478.5273,136.976 C479.2524,137.3971 479.5097,137.7246 479.6501,138.3327 C479.7436,138.9409 479.7904,139.128 480.0009,139.3151 C480.2115,139.5256 480.5623,139.6894 480.8898,139.6894 C481.2874,139.6894 481.6851,139.4789 481.9424,139.1514 C482.1061,138.9175 482.1529,138.6368 482.1529,138.0052 L482.1529,135.8767 C482.1529,135.2217 482.1295,135.0346 481.9891,134.8007 C481.7552,134.4031 481.3342,134.1926 480.8898,134.1926 C480.4454,134.1926 480.1413,134.3329 479.8138,134.8007 L479.5565,134.6838 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="215.5689" x="497.006" y="148.4185">TSpisoc_GroupForm</text><line style="stroke:#181818;stroke-width:0.7485029940119761;" x1="455.0898" x2="715.5689" y1="165.1151" y2="165.1151"/><line style="stroke:#181818;stroke-width:0.7485029940119761;" x1="455.0898" x2="715.5689" y1="177.0911" y2="177.0911"/></g><!--MD5=[1aa6a5434ece30a478fe9665367ca09a]
+class <b>TSpisoc_GroupForm</b>--><g id="elem_&lt;b&gt;TSpisoc_GroupForm&lt;/b&gt;"><rect codeLine="9" fill="#F1F1F1" height="436.9152" id="&lt;b&gt;TSpisoc_GroupForm&lt;/b&gt;" rx="3.7425" ry="3.7425" style="stroke:#181818;stroke-width:0.7485029940119761;" width="655.6886" x="10.479" y="278.8875"/><ellipse cx="211.4521" cy="302.8396" fill="#ADD1B2" rx="16.4671" ry="16.4671" style="stroke:#181818;stroke-width:1.4970059880239521;"/><path d="M214.9607,296.3604 C213.5573,295.7055 212.6684,295.4949 211.3585,295.4949 C207.4289,295.4949 204.4349,298.6059 204.4349,302.6759 L204.4349,304.36 C204.4349,308.2195 207.5926,311.0498 211.9199,311.0498 C213.7444,311.0498 215.4753,310.6054 216.5981,309.7867 C217.4635,309.1785 217.9547,308.5002 217.9547,307.9154 C217.9547,307.2371 217.3699,306.6523 216.6682,306.6523 C216.3408,306.6523 216.0367,306.7693 215.756,307.05 C215.0777,307.7751 215.0777,307.7751 214.797,307.9154 C214.1654,308.3131 213.1362,308.5002 211.9901,308.5002 C208.9259,308.5002 206.9845,306.8628 206.9845,304.3132 L206.9845,302.6759 C206.9845,300.0094 208.8557,298.0445 211.4521,298.0445 C212.3176,298.0445 213.2298,298.2784 213.9315,298.6527 C214.6566,299.0737 214.9139,299.4012 215.0543,300.0094 C215.1478,300.6175 215.1946,300.8046 215.4051,300.9918 C215.6156,301.2023 215.9665,301.366 216.294,301.366 C216.6916,301.366 217.0893,301.1555 217.3466,300.828 C217.5103,300.5941 217.5571,300.3134 217.5571,299.6819 L217.5571,297.5533 C217.5571,296.8984 217.5337,296.7113 217.3933,296.4774 C217.1594,296.0797 216.7384,295.8692 216.294,295.8692 C215.8496,295.8692 215.5455,296.0095 215.218,296.4774 L214.9607,296.3604 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-weight="bold" lengthAdjust="spacing" textLength="241.018" x="242.1407" y="310.0951">TSpisoc_GroupForm</text><line style="stroke:#181818;stroke-width:0.7485029940119761;" x1="11.976" x2="664.6707" y1="326.7917" y2="326.7917"/><ellipse cx="26.9461" cy="343.2588" fill="none" rx="4.491" ry="4.491" style="stroke:#038048;stroke-width:1.4970059880239521;"/><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="88.3234" x="40.4192" y="352.2335">Button1</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="7.485" x="327.8443" y="352.2335">:</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-style="italic" lengthAdjust="spacing" textLength="100.2994" x="341.3174" y="352.2335">TButton *</text><line style="stroke:#181818;stroke-width:1.4970059880239521;stroke-dasharray:1.0,2.0;" x1="11.976" x2="664.6707" y1="363.1643" y2="363.1643"/><ellipse cx="26.9461" cy="379.6314" fill="none" rx="4.491" ry="4.491" style="stroke:#038048;stroke-width:1.4970059880239521;"/><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="242.515" x="40.4192" y="388.6061">DBLookupComboBox1</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="7.485" x="327.8443" y="388.6061">:</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-style="italic" lengthAdjust="spacing" textLength="255.988" x="341.3174" y="388.6061">TDBLookupComboBox *</text><line style="stroke:#181818;stroke-width:1.4970059880239521;stroke-dasharray:1.0,2.0;" x1="11.976" x2="664.6707" y1="399.5369" y2="399.5369"/><ellipse cx="26.9461" cy="416.0039" fill="none" rx="4.491" ry="4.491" style="stroke:#038048;stroke-width:1.4970059880239521;"/><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="28.4431" x="40.4192" y="424.9787">R1</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="7.485" x="327.8443" y="424.9787">:</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-style="italic" lengthAdjust="spacing" textLength="116.7665" x="341.3174" y="424.9787">TRichEdit *</text><line style="stroke:#181818;stroke-width:1.4970059880239521;" x1="11.976" x2="664.6707" y1="435.9094" y2="435.9094"/><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="5.988" x="40.4192" y="461.3512"> </text><ellipse cx="26.9461" cy="476.773" fill="#84BE84" rx="4.491" ry="4.491" style="stroke:#038048;stroke-width:1.4970059880239521;"/><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-weight="bold" lengthAdjust="spacing" textLength="241.018" x="40.4192" y="485.7477">TSpisoc_GroupForm</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-weight="bold" lengthAdjust="spacing" textLength="85.3293" x="339.8204" y="485.7477">(Owner</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-weight="bold" lengthAdjust="spacing" textLength="8.982" x="459.5808" y="485.7477">:</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="170.6587" x="476.0479" y="485.7477">TComponent *</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-weight="bold" lengthAdjust="spacing" textLength="10.479" x="646.7066" y="485.7477">)</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="5.988" x="40.4192" y="510.1443"> </text><ellipse cx="26.9461" cy="525.5661" fill="#84BE84" rx="4.491" ry="4.491" style="stroke:#038048;stroke-width:1.4970059880239521;"/><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="140.7186" x="40.4192" y="534.5408">Button1Click</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="83.8323" x="232.0359" y="534.5408">(Sender</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="7.485" x="327.8443" y="534.5408">:</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-style="italic" lengthAdjust="spacing" textLength="98.8024" x="341.3174" y="534.5408">TObject *</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="20.9581" x="440.1198" y="534.5408">) :</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-style="italic" lengthAdjust="spacing" textLength="44.9102" x="467.0659" y="534.5408">void</text><line style="stroke:#181818;stroke-width:1.4970059880239521;stroke-dasharray:1.0,2.0;" x1="11.976" x2="664.6707" y1="545.4716" y2="545.4716"/><ellipse cx="26.9461" cy="561.9386" fill="#84BE84" rx="4.491" ry="4.491" style="stroke:#038048;stroke-width:1.4970059880239521;"/><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="113.7725" x="40.4192" y="570.9133">FormClose</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="7.485" x="232.0359" y="570.9133">(</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="76.3473" x="136.2275" y="595.3099">Sender</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="7.485" x="232.0359" y="595.3099">:</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-style="italic" lengthAdjust="spacing" textLength="98.8024" x="245.509" y="595.3099">TObject *</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="5.988" x="344.3114" y="595.3099">,</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="70.3593" x="136.2275" y="619.7064">Action</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="7.485" x="232.0359" y="619.7064">:</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-style="italic" lengthAdjust="spacing" textLength="161.6766" x="245.509" y="619.7064">TCloseAction &amp;</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="20.9581" x="88.3234" y="644.1029">) :</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-style="italic" lengthAdjust="spacing" textLength="44.9102" x="115.2695" y="644.1029">void</text><line style="stroke:#181818;stroke-width:1.4970059880239521;stroke-dasharray:1.0,2.0;" x1="11.976" x2="664.6707" y1="655.0337" y2="655.0337"/><ellipse cx="26.9461" cy="671.5007" fill="#84BE84" rx="4.491" ry="4.491" style="stroke:#038048;stroke-width:1.4970059880239521;"/><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="86.8263" x="40.4192" y="680.4755">Konkurs</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="47.9042" x="232.0359" y="680.4755">(kon</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="7.485" x="327.8443" y="680.4755">:</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-style="italic" lengthAdjust="spacing" textLength="26.9461" x="341.3174" y="680.4755">int</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="20.9581" x="368.2635" y="680.4755">) :</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-style="italic" lengthAdjust="spacing" textLength="44.9102" x="395.2096" y="680.4755">void</text><ellipse cx="26.9461" cy="695.8973" fill="#84BE84" rx="4.491" ry="4.491" style="stroke:#038048;stroke-width:1.4970059880239521;"/><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="71.8563" x="40.4192" y="704.872">Stroka</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" lengthAdjust="spacing" textLength="28.4431" x="232.0359" y="704.872">() :</text><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-style="italic" lengthAdjust="spacing" textLength="44.9102" x="266.4671" y="704.872">void</text></g><!--MD5=[dd0bf217da5c5e97452bc452f42aff32]
+class <b>TForm</b>--><g id="elem_&lt;b&gt;TForm&lt;/b&gt;"><rect fill="#F1F1F1" height="47.9042" id="&lt;b&gt;TForm&lt;/b&gt;" rx="3.7425" ry="3.7425" style="stroke:#181818;stroke-width:0.7485029940119761;" width="125.7485" x="275.4491" y="129.1869"/><ellipse cx="297.9042" cy="153.139" fill="#ADD1B2" rx="16.4671" ry="16.4671" style="stroke:#181818;stroke-width:1.4970059880239521;"/><path d="M301.4128,146.6598 C300.0094,146.0049 299.1205,145.7943 297.8106,145.7943 C293.881,145.7943 290.887,148.9053 290.887,152.9753 L290.887,154.6594 C290.887,158.5189 294.0447,161.3492 298.372,161.3492 C300.1965,161.3492 301.9274,160.9048 303.0501,160.0861 C303.9156,159.4779 304.4068,158.7996 304.4068,158.2148 C304.4068,157.5365 303.822,156.9517 303.1203,156.9517 C302.7929,156.9517 302.4888,157.0687 302.2081,157.3494 C301.5298,158.0745 301.5298,158.0745 301.2491,158.2148 C300.6175,158.6125 299.5883,158.7996 298.4422,158.7996 C295.378,158.7996 293.4366,157.1622 293.4366,154.6126 L293.4366,152.9753 C293.4366,150.3088 295.3078,148.3439 297.9042,148.3439 C298.7696,148.3439 299.6819,148.5778 300.3836,148.9521 C301.1087,149.3731 301.366,149.7006 301.5064,150.3088 C301.5999,150.9169 301.6467,151.104 301.8572,151.2912 C302.0677,151.5017 302.4186,151.6654 302.7461,151.6654 C303.1437,151.6654 303.5414,151.4549 303.7987,151.1274 C303.9624,150.8935 304.0092,150.6128 304.0092,149.9813 L304.0092,147.8527 C304.0092,147.1978 303.9858,147.0107 303.8454,146.7768 C303.6115,146.3791 303.1905,146.1686 302.7461,146.1686 C302.3016,146.1686 301.9976,146.3089 301.6701,146.7768 L301.4128,146.6598 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="20.9581" font-weight="bold" lengthAdjust="spacing" textLength="77.8443" x="318.8623" y="160.3945">TForm</text></g><!--MD5=[60fed8b3f76ea2776a07ce7db1b74827]
+reverse link <b>TForm</b> to <b>TSpisoc_GroupForm</b>--><g id="link_&lt;b&gt;TForm&lt;/b&gt;_&lt;b&gt;TSpisoc_GroupForm&lt;/b&gt;"><path codeLine="5" d="M338.3234,207.9534 C338.3234,228.1944 338.3234,252.7019 338.3234,278.7798 " fill="none" id="&lt;b&gt;TForm&lt;/b&gt;-backto-&lt;b&gt;TSpisoc_GroupForm&lt;/b&gt;" style="stroke:#181818;stroke-width:1.4970059880239521;"/><polygon fill="none" points="327.8443,207.5013,338.3234,177.5612,348.8024,207.5013,327.8443,207.5013" style="stroke:#181818;stroke-width:1.4970059880239521;"/></g><!--MD5=[b2872d8deaedfcd234c2d2f8bc65eb0c]
+@startuml
+title Исходный файл: "Spisoc_GroupUnit.cpp"
+
+scale 750 width
+
+"<b>TSpisoc_GroupForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TSpisoc_GroupForm</b>"
+{
+    + Button1 \t\t\t\t\t: <i>TButton *</i>
+    ..
+    + DBLookupComboBox1 \t: <i>TDBLookupComboBox *</i>
+    ..
+    + R1 \t\t\t\t\t\t: <i>TRichEdit *</i>
+    - -
+    
+    + <b>TSpisoc_GroupForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + Button1Click \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + Konkurs \t\t\t(kon \t: <i>int</i>) : <i>void</i>
+    + Stroka  \t\t\t() : <i>void</i>
+}
+
+
+package TSpisoc_GroupForm <<Folder>>
+{
+    class TSpisoc_GroupForm
+    hide  members
+}
+
+
+' note right of "<b>TSpisoc_GroupForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+@enduml
+
+@startuml
+title Исходный файл: "Spisoc_GroupUnit.cpp"
+
+scale 750 width
+
+"<b>TSpisoc_GroupForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TSpisoc_GroupForm</b>"
+{
+    + Button1 \t\t\t\t\t: <i>TButton *</i>
+    ..
+    + DBLookupComboBox1 \t: <i>TDBLookupComboBox *</i>
+    ..
+    + R1 \t\t\t\t\t\t: <i>TRichEdit *</i>
+    - -
+    
+    + <b>TSpisoc_GroupForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + Button1Click \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + Konkurs \t\t\t(kon \t: <i>int</i>) : <i>void</i>
+    + Stroka  \t\t\t() : <i>void</i>
+}
+
+
+package TSpisoc_GroupForm <<Folder>>
+{
+    class TSpisoc_GroupForm
+    hide  members
+}
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="1035.4331px" preserveAspectRatio="none" style="width:751px;height:1035px;background:#FFFFFF;" version="1.1" viewBox="0 0 751 1035" width="751.9685px" zoomAndPan="magnify"><defs/><g><rect height="51.7655" style="stroke:#00000000;stroke-width:1.968503937007874;fill:none;" width="543.3071" x="90.5512" y="9.8425"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-weight="bold" lengthAdjust="spacing" textLength="523.622" x="100.3937" y="45.266">Исходный файл: "ApellUnit.cpp"</text><!--MD5=[86f893e33f9cb6a3275ab3b77fa121c6]
+cluster TApellForm--><g id="cluster_TApellForm"><path d="M451.7717,85.2301 L634.8425,85.2301 A7.3819,7.3819 0 0 1 639.7638,90.1513 L653.5433,129.1216 L733.2677,129.1216 A4.9213,4.9213 0 0 1 738.189,134.0428 L738.189,275.1907 A4.9213,4.9213 0 0 1 733.2677,280.112 L451.7717,280.112 A4.9213,4.9213 0 0 1 446.8504,275.1907 L446.8504,90.1513 A4.9213,4.9213 0 0 1 451.7717,85.2301 " style="stroke:#000000;stroke-width:2.952755905511811;fill:none;"/><line style="stroke:#000000;stroke-width:2.952755905511811;fill:none;" x1="446.8504" x2="653.5433" y1="129.1216" y2="129.1216"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-weight="bold" lengthAdjust="spacing" textLength="181.1024" x="454.7244" y="114.748">TApellForm</text></g><!--MD5=[68e470a813bf487c696cad36a5fdbef7]
+class TApellForm--><g id="elem_TApellForm"><rect codeLine="37" fill="#F1F1F1" height="94.4882" id="TApellForm" rx="4.9213" ry="4.9213" style="stroke:#181818;stroke-width:0.984251968503937;" width="226.378" x="479.3307" y="154.1277"/><ellipse cx="508.8583" cy="185.6238" fill="#ADD1B2" rx="21.6535" ry="21.6535" style="stroke:#181818;stroke-width:1.968503937007874;"/><path d="M513.4719,177.1038 C511.6265,176.2426 510.4577,175.9658 508.7352,175.9658 C503.5679,175.9658 499.6309,180.0566 499.6309,185.4085 L499.6309,187.623 C499.6309,192.6981 503.7832,196.4198 509.4734,196.4198 C511.8725,196.4198 514.1486,195.8354 515.625,194.7589 C516.763,193.9592 517.409,193.0672 517.409,192.2982 C517.409,191.4063 516.64,190.6373 515.7173,190.6373 C515.2867,190.6373 514.8868,190.7911 514.5177,191.1602 C513.6257,192.1137 513.6257,192.1137 513.2566,192.2982 C512.4262,192.8211 511.0728,193.0672 509.5657,193.0672 C505.5364,193.0672 502.9835,190.9141 502.9835,187.5615 L502.9835,185.4085 C502.9835,181.9021 505.4441,179.3184 508.8583,179.3184 C509.9963,179.3184 511.1959,179.626 512.1186,180.1181 C513.0721,180.6718 513.4104,181.1024 513.595,181.9021 C513.718,182.7018 513.7795,182.9478 514.0563,183.1939 C514.3332,183.4707 514.7945,183.686 515.2251,183.686 C515.748,183.686 516.2709,183.4092 516.6093,182.9786 C516.8246,182.671 516.8861,182.3019 516.8861,181.4715 L516.8861,178.6725 C516.8861,177.8113 516.8553,177.5652 516.6708,177.2576 C516.3632,176.7347 515.8095,176.4579 515.2251,176.4579 C514.6407,176.4579 514.2409,176.6425 513.8103,177.2576 L513.4719,177.1038 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="163.3858" x="536.4173" y="195.1645">TApellForm</text><line style="stroke:#181818;stroke-width:0.984251968503937;" x1="481.2992" x2="703.7402" y1="217.1198" y2="217.1198"/><line style="stroke:#181818;stroke-width:0.984251968503937;" x1="481.2992" x2="703.7402" y1="232.8679" y2="232.8679"/></g><!--MD5=[5d45b60ab927a93b209001d50befbc20]
+class <b>TApellForm</b>--><g id="elem_&lt;b&gt;TApellForm&lt;/b&gt;"><rect codeLine="10" fill="#F1F1F1" height="655.0197" id="&lt;b&gt;TApellForm&lt;/b&gt;" rx="4.9213" ry="4.9213" style="stroke:#181818;stroke-width:0.984251968503937;" width="625.9843" x="13.7795" y="366.7261"/><ellipse cx="227.8543" cy="398.2222" fill="#ADD1B2" rx="21.6535" ry="21.6535" style="stroke:#181818;stroke-width:1.968503937007874;"/><path d="M232.468,389.7023 C230.6225,388.841 229.4537,388.5642 227.7313,388.5642 C222.564,388.5642 218.627,392.655 218.627,398.0069 L218.627,400.2215 C218.627,405.2965 222.7793,409.0182 228.4695,409.0182 C230.8686,409.0182 233.1447,408.4338 234.6211,407.3573 C235.7591,406.5576 236.405,405.6656 236.405,404.8967 C236.405,404.0047 235.6361,403.2357 234.7133,403.2357 C234.2827,403.2357 233.8829,403.3895 233.5138,403.7586 C232.6218,404.7121 232.6218,404.7121 232.2527,404.8967 C231.4222,405.4195 230.0689,405.6656 228.5618,405.6656 C224.5325,405.6656 221.9796,403.5125 221.9796,400.1599 L221.9796,398.0069 C221.9796,394.5005 224.4402,391.9168 227.8543,391.9168 C228.9924,391.9168 230.1919,392.2244 231.1147,392.7165 C232.0682,393.2702 232.4065,393.7008 232.591,394.5005 C232.7141,395.3002 232.7756,395.5463 233.0524,395.7923 C233.3292,396.0691 233.7906,396.2844 234.2212,396.2844 C234.7441,396.2844 235.267,396.0076 235.6053,395.577 C235.8206,395.2694 235.8821,394.9003 235.8821,394.0699 L235.8821,391.2709 C235.8821,390.4097 235.8514,390.1636 235.6668,389.8561 C235.3593,389.3332 234.8056,389.0563 234.2212,389.0563 C233.6368,389.0563 233.237,389.2409 232.8063,389.8561 L232.468,389.7023 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-weight="bold" lengthAdjust="spacing" textLength="181.1024" x="268.2087" y="407.7629">TApellForm</text><line style="stroke:#181818;stroke-width:0.984251968503937;" x1="15.748" x2="637.7953" y1="429.7183" y2="429.7183"/><ellipse cx="35.4331" cy="451.3718" fill="none" rx="5.9055" ry="5.9055" style="stroke:#038048;stroke-width:1.968503937007874;"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="110.2362" x="53.1496" y="463.1732">BitBtn1</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="9.8425" x="179.1339" y="463.1732">:</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-style="italic" lengthAdjust="spacing" textLength="124.0157" x="196.8504" y="463.1732">TBitBtn *</text><line style="stroke:#181818;stroke-width:1.968503937007874;stroke-dasharray:1.0,2.0;" x1="15.748" x2="637.7953" y1="477.5468" y2="477.5468"/><ellipse cx="35.4331" cy="499.2003" fill="none" rx="5.9055" ry="5.9055" style="stroke:#038048;stroke-width:1.968503937007874;"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="88.5827" x="53.1496" y="511.0017">LookB</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="9.8425" x="179.1339" y="511.0017">:</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-style="italic" lengthAdjust="spacing" textLength="336.6142" x="196.8504" y="511.0017">TDBLookupComboBox *</text><ellipse cx="35.4331" cy="531.2808" fill="none" rx="5.9055" ry="5.9055" style="stroke:#038048;stroke-width:1.968503937007874;"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="84.6457" x="53.1496" y="543.0822">LookF</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="9.8425" x="179.1339" y="543.0822">:</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-style="italic" lengthAdjust="spacing" textLength="336.6142" x="196.8504" y="543.0822">TDBLookupComboBox *</text><ellipse cx="35.4331" cy="563.3612" fill="none" rx="5.9055" ry="5.9055" style="stroke:#038048;stroke-width:1.968503937007874;"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="86.6142" x="53.1496" y="575.1626">LookP</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="9.8425" x="179.1339" y="575.1626">:</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-style="italic" lengthAdjust="spacing" textLength="336.6142" x="196.8504" y="575.1626">TDBLookupComboBox *</text><line style="stroke:#181818;stroke-width:1.968503937007874;stroke-dasharray:1.0,2.0;" x1="15.748" x2="637.7953" y1="589.5362" y2="589.5362"/><ellipse cx="35.4331" cy="611.1897" fill="none" rx="5.9055" ry="5.9055" style="stroke:#038048;stroke-width:1.968503937007874;"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="94.4882" x="53.1496" y="622.9911">Label1</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="9.8425" x="179.1339" y="622.9911">:</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-style="italic" lengthAdjust="spacing" textLength="116.1417" x="196.8504" y="622.9911">TLabel *</text><ellipse cx="35.4331" cy="643.2702" fill="none" rx="5.9055" ry="5.9055" style="stroke:#038048;stroke-width:1.968503937007874;"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="92.5197" x="53.1496" y="655.0716">Label2</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="9.8425" x="179.1339" y="655.0716">:</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-style="italic" lengthAdjust="spacing" textLength="116.1417" x="196.8504" y="655.0716">TLabel *</text><ellipse cx="35.4331" cy="675.3506" fill="none" rx="5.9055" ry="5.9055" style="stroke:#038048;stroke-width:1.968503937007874;"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="94.4882" x="53.1496" y="687.1521">Label3</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="9.8425" x="179.1339" y="687.1521">:</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-style="italic" lengthAdjust="spacing" textLength="116.1417" x="196.8504" y="687.1521">TLabel *</text><ellipse cx="35.4331" cy="707.4311" fill="none" rx="5.9055" ry="5.9055" style="stroke:#038048;stroke-width:1.968503937007874;"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="94.4882" x="53.1496" y="719.2325">Panel1</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="9.8425" x="179.1339" y="719.2325">:</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-style="italic" lengthAdjust="spacing" textLength="116.1417" x="196.8504" y="719.2325">TPanel *</text><line style="stroke:#181818;stroke-width:1.968503937007874;" x1="15.748" x2="637.7953" y1="733.6061" y2="733.6061"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="7.874" x="53.1496" y="767.061"> </text><ellipse cx="35.4331" cy="787.3401" fill="#84BE84" rx="5.9055" ry="5.9055" style="stroke:#038048;stroke-width:1.968503937007874;"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-weight="bold" lengthAdjust="spacing" textLength="303.1496" x="53.1496" y="799.1415">TApellForm (Owner</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-weight="bold" lengthAdjust="spacing" textLength="11.811" x="368.1102" y="799.1415">:</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="224.4094" x="389.7638" y="799.1415">TComponent *</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-weight="bold" lengthAdjust="spacing" textLength="13.7795" x="614.1732" y="799.1415">)</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="7.874" x="53.1496" y="831.2219"> </text><ellipse cx="35.4331" cy="851.501" fill="#84BE84" rx="5.9055" ry="5.9055" style="stroke:#038048;stroke-width:1.968503937007874;"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="179.1339" x="53.1496" y="863.3024">BitBtn1Click</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="110.2362" x="242.126" y="863.3024">(Sender</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="9.8425" x="368.1102" y="863.3024">:</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-style="italic" lengthAdjust="spacing" textLength="129.9213" x="385.8268" y="863.3024">TObject *</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="27.5591" x="515.748" y="863.3024">) :</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-style="italic" lengthAdjust="spacing" textLength="59.0551" x="551.1811" y="863.3024">void</text><line style="stroke:#181818;stroke-width:1.968503937007874;stroke-dasharray:1.0,2.0;" x1="15.748" x2="637.7953" y1="877.6759" y2="877.6759"/><ellipse cx="35.4331" cy="899.3295" fill="#84BE84" rx="5.9055" ry="5.9055" style="stroke:#038048;stroke-width:1.968503937007874;"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="149.6063" x="53.1496" y="911.1309">FormClose</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="9.8425" x="242.126" y="911.1309">(</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="100.3937" x="179.1339" y="943.2114">Sender</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="9.8425" x="305.1181" y="943.2114">:</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-style="italic" lengthAdjust="spacing" textLength="129.9213" x="322.8346" y="943.2114">TObject *</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="7.874" x="452.7559" y="943.2114">,</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="92.5197" x="179.1339" y="975.2918">Action</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="9.8425" x="305.1181" y="975.2918">:</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-style="italic" lengthAdjust="spacing" textLength="212.5984" x="322.8346" y="975.2918">TCloseAction &amp;</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" lengthAdjust="spacing" textLength="27.5591" x="116.1417" y="1007.3723">) :</text><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-style="italic" lengthAdjust="spacing" textLength="59.0551" x="151.5748" y="1007.3723">void</text></g><!--MD5=[dd0bf217da5c5e97452bc452f42aff32]
+class <b>TForm</b>--><g id="elem_&lt;b&gt;TForm&lt;/b&gt;"><rect fill="#F1F1F1" height="62.9921" id="&lt;b&gt;TForm&lt;/b&gt;" rx="4.9213" ry="4.9213" style="stroke:#181818;stroke-width:0.984251968503937;" width="165.3543" x="244.0945" y="169.8757"/><ellipse cx="273.622" cy="201.3718" fill="#ADD1B2" rx="21.6535" ry="21.6535" style="stroke:#181818;stroke-width:1.968503937007874;"/><path d="M278.2357,192.8519 C276.3903,191.9906 275.2215,191.7138 273.499,191.7138 C268.3317,191.7138 264.3947,195.8046 264.3947,201.1565 L264.3947,203.3711 C264.3947,208.4461 268.547,212.1678 274.2372,212.1678 C276.6363,212.1678 278.9124,211.5834 280.3888,210.5069 C281.5268,209.7072 282.1727,208.8152 282.1727,208.0463 C282.1727,207.1543 281.4038,206.3853 280.4811,206.3853 C280.0504,206.3853 279.6506,206.5391 279.2815,206.9082 C278.3895,207.8617 278.3895,207.8617 278.0204,208.0463 C277.19,208.5691 275.8366,208.8152 274.3295,208.8152 C270.3002,208.8152 267.7473,206.6622 267.7473,203.3095 L267.7473,201.1565 C267.7473,197.6501 270.2079,195.0664 273.622,195.0664 C274.7601,195.0664 275.9596,195.374 276.8824,195.8661 C277.8359,196.4198 278.1742,196.8504 278.3588,197.6501 C278.4818,198.4498 278.5433,198.6959 278.8201,198.9419 C279.0969,199.2188 279.5583,199.4341 279.9889,199.4341 C280.5118,199.4341 281.0347,199.1572 281.373,198.7266 C281.5883,198.419 281.6499,198.05 281.6499,197.2195 L281.6499,194.4205 C281.6499,193.5593 281.6191,193.3132 281.4345,193.0057 C281.127,192.4828 280.5733,192.206 279.9889,192.206 C279.4045,192.206 279.0047,192.3905 278.5741,193.0057 L278.2357,192.8519 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="27.5591" font-weight="bold" lengthAdjust="spacing" textLength="102.3622" x="301.1811" y="210.9125">TForm</text></g><!--MD5=[487d04dbda92a13bc024bcaccf99ea32]
+reverse link <b>TForm</b> to <b>TApellForm</b>--><g id="link_&lt;b&gt;TForm&lt;/b&gt;_&lt;b&gt;TApellForm&lt;/b&gt;"><path codeLine="6" d="M326.7717,272.86 C326.7717,299.3501 326.7717,331.5962 326.7717,366.3226 " fill="none" id="&lt;b&gt;TForm&lt;/b&gt;-backto-&lt;b&gt;TApellForm&lt;/b&gt;" style="stroke:#181818;stroke-width:1.968503937007874;"/><polygon fill="none" points="312.9921,272.5746,326.7717,233.2045,340.5512,272.5746,312.9921,272.5746" style="stroke:#181818;stroke-width:1.968503937007874;"/></g><!--MD5=[08c41f4d7cea4e5e813b927bf9c38bcf]
+@startuml
+title Исходный файл: "ApellUnit.cpp"
+
+scale 750 width
+' left to right direction
+
+"<b>TApellForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TApellForm</b>"
+{
+    + BitBtn1 \t: <i>TBitBtn *</i>
+    ..
+    + LookB \t: <i>TDBLookupComboBox *</i>
+    + LookF \t: <i>TDBLookupComboBox *</i>
+    + LookP \t: <i>TDBLookupComboBox *</i>
+    ..
+    + Label1 \t: <i>TLabel *</i>
+    + Label2 \t: <i>TLabel *</i>
+    + Label3 \t: <i>TLabel *</i>
+    + Panel1 \t: <i>TPanel *</i>
+    - -
+    
+    + <b>TApellForm (Owner \t: <i>TComponent *</i>)</b>
+
+    + BitBtn1Click \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TApellForm <<Folder>>
+{
+    class TApellForm
+    hide  members
+}
+@enduml
+
+@startuml
+title Исходный файл: "ApellUnit.cpp"
+
+scale 750 width
+
+"<b>TApellForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TApellForm</b>"
+{
+    + BitBtn1 \t: <i>TBitBtn *</i>
+    ..
+    + LookB \t: <i>TDBLookupComboBox *</i>
+    + LookF \t: <i>TDBLookupComboBox *</i>
+    + LookP \t: <i>TDBLookupComboBox *</i>
+    ..
+    + Label1 \t: <i>TLabel *</i>
+    + Label2 \t: <i>TLabel *</i>
+    + Label3 \t: <i>TLabel *</i>
+    + Panel1 \t: <i>TPanel *</i>
+    - -
+    
+    + <b>TApellForm (Owner \t: <i>TComponent *</i>)</b>
+
+    + BitBtn1Click \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TApellForm <<Folder>>
+{
+    class TApellForm
+    hide  members
+}
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,73 @@
+SELECT
+    Abitura.FAM,
+    Abitura.NAME,
+    Abitura.OTCH,
+    Abitura.POL,
+    Abitura.PLACE_R,
+    Abitura.ADDRESS_BEFORE,
+    Abitura.ADDRESS_LIFE,
+    Abitura.MIDDLE_BALL,
+    Abitura.NAME_EDU_MIDDLE,
+    Abitura.NAME_EDU_SPEC,
+    Abitura.WHERE_EDU_MIDDLE,
+    Abitura.WHERE_EDU_SPEC,
+    Abitura.WHEN_EDU_MIDDLE,
+    Abitura.WHEN_EDU_SPEC,
+    Abitura.MAMA,
+    Abitura.PAPA,
+    Abitura.ADDRESS_MAMA,
+    Abitura.ADDRESS_PAPA,
+    Abitura.WORK_MAMA,
+    Abitura.WORK_PAPA,
+    Abitura.N_VID_SPORT,
+    Abitura.N_SPORT_CATEGORY,
+    Abitura.PHONE,
+    Abitura.DATE_R,
+    Abitura.EDUCATION,
+    Abitura.WORK_BEFORE,
+    Abitura.NOMER_AB,
+    Abitura.STATUS,
+    Abitura.D_PRIKAZ_INCLUDE,
+    Abitura.N_PRIKAZ_INCLUDE,
+    Abitura.N_FOUND,
+    Abitura.N_REGION,
+    Abitura.CITIZENSHIP,
+    Abitura.N_PRIVILEGE_EXAM,
+    abitur_queue.PHOTO,
+    abitur_queue.DIGIT_SIGN,
+    Abitura.N_CK,
+    Abitura.V_K,
+    Abitura.PRIV,
+    Abitura.WITHOUT,
+    Abitura.N_LANGVICH,
+    Abitura.N_CENTRE,
+    Abitura.PASPORT,
+    Abitura.PERSONAL_NOMER,
+    Abitura.ID_TYPE,
+    Abitura.DATE_V,
+    Abitura.DATE_OK,
+    Abitura.ORGAN_V,
+    Abitura.STREET,
+    Abitura.HOUSE,
+    Abitura.FLAT,
+    Abitura.POSTCODE,
+    Abitura.LANGV_BALL
+FROM
+    abitura,
+    abitur_queue
+WHERE
+        abitura.VID_EDU     = :EDU
+    AND
+        abitur_queue.id_ab  = abitura.id_ab_queue
+    AND
+        abitura.N_FAC       = :FAC  
+    AND
+        abitura.STATUS      = 0  
+    AND
+        abitura.N_SPECIALIZ = :N_SP  
+    AND
+        abitura.PRICE       = :P
+ORDER BY
+    abitura.FAM,
+    abitura.NAME,
+    abitura.OTCH

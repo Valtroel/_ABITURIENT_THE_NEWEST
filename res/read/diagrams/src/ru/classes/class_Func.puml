@@ -1,0 +1,617 @@
+@startuml Func.cpp
+
+title Исходный файл: "Func.cpp"
+
+scale 750 width
+
+
+left to right direction
+
+scale max 750 width
+
+
+package functions <<rectangle>> {
+    class extern << (G, yellow) global>>
+    {
+        + CurCell \t\t\t: <i>Variant</i>
+        + CurSheet \t\t: <i>Variant</i>
+        + mas_column \t\t: <i>AnsiString [0..25]</i> {readOnly}
+
+    }
+    note right of extern::CurCell
+    Current Excel Cell
+    end note
+
+    note right of extern::CurSheet
+    Current Excel Table
+    end note
+
+    note right of extern::mas_column
+    "A","B","C","D","E","F","G","H","I",
+    "J","K","L","M","N","O","P","Q","R",
+    "S","T","U","V","W","X","Y","Z"
+    end note
+
+
+
+    class "<b>AutoFillCell ()</b>" {
+        --
+        + AutoFillCell \t(Range \t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>AutoFillCell ()</b>" circle
+    show "<b>AutoFillCell ()</b>" method
+
+    note right of "<b>AutoFillCell ()</b>"
+    Autocomplete
+
+    (Автозаполнение)
+    end note
+
+
+
+    class "<b>AutoFitColumn ()</b>" {
+        --
+        + AutoFitColumn \t(
+            \tSheet \t: <i>Variant</i>,
+            \tCol \t\t: <i>int</i>,
+            ) : <i>void</i>
+    }
+
+    hide "<b>AutoFitColumn ()</b>" circle
+    show "<b>AutoFitColumn ()</b>" method
+
+    note right of "<b>AutoFitColumn ()</b>"
+    AutoFit Column Width
+
+    (Автоподбор ширины столбца)
+    end note
+
+
+
+    class "<b>AutoFitRow ()</b>" {
+        --
+        + AutoFitRow \t(
+            \tSheet \t: <i>Variant</i>,
+            \tRow \t: <i>int</i>,
+            ) : <i>void</i>
+    }
+
+    hide "<b>AutoFitRow ()</b>" circle
+    show "<b>AutoFitRow ()</b>" method
+
+    note right of "<b>AutoFitRow ()</b>"
+    AutoFit Line Width
+
+    (Автоподбор ширины строки)
+    end note
+
+
+
+    class "<b>BorderCell ()</b>" {
+        --
+        + BorderCell \t(
+            \tcol \t\t\t: <i>int</i>,
+            \trow \t\t\t: <i>int</i>,
+            \ttypeline \t: <i>int</i>
+            \tweightline \t: <i>int</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>BorderCell ()</b>" circle
+    show "<b>BorderCell ()</b>" method
+
+    note right of "<b>BorderCell ()</b>"
+    cell bordering
+
+    (обрамление ячейки)
+    end note
+
+
+
+    class "<b>Borders ()</b>" {
+        --
+        + Borders \t(
+            \tRange \t\t: <i>Variant</i>,
+            \tLineStyle \t: <i>int</i>,
+            \tweightline \t: <i>int</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>Borders ()</b>" circle
+    show "<b>Borders ()</b>" method
+
+
+
+    class "<b>CellFont ()</b>" {
+        --
+        + CellFont \t(
+            \tNameFont \t\t: <i>AnsiString</i>,
+            \tSizeFont \t\t: <i>int</i>,
+            \tBoldFont \t\t: <i>bool</i>
+            \tItalicFont \t\t: <i>bool</i>
+            \tUnderlineFont \t: <i>int</i>
+            \tRange \t\t\t: <i>Variant</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>CellFont ()</b>" circle
+    show "<b>CellFont ()</b>" method
+
+    note right of "<b>CellFont ()</b>"
+    set font options
+
+    (установить параметры шрифта)
+    end note
+
+
+
+    class "<b>CellFormula ()</b>" {
+        --
+        + CellFormula \t(
+            \tformula \t: <i>AnsiString</i>,
+            \tcolumn \t: <i>int</i>,
+            \trow \t\t: <i>int</i>
+            \tsheet \t: <i>Variant</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>CellFormula ()</b>" circle
+    show "<b>CellFormula ()</b>" method
+
+    note right of "<b>CellFormula ()</b>"
+    entering a formula into a cell
+
+    (ввод формулы в ячейку)
+    end note
+
+
+
+    class "<b>CellOrient ()</b>" {
+        --
+        + CellOrient \t(
+            \tcol \t\t: <i>int</i>,
+            \trow \t\t: <i>int</i>,
+            \tgrad \t: <i>int</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>CellOrient ()</b>" circle
+    show "<b>CellOrient ()</b>" method
+
+    note right of "<b>CellOrient ()</b>"
+    Orientation of text in a cell
+
+    (Ориентация текста в ячейке)
+    end note
+
+
+
+    class "<b>CellValue ()</b>" {
+        --
+        + CellValue \t(
+            \tvalue \t: <i>Variant</i>,
+            \tcolumn \t: <i>int</i>,
+            \trow \t\t: <i>int</i>,
+            \tsheet \t: <i>Variant</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>CellValue ()</b>" circle
+    show "<b>CellValue ()</b>" method
+
+    note right of "<b>CellValue ()</b>"
+    entering a value into a cell
+
+    (ввод значения в ячейку)
+    end note
+
+
+
+    class "<b>CopySheet ()</b>" {
+        --
+        + CopySheet \t(sheet \t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>CopySheet ()</b>" circle
+    show "<b>CopySheet ()</b>" method
+
+    note right of "<b>CopySheet ()</b>"
+    Sheet copy
+
+    (Копирование листа)
+    end note
+
+
+
+    class "<b>DeleteSheet ()</b>" {
+        --
+        + DeleteSheet \t(sheet \t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>DeleteSheet ()</b>" circle
+    show "<b>DeleteSheet ()</b>" method
+
+    note right of "<b>DeleteSheet ()</b>"
+    Deleting a sheet
+
+    (Удаление листа)
+    end note
+
+
+    
+    class "<b>DisplayAlert ()</b>" {
+        --
+        + DisplayAlert \t(ole_obj \t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>DisplayAlert ()</b>" circle
+    show "<b>DisplayAlert ()</b>" method
+
+    note right of "<b>DisplayAlert ()</b>"
+    remove Excel prompts
+    for action confirmation
+
+    (убрать запросы Excela
+    на подтверждения действия)
+    end note
+
+
+
+    class "<b>GetCellValue ()</b>" {
+        --
+        + GetCellValue \t(
+            \tcolumn \t: <i>int</i>,
+            \trow \t\t: <i>int</i>,
+            \tsheet \t: <i>Variant</i>
+            ) : <i>Variant</i>
+    }
+
+    hide "<b>GetCellValue ()</b>" circle
+    show "<b>GetCellValue ()</b>" method
+
+    note right of "<b>GetCellValue ()</b>"
+    getting value from cell
+
+    (получение значения из ячейки)
+    end note
+
+
+
+    class "<b>HeightRow ()</b>" {
+        --
+        + HeightRow \t(
+            \tRange \t: <i>Variant</i>,
+            \theight \t: <i>int</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>HeightRow ()</b>" circle
+    show "<b>HeightRow ()</b>" method
+
+    note right of "<b>HeightRow ()</b>"
+    setting line width
+
+    (установка ширины строки)
+    end note
+
+
+
+    class "<b>HorizontalAlign ()</b>" {
+        --
+        + HorizontalAlign \t(
+            \tRange \t\t: <i>Variant</i>,
+            \tnom_align \t: <i>int</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>HorizontalAlign ()</b>" circle
+    show "<b>HorizontalAlign ()</b>" method
+
+    note right of "<b>HorizontalAlign ()</b>"
+    Align cell content horizontally
+
+    (Выравнивание содержимого
+    ячейки по горизонтали)
+    end note
+
+
+
+    class "<b>M1 ()</b>" {
+        --
+        + M1 \t(Range\t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>M1 ()</b>" circle
+    show "<b>M1 ()</b>" method
+
+    note right of "<b>M1 ()</b>"
+    Merging cells
+
+    (Объединение ячеек)
+    end note
+
+
+
+    class "<b>NameSheet1 ()</b>" {
+        --
+        + NameSheet1 \t(
+            \tsheet \t: <i>Variant</i>,
+            \tname \t: <i>AnsiString</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>NameSheet1 ()</b>" circle
+    show "<b>NameSheet1 ()</b>" method
+
+    note right of "<b>NameSheet1 ()</b>"
+    renaming a sheet
+
+    (переименование листа)
+    end note
+
+
+
+    class "<b>NewBook ()</b>" {
+        --
+        + NewBook \t(excel_app \t: <i>Variant</i>) \t: <i>Variant</i>
+    }
+
+    hide "<b>NewBook ()</b>" circle
+    show "<b>NewBook ()</b>" method
+
+    note right of "<b>NewBook ()</b>"
+    A new book
+
+    (Новая книга)
+    end note
+
+
+
+    class "<b>NewSheet1 ()</b>" {
+        --
+        + NewSheet1 \t(excel_app \t: <i>Variant</i>) \t: <i>Variant</i>
+    }
+
+    hide "<b>NewSheet1 ()</b>" circle
+    show "<b>NewSheet1 ()</b>" method
+
+    note right of "<b>NewSheet1 ()</b>"
+    Adding a new sheet
+
+    (Добавление нового листа)
+    end note
+
+
+
+    class "<b>OpenBook ()</b>" {
+        --
+        + OpenBook \t(
+            \tKonkursCmbBx \t: <i>Variant</i>,
+            \tfull_name \t\t: <i>AnsiString</i>
+            ) : <i>Variant</i>
+    }
+
+    hide "<b>OpenBook ()</b>" circle
+    show "<b>OpenBook ()</b>" method
+
+    note right of "<b>OpenBook ()</b>"
+    Open WorkBook
+    end note
+
+
+
+    class "<b>OVisible ()</b>" {
+        --
+        + OVisible \t(ole_obj \t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>OVisible ()</b>" circle
+    show "<b>OVisible ()</b>" method
+
+    note right of "<b>OVisible ()</b>"
+    set Visible to Ole object
+    end note
+
+
+
+    class "<b>Quit_ex ()</b>" {
+        --
+        + Quit_ex \t(excel_app \t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>Quit_ex ()</b>" circle
+    show "<b>Quit_ex ()</b>" method
+
+    note right of "<b>Quit_ex ()</b>"
+    delete Excel
+    end note
+
+
+
+    class "<b>Range ()</b>" {
+        --
+        + Range \t(
+            \texcel_book \t: <i>Variant</i>,
+            \tCell1 \t\t: <i>Variant</i>,
+            \tCell2 \t\t: <i>Variant</i>
+            ) : <i>Variant</i>
+    }
+
+    hide "<b>Range ()</b>" circle
+    show "<b>Range ()</b>" method
+
+    note right of "<b>Range ()</b>"
+    Cell selection
+
+    (Выделение ячеек)
+    end note
+
+
+
+    class "<b>SaveBook ()</b>" {
+        --
+        + SaveBook \t(excel_book \t: <i>Variant</i>) \t: <i>Variant</i>
+    }
+
+    hide "<b>SaveBook ()</b>" circle
+    show "<b>SaveBook ()</b>" method
+
+    note right of "<b>SaveBook ()</b>"
+    Saving a book
+
+    (Сохранение книги)
+    end note
+
+
+
+    class "<b>SaveBookAs ()</b>" {
+        --
+        + SaveBookAs \t(
+            \texcel_book \t: <i>Variant</i>,
+            \tname \t\t: <i>AnsiString</i>
+            ) : <i>Variant</i>
+    }
+
+    hide "<b>SaveBookAs ()</b>" circle
+    show "<b>SaveBookAs ()</b>" method
+
+    note right of "<b>SaveBookAs ()</b>"
+    Saving a book with a new name
+    
+    (Сохранение книги c новым именем)
+    end note
+
+
+
+    class "<b>SelectCell ()</b>" {
+        --
+        + SelectCell \t(
+            \tcolumn \t: <i>int</i>,
+            \trow \t\t: <i>int</i>,
+            \tsheet \t: <i>Variant</i>
+            ) : <i>Variant</i>
+    }
+
+    hide "<b>SelectCell ()</b>" circle
+    show "<b>SelectCell ()</b>" method
+
+    note right of "<b>SelectCell ()</b>"
+    Cell selection by address
+
+    (Выбор ячейки по адресу)
+    end note
+
+
+
+    class "<b>SelectColumn ()</b>" {
+        --
+        + SelectColumn \t(
+            \tsheet \t: <i>Variant</i>,
+            \tcolumn \t: <i>int</i>
+            ) : <i>Variant</i>
+    }
+
+    hide "<b>SelectColumn ()</b>" circle
+    show "<b>SelectColumn ()</b>" method
+
+    note right of "<b>SelectColumn ()</b>"
+    select column
+
+    (выбрать столбец)
+    end note
+
+
+
+    class "<b>SelectRow ()</b>" {
+        --
+        + SelectRow \t(
+            \tsheet \t: <i>Variant</i>,
+            \trow \t\t: <i>int</i>
+            ): <i>Variant</i>
+    }
+
+    hide "<b>SelectRow ()</b>" circle
+    show "<b>SelectRow ()</b>" method
+
+    note right of "<b>SelectRow ()</b>"
+    select row
+    (выбрать строку)
+    end note
+
+
+
+    class "<b>SelectSheet ()</b>" {
+        --
+        + SelectSheet \t(
+            \texcel_book \t: <i>Variant</i>,
+            \tname \t\t: <i>AnsiString</i>
+            ) : <i>Variant</i>
+    }
+
+    hide "<b>SelectSheet ()</b>" circle
+    show "<b>SelectSheet ()</b>" method
+
+    note right of "<b>SelectSheet ()</b>"
+    Select WorkSheet by Name
+    end note
+
+
+
+    class "<b>SheetFormat ()</b>" {
+        --
+        + SheetFormat \t(
+            \tcell \t\t: <i>Variant</i>,
+            \tFormat \t: <i>AnsiString</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>SheetFormat ()</b>" circle
+    show "<b>SheetFormat ()</b>" method
+
+    note right of "<b>SheetFormat ()</b>"
+    Cell Format
+
+    (Формат ячейки)
+    end note
+
+
+
+    class "<b>VerticalAlign ()</b>" {
+        --
+        + VerticalAlign \t(
+            \tRange \t\t: <i>Variant</i>,
+            \tnom_align \t: <i>int</i>
+            ) : <i>void</i>
+    }
+
+    hide "<b>VerticalAlign ()</b>" circle
+    show "<b>VerticalAlign ()</b>" method
+
+    note right of "<b>VerticalAlign ()</b>"
+    Align cell contents vertically
+
+    (Выравнивание содержимого
+    ячейки по вертикали)
+    end note
+
+
+
+    class "<b>W1 ()</b>" {
+        --
+        + W1 \t(Range \t: <i>Variant</i>) \t: <i>void</i>
+    }
+
+    hide "<b>W1 ()</b>" circle
+    show "<b>W1 ()</b>" method
+
+    note right of "<b>W1 ()</b>"
+    Word wrap
+
+    (Перенос по словам)
+    end note
+}
+
+
+
+@enduml

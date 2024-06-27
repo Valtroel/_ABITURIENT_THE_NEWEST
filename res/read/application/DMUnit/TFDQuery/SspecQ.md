@@ -1,0 +1,24 @@
+# [ABITURIENT (*application*)](../../app_abiturient_2022.md) > [DMUnit](../DMUnit.md) > [TFDQuery](TDFQuery.md) > *SspecQ*
+
+> Back to ["ABITURIENT 2022" Project](/README.md)
+
+> Back to [DB_ABITURIENT](../../../db/db_abiturient_2022.md)
+
+```sql
+SELECT
+    a.nomer_ab
+FROM
+    abitura AS a
+WHERE
+        a.status      = 0
+    AND
+        a.n_specializ = :sp
+    AND
+        a.vid_edu     = :v_e
+    AND
+        a.term_edu    = 1
+    AND
+        a.n_fac       = :n_fac
+    AND
+        a.price       = :price
+```

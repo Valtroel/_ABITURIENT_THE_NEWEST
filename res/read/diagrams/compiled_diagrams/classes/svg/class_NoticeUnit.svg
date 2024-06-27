@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="552.3859px" preserveAspectRatio="none" style="width:751px;height:552px;background:#FFFFFF;" version="1.1" viewBox="0 0 751 552" width="751.556px" zoomAndPan="magnify"><defs/><g><rect height="40.9184" style="stroke:#00000000;stroke-width:1.5560165975103735;fill:none;" width="448.1328" x="140.8195" y="7.7801"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="432.5726" x="148.5996" y="35.7808">Исходный файл: "NoticeUnit.cpp"</text><!--MD5=[d0dd6eed5b6794d5bad470d776860a59]
+cluster TNoticeForm--><g id="cluster_TNoticeForm"><path d="M474.5851,67.3707 L637.9668,67.3707 A5.8351,5.8351 0 0 1 641.8568,71.2607 L652.749,102.065 L712.6556,102.065 A3.89,3.89 0 0 1 716.5456,105.955 L716.5456,217.5263 A3.89,3.89 0 0 1 712.6556,221.4163 L474.5851,221.4163 A3.89,3.89 0 0 1 470.695,217.5263 L470.695,71.2607 A3.89,3.89 0 0 1 474.5851,67.3707 " style="stroke:#000000;stroke-width:2.3340248962655603;fill:none;"/><line style="stroke:#000000;stroke-width:2.3340248962655603;fill:none;" x1="470.695" x2="652.749" y1="102.065" y2="102.065"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="161.8257" x="476.9191" y="90.7033">TNoticeForm</text></g><!--MD5=[3e843a0c6817486cb176a0048492f29e]
+class TNoticeForm--><g id="elem_TNoticeForm"><rect codeLine="24" fill="#F1F1F1" height="74.6888" id="TNoticeForm" rx="3.89" ry="3.89" style="stroke:#181818;stroke-width:0.7780082987551867;" width="194.5021" x="496.3693" y="121.8312"/><ellipse cx="519.7095" cy="146.7275" fill="#ADD1B2" rx="17.1162" ry="17.1162" style="stroke:#181818;stroke-width:1.5560165975103735;"/><path d="M523.3565,139.9929 C521.8977,139.3121 520.9738,139.0933 519.6123,139.0933 C515.5277,139.0933 512.4157,142.3269 512.4157,146.5573 L512.4157,148.3078 C512.4157,152.3194 515.6979,155.2613 520.1958,155.2613 C522.0922,155.2613 523.8913,154.7993 525.0584,153.9484 C525.9579,153.3163 526.4685,152.6112 526.4685,152.0034 C526.4685,151.2983 525.8607,150.6905 525.1313,150.6905 C524.7909,150.6905 524.4748,150.812 524.1831,151.1038 C523.478,151.8575 523.478,151.8575 523.1863,152.0034 C522.5298,152.4167 521.4601,152.6112 520.2687,152.6112 C517.0838,152.6112 515.0658,150.9093 515.0658,148.2592 L515.0658,146.5573 C515.0658,143.7857 517.0108,141.7434 519.7095,141.7434 C520.6091,141.7434 521.5573,141.9865 522.2867,142.3755 C523.0404,142.8131 523.3078,143.1535 523.4537,143.7857 C523.551,144.4178 523.5996,144.6123 523.8184,144.8068 C524.0372,145.0256 524.4019,145.1958 524.7423,145.1958 C525.1556,145.1958 525.5689,144.977 525.8364,144.6366 C526.0065,144.3935 526.0552,144.1017 526.0552,143.4453 L526.0552,141.2328 C526.0552,140.5521 526.0309,140.3576 525.885,140.1144 C525.6419,139.7011 525.2042,139.4823 524.7423,139.4823 C524.2803,139.4823 523.9643,139.6282 523.6239,140.1144 L523.3565,139.9929 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="144.7095" x="541.4938" y="154.269">TNoticeForm</text><line style="stroke:#181818;stroke-width:0.7780082987551867;" x1="497.9253" x2="689.3154" y1="171.6238" y2="171.6238"/><line style="stroke:#181818;stroke-width:0.7780082987551867;" x1="497.9253" x2="689.3154" y1="184.0719" y2="184.0719"/></g><!--MD5=[7939f2d8de6d51a3d3bf752b64ed1356]
+class <b>TNoticeForm</b>--><g id="elem_&lt;b&gt;TNoticeForm&lt;/b&gt;"><rect codeLine="9" fill="#F1F1F1" height="252.1963" id="&lt;b&gt;TNoticeForm&lt;/b&gt;" rx="3.89" ry="3.89" style="stroke:#181818;stroke-width:0.7780082987551867;" width="729.7718" x="10.8921" y="289.881"/><ellipse cx="288.2521" cy="314.7773" fill="#ADD1B2" rx="17.1162" ry="17.1162" style="stroke:#181818;stroke-width:1.5560165975103735;"/><path d="M291.899,308.0427 C290.4402,307.3619 289.5163,307.1431 288.1548,307.1431 C284.0703,307.1431 280.9582,310.3767 280.9582,314.6071 L280.9582,316.3576 C280.9582,320.3692 284.2405,323.3111 288.7383,323.3111 C290.6347,323.3111 292.4339,322.8491 293.6009,321.9982 C294.5005,321.3661 295.011,320.661 295.011,320.0532 C295.011,319.3481 294.4032,318.7403 293.6738,318.7403 C293.3334,318.7403 293.0174,318.8618 292.7256,319.1536 C292.0206,319.9073 292.0206,319.9073 291.7288,320.0532 C291.0724,320.4665 290.0026,320.661 288.8113,320.661 C285.6263,320.661 283.6083,318.9591 283.6083,316.309 L283.6083,314.6071 C283.6083,311.8355 285.5534,309.7932 288.2521,309.7932 C289.1516,309.7932 290.0998,310.0363 290.8292,310.4253 C291.5829,310.8629 291.8504,311.2033 291.9962,311.8355 C292.0935,312.4676 292.1421,312.6621 292.3609,312.8566 C292.5797,313.0754 292.9444,313.2456 293.2848,313.2456 C293.6981,313.2456 294.1114,313.0268 294.3789,312.6864 C294.5491,312.4433 294.5977,312.1515 294.5977,311.4951 L294.5977,309.2826 C294.5977,308.6019 294.5734,308.4074 294.4275,308.1642 C294.1844,307.7509 293.7468,307.5321 293.2848,307.5321 C292.8229,307.5321 292.5068,307.678 292.1664,308.1642 L291.899,308.0427 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="161.8257" x="320.1504" y="322.3188">TNoticeForm</text><line style="stroke:#181818;stroke-width:0.7780082987551867;" x1="12.4481" x2="739.1079" y1="339.6736" y2="339.6736"/><ellipse cx="28.0083" cy="356.7897" fill="none" rx="4.668" ry="4.668" style="stroke:#038048;stroke-width:1.5560165975103735;"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="166.4938" x="42.0124" y="366.1182">frxDBDataset1</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="7.7801" x="241.1826" y="366.1182">:</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-style="italic" lengthAdjust="spacing" textLength="178.9419" x="255.1867" y="366.1182">TfrxDBDataset *</text><ellipse cx="28.0083" cy="382.148" fill="none" rx="4.668" ry="4.668" style="stroke:#038048;stroke-width:1.5560165975103735;"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="140.0415" x="42.0124" y="391.4765">frxPrvNotice</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="7.7801" x="241.1826" y="391.4765">:</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-style="italic" lengthAdjust="spacing" textLength="146.2656" x="255.1867" y="391.4765">TfrxPreview *</text><ellipse cx="28.0083" cy="407.5062" fill="none" rx="4.668" ry="4.668" style="stroke:#038048;stroke-width:1.5560165975103735;"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="149.3776" x="42.0124" y="416.8347">frxRepNotice</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="7.7801" x="241.1826" y="416.8347">:</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-style="italic" lengthAdjust="spacing" textLength="135.3734" x="255.1867" y="416.8347">TfrxReport *</text><line style="stroke:#181818;stroke-width:1.5560165975103735;" x1="12.4481" x2="739.1079" y1="428.1963" y2="428.1963"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="6.2241" x="42.0124" y="454.641"> </text><ellipse cx="28.0083" cy="470.6707" fill="#84BE84" rx="4.668" ry="4.668" style="stroke:#038048;stroke-width:1.5560165975103735;"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="161.8257" x="42.0124" y="479.9992">TNoticeForm</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="88.6929" x="228.7344" y="479.9992">(Owner</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="9.3361" x="353.2158" y="479.9992">:</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="177.3859" x="370.332" y="479.9992">TComponent *</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="10.8921" x="547.7178" y="479.9992">)</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="6.2241" x="42.0124" y="505.3574"> </text><ellipse cx="28.0083" cy="521.3871" fill="#84BE84" rx="4.668" ry="4.668" style="stroke:#038048;stroke-width:1.5560165975103735;"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="342.3237" x="42.0124" y="530.7156">frxRepNoticeAfterPrintReport</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="87.1369" x="440.3527" y="530.7156">(Sender</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="7.7801" x="539.9378" y="530.7156">:</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-style="italic" lengthAdjust="spacing" textLength="102.6971" x="553.9419" y="530.7156">TObject *</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" lengthAdjust="spacing" textLength="21.7842" x="656.639" y="530.7156">) :</text><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-style="italic" lengthAdjust="spacing" textLength="46.6805" x="684.6473" y="530.7156">void</text></g><!--MD5=[dd0bf217da5c5e97452bc452f42aff32]
+class <b>TForm</b>--><g id="elem_&lt;b&gt;TForm&lt;/b&gt;"><rect fill="#F1F1F1" height="49.7925" id="&lt;b&gt;TForm&lt;/b&gt;" rx="3.89" ry="3.89" style="stroke:#181818;stroke-width:0.7780082987551867;" width="130.7054" x="310.4253" y="134.2794"/><ellipse cx="333.7656" cy="159.1756" fill="#ADD1B2" rx="17.1162" ry="17.1162" style="stroke:#181818;stroke-width:1.5560165975103735;"/><path d="M337.4125,152.441 C335.9537,151.7602 335.0298,151.5414 333.6683,151.5414 C329.5838,151.5414 326.4717,154.775 326.4717,159.0054 L326.4717,160.756 C326.4717,164.7676 329.754,167.7094 334.2518,167.7094 C336.1482,167.7094 337.9474,167.2475 339.1144,166.3965 C340.0139,165.7644 340.5245,165.0593 340.5245,164.4515 C340.5245,163.7464 339.9167,163.1386 339.1873,163.1386 C338.8469,163.1386 338.5309,163.2602 338.2391,163.5519 C337.534,164.3056 337.534,164.3056 337.2423,164.4515 C336.5858,164.8648 335.5161,165.0593 334.3248,165.0593 C331.1398,165.0593 329.1218,163.3574 329.1218,160.7073 L329.1218,159.0054 C329.1218,156.2338 331.0668,154.1915 333.7656,154.1915 C334.6651,154.1915 335.6133,154.4346 336.3427,154.8237 C337.0964,155.2613 337.3638,155.6017 337.5097,156.2338 C337.607,156.8659 337.6556,157.0604 337.8744,157.2549 C338.0932,157.4737 338.4579,157.6439 338.7983,157.6439 C339.2116,157.6439 339.6249,157.4251 339.8924,157.0847 C340.0626,156.8416 340.1112,156.5499 340.1112,155.8934 L340.1112,153.681 C340.1112,153.0002 340.0869,152.8057 339.941,152.5626 C339.6979,152.1492 339.2602,151.9304 338.7983,151.9304 C338.3364,151.9304 338.0203,152.0763 337.6799,152.5626 L337.4125,152.441 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="21.7842" font-weight="bold" lengthAdjust="spacing" textLength="80.9129" x="355.5498" y="166.7171">TForm</text></g><!--MD5=[f7ed74ede060cbdd5c5b34525aca80a1]
+reverse link <b>TForm</b> to <b>TNoticeForm</b>--><g id="link_&lt;b&gt;TForm&lt;/b&gt;_&lt;b&gt;TNoticeForm&lt;/b&gt;"><path codeLine="5" d="M375.778,215.6186 C375.778,237.423 375.778,263.4661 375.778,289.4049 " fill="none" id="&lt;b&gt;TForm&lt;/b&gt;-backto-&lt;b&gt;TNoticeForm&lt;/b&gt;" style="stroke:#181818;stroke-width:1.5560165975103735;"/><polygon fill="none" points="364.8859,215.2591,375.778,184.1373,386.6701,215.2576,364.8859,215.2591" style="stroke:#181818;stroke-width:1.5560165975103735;"/></g><!--MD5=[ca8a7146e084cb3bcb83e09373bf13a5]
+@startuml
+title Исходный файл: "NoticeUnit.cpp"
+
+scale 750 width
+
+"<b>TNoticeForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TNoticeForm</b>"
+{
+    + frxDBDataset1 \t: <i>TfrxDBDataset *</i>
+    + frxPrvNotice \t\t: <i>TfrxPreview *</i>
+    + frxRepNotice \t: <i>TfrxReport *</i>
+    - -
+    
+    + <b>TNoticeForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + frxRepNoticeAfterPrintReport \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TNoticeForm <<Folder>>
+{
+    class TNoticeForm
+    hide  members
+}
+
+
+' note right of "<b>TNoticeForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+@enduml
+
+@startuml
+title Исходный файл: "NoticeUnit.cpp"
+
+scale 750 width
+
+"<b>TNoticeForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TNoticeForm</b>"
+{
+    + frxDBDataset1 \t: <i>TfrxDBDataset *</i>
+    + frxPrvNotice \t\t: <i>TfrxPreview *</i>
+    + frxRepNotice \t: <i>TfrxReport *</i>
+    - -
+    
+    + <b>TNoticeForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + frxRepNoticeAfterPrintReport \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+}
+
+
+package TNoticeForm <<Folder>>
+{
+    class TNoticeForm
+    hide  members
+}
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

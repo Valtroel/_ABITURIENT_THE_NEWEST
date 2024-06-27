@@ -1,0 +1,12 @@
+INSERT INTO OR UPDATE
+    MOODLE_COURSE
+    (
+        N_COURSE,
+        NAME_COURSE
+    )
+VALUES
+    (2, 'вн2') MATCHING (N_COURSE),
+    (5, 'вн1') MATCHING (N_COURSE),
+    (6, 'вн3') MATCHING (N_COURSE);
+
+COMMIT WORK;

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="593.8114px" preserveAspectRatio="none" style="width:751px;height:593px;background:#FFFFFF;" version="1.1" viewBox="0 0 751 593" width="751.4735px" zoomAndPan="magnify"><defs/><g><rect height="38.7479" style="stroke:#00000000;stroke-width:1.4734774066797642;fill:none;" width="524.558" x="103.1434" y="7.3674"/><text fill="#000000" font-family="sans-serif" font-size="20.6287" font-weight="bold" lengthAdjust="spacing" textLength="509.8232" x="110.5108" y="33.8828">Исходный файл: "Print_RaspiskaUnit.cpp"</text><!--MD5=[58d8972c6957ccbd3db9cdfa9f8a96ca]
+cluster TPrint_RaspiskaForm--><g id="cluster_TPrint_RaspiskaForm"><path d="M426.5717,63.797 L681.4833,63.797 A5.5255,5.5255 0 0 1 685.167,67.4807 L695.4813,96.6509 L737.4754,96.6509 A3.6837,3.6837 0 0 1 741.1591,100.3346 L741.1591,205.9875 A3.6837,3.6837 0 0 1 737.4754,209.6712 L426.5717,209.6712 A3.6837,3.6837 0 0 1 422.888,205.9875 L422.888,67.4807 A3.6837,3.6837 0 0 1 426.5717,63.797 " style="stroke:#000000;stroke-width:2.2102161100196462;fill:none;"/><line style="stroke:#000000;stroke-width:2.2102161100196462;fill:none;" x1="422.888" x2="695.4813" y1="96.6509" y2="96.6509"/><text fill="#000000" font-family="sans-serif" font-size="20.6287" font-weight="bold" lengthAdjust="spacing" textLength="253.4381" x="428.7819" y="85.8919">TPrint_RaspiskaForm</text></g><!--MD5=[6bea0d3eee93b5ee98e63bbb33c92578]
+class TPrint_RaspiskaForm--><g id="elem_TPrint_RaspiskaForm"><rect codeLine="28" fill="#F1F1F1" height="70.7269" id="TPrint_RaspiskaForm" rx="3.6837" ry="3.6837" style="stroke:#181818;stroke-width:0.7367387033398821;" width="269.6464" x="447.2004" y="115.3687"/><ellipse cx="469.3026" cy="138.9443" fill="#ADD1B2" rx="16.2083" ry="16.2083" style="stroke:#181818;stroke-width:1.4734774066797642;"/><path d="M472.756,132.5669 C471.3746,131.9223 470.4998,131.7151 469.2105,131.7151 C465.3426,131.7151 462.3956,134.7771 462.3956,138.7832 L462.3956,140.4408 C462.3956,144.2396 465.5037,147.0254 469.763,147.0254 C471.5588,147.0254 473.2625,146.588 474.3676,145.7822 C475.2195,145.1836 475.703,144.5159 475.703,143.9403 C475.703,143.2727 475.1274,142.6971 474.4367,142.6971 C474.1144,142.6971 473.8151,142.8122 473.5388,143.0885 C472.8711,143.8022 472.8711,143.8022 472.5949,143.9403 C471.9732,144.3317 470.9602,144.5159 469.8321,144.5159 C466.8161,144.5159 464.9051,142.9043 464.9051,140.3948 L464.9051,138.7832 C464.9051,136.1585 466.747,134.2246 469.3026,134.2246 C470.1544,134.2246 471.0523,134.4548 471.743,134.8232 C472.4567,135.2376 472.71,135.5599 472.8481,136.1585 C472.9402,136.7571 472.9862,136.9413 473.1935,137.1255 C473.4007,137.3327 473.746,137.4939 474.0683,137.4939 C474.4597,137.4939 474.8511,137.2867 475.1044,136.9643 C475.2655,136.7341 475.3116,136.4578 475.3116,135.8362 L475.3116,133.7411 C475.3116,133.0965 475.2886,132.9123 475.1504,132.682 C474.9202,132.2906 474.5058,132.0834 474.0683,132.0834 C473.6309,132.0834 473.3316,132.2216 473.0093,132.682 L472.756,132.5669 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="20.6287" lengthAdjust="spacing" textLength="222.4951" x="489.9312" y="146.0858">TPrint_RaspiskaForm</text><line style="stroke:#181818;stroke-width:0.7367387033398821;" x1="448.6739" x2="715.3733" y1="162.52" y2="162.52"/><line style="stroke:#181818;stroke-width:0.7367387033398821;" x1="448.6739" x2="715.3733" y1="174.3078" y2="174.3078"/></g><!--MD5=[2d303708e2d06b4423b6000eea6526cb]
+class <b>TPrint_RaspiskaForm</b>--><g id="elem_&lt;b&gt;TPrint_RaspiskaForm&lt;/b&gt;"><rect codeLine="9" fill="#F1F1F1" height="310.4202" id="&lt;b&gt;TPrint_RaspiskaForm&lt;/b&gt;" rx="3.6837" ry="3.6837" style="stroke:#181818;stroke-width:0.7367387033398821;" width="645.3831" x="10.3143" y="274.5042"/><ellipse cx="200.0246" cy="298.0799" fill="#ADD1B2" rx="16.2083" ry="16.2083" style="stroke:#181818;stroke-width:1.4734774066797642;"/><path d="M203.478,291.7025 C202.0966,291.0578 201.2218,290.8506 199.9325,290.8506 C196.0646,290.8506 193.1176,293.9127 193.1176,297.9187 L193.1176,299.5764 C193.1176,303.3752 196.2257,306.161 200.485,306.161 C202.2808,306.161 203.9845,305.7235 205.0896,304.9177 C205.9415,304.3191 206.425,303.6515 206.425,303.0759 C206.425,302.4082 205.8494,301.8326 205.1587,301.8326 C204.8364,301.8326 204.5371,301.9478 204.2608,302.224 C203.5931,302.9377 203.5931,302.9377 203.3169,303.0759 C202.6952,303.4673 201.6822,303.6515 200.5541,303.6515 C197.5381,303.6515 195.6271,302.0398 195.6271,299.5303 L195.6271,297.9187 C195.6271,295.2941 197.469,293.3601 200.0246,293.3601 C200.8764,293.3601 201.7743,293.5904 202.465,293.9587 C203.1787,294.3732 203.432,294.6955 203.5701,295.2941 C203.6622,295.8927 203.7083,296.0769 203.9155,296.2611 C204.1227,296.4683 204.468,296.6294 204.7903,296.6294 C205.1817,296.6294 205.5731,296.4222 205.8264,296.0999 C205.9875,295.8697 206.0336,295.5934 206.0336,294.9718 L206.0336,292.8767 C206.0336,292.232 206.0106,292.0478 205.8724,291.8176 C205.6422,291.4262 205.2278,291.219 204.7903,291.219 C204.3529,291.219 204.0536,291.3571 203.7313,291.8176 L203.478,291.7025 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="20.6287" font-weight="bold" lengthAdjust="spacing" textLength="253.4381" x="230.2308" y="305.2213">TPrint_RaspiskaForm</text><line style="stroke:#181818;stroke-width:0.7367387033398821;" x1="11.7878" x2="654.224" y1="321.6555" y2="321.6555"/><ellipse cx="26.5226" cy="337.8638" fill="none" rx="4.4204" ry="4.4204" style="stroke:#038048;stroke-width:1.4734774066797642;"/><text fill="#000000" font-family="sans-serif" font-size="20.6287" lengthAdjust="spacing" textLength="157.6621" x="39.7839" y="346.6974">frxDBDataset1</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" lengthAdjust="spacing" textLength="7.3674" x="228.389" y="346.6974">:</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" font-style="italic" lengthAdjust="spacing" textLength="169.4499" x="241.6503" y="346.6974">TfrxDBDataset *</text><line style="stroke:#181818;stroke-width:1.4734774066797642;stroke-dasharray:1.0,2.0;" x1="11.7878" x2="654.224" y1="357.4564" y2="357.4564"/><ellipse cx="26.5226" cy="373.6647" fill="none" rx="4.4204" ry="4.4204" style="stroke:#038048;stroke-width:1.4734774066797642;"/><text fill="#000000" font-family="sans-serif" font-size="20.6287" lengthAdjust="spacing" textLength="165.0295" x="39.7839" y="382.4983">frxRepRaspiska</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" lengthAdjust="spacing" textLength="7.3674" x="275.5403" y="382.4983">:</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" font-style="italic" lengthAdjust="spacing" textLength="128.1925" x="288.8016" y="382.4983">TfrxReport *</text><line style="stroke:#181818;stroke-width:1.4734774066797642;" x1="11.7878" x2="654.224" y1="393.2573" y2="393.2573"/><text fill="#000000" font-family="sans-serif" font-size="20.6287" lengthAdjust="spacing" textLength="5.8939" x="39.7839" y="418.2992"> </text><ellipse cx="26.5226" cy="433.4786" fill="#84BE84" rx="4.4204" ry="4.4204" style="stroke:#038048;stroke-width:1.4734774066797642;"/><text fill="#000000" font-family="sans-serif" font-size="20.6287" font-weight="bold" lengthAdjust="spacing" textLength="253.4381" x="39.7839" y="442.3123">TPrint_RaspiskaForm</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" font-weight="bold" lengthAdjust="spacing" textLength="83.9882" x="334.4794" y="442.3123">(Owner</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" font-weight="bold" lengthAdjust="spacing" textLength="8.8409" x="452.3576" y="442.3123">:</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" font-style="italic" font-weight="bold" lengthAdjust="spacing" textLength="167.9764" x="468.5658" y="442.3123">TComponent *</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" font-weight="bold" lengthAdjust="spacing" textLength="10.3143" x="636.5422" y="442.3123">)</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" lengthAdjust="spacing" textLength="5.8939" x="39.7839" y="466.3254"> </text><line style="stroke:#181818;stroke-width:1.4734774066797642;stroke-dasharray:1.0,2.0;" x1="11.7878" x2="654.224" y1="477.0844" y2="477.0844"/><ellipse cx="26.5226" cy="493.2926" fill="#84BE84" rx="4.4204" ry="4.4204" style="stroke:#038048;stroke-width:1.4734774066797642;"/><text fill="#000000" font-family="sans-serif" font-size="20.6287" lengthAdjust="spacing" textLength="111.9843" x="39.7839" y="502.1263">FormClose</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" lengthAdjust="spacing" textLength="7.3674" x="181.2377" y="502.1263">(</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" lengthAdjust="spacing" textLength="75.1473" x="134.0864" y="526.1394">Sender</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" lengthAdjust="spacing" textLength="7.3674" x="228.389" y="526.1394">:</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" font-style="italic" lengthAdjust="spacing" textLength="97.2495" x="241.6503" y="526.1394">TObject *</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" lengthAdjust="spacing" textLength="5.8939" x="338.8998" y="526.1394">,</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" lengthAdjust="spacing" textLength="69.2534" x="134.0864" y="550.1524">Action</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" lengthAdjust="spacing" textLength="7.3674" x="228.389" y="550.1524">:</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" font-style="italic" lengthAdjust="spacing" textLength="159.1356" x="241.6503" y="550.1524">TCloseAction &amp;</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" lengthAdjust="spacing" textLength="20.6287" x="86.9352" y="574.1655">) :</text><text fill="#000000" font-family="sans-serif" font-size="20.6287" font-style="italic" lengthAdjust="spacing" textLength="44.2043" x="113.4578" y="574.1655">void</text></g><!--MD5=[dd0bf217da5c5e97452bc452f42aff32]
+class <b>TForm</b>--><g id="elem_&lt;b&gt;TForm&lt;/b&gt;"><rect fill="#F1F1F1" height="47.1513" id="&lt;b&gt;TForm&lt;/b&gt;" rx="3.6837" ry="3.6837" style="stroke:#181818;stroke-width:0.7367387033398821;" width="123.7721" x="271.1198" y="127.1565"/><ellipse cx="293.222" cy="150.7321" fill="#ADD1B2" rx="16.2083" ry="16.2083" style="stroke:#181818;stroke-width:1.4734774066797642;"/><path d="M296.6755,144.3547 C295.2941,143.7101 294.4192,143.5029 293.1299,143.5029 C289.262,143.5029 286.3151,146.565 286.3151,150.571 L286.3151,152.2286 C286.3151,156.0274 289.4232,158.8132 293.6825,158.8132 C295.4783,158.8132 297.182,158.3758 298.2871,157.57 C299.1389,156.9714 299.6224,156.3037 299.6224,155.7281 C299.6224,155.0605 299.0468,154.4849 298.3562,154.4849 C298.0338,154.4849 297.7345,154.6 297.4583,154.8763 C296.7906,155.59 296.7906,155.59 296.5143,155.7281 C295.8927,156.1195 294.8797,156.3037 293.7515,156.3037 C290.7355,156.3037 288.8246,154.6921 288.8246,152.1826 L288.8246,150.571 C288.8246,147.9463 290.6664,146.0124 293.222,146.0124 C294.0739,146.0124 294.9718,146.2426 295.6625,146.611 C296.3762,147.0254 296.6294,147.3477 296.7676,147.9463 C296.8597,148.5449 296.9057,148.7291 297.1129,148.9133 C297.3201,149.1205 297.6655,149.2817 297.9878,149.2817 C298.3792,149.2817 298.7706,149.0745 299.0238,148.7521 C299.185,148.5219 299.231,148.2456 299.231,147.624 L299.231,145.5289 C299.231,144.8843 299.208,144.7001 299.0699,144.4699 C298.8396,144.0785 298.4252,143.8713 297.9878,143.8713 C297.5503,143.8713 297.251,144.0094 296.9287,144.4699 L296.6755,144.3547 Z " fill="#000000"/><text fill="#000000" font-family="sans-serif" font-size="20.6287" font-weight="bold" lengthAdjust="spacing" textLength="76.6208" x="313.8507" y="157.8736">TForm</text></g><!--MD5=[747a10d4362328329c72492ce4e9f2d3]
+reverse link <b>TForm</b> to <b>TPrint_RaspiskaForm</b>--><g id="link_&lt;b&gt;TForm&lt;/b&gt;_&lt;b&gt;TPrint_RaspiskaForm&lt;/b&gt;"><path codeLine="5" d="M333.0059,204.0735 C333.0059,224.4369 333.0059,248.9718 333.0059,274.2361 " fill="none" id="&lt;b&gt;TForm&lt;/b&gt;-backto-&lt;b&gt;TPrint_RaspiskaForm&lt;/b&gt;" style="stroke:#181818;stroke-width:1.4734774066797642;"/><polygon fill="none" points="322.6916,203.8171,333.0059,174.3476,343.3202,203.8171,322.6916,203.8171" style="stroke:#181818;stroke-width:1.4734774066797642;"/></g><!--MD5=[e9f359cc080e82be9059fc4ac582d663]
+@startuml
+title Исходный файл: "Print_RaspiskaUnit.cpp"
+
+scale 750 width
+
+"<b>TPrint_RaspiskaForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TPrint_RaspiskaForm</b>"
+{
+    + frxDBDataset1 \t: <i>TfrxDBDataset *</i>
+    ..
+    + frxRepRaspiska \t\t: <i>TfrxReport *</i>
+    - -
+    
+    + <b>TPrint_RaspiskaForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    ..
+    + FormClose \t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TPrint_RaspiskaForm <<Folder>>
+{
+    class TPrint_RaspiskaForm
+    hide  members
+}
+
+
+' note right of "<b>TPrint_RaspiskaForm</b>"::Save_Priv
+' сохранение привелегий (сирота, Чаэс, инвалид)
+' end note
+@enduml
+
+@startuml
+title Исходный файл: "Print_RaspiskaUnit.cpp"
+
+scale 750 width
+
+"<b>TPrint_RaspiskaForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TPrint_RaspiskaForm</b>"
+{
+    + frxDBDataset1 \t: <i>TfrxDBDataset *</i>
+    ..
+    + frxRepRaspiska \t\t: <i>TfrxReport *</i>
+    - -
+    
+    + <b>TPrint_RaspiskaForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    ..
+    + FormClose \t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+
+package TPrint_RaspiskaForm <<Folder>>
+{
+    class TPrint_RaspiskaForm
+    hide  members
+}
+
+
+@enduml
+
+PlantUML version 1.2022.5(Sat Apr 30 10:55:52 UTC 2022)
+(GPL source distribution)
+Java Runtime: Java(TM) SE Runtime Environment
+JVM: Java HotSpot(TM) 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

@@ -1,0 +1,48 @@
+@startuml BlockUnit.cpp
+
+title Исходный файл: "BlockUnit.cpp"
+
+scale 750 width
+' left to right direction
+
+"<b>TBlockForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TBlockForm</b>"
+{
+    + BitBtn1 \t\t\t: <i>TBitBtn *</i>
+    + BitBtn2 \t\t\t: <i>TBitBtn *</i>
+    + Panel1 \t\t\t: <i>TPanel *</i>
+    + Panel2 \t\t\t: <i>TPanel *</i>
+    + RadioGroup1 \t: <i>TRadioGroup *</i>
+    + PageControl1 \t: <i>TPageControl *</i>
+    + RadioGroup2 \t: <i>TRadioGroup *</i>
+    + TabSheet1 \t\t: <i>TTabSheet *</i>
+    + TabSheet2 \t\t: <i>TTabSheet *</i>
+    --
+
+    + <b>TBlockForm (Owner : <i>TComponent *</i>)</b>
+
+    + BitBtn1Click \t\t(Sender \t\t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn2Click \t\t(Sender \t\t: <i>TObject *</i>) : <i>void</i>
+    + PressBtn \t\t(pressBtn \t: <i>int</i>) : <i>void</i>
+    ..
+    + FormClose \t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+}
+
+note right of "<b>TBlockForm</b>"::PressBtn
+Разрешение нажатия кнопки
+(0 - Разрешить, 1 - Запретить)
+end note
+
+package TBlockForm <<Folder>>
+{
+    class TBlockForm
+    hide  TBlockForm members
+}
+
+@enduml

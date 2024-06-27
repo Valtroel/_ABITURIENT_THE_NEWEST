@@ -1,0 +1,106 @@
+@startuml SertificatUnit.cpp
+
+title Исходный файл: "SertificatUnit.cpp"
+
+scale 750 width
+
+"<b>TSertificatForm</b>" -up-|> "<b>TForm</b>"
+
+hide "<b>TForm</b>" members
+
+class "<b>TSertificatForm</b>"
+{
+    + Action1 \t\t\t\t\t: <i>TAction *</i>
+    ..
+    + ActionList1 \t\t\t\t: <i>TActionList *</i>
+    ..
+    + BitBtn1 \t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn2 \t\t\t\t\t: <i>TBitBtn *</i>
+    + BitBtn3 \t\t\t\t\t: <i>TBitBtn *</i>
+    ..
+    + ComboBox1 \t\t\t\t: <i>TComboBox *</i>
+    ..
+    + DBLookupComboBox1 \t: <i>TDBLookupComboBox *</i>
+    ..
+    + DBNavigator1 \t\t\t: <i>TDBNavigator *</i>
+    ..
+    + Edit1 \t\t\t\t\t: <i>TEdit *</i>
+    + Edit2 \t\t\t\t\t: <i>TEdit *</i>
+    + Edit3 \t\t\t\t\t: <i>TEdit *</i>
+    + Edit4 \t\t\t\t\t: <i>TEdit *</i>
+    ..
+    + Label1 \t\t\t\t\t: <i>TLabel *</i>
+    + Label2 \t\t\t\t\t: <i>TLabel *</i>
+    + Label3 \t\t\t\t\t: <i>TLabel *</i>
+    + Label4 \t\t\t\t\t: <i>TLabel *</i>
+    + Label5 \t\t\t\t\t: <i>TLabel *</i>
+    + Label6 \t\t\t\t\t: <i>TLabel *</i>
+    + Label7 \t\t\t\t\t: <i>TLabel *</i>
+    + Label8 \t\t\t\t\t: <i>TLabel *</i>
+    + Label9 \t\t\t\t\t: <i>TLabel *</i>
+    + Label10 \t\t\t\t\t: <i>TLabel *</i>
+    + Label11 \t\t\t\t\t: <i>TLabel *</i>
+    + Label12 \t\t\t\t\t: <i>TLabel *</i>
+    + Label13 \t\t\t\t\t: <i>TLabel *</i>
+    + Label14 \t\t\t\t\t: <i>TLabel *</i>
+    + Label15 \t\t\t\t\t: <i>TLabel *</i>
+    ..
+    + MaskEdit1 \t\t\t\t: <i>TMaskEdit *</i>
+    ..
+    + Panel1 \t\t\t\t\t: <i>TPanel *</i>
+    + Panel2 \t\t\t\t\t: <i>TPanel *</i>
+    ..
+    + SpeedButton1 \t\t\t: <i>TSpeedButton *</i>
+    ..
+    + UpDown1 \t\t\t\t: <i>TUpDown *</i>
+    --
+    
+    + <b>TSertificatForm \t(Owner \t: <i>TComponent *</i>)</b>
+
+    + BitBtn1Click \t\t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn2Click \t\t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + BitBtn3Click \t\t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + DBLookupComboBox1CloseUp \t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + DBNavigator1Click \t\t\t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tButton \t: <i>TNavigateBtn</i>
+        \t) : <i>void</i>
+    ..
+    + Edit1Exit \t\t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + FormActivate \t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    ..
+    + FormClose \t\t\t\t\t\t(
+            \t\tSender \t: <i>TObject *</i>,
+            \t\tAction \t: <i>TCloseAction &</i>
+        \t) : <i>void</i>
+    ..
+    + MaskEdit1Exit \t\t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + refrech_sertificat \t\t\t\t() : <i>void</i>
+    + seria_sertificat \t\t\t\t\t(seria \t: <i>AnsiString</i>) : <i>void</i>
+    + SpeedButton1Click \t\t\t\t(Sender \t: <i>TObject *</i>) : <i>void</i>
+    + summa_b \t\t\t\t\t\t(n \t\t: <i>int</i>) : <i>bool</i>
+}
+
+
+package TSertificatForm <<Folder>>
+{
+    class TSertificatForm
+    hide  TSertificatForm members
+}
+
+
+note right of "<b>TSertificatForm</b>"::summa_b
+СУММИРОВАНИЕ РЕЗУЛЬТАТОВ ЭКЗАМЕНОВ,
+с учетом введенного сертификата
+end note
+note right of "<b>TSertificatForm</b>"::refrech_sertificat
+процедура для поиска был ли уже
+сертификат у данного абитуриента
+end note
+note right of "<b>TSertificatForm</b>"::seria_sertificat
+функция возвращает по серии
+сертификата предмет
+end note
+
+@enduml

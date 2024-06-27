@@ -1,0 +1,352 @@
+  * Перейти к содержанию <#dokuwiki__content>
+
+
+  Словарик по FireBird <http://firebirdsql.su/doku.php?id=glossarij>
+
+
+      Инструменты пользователя
+
+  * Зарегистрироваться
+
+    <http://firebirdsql.su/doku.php?id=create_procedure&do=register>
+  * Войти
+
+    <http://firebirdsql.su/doku.php?id=create_procedure&do=login&sectok=>
+
+
+      Инструменты сайта
+
+Найти
+
+Править страницуИстория страницыСсылки сюда
+
+Недавние измененияУправление медиафайламиВсе страницы
+
+ЗарегистрироватьсяВойти
+
+>
+
+  * Недавние изменения
+    <http://firebirdsql.su/doku.php?id=create_procedure&do=recent>
+  * Управление медиафайлами
+    <http://firebirdsql.su/doku.php?id=create_procedure&do=media&ns=>
+  * Все страницы
+    <http://firebirdsql.su/doku.php?id=create_procedure&do=index>
+
+Вы посетили: • Утилиты Firebird
+<http://firebirdsql.su/doku.php?id=utils> • Системные таблицы
+<http://firebirdsql.su/doku.php?id=sistemnye_tablicy> • Таблицы
+мониторинга <http://firebirdsql.su/doku.php?id=tablicy_monitoringa> •
+Встроенные функции по типам
+<http://firebirdsql.su/doku.php?id=vstroennye_funkcii_po_gruppam> •
+Неиспользуемые ключевые слова
+<http://firebirdsql.su/doku.php?id=ne_ispolzuemye_kljuchevye_slova> •
+ustanovka apache php firebird na ubuntu
+<http://firebirdsql.su/doku.php?id=ustanovka_apache_php_firebird_na_ubuntu> • SQL010. Выборка данных из "древовидной таблицы" с учетом иерархии объектов <http://firebirdsql.su/doku.php?id=sql010._vyborka_dannyx_iz_drevovidnoj_tablicy_s_uchetom_ierarxii_obektov> • RETURNING <http://firebirdsql.su/doku.php?id=returning> • ALTER PROCEDURE <http://firebirdsql.su/doku.php?id=alter_procedure> • CREATE PROCEDURE <http://firebirdsql.su/doku.php?id=create_procedure>
+------------------------------------------------------------------------
+
+
+      *−
+
+*Боковая панель
+
+  *
+    Глоссарий <http://firebirdsql.su/doku.php?id=glossarij>
+
+
+    Введение
+
+  *
+    О сайте <http://firebirdsql.su/doku.php?id=o_sajte>
+  *
+    Источники и Авторы
+    <http://firebirdsql.su/doku.php?id=istochniki_i_avtory>
+  *
+    Соглашения синтаксиса
+    <http://firebirdsql.su/doku.php?id=soglashenija_sintaksisa>
+  *
+    Разновидности языка SQL
+    <http://firebirdsql.su/doku.php?id=raznovidnosti_jazyka_sql>
+  *
+    Типы данных <http://firebirdsql.su/doku.php?id=tipy_dannyx>
+
+
+    Статьи и часто задаваемые вопросы
+
+
+      Установка и настройка
+
+  *
+    Самостоятельная сборка снапшота Firebird
+    <http://firebirdsql.su/doku.php?id=samostojatelnaja_sborka_snapshota_firebird>
+  *
+    Установка Firebird из снапшота
+    <http://firebirdsql.su/doku.php?id=ustanovka_firebird_iz_snapshota>
+  *
+    Установка firebird на Linux
+    <http://firebirdsql.su/doku.php?id=ustanovka_firebird_na_linux>
+  *
+    Скрипт для резервирования базы данных на Python
+    <http://firebirdsql.su/doku.php?id=skript_dlja_rezervirovanija_bazy_dannyx_na_python>
+  *
+    Скрипт для резервирования базы данных на shell
+    <http://firebirdsql.su/doku.php?id=skript_dlja_rezervirovanija_bazy_dannyx_na_shell>
+  *
+    Как установить на LINUX второй экземпляр Firebird
+    <http://firebirdsql.su/doku.php?id=kak_ustanovit_na_linux_vtoroj_ehkzempljar_firebird>
+  *
+    Подлючение к базе данных из 1С
+    <http://firebirdsql.su/doku.php?id=podkljuchenie_k_baze_dannyx_iz_1s>
+
+
+      Обработка ошибок
+
+  *
+    Обработка ошибок <http://firebirdsql.su/doku.php?id=obrabotka_oshibok>
+  *
+    Коды ошибок Firebird <http://firebirdsql.su/doku.php?id=gdscodes>
+  *
+    Ошибки при создании метаданных
+    <http://firebirdsql.su/doku.php?id=oshibki_pri_sozdanii_metadannyx>
+
+
+      Полезные запросы SQL
+
+  *
+    SQL000. Математические операции с датой
+    <http://firebirdsql.su/doku.php?id=matematicheskie_operacii_s_datoj>
+  *
+    SQL001. Отбор множества записей по ключам
+    <http://firebirdsql.su/doku.php?id=sql001.otbor_mnozhestva_zapisej_po_kljucham>
+  *
+    SQL002. Является ли строка числом
+    <http://firebirdsql.su/doku.php?id=sql002.javljaetsja_li_stroka_chislom>
+  *
+    SQL003. Сумма прописью
+    <http://firebirdsql.su/doku.php?id=sql003.summa_propisju>
+  *
+    SQL004. Можно ли в Firebird делать запросы к нескольким базам данных
+    <http://firebirdsql.su/doku.php?id=execute_statement>
+  *
+    SQL005. Как в строку вставить произвольный символ ?
+    <http://firebirdsql.su/doku.php?id=sql005._kak_v_stroku_vstavit_proizvolnyj_simovol>
+  *
+    SQL006. Как в строку вставить перенос строки (CRLF) ?
+    <http://firebirdsql.su/doku.php?id=sql005._kak_v_stroku_vstavit_proizvolnyj_simovol>
+  *
+    SQL007. Отбор множества записей по ключам из другой таблицы (обход
+    конструкции IN)
+    <http://firebirdsql.su/doku.php?id=sql007.otbor_mnozhestva_zapisej_po_kljucham_iz_drugoj_tablicy_obxod_konstrukcii_in>
+  *
+    SQL008. Полезные хранимые процедуры для обслуживание индексов
+    <http://firebirdsql.su/doku.php?id=indices_maintenance>
+  *
+    SQL009. Формирование штрих-кода EAN13 по коду записи в таблице
+    <http://firebirdsql.su/doku.php?id=sql009._formirovanie_shtrix-koda_ean13_po_kodu_zapisi_v_tablice>
+  *
+    SQL010. Выборка данных из "древовидной таблицы" с учетом иерархии
+    объектов
+    <http://firebirdsql.su/doku.php?id=sql010._vyborka_dannyx_iz_drevovidnoj_tablicy_s_uchetom_ierarxii_obektov>
+  *
+    SQL011. Обмен данными между базами с помощью EXTENDENT
+    (экспортируемых) таблиц
+    <http://firebirdsql.su/doku.php?id=transfer_table>
+  *
+    SQL012. Посчитать контрольный разряд к СНИЛС
+    <http://firebirdsql.su/doku.php?id=sql012._poschitat_kontrolnyj_razrjad_k_snils>
+
+
+    Тематические группы
+
+  *
+    Утилиты Firebird <http://firebirdsql.su/doku.php?id=utils>
+  *
+    Системные таблицы <http://firebirdsql.su/doku.php?id=sistemnye_tablicy>
+  *
+    Таблицы мониторинга
+    <http://firebirdsql.su/doku.php?id=tablicy_monitoringa>
+  *
+    Встроенные функции
+    <http://firebirdsql.su/doku.php?id=vstroennye_funkcii>
+  *
+    Встроенные функции по типам
+    <http://firebirdsql.su/doku.php?id=vstroennye_funkcii_po_gruppam>
+  *
+    Операторы конструкции SELECT
+    <http://firebirdsql.su/doku.php?id=operatory_konstrukcii_select>
+  *
+    Неиспользуемые ключевые слова
+    <http://firebirdsql.su/doku.php?id=ne_ispolzuemye_kljuchevye_slova>
+  *
+    ustanovka apache php firebird na ubuntu
+    <http://firebirdsql.su/doku.php?id=ustanovka_apache_php_firebird_na_ubuntu>
+
+create_procedure
+
+
+      *−
+
+      *Содержание
+
+  *
+    CREATE PROCEDURE <#create_procedure>
+      o
+        Версии сервера <#versii_servera>
+      o
+        Формат <#format>
+      o
+        Описание <#opisanie>
+      o
+        Пример <#primer>
+      o
+        См. также <#sm_takzhe>
+  *
+    Обсуждение <#discussion__section>
+
+﻿
+
+
+  CREATE PROCEDURE
+
+Править
+
+
+    Версии сервера
+
+0.9 	1.0 	1.5.3 	1.5.4 	1.5.5 	2.0 	2.0.3 	2.0.4 	2.1 	2.5 	3.0
+? 	? 	+ 	+ 	+ 	+ 	+ 	+ 	+ 	+ 	+
+
+Править
+
+
+    Формат
+
+CREATE [OR ALTER] PROCEDURE <имя хранимой процедуры>
+[(<список входных параметров>)]
+[RETURNS (<список выходных параметров>)]
+AS
+[<список объявления переменных>]
+BEGIN <блок операторов> END;
+
+<список входных параметров> ::=
+(<описание параметра> [= <значение по умолчанию>]
+[, <описание параметра> [= <значение по умолчанию>]]...)
+
+<список выходных параметров> ::= (<описание параметра>
+[, <описание параметра>]...)
+
+<описание параметра> ::= <имя параметра>
+{ <тип данных>
+| <имя домена>
+| TYPE OF <имя домена>
+} [COLLATE <порядок сортировки>]
+
+<список объявления переменных> ::=
+<объявление локальной переменной>
+[<объявление локальной переменной>] ...
+
+<объявление локальной переменной> ::=
+DECLARE [VARIABLE]
+{ <имя локальной переменной>
+{ <тип данных>
+| <имя домена>
+| TYPE OF <имя домена>
+} [COLLATE <порядок сортировки>]
+| <имя курсора> CURSOR FOR (<оператор SELECT>)
+};
+
+Править
+
+
+    Описание
+
+Оператор CREATE OR ALTER PROCEDURE позволяет создать новую хранимую
+процедуру, если процедура с тем же именем отсутствует в базе данных.
+Если такая процедура уже существует, то происходит ее замена на новую.
+
+Хранимую процедуру может создать любой пользователь, соединившийся с
+базой данных.
+
+Имя хранимой процедуры может содержать до 31 символа и должно быть
+уникальным среди имен хранимых процедур базы данных, таблиц и
+представлений.
+
+Хранимой процедуре от вызвавшей программы могут передаваться входные
+параметры. Параметры передаются по значению, то есть любые изменения
+значений входных параметров никак не влияют на значения этих параметров
+в вызвавшей программе. Входным параметрам может присваиваться значение
+по умолчанию. Параметры, для которых заданы значения по умолчанию,
+должны располагаться в самом конце списка. Если входной параметр основан
+на домене, которому также задано значение по умолчанию в предложении
+DEFAULT, то новое значение по умолчанию перекрывает указанное при
+описании домена.
+
+Хранимая процедура может возвращать вызвавшей программе произвольное
+количество выходных параметров.
+Если при описании параметра, локальной переменной процедуры указано имя
+домена, то для него копируются все характеристики этого домена. Если в
+описании присутствует предложение TYPE OF, то для переменной копируется
+только тип данных домена.
+
+В теле хранимой процедуры может быть описано произвольное количество
+локальных переменных.
+После описания локальных переменных в теле хранимой процедуры следует
+блок операторов, заключенных в операторные скобки BEGIN и END.
+
+:!: Вместо CREATE OR ALTER PROCEDURE можно использовать RECREATE PROCEDURE.
+
+Править
+
+
+    Пример
+
+  RECREATE PROCEDURE SUMM (
+     A INTEGER,
+     B INTEGER
+  )
+  RETURNS(C INTEGER)
+  AS
+  BEGIN
+    c = a + b;
+    SUSPEND;
+  END
+
+Процедура возвращает сумму двух чисел - a и b. Оператор SUSPEND служит
+для приостановки выполнения программы и выдачи результата.
+
+Править
+
+
+    См. также
+
+DROP PROCEDURE <http://firebirdsql.su/doku.php?id=drop_procedure>,
+EXECUTE PROCEDURE <http://firebirdsql.su/doku.php?id=execute_procedure>,
+SELECT <http://firebirdsql.su/doku.php?id=select>, DECLARE VARIABLE
+<http://firebirdsql.su/doku.php?id=declare_variable>.
+
+Править
+Только авторизованные участники могут оставлять комментарии.
+create_procedure.txt · Последние изменения: 2009/08/05 10:26 (внешнее
+изменение)
+------------------------------------------------------------------------
+
+
+      Инструменты страницы
+
+  * Править
+    страницу<http://firebirdsql.su/doku.php?id=create_procedure&do=edit>
+  * История
+    страницы<http://firebirdsql.su/doku.php?id=create_procedure&do=revisions>
+  * Ссылки
+    сюда<http://firebirdsql.su/doku.php?id=create_procedure&do=backlink>
+  * Наверх<#dokuwiki__top>
+
+Если не указано иное, содержимое этой вики предоставляется на условиях
+следующей лицензии: CC Attribution-Noncommercial-Share Alike 4.0
+International <http://creativecommons.org/licenses/by-nc-sa/4.0/>
+CC Attribution-Noncommercial-Share Alike 4.0 International
+<http://creativecommons.org/licenses/by-nc-sa/4.0/> Donate
+<https://www.dokuwiki.org/donate> Powered by PHP <https://php.net/>
+Valid HTML5 <http://validator.w3.org/check/referer> Valid CSS
+<http://jigsaw.w3.org/css-validator/check/referer?profile=css3> Driven
+by DokuWiki <https://dokuwiki.org/>
