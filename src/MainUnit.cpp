@@ -6982,7 +6982,7 @@ void TMainForm::printEnvelope (
                     educationType
                 )                           +
             "     AND"                      \
-            "         status  = 5"          \
+			"         status  = 0"          \
             " ORDER BY"                     \
             "     fam,"                     \
             "     name,"                    \
@@ -7001,7 +7001,7 @@ void TMainForm::printEnvelope (
             " FROM"                         \
             "     abitura"                  \
             " WHERE"                        \
-            "         n_fac   = :n_fac"     \
+			"         n_fac   = :n_fac"     \
             "     AND"                      \
             "         price   = "           +
                 static_cast <AnsiString> (
@@ -7013,7 +7013,7 @@ void TMainForm::printEnvelope (
                     educationType
                 )                           +
             "     AND"                      \
-            "         status  = 5"
+			"         status  = 0"
         );
 
     LetterDualListDlg -> Caption =

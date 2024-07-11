@@ -230,9 +230,9 @@
                 namespace BASE_DOCUMENT
                 {
                     const AnsiString
-                        NAME   = "доверенности",
-                        DATE   = "16.11.2021",
-                        NUMBER = "13-16-45";
+						NAME   = "доверенности",
+						DATE   = "02.05.2024",
+						NUMBER = "13-16-147";
                 }
             }
             namespace IMS
@@ -243,7 +243,7 @@
                 namespace BASE_DOCUMENT
                 {
                     const AnsiString
-                        NAME   = "доверенности",
+						NAME   = "доверенности",
                         DATE   = "26.10.2021",
                         NUMBER = "13-16-42";
                 }
@@ -282,34 +282,34 @@
                     {
                         const AnsiString
                             FULL_COURSE   =                                             // БЮДЖЕТ, ДНЕВНОЕ, ПОЛНЫЙ СРОК
-                                "заключения настоящего договора "               \
-                                "составляет 45828,64 ("                         \
-                                "сорок пять тысяч восемьсот двадцать восемь "   \
-                                "рублей 64 копейки) белорусских рублей.",
+								"заключения настоящего договора "               \
+								"составляет 41 268,80 ("                         \
+								"сорок одна тысяча двести шестьдесят восемь "   \
+								"рублей 80 копеек) белорусских рублей.",
                             SECOND_COURSE =                                             // БЮДЖЕТ, ДНЕВНОЕ, СОКРАЩЁННЫЙ СРОК (2 курс)
-                                "заключения настоящего договора "               \
-                                "составляет 34371,48 ("                         \
-                                "тридцать четыре тысячи триста семьдесят один " \
-                                "рубль 48 копеек) белорусских рублей.";
+								"заключения настоящего договора "               \
+								"составляет 30 951,60 ("                         \
+								"тридцать тысяч девятьсот пятьдесят один " \
+								"рубль 60 копеек) белорусских рублей.";
                     }
                     namespace EXTRAMURAL
                     {
                         const AnsiString
                             FULL_COURSE   =                                             // БЮДЖЕТ, ЗАОЧНОЕ, ПОЛНЫЙ СРОК
                                 "заключения настоящего договора "               \
-                                "составляет 22914,30 ("                         \
-                                "двадцать две тысячи девятьсот четырнадцать "   \
-                                "рублей 30 копеек) белорусских рублей.",
+								"составляет 20 634,40 ("                         \
+								"двадцать тысяч шестьсот тридцать четыре "   \
+								"рубля 40 копеек) белорусских рублей.",
                             SECOND_COURSE =                                             // БЮДЖЕТ, ЗАОЧНОЕ, СОКРАЩЁННЫЙ СРОК (2 курс)
                                 "заключения настоящего договора "               \
-                                "составляет 18331,44 ("                         \
-                                "восемнадцать тысяч триста тридцать один "      \
-                                "рубль 44 копейки) белорусских рублей.",
+								"составляет 16 507,52 ("                         \
+								"шестнадцать тысяч пятьсот семь "      \
+								"рублей 52 копейки) белорусских рублей.",
                             THIRD_COURSE  =                                             // БЮДЖЕТ, ЗАОЧНОЕ, СОКРАЩЁННЫЙ СРОК (3 курс)
-                                "заключения настоящего договора "               \
-                                "составляет 13748,58 ("                         \
-                                "тринадцать тысяч семьсот сорок восемь "        \
-                                "рублей 58 копеек) белорусских рублей.";
+								"заключения настоящего договора "               \
+								"составляет 12 380,64 ("                         \
+								"двенадцать тысяч триста восемьдесят "        \
+								"рублей 64 копейки) белорусских рублей.";
                     }
                 }
                 namespace BUYERS
@@ -1953,9 +1953,9 @@
                 namespace BASE_DOCUMENT
                 {
                     const AnsiString
-                        NAME   = "доверенности",                                        // Old name: CONTRACT_TYPE_POWER_DOC_MAIN
-                        DATE   = "16.11.2021",                                          // Old name: CONTRACT_POWER_DOC_DATE_MAIN
-                        NUMBER = "13-16-45";                                            // Old name: CONTRACT_POWER_DOC_NO_MAIN
+						NAME   = "доверенности",                                        // Old name: CONTRACT_TYPE_POWER_DOC_MAIN
+						DATE   = "02.05.2024",                                          // Old name: CONTRACT_POWER_DOC_DATE_MAIN
+						NUMBER = "13-16-147";                                            // Old name: CONTRACT_POWER_DOC_NO_MAIN
                 }
             }
             namespace IMS
@@ -1966,7 +1966,7 @@
                 namespace BASE_DOCUMENT
                 {
                     const AnsiString
-                        NAME   = "доверенности",                                        // Old name: CONTRACT_TYPE_POWER_DOC_IMST
+						NAME   = "доверенности",                                        // Old name: CONTRACT_TYPE_POWER_DOC_IMST
                         DATE   = "26.10.2021",                                          // Old name: CONTRACT_POWER_DOC_DATE_IMST
                         NUMBER = "13-16-42";                                            // Old name: CONTRACT_POWER_DOC_NO_IMST
                 }
@@ -5106,9 +5106,9 @@
             namespace BASE_DOCUMENT
             {
                 const AnsiString
-                    NAME   = "доверенности",                                        // Old name: CONTRACT_TYPE_POWER_DOC_MAIN
-                    DATE   = "16.11.2021",                                          // Old name: CONTRACT_POWER_DOC_DATE_MAIN
-                    NUMBER = "13-16-45";                                            // Old name: CONTRACT_POWER_DOC_NO_MAIN
+					NAME   = "доверенности",                                        // Old name: CONTRACT_TYPE_POWER_DOC_MAIN
+					DATE   = "02.05.2024",                                          // Old name: CONTRACT_POWER_DOC_DATE_MAIN
+					NUMBER = "13-16-147";                                            // Old name: CONTRACT_POWER_DOC_NO_MAIN
             }
         }
         namespace IMS
@@ -5119,7 +5119,7 @@
             namespace BASE_DOCUMENT
             {
                 const AnsiString
-                    NAME   = "доверенности",                                        // Old name: CONTRACT_TYPE_POWER_DOC_IMST
+					NAME   = "доверенности",                                        // Old name: CONTRACT_TYPE_POWER_DOC_IMST
                     DATE   = "26.10.2021",                                          // Old name: CONTRACT_POWER_DOC_DATE_IMST
                     NUMBER = "13-16-42";                                            // Old name: CONTRACT_POWER_DOC_NO_IMST
             }
