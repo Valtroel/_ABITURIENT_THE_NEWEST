@@ -1,31 +1,26 @@
-#pragma once
-#ifndef PRN_PERSON_DOC_UNIT_H
-#define PRN_PERSON_DOC_UNIT_H
+//---------------------------------------------------------------------------
 
-
-#include "frxClass.hpp"
-#include "frxPreview.hpp"
+#ifndef PrnPersonDocUnitH
+#define PrnPersonDocUnitH
+//---------------------------------------------------------------------------
 #include <System.Classes.hpp>
 #include <Vcl.Controls.hpp>
-#include <Vcl.Forms.hpp>
 #include <Vcl.StdCtrls.hpp>
-
-
-
-class TPrnPersonDocForm
-    : public TForm
+#include <Vcl.Forms.hpp>
+#include "frxClass.hpp"
+#include "frxPreview.hpp"
+//---------------------------------------------------------------------------
+class TPrnPersonDocForm : public TForm
 {
-__published:
-    TfrxPreview * frxPreview1;
-
-    TfrxReport  * frxReport1;
-
-    void __fastcall frxReport1AfterPrintReport (TObject * Sender);
-private:
-public:
-    __fastcall TPrnPersonDocForm (TComponent * Owner);
+__published:	// IDE-managed Components
+	TfrxPreview *frxPreview1;
+	TfrxReport *frxReport1;
+	void __fastcall frxReport1AfterPrintReport(TObject *Sender);
+private:	// User declarations
+public:		// User declarations
+	__fastcall TPrnPersonDocForm(TComponent* Owner);
 };
-
-extern PACKAGE TPrnPersonDocForm * PrnPersonDocForm;
-
-#endif  // PRN_PERSON_DOC_UNIT_H
+//---------------------------------------------------------------------------
+extern PACKAGE TPrnPersonDocForm *PrnPersonDocForm;
+//---------------------------------------------------------------------------
+#endif

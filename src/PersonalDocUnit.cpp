@@ -97,7 +97,7 @@ void __fastcall TPersonalDocFrm::Button1Click(TObject *Sender) {
 
 			FacMemo->Text = s_fac;
 
-			DateMemo->Text = "01.09." + FormatDateTime("yyyy", Now());
+			DateMemo->Text = "02.09." + FormatDateTime("yyyy", Now());
 
 			PrnPersonDocForm->frxReport1->ShowReport();
 
