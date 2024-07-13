@@ -607,7 +607,7 @@ void __fastcall TListDlgForm::ContractBtBtnClick (TObject * Sender)             
          && DM -> QAbituraCATEGORY_IF -> Value != 1                             // НЕ ИНОСТРАНЕЦ
        )
     {
-        if (DM -> QAbituraPRICE -> Value == 0)                                  // БЮДЖЕТ
+		if (DM -> QAbituraPRICE -> Value == 0)                                  // БЮДЖЕТ
         {
             ExcelApplication_d = Variant::CreateObject ("Excel.Application");
 
@@ -738,7 +738,7 @@ void __fastcall TListDlgForm::ContractBtBtnClick (TObject * Sender)             
             }
 
 
-            if (DM -> QAbituraVID_EDU -> Value)
+			if (DM -> QAbituraVID_EDU -> Value)
                 s_tmp = EducationType::EXTRA_FORM;
             else
                 s_tmp = EducationType::INTRA_FORM;
@@ -1002,26 +1002,21 @@ void __fastcall TListDlgForm::ContractBtBtnClick (TObject * Sender)             
                     break;
                 case 4:
                         CellValue (
-                            "Декан факультета менеджмента спорта, ",
+							"Декан факультета менеджмента спорта, туризма и ",
                             1,
                             89
                         );
                         CellValue (
-                            "туризма и гостеприимства",
+							"гостеприимства Института менеджмента спорта и туризма:",
                             1,
                             90
-                        );
-                        CellValue (
-                            "Института менеджмента спорта и туризма:",
-                            1,
-                            91
-                        );
+						);
                         CellValue (
                             "______________________ /"                  +
                                 LegallyAuthorizedPerson::DEAN_FACULTY_4 +
                             "/",
                             1,
-                            92
+                            91
                         );
                     break;
             }
@@ -1513,16 +1508,42 @@ void __fastcall TListDlgForm::ContractBtBtnClick (TObject * Sender)             
                 1,
                 87
             );
+			int vid_edu = DM -> QAbituraVID_EDU -> Value;
+			switch(vid_edu) {
+				case 0:
+					CellValue (
+							"9.6. Расходы бюджета на подготовку специалиста с высшим образованием в год составляют",
+							3,
+							146
+						);
+					CellValue (
+							"10317,20 (десять тысяч триста семнадцать рублей 20 копеек) белорусских рублей.",
+							1,
+							147
+						);
+					break;
+				case 1:
+					CellValue (
+							"9.6. Расходы бюджета на подготовку специалиста с высшим образованием в год составляют",
+							3,
+							146
+						);
+					CellValue (
+							"4126,88 (четыре тысячи сто двадцать шесть рублей 88 копеек) белорусских рублей.",
+							1,
+							147
+						);
+					break;
+			}
 
-
-            switch (nom_fac)
+			switch (nom_fac)
             {
                 case 1:
-                        CellValue (
-                            "Проректор по учебной работе:",
-                            1,
-                            185
-                        );
+						CellValue (
+							"Проректор по учебной работе:",
+							1,
+							185
+						);
                         CellValue (
                             "______________ /"                          +
                                 LegallyAuthorizedPerson::VICE_RECTOR    +
@@ -2633,7 +2654,7 @@ void __fastcall TListDlgForm::PleaSpdBtnClick (TObject * Sender)                
         );
 
         text_tmp =
-            "число, месяц, год рождения: "              +
+			"число, месяц, год рождения: "              +
                 DateTimeToStr (
                     SQLTimeStampToDateTime (
                         DM -> QAbituraDATE_R -> Value
@@ -2708,7 +2729,7 @@ void __fastcall TListDlgForm::PleaSpdBtnClick (TObject * Sender)                
         text_tmp =
             "данные документа, удостоверяющего личность: "      +
                 DM -> QAbituraPASPORT -> Value                  +
-            ", выдан "                                          +
+			", выдан "                                          +
                 DateTimeToStr (
                     SQLTimeStampToDateTime (
                         DM -> QAbituraDATE_V -> Value
@@ -3588,12 +3609,12 @@ void __fastcall TListDlgForm::SpeedButton4Click (TObject * Sender)              
             {
                 index_doc = "";
 
-                if ((int)(ListBox2 -> Items -> Objects[i]) == 1)
+				if ((int)(ListBox2 -> Items -> Objects[i]) == 1)
                     index_doc = DM -> QAbituraNOM_ATTEST -> Value;
 
 
                 if (    (int)(ListBox2 -> Items -> Objects[i]) == 2 
-                     || (int)(ListBox2 -> Items -> Objects[i]) == 3
+					 || (int)(ListBox2 -> Items -> Objects[i]) == 3
                    )
                 {
                     index_doc = DM -> QAbituraNOM_DIPLOM -> Value;
@@ -3603,7 +3624,7 @@ void __fastcall TListDlgForm::SpeedButton4Click (TObject * Sender)              
                 }
 
 
-                if ( (int) (ListBox2 -> Items -> Objects[i]) == 4)
+				if ( (int) (ListBox2 -> Items -> Objects[i]) == 4)
                     index_doc = DM -> QAbituraNOM_DIPLOM -> Value;
 
 

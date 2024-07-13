@@ -182,8 +182,8 @@ void __fastcall TAbiturForm::PressBtn(int press_btn) { // функция выбора
     case 2:
         // если нажата кнопка Добавить
         /* ExitBitBtn->Enabled = false; // Выход
-         ExitBitBtn->Visible = false; // Выход */
-        KonkursCmbBx->Enabled = false; // Конкурс
+		 ExitBitBtn->Visible = false; // Выход */
+		KonkursCmbBx->Enabled = false; // Конкурс
         /* HMENU MenuHandle = GetSystemMenu(Handle, false);
          if(MenuHandle)
          DeleteMenu(MenuHandle, SC_CLOSE, MF_BYCOMMAND); */
@@ -777,7 +777,7 @@ int __fastcall TAbiturForm::NewWo ()                                            
        )
         ret_val = 1;
 
-    if (    (    TermEduCmbBx -> ItemIndex == 1
+	if (    (    TermEduCmbBx -> ItemIndex == 1
               || TermEduCmbBx -> ItemIndex == 2
             )
          && (    EducatCmbBx  -> ItemIndex == 2
@@ -1072,13 +1072,13 @@ void __fastcall TAbiturForm::RefreshControl ()                                  
     OldKonkursVal.EducatIndex =
         EducatCmbBx -> ItemIndex;
 
-    KonkursCmbBx -> ItemIndex =
+	KonkursCmbBx -> ItemIndex =
         DM -> QAbituraKONKURS -> Value;
 
     if (ChangLog == -1)
-        KonkursCmbBx -> Enabled = false;
+		KonkursCmbBx -> Enabled = true;
     else
-        KonkursCmbBx -> Enabled = true;
+		KonkursCmbBx -> Enabled = true;
 
     if (KonkursCmbBx -> ItemIndex == 3)
     {
@@ -1402,7 +1402,7 @@ void __fastcall TAbiturForm::TabSheet2Enter (TObject * Sender)                  
     ActionList1 -> State = asNormal;
 
     if (! st_developer & pole_block == 1)                                       // закрытие конкурсов после приема документов
-        KonkursCmbBx -> Enabled = false;
+		KonkursCmbBx -> Enabled = true;
 
     // EnableDate();
 }
@@ -5551,7 +5551,7 @@ void __fastcall TAbiturForm::SngFrgCmbBxChange(TObject *Sender) {
 
         // Образование
         EducatCmbBx->ItemIndex = -1;
-        TermEduCmbBx->ItemIndex = -1;
+		TermEduCmbBx->ItemIndex = -1;
         PriceCmbBx->ItemIndex = -1;
         KonkursCmbBx->ItemIndex = -1;
         if (SngFrgCmbBx->ItemIndex > -1)
