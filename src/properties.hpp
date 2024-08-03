@@ -114,11 +114,11 @@
                         namespace FULL
                         {
 							const AnsiString
-                                MSTH_MNG     =
-                                    "18.09."                            +
+								MSTH_MNG     =
+									"16.09."                            +
                                         Admissions::TIME::YEAR,
                                 MSTH_TOURISM =
-                                    "11.09."                            +
+									"09.09."                            +
                                         Admissions::TIME::YEAR,
                                 OTHER        =
 									"16.09."                            +
@@ -167,7 +167,7 @@
                             {
                                 const AnsiString
                                     SMA =
-                                        "02.10."                        +
+										"30.09."                        +
                                             Admissions::TIME::YEAR,
                                     MS  =
                                         "04.10."                        +
@@ -180,8 +180,8 @@
                         namespace THIRD_COURSE
                         {
                             const AnsiString
-                                SMA          =
-                                    "16.10."                            +
+								SMA          =
+									"04.11."                            +
                                         Admissions::TIME::YEAR,
                                 MS           =
                                     "16.10."                            +
@@ -189,8 +189,8 @@
                                 RPC          =
                                     "16.10."                            +
                                         Admissions::TIME::YEAR,
-                                MSTH_MNG     =
-                                    "16.10."                            +
+								MSTH_MNG     =
+									"16.10."                            +
                                         Admissions::TIME::YEAR,
                                 MSTH_TOURISM =
                                     "04.12."                            +
@@ -6594,7 +6594,7 @@
                     "туристской индустрии",
                 BILLIARDS_SMA                =
                     "бильярду",
-                HAND_TO_HAND_COMBAT_SMA      =
+				HAND_TO_HAND_COMBAT_SMA      =
                     "рукопашному бою (смешанные единоборства)",
                 BADMINTON                    =
                     "бадминтону",
