@@ -280,7 +280,7 @@ void __fastcall TAbiturForm::MsgEdit() { // процедура запрета изменения данных
 // ----------------------------------------------------------------------------
 void __fastcall TAbiturForm::EnabledTrue()
 { // показ компонентов для изменения данных (зависит от поля в БД)
-    /* PriceRdGrp->Enabled=true; //Выбор формы оплаты
+	 /*PriceRdGrp->Enabled=true; //Выбор формы оплаты
      KonkursRdGrp->Enabled=true; //Конкурс
      BitBtn7->Enabled=true;     //кнопка забрал документы
      BitBtn8->Enabled=true;     //кнопка восстановить в списке
@@ -313,7 +313,8 @@ void __fastcall TAbiturForm::EnabledTrue()
      Wo2->Enabled=true;
      Wo3->Enabled=true;
      Wo4->Enabled=true;
-     Wo5->Enabled=true; */
+	 Wo5->Enabled=true;      */
+	 ChangLog = 1;
 } // end показ компонентов для изменения данных по абитуриенту
 
 // ----------------------------------------------------------------------------
@@ -4975,16 +4976,16 @@ void __fastcall TAbiturForm::DBGrid2DblClick(TObject *Sender) {
     // DM->FIOSearchQrNAME->AsString + " " + DM->FIOSearchQrOTCH->AsString;
 
     DM->AbiturCompQr->Close();
-    DM->AbiturCompQr->ParamByName("id_ab_queue")->Value = DM->ID_from_QUEUE;
-    DM->AbiturCompQr->Open();
-    if (DM->AbiturCompQrNOMER_AB->Value > 0) { // абитуриент уже есть в ABITURA
-        Set<TLocateOption, 0, 1>flags;
+	DM->AbiturCompQr->ParamByName("id_ab_queue")->Value = DM->ID_from_QUEUE;
+	DM->AbiturCompQr->Open();
+	if (DM->AbiturCompQrNOMER_AB->Value > 0) { // абитуриент уже есть в ABITURA
+		Set<TLocateOption, 0, 1>flags;
         // flags << loCaseInsensitive << loPartialKey;
-        DM->QAbitura->Locate("NOMER_AB", DM->AbiturCompQrNOMER_AB->Value,
-            flags);
-        if (DM->QAbituraNOMER_AB->Value != DM->AbiturCompQrNOMER_AB->Value) {
-            ShowMessage(
-                "Произошла ошибка при выборе абитуриента!\nОБРАТИТЕСЬ К ПРОГРАММИСТУ!");
+		DM->QAbitura->Locate("NOMER_AB", DM->AbiturCompQrNOMER_AB->Value,
+			flags);
+		if (DM->QAbituraNOMER_AB->Value != DM->AbiturCompQrNOMER_AB->Value) {
+			ShowMessage(
+				"Произошла ошибка при выборе абитуриента!\nОБРАТИТЕСЬ К ПРОГРАММИСТУ!");
         }
         else {
             if ((DM->FIOSearchQrN_FAC->Value == DM->AbiturCompQrN_FAC->Value) &&
@@ -5612,7 +5613,7 @@ void __fastcall TAbiturForm::DBGrid2DrawColumnCell(TObject *Sender,
         if (Column->Alignment == taRightJustify) {
             DBGrid2->Canvas->TextOutA
                 (Rect.Right - 2 - DBGrid2->Canvas->TextWidth
-                (Column->Field->Text), Rect.Top + 2, Column->Field->Text);
+				(Column->Field->Text), Rect.Top + 2, Column->Field->Text);
         }
         else {
             DBGrid2->Canvas->TextOutA(Rect.Left + 2, Rect.Top + 2,
@@ -5621,7 +5622,7 @@ void __fastcall TAbiturForm::DBGrid2DrawColumnCell(TObject *Sender,
     }
     // Изменение цвета строки
     if (DM->FIOSearchQrSTATUS_QUEUE->Value == 304) {
-        // выделение цветом забиравшего документы
+		// выделение цветом забиравшего документы
         DBGrid2->Canvas->Brush->Color = clLime;
         DBGrid2->Canvas->FillRect(Rect);
         if (Column->Alignment == taRightJustify) {
@@ -6569,5 +6570,6 @@ void __fastcall TAbiturForm::Panel21DblClick(TObject *Sender) {
     Image13->Visible = !Image13->Visible;
     if (pan6)
         pan6 = !pan6;
-    Timer6->Enabled = true;
+	Timer6->Enabled = true;
 }
+

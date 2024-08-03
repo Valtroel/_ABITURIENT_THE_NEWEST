@@ -51,7 +51,7 @@ object AbiturForm: TAbiturForm
     Top = 0
     Width = 1279
     Height = 1381
-    ActivePage = TabSheet2
+    ActivePage = TabSheet1
     Align = alClient
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clWindowText

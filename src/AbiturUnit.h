@@ -537,7 +537,8 @@ __published:
     void __fastcall Wo2Enter                        (TObject * Sender);
     void __fastcall Wo3Enter                        (TObject * Sender);
     void __fastcall Wo4Enter                        (TObject * Sender);
-    void __fastcall Wo5Enter                        (TObject * Sender);
+	void __fastcall Wo5Enter                        (TObject * Sender);
+
 private:
     AnsiString __fastcall Chek_Vid_Edu ();                                      // возвращает вид обучения
     // int        __fastcall langv_ball   (                                        // возврат оценки по иностранному языку (зависит от fl)

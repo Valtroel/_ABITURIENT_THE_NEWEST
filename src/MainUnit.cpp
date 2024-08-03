@@ -3149,157 +3149,166 @@ void __fastcall TMainForm::Data_spisok (                                        
     CellValue (                                                                 // занесение льгот на экзаменах (конкурс)
         S1,
         1,
-        nom_stroka
-    );
-    BorderCell (
-        1,
-        nom_stroka,
-        1,
-        2
-    );
+		nom_stroka
+	);
+	BorderCell (
+		1,
+		nom_stroka,
+		1,
+		2
+	);
 
 
-    CellValue (                                                                 // занесение № п/п
-            AnsiString (j) +
-        ".",
-        2,
-        nom_stroka
-    );
-    BorderCell (
-        2,
-        nom_stroka,
-        1,
-        2
-    );
+	CellValue (                                                                 // занесение № п/п
+			AnsiString (j) +
+		".",
+		2,
+		nom_stroka
+	);
+	BorderCell (
+		2,
+		nom_stroka,
+		1,
+		2
+	);
 
 
-    CellValue (                                                                 // занесение ФИО
-            DM -> QSpisoc_GroupFAM  -> Value    +
-        " "                                     +
-            DM -> QSpisoc_GroupNAME -> Value    +
-        " "                                     +
-            DM -> QSpisoc_GroupOTCH -> Value,
-        3,
-        nom_stroka
-    );
-    BorderCell (
-        3,
-        nom_stroka,
-        1,
-        2
-    );
+	CellValue (                                                                 // занесение ФИО
+			DM -> QSpisoc_GroupFAM  -> Value    +
+		" "                                     +
+			DM -> QSpisoc_GroupNAME -> Value    +
+		" "                                     +
+			DM -> QSpisoc_GroupOTCH -> Value,
+		3,
+		nom_stroka
+	);
+	BorderCell (
+		3,
+		nom_stroka,
+		1,
+		2
+	);
 
 
-    CellValue (                                                                 // занесение спортивного разряда
-        S3,
-        4,
-        nom_stroka
-    );
-    BorderCell (
-        4,
-        nom_stroka,
-        1,
-        2
-    );
+	CellValue (                                                                 // занесение спортивного разряда
+		S3,
+		4,
+		nom_stroka
+	);
+	BorderCell (
+		4,
+		nom_stroka,
+		1,
+		2
+	);
 
 
-    CellValue_Ball (                                                            // занесение оценок по всем экзаменам для одного абитуриента
-        col_pred,
-        nom_stroka
-    );
+	CellValue_Ball (                                                            // занесение оценок по всем экзаменам для одного абитуриента
+		col_pred,
+		nom_stroka
+	);
 
 
-    if (    nom_fac                             == 1
-         || nom_fac                             == 2
-         || nom_fac                             == 3
-         || nom_fac                             == 4
-         && DM -> QSpisoc_GroupKONKURS -> Value == 3
-       )
-    {
-        Variant Ce1 =
-            SelectCell (
-                5           +
-                col_pred,
-                nom_stroka
-            );
-        SheetFormat (
-            Ce1,
-            "0,0"                                                               // 0.0 в самом Excel пишет такой формат
-        );
+	if (    nom_fac                             == 1
+		 || nom_fac                             == 2
+		 || nom_fac                             == 3
+		 || nom_fac                             == 4
+		 && DM -> QSpisoc_GroupKONKURS -> Value == 3
+	   )
+	{
+		Variant Ce1 =
+			SelectCell (
+				5           +
+				col_pred,
+				nom_stroka
+			);
+		SheetFormat (
+			Ce1,
+			"0,0"                                                               // 0.0 в самом Excel пишет такой формат
+		);
 
 
-        Ce1 =
-            SelectCell (
-                6           +
-                col_pred,
-                nom_stroka
-            );
-        SheetFormat (
-            Ce1,
-            "0,0"
-        );
-    }
+		Ce1 =
+			SelectCell (
+				6           +
+				col_pred,
+				nom_stroka
+			);
+		SheetFormat (
+			Ce1,
+			"0,0"
+		);
+	}
 
 
-    CellValue (                                                             // занесение среднего балла аттестата
-        DM -> QSpisoc_GroupMIDDLE_BALL -> Value,
-        5                                       +
-        col_pred,
-        nom_stroka
-    );
+	CellValue (                                                             // занесение среднего балла аттестата
+		DM -> QSpisoc_GroupMIDDLE_BALL -> Value,
+		5                                       +
+		col_pred,
+		nom_stroka
+	);
 
-    BorderCell (
-        5           +
-        col_pred,
-        nom_stroka,
-        1,
-        2
-    );
+	BorderCell (
+		5           +
+		col_pred,
+		nom_stroka,
+		1,
+		2
+	);
 
-    if (    nom_fac                             == 4
-         && DM -> QSpisoc_GroupKONKURS -> Value != 3
-       )
-        CellValue (
-            DM -> QSpisoc_GroupSUM_BALL -> Value,
-            6                                       +
-            col_pred,
-            nom_stroka
-        );
-    BorderCell (
-        6           +
-        col_pred,
-        nom_stroka,
-        1,
-        2
-    );
+	if (    nom_fac                             == 4
+		 && DM -> QSpisoc_GroupKONKURS -> Value != 3
+	   )
+		CellValue (
+			DM -> QSpisoc_GroupSUM_BALL -> Value,
+			6                                       +
+			col_pred,
+			nom_stroka
+		);
+	BorderCell (
+		6           +
+		col_pred,
+		nom_stroka,
+		1,
+		2
+	);
 
 
-    CellValue (                                                                 // занесение Примечания (преимущества при зачислении)
-        S2,
-        7           +
-        col_pred,
-        nom_stroka
-    );
-    BorderCell (
-        7           +
-        col_pred,
-        nom_stroka,
-        1,
-        2
-    );
+	CellValue (                                                                 // занесение Примечания (преимущества при зачислении)
+		S2,
+		7           +
+		col_pred,
+		nom_stroka
+	);
+	BorderCell (
+		7           +
+		col_pred,
+		nom_stroka,
+		1,
+		2
+	);
+    	CellFormula(
+		"=СУММ(E" +
+		IntToStr(nom_stroka) +
+		":P" +
+		IntToStr(nom_stroka) +
+		")",
+		17,
+		nom_stroka
+		);
 }
 void __fastcall TMainForm::Data_spisok_Pol (
-        int nom_stroka,
-        int j
-    )
+		int nom_stroka,
+		int j
+	)
 {
-    CellValue (                                                                 // занесение № п/п
-        AnsiString (j) + ".",
-        2,
-        nom_stroka
-    );
-    BorderCell (
-        2,
+	CellValue (                                                                 // занесение № п/п
+		AnsiString (j) + ".",
+		2,
+		nom_stroka
+	);
+	BorderCell (
+		2,
         nom_stroka,
         1,
         2
@@ -3354,7 +3363,7 @@ void __fastcall TMainForm::Forma_Giac (                                         
     else
         report_type = DocumentFile::REPORT::FORM_2;
 
-    Variant Workbook =
+	Variant Workbook =
         OpenBook (
             ExcelApplication,
             cur_dir             +                                               // "D:\\Документы приемной конпании\\1\\"
@@ -6955,66 +6964,130 @@ void TMainForm::printEnvelope (
         const AnsiString        & message
     )
 {
-    LetterDualListDlg = new TLetterDualListDlg (this);
+	LetterDualListDlg = new TLetterDualListDlg (this);
 
     DM -> QLetterSource -> Close ();
-    DM -> QLetterSource -> SQL -> Clear ();
-    DM -> QLetterSource -> SQL ->
-        Add (
-            " SELECT"                       \
-            "     nomer_ab,"                \
-            "     fam,"                     \
-            "     name,"                    \
-            "     otch,"                    \
-            "     address_before"           \
-            " FROM"                         \
-            "     abitura"                  \
-            " WHERE"                        \
-            "         n_fac   = :n_fac"     \
-            "     AND"                      \
-            "         price   = "           +
-                static_cast <AnsiString> (
-                    payment
-                )                           +
-            "     AND"                      \
-            "         vid_edu = "           +
-                static_cast <AnsiString> (
-                    educationType
-                )                           +
-            "     AND"                      \
-			"         status  = 0"          \
-            " ORDER BY"                     \
-            "     fam,"                     \
-            "     name,"                    \
-            "     otch"
-        );
+	DM -> QLetterSource -> SQL -> Clear ();
 
-    DM -> QLetterSourceKol -> Close ();
-    DM -> QLetterSourceKol -> SQL -> Clear ();
-    DM -> QLetterSourceKol -> SQL ->
-        Add (
-            " SELECT"                       \
-            "     COUNT"                    \
-            "     ("                        \
-            "         nomer_ab"             \
-            "     )"                        \
-            " FROM"                         \
-            "     abitura"                  \
-            " WHERE"                        \
+	if(nom_fac == 3) {
+         DM -> QLetterSource -> SQL ->
+		Add (
+			" SELECT"                       \
+			"     nomer_ab,"                \
+			"     fam,"                     \
+			"     name,"                    \
+			"     otch,"                    \
+			"     address_before"           \
+			" FROM"                         \
+			"     abitura"                  \
+			" WHERE"                        \
 			"         n_fac   = :n_fac"     \
-            "     AND"                      \
-            "         price   = "           +
-                static_cast <AnsiString> (
-                    payment
-                )                           +
-            "     AND"                      \
-            "         vid_edu = "           +
-                static_cast <AnsiString> (
-                    educationType
-                )                           +
-            "     AND"                      \
-			"         status  = 0"
-        );
+			"     AND"                      \
+			"         price   = "           +
+				static_cast <AnsiString> (
+					payment
+				)                           +
+			"     AND"                      \
+			"         vid_edu = "           +
+				static_cast <AnsiString> (
+					educationType
+				)                           +
+			"     AND"                      \
+			"         status  = 5"          \
+			" ORDER BY"                     \
+			"     fam,"                     \
+			"     name,"                    \
+			"     otch"
+		);
+	}else{
+        DM -> QLetterSource -> SQL ->
+		Add (
+			" SELECT"                       \
+			"     nomer_ab,"                \
+			"     fam,"                     \
+			"     name,"                    \
+			"     otch,"                    \
+			"     address_before"           \
+			" FROM"                         \
+			"     abitura"                  \
+			" WHERE"                        \
+			"         n_fac   = :n_fac"     \
+			"     AND"                      \
+			"         price   = "           +
+				static_cast <AnsiString> (
+					payment
+				)                           +
+			"     AND"                      \
+			"         vid_edu = "           +
+				static_cast <AnsiString> (
+					educationType
+				)                           +
+			"     AND"                      \
+			"         status  = 5"          \
+			" ORDER BY"                     \
+			"     fam,"                     \
+			"     name,"                    \
+			"     otch"
+		);
+    }
+
+
+	DM -> QLetterSourceKol -> Close ();
+	DM -> QLetterSourceKol -> SQL -> Clear ();
+
+	if(nom_fac == 3) {
+         DM -> QLetterSourceKol -> SQL ->
+		Add (
+			" SELECT"                       \
+			"     COUNT"                    \
+			"     ("                        \
+			"         nomer_ab"             \
+			"     )"                        \
+			" FROM"                         \
+			"     abitura"                  \
+			" WHERE"                        \
+			"         n_fac   = :n_fac"     \
+			"     AND"                      \
+			"         price   = "           +
+				static_cast <AnsiString> (
+					payment
+				)                           +
+			"     AND"                      \
+			"         vid_edu = "           +
+				static_cast <AnsiString> (
+					educationType
+				)                           +
+			"     AND"                      \
+			"         status  = 5"
+		);
+	} else {
+	DM -> QLetterSourceKol -> SQL ->
+		Add (
+			" SELECT"                       \
+			"     COUNT"                    \
+			"     ("                        \
+			"         nomer_ab"             \
+			"     )"                        \
+			" FROM"                         \
+			"     abitura"                  \
+			" WHERE"                        \
+			"         n_fac   = :n_fac"     \
+			"     AND"                      \
+			"         price   = "           +
+				static_cast <AnsiString> (
+					payment
+				)                           +
+			"     AND"                      \
+			"         vid_edu = "           +
+				static_cast <AnsiString> (
+					educationType
+				)                           +
+			"     AND"                      \
+			"         status  = 5"
+		);
+
+	}
+
 
     LetterDualListDlg -> Caption =
         "Выбор студентов для печати конвертов ("    +
@@ -7298,7 +7371,7 @@ void __fastcall TMainForm::N13Click (TObject * Sender)
 }
 void __fastcall TMainForm::N14Click (TObject * Sender)
 {
-    int col_pred =                                                              // Определение кол-ва экзамен. предметов
+	int col_pred =                                                              // Определение кол-ва экзамен. предметов
         DM -> TPredmet -> RecordCount;
 
     DM -> QResult_Exam -> Close ();                                             // Считывание оценок по предметам
@@ -7306,387 +7379,390 @@ void __fastcall TMainForm::N14Click (TObject * Sender)
 
     DM -> QSpisoc_Group -> Close ();
     DM -> QSpisoc_Group ->
-        ParamByName ("N_FAC") -> AsInteger = nom_fac;
-    DM -> QSpisoc_Group -> Open ();
-
-    AnsiString n_gr =
-        DM -> QSpisoc_GroupNOM_GROUP -> Value;
-
-    int j   = 1;                                                                // Порядковый номер
-
-    int rec =                                                                   // Количество человек в группе
-        DM -> QSpisoc_Group -> RecordCount;
-
-    if (n_gr == "")                                                             // ФОРМИРОВАНИЯ СПИСКА
-        return;
-
-    int spec = DM -> QSpisoc_GroupN_SPECIALIZ -> Value;
-
-
-    ExcelApplication = Variant::CreateObject ("Excel.Application");             // создание объекта и открытие созданного файла
-
-    // OVisible (ExcelApplication);
-
-    Variant Workbook =
-        OpenBook (
-            ExcelApplication,
-            cur_dir                     +
-            DocumentFile::LIST::GROUPS
-        );
-
-    Sheet =
-        SelectSheet (
-            Workbook,
-            "Лист1"
-        );
-
-    // DisplayAlert (ExcelApplication); // !!!
-
-    AnsiString n_file =
-        getReportName (
-            fac1,
-            DocumentName::LIST::GROUPS
-        );
-
-    Variant WorkSaveAs =
-        SaveBookAs (
-            Workbook,
-            PathTo::OUTPUT_DOCUMENTS_SLASH  +
-            n_file
-        );
-    OVisible (ExcelApplication);
-
-
-    MergeCellCenter (                                                           // ШАПКА с факультетом, видом обучения и номером группы
-        1,
-        7           +
-        col_pred,
-        2
-    );
-    CellValue (                                                                 // Название факультета
-        DM -> TFaculty ->
-            Lookup (
-                "N_FAC",
-                nom_fac,
-                "FAC"
-            ),
-        1,
-        2
-    );
-
-
-    MergeCellCenter (                                                           // Вид обучения
-        1,
-        7           +
-        col_pred,
-        4
-    );
-    CellValue (
-        DM -> QSpisoc_GroupVID_EDU1 -> Value,
-        1,
-        4
-    );
-
-
-    MergeCellCenter (                                                           // Номер группы
-        1,
-        7           +
-        col_pred,
-        5
-    );
-    CellValue (
-        "Группа № " +
-            n_gr,
-        1,
-        5
-    );
-
-
-    NameSheet1 (                                                                // Переименование листа
-        Sheet,
-        n_gr
-    );
-
+		ParamByName ("N_FAC") -> AsInteger = nom_fac;
+	DM -> QSpisoc_Group -> Open ();
+
+	AnsiString n_gr =
+		DM -> QSpisoc_GroupNOM_GROUP -> Value;
+
+	int j   = 1;                                                                // Порядковый номер
+
+	int rec =                                                                   // Количество человек в группе
+		DM -> QSpisoc_Group -> RecordCount;
+
+	if (n_gr == "")                                                             // ФОРМИРОВАНИЯ СПИСКА
+		return;
+
+	int spec = DM -> QSpisoc_GroupN_SPECIALIZ -> Value;
+
+
+	ExcelApplication = Variant::CreateObject ("Excel.Application");             // создание объекта и открытие созданного файла
+
+	// OVisible (ExcelApplication);
+
+	Variant Workbook =
+		OpenBook (
+			ExcelApplication,
+			cur_dir                     +
+			DocumentFile::LIST::GROUPS
+		);
+
+	Sheet =
+		SelectSheet (
+			Workbook,
+			"Лист1"
+		);
+
+	// DisplayAlert (ExcelApplication); // !!!
+
+	AnsiString n_file =
+		getReportName (
+			fac1,
+			DocumentName::LIST::GROUPS
+		);
+
+	Variant WorkSaveAs =
+		SaveBookAs (
+			Workbook,
+			PathTo::OUTPUT_DOCUMENTS_SLASH  +
+			n_file
+		);
+	OVisible (ExcelApplication);
+
+
+	MergeCellCenter (                                                           // ШАПКА с факультетом, видом обучения и номером группы
+		1,
+		7           +
+		col_pred,
+		2
+	);
+	CellValue (                                                                 // Название факультета
+		DM -> TFaculty ->
+			Lookup (
+				"N_FAC",
+				nom_fac,
+				"FAC"
+			),
+		1,
+		2
+	);
+
+
+	MergeCellCenter (                                                           // Вид обучения
+		1,
+		7           +
+		col_pred,
+		4
+	);
+	CellValue (
+		DM -> QSpisoc_GroupVID_EDU1 -> Value,
+		1,
+		4
+	);
+
+
+	MergeCellCenter (                                                           // Номер группы
+		1,
+		7           +
+		col_pred,
+		5
+	);
+	CellValue (
+		"Группа № " +
+			n_gr,
+		1,
+		5
+	);
+
+
+	NameSheet1 (                                                                // Переименование листа
+		Sheet,
+		n_gr
+	);
+
 
-    Shapka_spisok (col_pred);                                                   // Функция формирования шапки таблицы
-
-
-    MergeCellCenter (                                                           // Форматирование ячейки для занесения специализации
-        1,
-        7           +
-        col_pred,
-        8
-    );
-
-    AnsiString
-        directionSpecialityName;
-
-    if (    DM -> QSpisoc_GroupTERM_EDU -> Value != StudyPeriodCode::HIGH_SECOND_COURSE
-         && DM -> QSpisoc_GroupTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
-         //   DM -> QSpisoc_GroupTERM_EDU -> Value == StudyPeriodCode::FULL
-         //|| DM -> QSpisoc_GroupTERM_EDU -> Value == StudyPeriodCode::HIGH_FIRST_COURSE
-       )
-    {
-        directionSpecialityName =
-            DeleteAfterDatabaseChange::getNcrb2022NameSportStrByNSpecializ (
-                spec
-            );
-    }
-    else
-    {
-         directionSpecialityName = DM -> QSpisoc_GroupSPECIALIZ2 -> Value;
-    }
-    #ifdef TEST_MAIN_UNIT
-        ShowMessage (
-            directionSpecialityName
-        );
-    #endif
-    CellValue (
-        directionSpecialityName,
-        1,
-        8
-    );
-
-    int nom_stroka = 9;                                                         // номер строки
-
-
-    Data_spisok (                                                               // Создаем полный список абитуриентов
-        col_pred,
-        nom_stroka,
-        j
-    );
-
-    ++nom_stroka;
-
-    for ( int i =  2;                                                           // Проход по абитуриентам (с учетом номера группы и специализации)
-              i <= rec;
-              ++i
-        )
-    {
-        DM -> QSpisoc_Group -> Next ();
-
-        if (DM -> QSpisoc_GroupNOM_GROUP -> Value == n_gr)
-        {
-            if (DM -> QSpisoc_GroupN_SPECIALIZ -> Value == spec)
-            {
-                Data_spisok (
-                    col_pred,
-                    nom_stroka,
-                    ++j
-                );
-
-                ++nom_stroka;
-            }
-            else
-            {
-                j = 1;
-
-                spec =
-                    DM -> QSpisoc_GroupN_SPECIALIZ -> Value;
-
-
-                MergeCellCenter (                                               // Форматирование ячейки для занесения специализации
-                    1,
-                    7           +
-                    col_pred,
-                    nom_stroka
-                );
-
-                if (    DM -> QSpisoc_GroupTERM_EDU -> Value != StudyPeriodCode::HIGH_SECOND_COURSE
-                     && DM -> QSpisoc_GroupTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
-                     //   DM -> QSpisoc_GroupTERM_EDU -> Value == StudyPeriodCode::FULL
-                     //|| DM -> QSpisoc_GroupTERM_EDU -> Value == StudyPeriodCode::HIGH_FIRST_COURSE
-                   )
-                {
-                    directionSpecialityName =
-                        DeleteAfterDatabaseChange::getNcrb2022NameSportStrByNSpecializ (
-                            spec
-                        );
-                }
-                else
-                {
-                    directionSpecialityName = DM -> QSpisoc_GroupSPECIALIZ2 -> Value;
-                }
-
-                #ifdef TEST_MAIN_UNIT
-                    ShowMessage (
-                        directionSpecialityName
-                    );
-                #endif
-                CellValue (
-                    directionSpecialityName,
-                    1,
-                    nom_stroka++
-                );
-
-                Data_spisok (
-                    col_pred,
-                    nom_stroka,
-                    j
-                );
-
-                ++nom_stroka;
-            }
-        }
-        else
-        {
-            for ( int i =  1;                                                   // Автоподбор ширины столбца
-                      i <= col_pred + 7;
-                      ++i
-                )
-                AutoFitColumn (
-                    Sheet,
-                    i
-                );
-
-
-            j = 1;
-
-            n_gr =
-                DM -> QSpisoc_GroupNOM_GROUP   -> Value;
-
-            spec =
-                DM -> QSpisoc_GroupN_SPECIALIZ -> Value;
-
-            Sheet = NewSheet1 (Workbook);
-
-            NameSheet1 (
-                Sheet,
-                n_gr
-            );
-            SelectSheet (
-                Workbook,
-                n_gr
-            );
-
-
-            MergeCellCenter (                                                   // Название факультета
-                1,
-                7           +
-                col_pred,
-                2
-            );
-            CellValue (
-                DM -> TFaculty ->
-                    Lookup (
-                        "N_FAC",
-                        nom_fac,
-                        "FAC"
-                    ),
-                1,
-                2
-            );
-
-
-            MergeCellCenter (                                                   // Ячейки 'вид обучения'
-                1,
-                7           +
-                col_pred,
-                4
-            );
-            CellValue (
-                DM -> QSpisoc_GroupVID_EDU1 -> Value,
-                1,
-                4
-            );
-
-
-            MergeCellCenter (                                                   // Ячейка с 'номером группы'
-                1,
-                7           +
-                col_pred,
-                5
-            );
-            CellValue (
-                "Группа № " +
-                    n_gr,
-                1,
-                5
-            );
-
-
-            Shapka_spisok (col_pred);                                           // 'Шапка таблицы'
-
-
-            MergeCellCenter (                                                   // Ячейка 'специализация'
-                1,
-                7           +
-                col_pred,
-                8
-            );
-
-            if (    DM -> QSpisoc_GroupTERM_EDU -> Value != StudyPeriodCode::HIGH_SECOND_COURSE
-                 && DM -> QSpisoc_GroupTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
-                 //   DM -> QSpisoc_GroupTERM_EDU -> Value == StudyPeriodCode::FULL
-                 //|| DM -> QSpisoc_GroupTERM_EDU -> Value == StudyPeriodCode::HIGH_FIRST_COURSE
-               )
-            {
-                directionSpecialityName =
-                    DeleteAfterDatabaseChange::getNcrb2022NameSportStrByNSpecializ (
-                        spec
-                    );
-            }
-            else
-            {
-                directionSpecialityName = DM -> QSpisoc_GroupSPECIALIZ2 -> Value;
-            }
-
-            #ifdef TEST_MAIN_UNIT
-                ShowMessage (
-                    directionSpecialityName
-                );
-            #endif
-
-            CellValue (
-                directionSpecialityName,
-                1,
-                8
-            );
-
-
-            nom_stroka = 9;
-
-
-            Data_spisok (
-                col_pred,
-                nom_stroka,
-                j
-            );
-
-            ++nom_stroka;
-        }
-    }
-
-
-    DM -> QAb_Pr_Enter -> Close ();
-
-
-    for ( int i =  1;                                                           // Автоподбор ширины столбца
-              i <= col_pred + 7;
-              ++i
-        )
-        AutoFitColumn (
-            Sheet,
-            i
-        );
-
-
-    OVisible (ExcelApplication);                                                // сохранение
-    DisplayAlert (ExcelApplication);
-
-    WorkSaveAs = SaveBook (Workbook);
-
-    if (nom_pr)
-        delete [] nom_pr;
-
-    DM -> QResult_Exam -> Close ();
+	Shapka_spisok (col_pred);                                                   // Функция формирования шапки таблицы
+
+
+	MergeCellCenter (                                                           // Форматирование ячейки для занесения специализации
+		1,
+		7           +
+		col_pred,
+		8
+	);
+
+	AnsiString
+		directionSpecialityName;
+
+	if (    DM -> QSpisoc_GroupTERM_EDU -> Value != StudyPeriodCode::HIGH_SECOND_COURSE
+		 && DM -> QSpisoc_GroupTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
+		 //   DM -> QSpisoc_GroupTERM_EDU -> Value == StudyPeriodCode::FULL
+		 //|| DM -> QSpisoc_GroupTERM_EDU -> Value == StudyPeriodCode::HIGH_FIRST_COURSE
+	   )
+	{
+		directionSpecialityName =
+			DeleteAfterDatabaseChange::getNcrb2022NameSportStrByNSpecializ (
+				spec
+			);
+	}
+	else
+	{
+		 directionSpecialityName = DM -> QSpisoc_GroupSPECIALIZ2 -> Value;
+	}
+	#ifdef TEST_MAIN_UNIT
+		ShowMessage (
+			directionSpecialityName
+		);
+	#endif
+	CellValue (
+		directionSpecialityName,
+		1,
+		8
+	);
+
+	int nom_stroka = 9;                                                         // номер строки
+
+
+	Data_spisok (                                                               // Создаем полный список абитуриентов
+		col_pred,
+		nom_stroka,
+		j
+	);
+
+	++nom_stroka;
+
+	for ( int i =  2;                                                           // Проход по абитуриентам (с учетом номера группы и специализации)
+			  i <= rec;
+			  ++i
+		)
+	{
+		DM -> QSpisoc_Group -> Next ();
+
+		if (DM -> QSpisoc_GroupNOM_GROUP -> Value == n_gr)
+		{
+			if (DM -> QSpisoc_GroupN_SPECIALIZ -> Value == spec)
+			{
+				Data_spisok (
+					col_pred,
+					nom_stroka,
+					++j
+				);
+
+				++nom_stroka;
+			}
+			else
+			{
+				j = 1;
+
+				spec =
+					DM -> QSpisoc_GroupN_SPECIALIZ -> Value;
+
+
+				MergeCellCenter (                                               // Форматирование ячейки для занесения специализации
+					1,
+					7           +
+					col_pred,
+					nom_stroka
+				);
+
+				if (    DM -> QSpisoc_GroupTERM_EDU -> Value != StudyPeriodCode::HIGH_SECOND_COURSE
+					 && DM -> QSpisoc_GroupTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
+					 //   DM -> QSpisoc_GroupTERM_EDU -> Value == StudyPeriodCode::FULL
+					 //|| DM -> QSpisoc_GroupTERM_EDU -> Value == StudyPeriodCode::HIGH_FIRST_COURSE
+				   )
+				{
+					directionSpecialityName =
+						DeleteAfterDatabaseChange::getNcrb2022NameSportStrByNSpecializ (
+							spec
+						);
+				}
+				else
+				{
+					directionSpecialityName = DM -> QSpisoc_GroupSPECIALIZ2 -> Value;
+				}
+
+				#ifdef TEST_MAIN_UNIT
+					ShowMessage (
+						directionSpecialityName
+					);
+				#endif
+				CellValue (
+					directionSpecialityName,
+					1,
+					nom_stroka++
+				);
+
+				Data_spisok (
+					col_pred,
+					nom_stroka,
+					j
+				);
+
+				++nom_stroka;
+
+			}
+		}
+		else
+		{
+			for ( int i =  1;                                                   // Автоподбор ширины столбца
+					  i <= col_pred + 7;
+					  ++i
+				)
+				AutoFitColumn (
+					Sheet,
+					i
+				);
+
+
+			j = 1;
+
+			n_gr =
+				DM -> QSpisoc_GroupNOM_GROUP   -> Value;
+
+			spec =
+				DM -> QSpisoc_GroupN_SPECIALIZ -> Value;
+
+			Sheet = NewSheet1 (Workbook);
+
+			NameSheet1 (
+				Sheet,
+				n_gr
+			);
+			SelectSheet (
+				Workbook,
+				n_gr
+			);
+
+
+			MergeCellCenter (                                                   // Название факультета
+				1,
+				7           +
+				col_pred,
+				2
+			);
+			CellValue (
+				DM -> TFaculty ->
+					Lookup (
+						"N_FAC",
+						nom_fac,
+						"FAC"
+					),
+				1,
+				2
+			);
+
+
+			MergeCellCenter (                                                   // Ячейки 'вид обучения'
+				1,
+				7           +
+				col_pred,
+				4
+			);
+			CellValue (
+				DM -> QSpisoc_GroupVID_EDU1 -> Value,
+				1,
+				4
+			);
+
+
+			MergeCellCenter (                                                   // Ячейка с 'номером группы'
+				1,
+				7           +
+				col_pred,
+				5
+			);
+			CellValue (
+				"Группа № " +
+					n_gr,
+				1,
+				5
+			);
+
+
+			Shapka_spisok (col_pred);                                           // 'Шапка таблицы'
+
+
+			MergeCellCenter (                                                   // Ячейка 'специализация'
+				1,
+				7           +
+				col_pred,
+				8
+			);
+
+			if (    DM -> QSpisoc_GroupTERM_EDU -> Value != StudyPeriodCode::HIGH_SECOND_COURSE
+				 && DM -> QSpisoc_GroupTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
+				 //   DM -> QSpisoc_GroupTERM_EDU -> Value == StudyPeriodCode::FULL
+				 //|| DM -> QSpisoc_GroupTERM_EDU -> Value == StudyPeriodCode::HIGH_FIRST_COURSE
+			   )
+			{
+				directionSpecialityName =
+					DeleteAfterDatabaseChange::getNcrb2022NameSportStrByNSpecializ (
+						spec
+					);
+			}
+			else
+			{
+				directionSpecialityName = DM -> QSpisoc_GroupSPECIALIZ2 -> Value;
+			}
+
+			#ifdef TEST_MAIN_UNIT
+				ShowMessage (
+					directionSpecialityName
+				);
+			#endif
+
+			CellValue (
+				directionSpecialityName,
+				1,
+				8
+			);
+
+
+			nom_stroka = 9;
+
+
+			Data_spisok (
+				col_pred,
+				nom_stroka,
+				j
+			);
+
+			++nom_stroka;
+		}
+
+
+	}
+
+
+	DM -> QAb_Pr_Enter -> Close ();
+
+
+	for ( int i =  1;                                                           // Автоподбор ширины столбца
+			  i <= col_pred + 7;
+			  ++i
+		)
+		AutoFitColumn (
+			Sheet,
+			i
+		);
+
+
+	OVisible (ExcelApplication);                                                // сохранение
+	DisplayAlert (ExcelApplication);
+
+	WorkSaveAs = SaveBook (Workbook);
+
+	if (nom_pr)
+		delete [] nom_pr;
+
+	DM -> QResult_Exam -> Close ();
 }
 void __fastcall TMainForm::N15Click (TObject * Sender)                          // Статистика  ->  Кол-во поданных заявлений (ежедневная)
 {
-    int k;                                                                      // переменная для обрамления ячеек
-        nom_row = 8;                                                            // счетчик строк
+	int k;                                                                      // переменная для обрамления ячеек
+		nom_row = 8;                                                            // счетчик строк
 
-    ExcelApplication = Variant::CreateObject ("Excel.Application");
+	ExcelApplication = Variant::CreateObject ("Excel.Application");
 
     Variant Workbook =
         OpenBook (
@@ -12771,7 +12847,7 @@ void __fastcall TMainForm::N44Click (TObject * Sender)                          
 }
 void __fastcall TMainForm::N45Click (TObject * Sender)                          // 'Форма 1' Подали на Дневное
 {
-    Forma_Giac (
+	Forma_Giac (
         static_cast <int> (FormTypeCode::REGISTRATION),
         static_cast <int> (EducationTypeCode::INTRAMURAL)
     );
@@ -13080,7 +13156,7 @@ void __fastcall TMainForm::N55Click (TObject * Sender)                          
 }
 void __fastcall TMainForm::N58Click (TObject * Sender)                          // Печать конвертов бюджет,дневняя форма
 {
-    printEnvelope (
+	printEnvelope (
         PaymentCode::BUDGET,
         EducationTypeCode::INTRAMURAL,
         EnvelopeMessage::BUDGET::INTRAMURAL
@@ -17855,3 +17931,5 @@ void __fastcall TMainForm::Zachisl_Sertificat (                                 
 
     ExcelApplication.Clear ();
 }
+
+

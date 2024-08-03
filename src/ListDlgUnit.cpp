@@ -447,8 +447,8 @@ void __fastcall TListDlgForm::ContractBtBtnClick (TObject * Sender)             
     int
         n_sp = DM -> QAbituraN_SPECIALIZ -> Value;
 
-    if (    DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_SECOND_COURSE
-         && DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
+	if (
+         DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
          //   DM -> QAbituraTERM_EDU -> Value == StudyPeriodCode::FULL
          //|| DM -> QAbituraTERM_EDU -> Value == StudyPeriodCode::HIGH_FIRST_COURSE
        )
@@ -1750,8 +1750,7 @@ void __fastcall TListDlgForm::Exam_list_first ()                                
         cod_specializ,
         sp_full;
 
-    if (    DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_SECOND_COURSE
-         && DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
+	if (    DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
          //   DM -> QAbituraTERM_EDU -> Value == StudyPeriodCode::FULL
          //|| DM -> QAbituraTERM_EDU -> Value == StudyPeriodCode::HIGH_FIRST_COURSE
        )
@@ -2422,8 +2421,7 @@ void __fastcall TListDlgForm::PleaSpdBtnClick (TObject * Sender)                
             cod_specializ1,
             sp_full;
 
-        if (    DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_SECOND_COURSE
-             && DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
+		if (    DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
              //   DM -> QAbituraTERM_EDU -> Value == StudyPeriodCode::FULL
              //|| DM -> QAbituraTERM_EDU -> Value == StudyPeriodCode::HIGH_FIRST_COURSE
            )
@@ -2630,8 +2628,7 @@ void __fastcall TListDlgForm::PleaSpdBtnClick (TObject * Sender)                
                 break;
         }
 
-        if (    DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_SECOND_COURSE
-             && DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
+		if (   DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
              //   DM -> QAbituraTERM_EDU -> Value == StudyPeriodCode::FULL
              //|| DM -> QAbituraTERM_EDU -> Value == StudyPeriodCode::HIGH_FIRST_COURSE
            )
@@ -3363,12 +3360,12 @@ void __fastcall TListDlgForm::SpeedButton3Click (TObject * Sender)              
     AnsiString
         cod_specializ,
         description,
-        sp_full;
+		sp_full;
+		//  DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_SECOND_COURSE
 
-    if (    DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_SECOND_COURSE
-         && DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
+	if (    DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
          //   DM -> QAbituraTERM_EDU -> Value == StudyPeriodCode::FULL
-         //|| DM -> QAbituraTERM_EDU -> Value == StudyPeriodCode::HIGH_FIRST_COURSE
+		 //|| DM -> QAbituraTERM_EDU -> Value == StudyPeriodCode::HIGH_FIRST_COURSE
        )
     {
         description =
@@ -3922,8 +3919,7 @@ void __fastcall TListDlgForm::SpeedButton4Click (TObject * Sender)              
         description,
         sp_full;
 
-    if (    DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_SECOND_COURSE
-         && DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
+	if (    DM -> QAbituraTERM_EDU -> Value != StudyPeriodCode::HIGH_THIRD_COURSE
          //   DM -> QAbituraTERM_EDU -> Value == StudyPeriodCode::FULL
          //|| DM -> QAbituraTERM_EDU -> Value == StudyPeriodCode::HIGH_FIRST_COURSE
        )

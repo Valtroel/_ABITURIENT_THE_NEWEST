@@ -53,7 +53,7 @@
             namespace INVENTORY
             {
                 const AnsiString
-                    #ifdef SET_INVENTORY_DATE_BY_HAND                                   // IT'S FOR CHANGING CURRENT DATE TO OTHER INTO INVENTORY LIST (ListDlgUnit.cpp)
+					#ifdef SET_INVENTORY_DATE_BY_HAND                                   // IT'S FOR CHANGING CURRENT DATE TO OTHER INTO INVENTORY LIST (ListDlgUnit.cpp)
                     DATE                 =
                         "18.07.2023";
                     #else
@@ -108,12 +108,12 @@
                             ALL =
 								"02.09."                                +
                                     Admissions::TIME::YEAR;
-                    }
+					}
                     namespace EXTRAMURAL
                     {
                         namespace FULL
                         {
-                            const AnsiString
+							const AnsiString
                                 MSTH_MNG     =
                                     "18.09."                            +
                                         Admissions::TIME::YEAR,
@@ -121,13 +121,13 @@
                                     "11.09."                            +
                                         Admissions::TIME::YEAR,
                                 OTHER        =
-                                    "18.09."                            +
+									"16.09."                            +
                                         Admissions::TIME::YEAR;
                         }
                         namespace SECOND_COURSE
                         {
                             const AnsiString
-                                SMA          =
+								SMA          =
                                     "08.01."                            +
                                         AnsiString (
                                             StrToInt (
@@ -318,27 +318,27 @@
                     {
                         const AnsiString                                                // ПЛАТНИКИ, ДНЕВНОЕ, ЗА ГОД
                             ANNUAL       =
-								"составляет 3456 ("                             \
-								"три тысячи четыреста пятьдесят шесть"          \
-								"рублей) белорусских рублей "                         \
+								"составляет 3456,00 ("                             \
+								"три тысячи четыреста пятьдесят шесть "          \
+								"рублей 00 копеек) белорусских рублей "                         \
                                 "за первый год обучения.",
                             PER_SEMESTER =                                              // ПЛАТНИКИ, ДНЕВНОЕ, ПО СЕМЕСТРАМ
-								"1728 ("                                     \
+								"1728,00 ("                                     \
 								"одна тысяча семьсот двадцать восемь "             \
-								"рублей) белорусских рублей;";
+								"рублей 00 копеек) белорусских рублей;";
                     }
                     namespace EXTRAMURAL
                     {
                         const AnsiString
                             ANNUAL           =                                          // ПЛАТНИКИ, ЗАОЧНОЕ, ЗА ГОД (СИиЕ, МВС, ОФК)
-								"составляет 1337 ("                             \
+								"составляет 1337,00 ("                             \
 								"одна тысяча триста тридцать семь "             \
-								"рублей) белорусских рублей "                         \
+								"рублей 00 копеек) белорусских рублей "                         \
                                 "за первый год обучения.",
                             ANNUAL_IMS       =                                          // ПЛАТНИКИ, ЗАОЧНОЕ, ЗА ГОД (ИМСиТ)
-								"составляет 1427 ("                             \
+								"составляет 1427,00 ("                             \
 								"одна тысяча четыреста двадцать семь "              \
-								"рублей) белорусских рублей "                         \
+								"рублей 00 копеек) белорусских рублей "                         \
                                 "за первый год обучения.",
                             PER_SEMESTER     =                                          // ПЛАТНИКИ, ЗАОЧНОЕ, ПО СЕМЕСТРАМ (СИиЕ, МВС, ОФК)
 								"668,50 ("                                      \
@@ -2454,7 +2454,7 @@
                     SMA  = "СИиЕ",                                                      // 1, -> Sports and Marital Arts (СИиЕ)
                     MS   = "МВС",                                                       // 2, -> Mass Sports (МВС)
                     RPC  = "ОФК",                                                       // 3, -> Recreational Physical Culture (ОФКиТ)
-                    MSTH = "МСТиГ",                                                     // 4, -> Management of Sports, Tourism and Hospitality (МСиТ)
+					MSTH = "МСТиГ",                                                     // 4, -> Management of Sports, Tourism and Hospitality (МСиТ)
                     MD   = "Магстратура",                                               // 5, -> Master's Degree (Магстратура)
                     PGS  = "Аспирантура",                                               // 6, -> PostGraduate Studies (Аспирантура)
                     DOC  = "Докторантура";                                              // 7  -> DOCtorate (Докторантура)
@@ -2534,7 +2534,7 @@
                         "Заслуженный мастер спорта (ЗМС)",
                     MASTER_OF_SPORT                =                                    // (MS)
                         "Мастер спорта (МС)",
-                    CANDIDATE_IN_MASTERS_OF_SPORT  =                                    // (CMS)
+					CANDIDATE_IN_MASTERS_OF_SPORT  =                                    // (CMS)
                         "Кандидат в мастера спорта (КМС)",
                     FIRST_SPORT_CATEGORY           =                                    // (FSC)
                         "I спортивный разряд (I разряд)",
